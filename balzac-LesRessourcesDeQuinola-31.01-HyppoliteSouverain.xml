@@ -66,6 +66,14 @@
     </profileDesc>
   </teiHeader>
   <text>
+  	<front>
+  		<titlePage></titlePage>
+  		<docAuthor></docAuthor>
+  		<docTitle>
+  			<titlePart></titlePart>
+  		</docTitle>
+  		<docDate>Paris, Gaité, 26 semptembre 1843</docDate>
+  	</front>
     <body>
       <div subtype="level1">
         <head>Personnages</head>
@@ -122,7 +130,7 @@
             <p>Tu es un drôle très-drôle.</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola,<stage> le prend à part.</stage></speaker>
+            <speaker>Quinola,<stage> le prend à part</stage>.</speaker>
             <p>N’êtes-vous pas le cousin de la marquise de Mondéjar ?</p>
           </sp>
           <sp who="lecapitaine">
