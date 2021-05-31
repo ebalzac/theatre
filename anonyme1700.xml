@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le Ballet des machines</title>
+        <title type="sub">Représentant le V<hi rend="sup">e</hi> acte de la Mort d’Orphée et d’Euridice</title>
+        <author>Anonyme</author>
+        <editor/>
+      </titleStmt>
+      <editionStmt>
+        <edition>Cette édition électronique fait partie du projet de thèse intitulé « Analyse et édition d’un corpus littéraire 
+                dans l’esprit des humanités numériques. Vers une édition comparative intermédiale innovante accompagnée d’une ressource pour le repérage intertextuel » 
+                réalisé par Karolina Suchecka au sein du laboratoire ALITHILA à l’Université de Lille.</edition>
+        <respStmt>
+          <name>Karolina Suchecka</name>
+          <resp>Chargé de l’édition</resp>
+        </respStmt>
+        <respStmt>
+          <name>Nathalie Gasiglia</name>
+          <resp>Co-tutrice de thèse</resp>
+        </respStmt>
+        <respStmt>
+          <name>Karl Zieger</name>
+          <resp>Co-tuteur de thèse</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Karolina Suchecka</publisher>
+        <publisher>ALITHILA (Université Lille III)</publisher>
+        <date when="2019"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p> Copyright © 2019 Université Charles-de-Gaulle Lille 3, agissant pour le projet de thèse 
+                        « Analyse et édition d’un corpus littéraire dans l’esprit des humanités numériques. Vers une édition comparative intermédiale
+                         innovante accompagnée d’une ressource pour le repérage intertextuel »</p>
+            <p> Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1)
+                         est mise à disposition de la communauté scientifique internationale par Karolina Suchecka, selon les termes de la licence Creative Commons :
+                          « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ». </p>
+            <p> Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera 
+                        le nom du projet et surtout l’adresse Internet de la ressource. </p>
+            <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+            <p> Pas de Modification : l’éditrice s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les 
+                        contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+          </licence>
+        </availability>
+        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k1520747r</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><author>Anonyme</author> / <title>Le Ballet des machines représentant le Ve acte de la Mort d’Orphée et d’Euridice</title> / Paris / vers 1700.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title>Le Ballet des machines représentant le Ve acte de la Mort d’Orphée et d’Euridice</title>
+          </titleStmt>
+          <publicationStmt>
+            <publisher/>
+            <pubPlace>Paris</pubPlace>
+            <date when="1700"/>
+          </publicationStmt>
+        </biblFull>
+        <genre>opéra</genre>
+        <structure>anonyme1700</structure>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Nous utilisons la feuille de style Odette pour les premières transformations ODT/XML. Nous nettoyons et 
+            enrichissons ensuite la structure avec des algorihtmes Python conçus au sein du projet. La structure des métadonnées a été établie en référence 
+            à la manière dont le logiciel TEXTPAIR (The ARTFL Project) les extrait ensuite pour son traitement.</p>
+    </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date when="1700">1700</date>
+      </creation>
+      <language>
+        <language>oFR</language>
+      </language>
+      <textClass>
+        <keywords>
+          <list>
+            <item>transmodalisation</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text >
+    <front>
+      <titlePage>
+        <docAuthor>Anonyme</docAuthor>
+        <docTitle>
+          <titlePart type="main">Le Ballet des machines</titlePart>
+          <titlePart type="sub">Représentant le V<hi rend="sub">e</hi> acte de la Mort d’Orphée et d’Euridice</titlePart>
+        </docTitle>
+      </titlePage>
+      <castList>
+        <castItem xml:id="aristee">Aristée</castItem>
+        <castItem xml:id="amis_aristee">Trois amis d’Aristée</castItem>
+        <castItem xml:id="orphee">Orphée</castItem>
+        <castItem xml:id="bacchantes">Les Bacchantes</castItem>
+        <castItem xml:id="pan">Pan</castItem>
+        <castItem xml:id="silene">Silène</castItem>
+        <castItem xml:id="bacchus">Bacchus</castItem>
+      </castList>
+    </front>
+    <body>
+      <div>
+        <head>Première entrée</head>
+        <stage><milestone unit="sent" n="1"/><pb n="1" xml:id="p1"/>Aristée dans le desespoir d’estre cause de la mort d’Euridice, se va noyer.</stage>
+        <sp who="aristee">
+          <speaker>Aristée</speaker>
+          <l><milestone unit="sent" n="2"/>Accablé des rigueurs de la beauté que j’ayme</l>
+          <l>J’ay dans mon desespoir son destin terminé,</l>
+          <l>Mais comme en l’offençant je m’ooutragay moy-mesme,</l>
+          <l>Je vay bien-tost mourir du coup que j’ay donné.</l>
+          <l><milestone unit="sent" n="3"/>Dans les divers ennuis qui maistrisent mon ame,</l>
+          <l>Je ne respire plus que l’horreur du tombeau ;</l>
+          <l>Mais de peur d’estre encor tourmenté de ma flamme,</l>
+          <l>Je ne le veux trouver que dans le sein de l’eau.</l>
+          <l><milestone unit="sent" n="4"/>Amour cruel autheur de ma longue misere,</l>
+          <l>Il faut pour me venger de ton aveuglement,</l>
+          <l>Que je face en mourant du berceau de ta mere,</l>
+          <l>Le glorieux cercueil d’un mal-heureux amant.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Seconde entrée</head>
+        <stage><milestone unit="sent" n="5"/><pb n="2" xml:id="p2"/>Trois Amis d’Aristée vont chercher son corps, l’ayant veu de loin se jetter dans l’eau.</stage>
+        <sp who="amis_aristee">
+          <speaker>Le premier amy</speaker>
+          <stage>aux Dames</stage>
+          <l><milestone unit="sent" n="6"/>Nous cherchons un Amant qu’un destin trop barbare,</l>
+          <l>Contraignit en aymant à se priver du jour,</l>
+          <l>Et de tout l’Univers nous ferions le grand tour</l>
+          <l>Dans le dessein de voir une chose si rare ;</l>
+          <l>Puis qu’il n’est plus d’Amant zelé jusques au point</l>
+          <l>De se donner la mort quand on ne l’ayme point.</l>
+          <l><milestone unit="sent" n="7"/>Toutes-fois si l’aspect d’une grace infinie,</l>
+          <l>Peut causer ces transports en un cœur tout constant :</l>
+          <l><milestone unit="sent" n="8"/>Je veux bien advoüer le secret important,</l>
+          <l>Qu’il est un bel objet en cette compagnie,</l>
+          <l>Pour qui les yeux fermés et d’un esprit content,</l>
+          <l>Si j’en estois hay, j’en ferois tout autant.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Troisiesme entrée</head>
+        <stage><milestone unit="sent" n="9"/>Orphée ayant dancé son pas monte sur son Rocher, et atire les Arbres et les Animaux par les airs melodieux de ses chansons.</stage>
+        <sp who="orphee">
+          <speaker>Orphée</speaker>
+          <l><milestone unit="sent" n="10"/>J’ai rendu sensible à mes larmes,</l>
+          <l>Le Dieu de ces cachots obscurs,</l>
+          <l>Où les hommes punis de leurs desirs impurs</l>
+          <l>Font un meslange affreux et de cris et de larmes :</l>
+          <l><milestone unit="sent" n="11"/>Mais, ô cruel amour ! <milestone unit="sent" n="12"/>Qu’elle estrange rigueur</l>
+          <l>Ne veut pas que je te fléchisse :</l>
+          <l><milestone unit="sent" n="13"/>Quand privé des beaux yeux de ma chere Euridice,</l>
+          <l>Tu mets tout l’Enfer dans mon cœur.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Quatriesme entrée</head>
+        <stage><milestone unit="sent" n="14"/><pb n="3" xml:id="p3"/>Trois Bachantes transportées de vin et de fureur, cherchent Orphée pour s’en venger.</stage>
+        <label>Burlesque</label>
+        <sp who="bacchantes">
+          <speaker>Bachantes</speaker>
+          <l><milestone unit="sent" n="15"/>Oui, le vin nous aymons et Bachantes nous sommes</l>
+          <l>Qui cherchons dans ces bois un orgueilleux Magot</l>
+          <l>Qui nous nargue, et qui croit qu’au don du Larigot,</l>
+          <l>Il pourra transformer tous nos raizins en pommes :</l>
+          <l><milestone unit="sent" n="16"/>Mais soustenant Bachus aux despens d’Apollon,</l>
+          <l>De ce bras enthirsé luy cassant la caboche</l>
+          <l>Je le rendray penault comme un Fondeur de Cloche.</l>
+          <l><milestone unit="sent" n="17"/>Et luy monstreray bien qu’il n’est qu’un viollon.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Cinquiesme entrée</head>
+        <stage><milestone unit="sent" n="18"/>Bachus avec les Eschenssons ayant apris la Mort d’Orphée par les Bachantes.</stage>
+        <label>Burlesque</label>
+        <sp who="bacchus">
+          <speaker>Bachus</speaker>
+          <l><milestone unit="sent" n="19"/>Illustres confidents de ma longue desbauche,</l>
+          <l>Chers Ministre Vineux de mon Sceptre tortu,</l>
+          <l>Allés dedans ces bois autant à droict qu’à gauche,</l>
+          <l>Chercher le bon Orphée et ceux qui l’ont battu</l>
+          <l>À coups de cervellats, chastiés ces guenippes</l>
+          <l>Qui font sans mon congé les Diables de Vauvert :</l>
+          <l><milestone unit="sent" n="20"/>Cependant qu’en rameaux je changeray leur trippes,</l>
+          <l>Et leur aprendray bien à l’avoir pris sans vert.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Sixiesme entrée</head>
+        <stage><milestone unit="sent" n="21"/><pb n="4" xml:id="p4"/>Pan et Silene se viennent divertir avec Bachus.</stage>
+        <label>Burlesque</label>
+        <sp who="pan silene">
+          <speaker>Pan et Silene</speaker>
+          <l><milestone unit="sent" n="22"/>Seigneur Bachus, mons Asne et moy,</l>
+          <l>Pan avec Mesdasmes ses cornes,</l>
+          <l>Nous venons boire avec toy,</l>
+          <l>Et nous entrebaudir estant tristes et mornes,</l>
+          <l>Pour plaindre l’accident nouveau</l>
+          <l>De ce beau viollon qui charmoit la nature,</l>
+          <l>Envoye querir un tonneau,</l>
+          <l>Et l’ayant vuidé bien et beau,</l>
+          <l>Nous en ferons sa sepulture.</l>
+        </sp>
+      </div>
+      <div>
+        <head>Septiesme et derniere entrée</head>
+        <stage><milestone unit="sent" n="23"/>Bachus et ses trois Eschenssons dancent avec les trois Bachantes qui sont changés en arbres à la fin par le commandement de Bachus.</stage>
+        <label>Burlesque</label>
+        <sp who="bacchus pan silene bacchantes">
+          <speaker>[Les Danseurs bacchiques]</speaker>
+          <l><milestone unit="sent" n="24"/>Diablesses dont le meurtre est digne du tonnere,</l>
+          <l>En perforant le flanc d’un Chantre tout divin,</l>
+          <l>J’ordonne que jamais vous ne beuviés de vin,</l>
+          <l>Et ne vous abreuviés qu’à deux cens pieds sous terre.</l>
+          <stage><milestone unit="sent" n="25"/>Tous les Danceurs bachiques aux Spectateurs qui les ont veu dancer lors qu’ils avoient dessein de plaindre le mal-heureux Orphée.</stage>
+          <l><milestone unit="sent" n="26"/>Ayant trop de sujet de nous desesperer</l>
+          <l>D’un funeste trespas nous chassons la memoire :</l>
+          <l><milestone unit="sent" n="27"/>Nous dançons quand il faut pleurer,</l>
+          <l>Mais nous beuvons quand il faut boire.</l>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>
