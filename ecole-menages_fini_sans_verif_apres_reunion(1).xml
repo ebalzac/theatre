@@ -71,26 +71,26 @@
   </teiHeader>
   <text>
     <body>
-      <p rend="noindent">Éditeur : (Paris)</p>
-      <p rend="noindent">Date d‘édition : 1907</p>
-      <p rend="noindent">Contributeur : Spoelberch de Lovenjoul, Charles de (1836-1907). Éditeur scientifique</p>
-      <p rend="noindent">Contributeur : Bertall (1820-1882). Illustrateur</p>
-      <p rend="noindent">Contributeur : Manesse, Georges-Henri (1854-1940?). Graveur</p>
-      <p rend="noindent">Contributeur : Robaudi, Alcide Théophile (1850-1928). Illustrateur</p>
-      <p rend="noindent">Notice d‘oeuvre : http ://catalogue.bnf.fr/ark :/12148/cb16589947t</p>
-      <p rend="noindent">Notice du catalogue : http ://catalogue.bnf.fr/ark :/12148/cb31756888n</p>
-      <p rend="noindent">Type : monographie imprimée</p>
-      <p rend="noindent">Langue : français</p>
-      <p rend="noindent">Langue : Français</p>
-      <p rend="noindent">Format : 1 vol. (II-239 p.) : portr. et vignettes gravés ; in-8</p>
-      <p rend="noindent">Format : Nombre total de vues : 268</p>
-      <p rend="noindent">Description : [L‘école des ménages (français)]</p>
-      <p rend="noindent">Description : Avec mode texte</p>
-      <p rend="noindent">Droits : Consultable en ligne</p>
-      <p rend="noindent">Droits : Public domain</p>
-      <p rend="noindent">Identifiant : ark :/12148/bpt6k42214045</p>
-      <p rend="noindent">Provenance : Bibliothèque nationale de France</p>
-      <p rend="noindent">Date de mise en ligne : 04/11/2019</p>
+     <!-- <p>Éditeur : (Paris)</p>
+      <p>Date d‘édition : 1907</p>
+      <p>Contributeur : Spoelberch de Lovenjoul, Charles de (1836-1907). Éditeur scientifique</p>
+      <p>Contributeur : Bertall (1820-1882). Illustrateur</p>
+      <p>Contributeur : Manesse, Georges-Henri (1854-1940?). Graveur</p>
+      <p>Contributeur : Robaudi, Alcide Théophile (1850-1928). Illustrateur</p>
+      <p>Notice d‘oeuvre : http ://catalogue.bnf.fr/ark :/12148/cb16589947t</p>
+      <p>Notice du catalogue : http ://catalogue.bnf.fr/ark :/12148/cb31756888n</p>
+      <p>Type : monographie imprimée</p>
+      <p>Langue : français</p>
+      <p>Langue : Français</p>
+      <p>Format : 1 vol. (II-239 p.) : portr. et vignettes gravés ; in-8</p>
+      <p>Format : Nombre total de vues : 268</p>
+      <p>Description : [L‘école des ménages (français)]</p>
+      <p>Description : Avec mode texte</p>
+      <p>Droits : Consultable en ligne</p>
+      <p>Droits : Public domain</p>
+      <p>Identifiant : ark :/12148/bpt6k42214045</p>
+      <p>Provenance : Bibliothèque nationale de France</p>
+      <p>Date de mise en ligne : 04/11/2019</p>-->
       <div subtype="level1">
         <head><!-- Auteur inconnu : 2021-05-04T14:45:01.497000000
 Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui pourront apparaître dans les speaker plutôt que les stage‑c. A vérifier au moment de passer au XML !-->Personnages</head>
@@ -104,7 +104,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <castItem>Louis Guérin, son frère, avocat.</castItem>
           <castItem> Hippolyte, premier commis. </castItem>
           <castItem>Justine, femme de chambre. </castItem>
-          <castItem>Victoire, cuisinière. </castItem>
+          <castItem xml:id="victoire">Victoire, cuisinière. </castItem>
           <castItem>François, domestique. </castItem>
           <castItem>Un Notaire.</castItem>
           <castItem> Un Médecin.</castItem>
@@ -150,35 +150,35 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <pb n="7" xml:id="p7"/>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
+            <speaker>Roblot</speaker>
             <p>Vous êtes ambitieuse, ma chère.</p>
           </sp>
           <sp who="victoire">
-            <speaker rend="noindent">Victoire</speaker>
+            <speaker>Victoire</speaker>
             <p>On a vu des bourgeois épouser des cuisinières !</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
+            <speaker>Roblot</speaker>
             <p>Oui, mais on les a vus beaucoup plus souvent épouser des dots.</p>
           </sp>
           <sp who="victoire">
-            <speaker rend="noindent">Victoire </speaker>
+            <speaker>Victoire </speaker>
             <p>C‘est donc alors pour lui faire une dot, en attendant son veuvage, que monsieur comble mademoiselle Adrienne, qui n‘est après tout qu‘une domestique.</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot </speaker>
+            <speaker>Roblot </speaker>
             <p>Victoire, votre cuisine est excellente…</p>
           </sp>
           <sp who="victoire">
-            <speaker rend="noindent">Victoire</speaker>
+            <speaker>Victoire</speaker>
             <p>Ah !</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
-            <p rend="noindent">…Mais votre langue est détestable. La première demoiselle de la Maison Gérard est une seconde maîtresse.</p>
+            <speaker>Roblot</speaker>
+            <p>…Mais votre langue est détestable. La première demoiselle de la Maison Gérard est une seconde maîtresse.</p>
           </sp>
           <sp who="victoire">
-            <speaker rend="noindent">Victoire</speaker>
+            <speaker>Victoire</speaker>
             <p>Pourquoi pas la première ?</p>
             <pb n="8" xml:id="p8"/>
           </sp>
@@ -575,7 +575,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <p>Une seule preuve ?</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
+            <speaker>Roblot</speaker>
             <p>Ne retarde-t-il pas exprès, de vingt jours, son retour ici pour nous laisser agir ?</p>
           </sp>
           <sp who="adrienne">
@@ -583,7 +583,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <p>Et vous croyez qu’un père abandonnerait à d’autres le soin de mon établissement ?</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
+            <speaker>Roblot</speaker>
             <p>Ce père peut en trop souffrir…</p>
           </sp>
           <sp who="adrienne">
@@ -686,16 +686,16 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p rend="noindent">Vous avez la sienne ?</p>
+            <p>Vous avez la sienne ?</p>
             <pb n="29" xml:id="p29"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p rend="noindent">Solennelle, donnée hier.</p>
+            <p>Solennelle, donnée hier.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne<stage>, à part. </stage></speaker>
-            <p rend="noindent">J’y suis.</p>
+            <p>J’y suis.</p>
             <p rend="b">
               <emph>S
         cène
@@ -748,7 +748,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <p>Il n’y a plus de petite Anna. Un désir de vengeance grandit tout le monde. Mademoiselle Anna n’a que seize ans ; eh bien ! je m’attends à tout de sa part. Elle est exaltée autant que son père.</p>
           </sp>
           <sp who="roblot">
-            <speaker rend="noindent">Roblot</speaker>
+            <speaker>Roblot</speaker>
             <p>Exaltée, cette petite ?</p>
           </sp>
           <sp who="adrienne">
@@ -809,7 +809,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Un rôle auquel je n‘ai jamais songé.</p>
-            <pb n="54" xml:id="p54"/>
+            <pb n="34" xml:id="p34"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot<stage>, à part. </stage></speaker>
@@ -912,7 +912,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="victoire">
             <speaker>Victoire<stage>, [à part]. </stage></speaker>
             <p>C‘est dommage de quitter au moment où ça devenait gentil.<stage> (Elle sort.)</stage></p>
-            <pb n="58" xml:id="p58"/>
+            <pb n="38" xml:id="p38"/>
             <p rend="i">Scène VII</p>
             <stage>Madame Gérard, Mademoiselle Adrienne, Anna.</stage>
           </sp>
@@ -1047,7 +1047,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p rend="noindent">Mais tu me prends toujours pour une enfant. Tu me jettes mes seize ans à la tête, comme si nous n’étions <pb n="43" xml:id="p43"/>pas dans le siècle des progrès. Il y a des journaux de demoiselles où j‘ai lu que le danger de ceux qu‘on aime donne de l’esprit et de la résolution.</p>
+            <p>Mais tu me prends toujours pour une enfant. Tu me jettes mes seize ans à la tête, comme si nous n’étions <pb n="43" xml:id="p43"/>pas dans le siècle des progrès. Il y a des journaux de demoiselles où j‘ai lu que le danger de ceux qu‘on aime donne de l’esprit et de la résolution.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
