@@ -97,7 +97,8 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
         <castList>
           <castItem xml:id="gerard">Monsieur Gérard, négociant.</castItem>
           <castItem xml:id="madamegerard">Madame Gérard, sa femme.</castItem>
-          <castItem xml:id="autre">Caroline, Anna, leurs filles.</castItem> <!-- ??? je fais quoi là ? parce que anna son id c'est "anna"-->
+          <castItem xml:id="caroline">Caroline,</castItem>
+          <castItem xml:id="anna">Anna, leurs filles.</castItem> <!--Séparation de la ligne-->
           <castItem xml:id="duval">Monsieur Duval, droguiste, frère de madame Gérard. </castItem>
           <castItem xml:id="roblot">Roblot, caissier de la maison Gérard.</castItem>
           <castItem xml:id="adrienne"> Adrienne Guérin, première demoiselle. </castItem>
@@ -109,7 +110,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <castItem>Un Notaire.</castItem>
           <castItem xml:id="lemedecin"> Un Médecin.</castItem>
           <castItem xml:id="lejuge"> Un Juge.</castItem>
-          <castItem> Un Greffier.</castItem>
+          <castItem xml:id="legreffier"> Un Greffier.</castItem>
         </castList>
         <set>La scène est à Paris, dans le salon des appartements de la famille. Au fond est une antichambre. À gauche de la scène est la porte des appartements de madame Gérard et de ses filles. À droite le cabinet de monsieur Gérard.</set>
         <set>La décoration ne change pas. On ne baisse le rideau que dans l’entr’acte qui précède le cinquième acte, pour marquer un laps de temps.</set> <!-- je mets 2 fois set ? -->
@@ -809,7 +810,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Un rôle auquel je n‘ai jamais songé.</p>
-            <pb n="54" xml:id="p54"/>
+            <pb n="54" xml:id="p34"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot<stage>, à part. </stage></speaker>
@@ -912,7 +913,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="victoire">
             <speaker>Victoire<stage>, [à part]. </stage></speaker>
             <p>C‘est dommage de quitter au moment où ça devenait gentil.<stage> (Elle sort.)</stage></p>
-            <pb n="58" xml:id="p58"/>
+            <pb n="58" xml:id="p38"/>
             <p rend="i">Scène VII</p>
             <stage>Madame Gérard, Mademoiselle Adrienne, Anna.</stage>
           </sp>
@@ -1751,7 +1752,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Plus d’avocat Guérin ! Ah ! Maman, tu as eu bien du courage.</p>
-            <pb n="&#10;67&#10;" xml:id="p&#10;67&#10;"/>
+            <pb n="67" xml:id="p67"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2405,9 +2406,9 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
             <speaker>Madame Gérard<stage>, à ses filles. </stage></speaker>
             <p>Quel ton sec.</p>
           </sp>
-          <sp who="car">
-            <speaker>Car<!-- Auteur inconnu : 2021-05-25T15:34:45.594000000
-parenthèses-->oline<stage>. (Elle embrasse son père.)</stage> </speaker>
+          <sp who="caroline">
+            <speaker>Caroline<stage>. (Elle embrasse son père.)</stage> </speaker> <!-- Auteur inconnu : 2021-05-25T15:34:45.594000000
+parenthèses-->
             <p>Combien nous sommes heureuses de te voir !</p>
           </sp>
           <sp who="gerard">
@@ -3576,9 +3577,9 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
             <p>Je ne l‘aime point, Madame.</p>
             <pb n="1 3 6"/>
           </sp>
-          <sp who="madame">
-            <speaker>Madame <!-- Auteur inconnu : 2021-05-18T17:58:32.411000000
-MAIS POURQUOI YA UN POINT ????!!!!-->Gérard.</speaker>
+          <sp who="madamegerard">
+            <speaker>Madame Gérard.</speaker> <!-- Auteur inconnu : 2021-05-18T17:58:32.411000000
+MAIS POURQUOI YA UN POINT ????!!!!-->
             <p>Vous aimez Gérard ! <stage>(Adrienne tombe aux genoux de Madame Gérard.)</stage> Relevez-vous, Mademoiselle.</p>
           </sp>
           <sp who="adrienne">
@@ -5526,9 +5527,9 @@ Khraushaient--><stage>[qui] </stage><stage>traîne Caroline. </stage></speaker>
             <pb n="209" xml:id="p209"/>
             <p rend="i">Scène XI</p>
           </sp>
-          <sp who="g">
-            <speaker>G<!-- Auteur inconnu : 2021-05-25T15:38:59.073000000
-Stage ou speaker ? + parenthèses-->érard<stage>. (Il entre dans son appartement quand ses filles disparaissent.)</stage></speaker>
+          <sp who="gerard">
+            <speaker>Gérard<stage>. (Il entre dans son appartement quand ses filles disparaissent.)</stage></speaker> <!-- Auteur inconnu : 2021-05-25T15:38:59.073000000
+Stage ou speaker ? + parenthèses-->
             <p>Qui m’appelle ? On ne sait où elle est, et ma femme s’est évanouie… Si elle est morte, je me tue, pour ne pas…</p>
             <p rend="i">Scène XII</p>
             <stage>Duval, Mademoiselle Adrienne, Gérard.</stage>
@@ -5633,9 +5634,9 @@ Stage ou speaker ? + parenthèses-->érard<stage>. (Il entre dans son apparteme
             <p rend="i">Scène XIII</p>
             <stage>Madame Gérard soutenue par Justine et son Frère ; Duval, Gérard, puis Anna, Caroline. </stage>
           </sp>
-          <sp who="gera">
-            <speaker>Géra<!-- Auteur inconnu : 2021-05-25T15:39:16.057000000
-parenthèses-->rd<stage>. (</stage><stage>Il</stage><stage> remplace Justine.) </stage></speaker>
+          <sp who="gerard">
+            <speaker>Gérard<stage>. (</stage><stage>Il</stage><stage> remplace Justine.) </stage></speaker> <!-- Auteur inconnu : 2021-05-25T15:39:16.057000000
+parenthèses-->
             <p>Venez, ma chère, asseyez-vous là…</p>
           </sp>
           <sp who="madamegerard">
