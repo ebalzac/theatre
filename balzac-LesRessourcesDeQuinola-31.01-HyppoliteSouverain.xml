@@ -94,14 +94,14 @@
         <castItem xml:id="lamarquise">La Marquise de Mondéjar.</castItem>
         </castList>
       </div>
-      <div type="prologue">
+      <div type="prologue" subtype="level1">
       <pb n="16" xml:id="p16"/>
         <head>Prologue</head>
         <stage>
         	<p>La scène est à Valladolid, dans le palais du roi d’Espagne. Le théâtre représente la galerie qui conduit à la chapelle. L’entrée de la chapelle est à gauche du spectateur, celle des appartements royaux est à droite. L’entrée principale est au fond. De chaque côté de la principale porte, il y a deux hallebardiers.</p>
 	<p>Au lever du rideau, le capitaine des gardes et trois seigneurs sont en scène. Un alcade du palais est debout au fond de la galerie. Quelques courtisans se promènent dans le salon qui précède la galerie.</p>
         </stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="17" xml:id="p17"/>
           <head>Scène Première.</head>
           <stage>Le Capitaine des Gardes, Quinola, enveloppé dans son manteau, un Hallebardier.</stage>
@@ -178,7 +178,7 @@ Majuscule dans le fac‑similé-->Monseigneur <stage>(il décachette la lettre, 
             <p>J’ai le temps encore, <stage>(à Quinola.)</stage> Reste là, j’y vais.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="21" xml:id="p21"/>
           <head>Scène II</head>
           <sp who="quinola">
@@ -187,10 +187,10 @@ Majuscule dans le fac‑similé-->Monseigneur <stage>(il décachette la lettre, 
 Majuscule dans le fac‑similé-->Inquisition, délivré par votre pauvre caniche de Quinola ! Pauvre ! qui est-ce qui a parlé de pauvre ? Une fois mon maître libre, nous finirons bien par monnayer nos espérances. Quand on a su vivre à Valladolid depuis six mois sans argent, et sans être pincé par les alguazils, on a de petits talents qui, s’ils s’appliquaient à… autre chose, mèneraient un homme… où ?… ailleurs enfin ! Si nous savions où nous allons, personne n’oserait marcher… Je vais donc parler au roi, moi, Quinola. Dieu des gueux ! donne-moi l’éloquence… de… d’une jolie femme, de la marquise de Mondéjar…</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="22" xml:id="p22"/>
           <head>Scène III.</head>
-          <stage rend="i">Quinola, Le Capitaine.</stage>
+          <stage>Quinola, Le Capitaine.</stage>
           <sp who="lecapitaine">
             <speaker>Le Capitaine,<stage> à Quinola</stage>.</speaker>
             <p>Voici cinquante doublons que t’envoie la marquise pour te mettre en état de paraître ici convenablement.</p>
@@ -200,9 +200,9 @@ Majuscule dans le fac‑similé-->Inquisition, délivré par votre pauvre canich
             <p>Ah ! ce rayon de soleil s’est bien fait attendre ! Je reviens, Monseigneur, pimpant comme le valet de cœur, dont j’ai pris le nom : Quinola pour vous servir, Quinola, bientôt seigneur d’immenses domaines où je rendrai la justice, dès que… <stage>(à part)</stage> je ne la craindrai plus pour moi-même.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène IV.</head>
-          <stage rend="i">Les Courtisans, Le Capitaine.</stage>
+          <stage>Les Courtisans, Le Capitaine.</stage>
           <sp who="lecapitaine">
             <speaker>Le Capitaine,<stage> seul, sur le devant de la scène</stage>.</speaker>
             <p>Quel secret ce misérable a-t-il donc surpris ? ma cousine a failli perdre connaissance. Il s’agit de tous ses amis, a-t-elle dit. Le roi doit être pour quelque chose dans tout ceci. <stage>(à un seigneur.)</stage> Duc de Lerme, y a-t-il quelque chose de nouveau dans Valladolid ?</p>
@@ -230,9 +230,9 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
 --><stage>(Le duc se retire.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène V.</head>
-          <stage rend="i">Les mêmes, La Marquise de Mondéjar.</stage>
+          <stage>Les mêmes, La Marquise de Mondéjar.</stage>
           <sp who="lecapitaine">
             <speaker>Le Capitaine.</speaker>
             <p>Ah ! mais voici ma cousine ! <stage>(à la marquise.)</stage> Chère marquise, vous êtes encore bien agitée. Au nom de notre salut, contenez-vous, on va vous observer…</p>
@@ -262,9 +262,9 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Comptez sur moi… Je vais être au milieu de tous nos ennemis, comme le chasseur à l’affût.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VI.</head>
-          <stage rend="i">Les Précédents, Quinola.</stage>
+          <stage>Les Précédents, Quinola.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Je n’ai plus que trente doublons, mais je fais de l’effet pour soixante… Hein ! quel parfum ? La marquise pourra me parler sans crainte…</p>
@@ -452,7 +452,7 @@ Monologue sur deux pages. P32
             <p>Tu ne connais pas le roi, et je le connais moi ! <stage>(a part.)</stage> Il faut ravoir ma lettre. <stage>(Haut.)</stage> Il se présente une circonstance heureuse pour ton maître : on apprend en ce moment au roi la perte de l’Armada, tiens-toi sur son passage et tu lui parleras.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         	<pb n="35" xml:id="p35"/>
           <head>Scène VII.</head>
           <stage>Le Capitaine Des Gardes, Les Courtisans, Quinola.</stage>
@@ -481,10 +481,10 @@ Même remarque sur l’indentation particulière de cette didascalie = p41
 Didascalie indentée de façon particulière. p41--><stage>(Tableau.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="37" xml:id="p37"/>
           <head>Scène VIII.</head>
-          <stage rend="i">Les Précédents, La Reine, Le Roi, La Marquise de Mondéjar, Le Grand-Inquisiteur, Toute la Cour.</stage>
+          <stage>Les Précédents, La Reine, Le Roi, La Marquise de Mondéjar, Le Grand-Inquisiteur, Toute la Cour.</stage>
           <sp who="philippeii">
             <speaker>Philippe II.</speaker>
             <p>Messieurs, nous allons prier Dieu qui vient de frapper l’Espagne. L’Angleterre nous échappe, l’Armada s’est perdue, et nous ne vous en voulons point : Amiral, <stage>(il se tourne vers l’amiral)</stage> vous n’aviez pas mission de combattre les tempêtes.</p>
@@ -589,7 +589,7 @@ Indent p47--><stage>(Il passe.)</stage></p>
             <stage>Le théâtre change et représente un cachot de l’Inquisition.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="43" xml:id="p43"/>
           <head>Scène IX.</head>
           <sp who="fontanares">
@@ -600,10 +600,10 @@ Mise en italique dans le fac‑similé
 emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité : ils commencent par s’attaquer à l’homme. Aux novateurs, la patience ! j’en aurai. Malheureusement, ma patience me vient de mon amour. Pour avoir Marie, je rêve la gloire et je cherchais… Je vois voler au-dessus d’une chaudière un brin de paille. Tous les hommes ont vu cela depuis qu’il y a des chaudières et de la paille ; moi j’y vois une force ; pour l’évaluer, je couvre la chaudière, le couvercle saute et il ne me tue pas. Archimède et moi, nous ne faisons qu’un ! il voulait un levier pour soulever le monde : ce levier,je le tiens, et j’ai la sottise de le dire : tous les malheurs fondent sur moi. <pb n="44" xml:id="p44"/>Si je meurs, homme de génie à venir qui retrouveras ce secret, agis et lais-toi. La lumière que nous découvrons, on nous la prend pour allumer notre bûcher. Galilée, mon maître, est en prison pour avoir dit que la terre tourne, et j’y suis pour la vouloir organiser. Non ! j’y suis comme rebelle à la cupidité de ceux qui veulent mon secret ; si je n’aimais pas Marie, je sortirais ce soir, je leur abandonnerais le profit, la gloire me resterait… Oh ! rage… La rage est bonne pour les enfants : soyons calme, je suis puissant. Si du moins j’avais des nouvelles du seul homme qui ait foi en moi ? Est-il libre, lui qui mendiait pour me nourrir… La foi n’est que chez le pauvre, il en a tant besoin !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="45" xml:id="p45"/>
           <head>Scène X.</head>
-          <stage rend="i">Le Grand-Inquisiteur, Un Familier, Fontanarès.</stage>
+          <stage>Le Grand-Inquisiteur, Un Familier, Fontanarès.</stage>
           <sp who="legrandinquisiteur">
             <speaker>Le Grand Inquisiteur.</speaker>
           	<p>Eh ! bien, mon fils ? vous parliez de foi, peut-être avez-vous fait de sages réflexions. Allons, évitez au Saint-Office l'emploi de ses rigueurs.</p>
@@ -678,9 +678,9 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Je l’attendais.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XI.</head>
-          <stage rend="i">Le Grand-Inquisiteur, Fontanarès, Quinola, Le Duc d’Olmédo.</stage>
+          <stage>Le Grand-Inquisiteur, Fontanarès, Quinola, Le Duc d’Olmédo.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Ça n’est pas sain, la torture.</p>
@@ -731,9 +731,9 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <stage>La scène change et représente la galerie du palais.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XII.</head>
-          <stage rend="i">Le Duc d’Olmédo, Le Duc de Lerme, Fontanarès, Quinola.</stage>
+          <stage>Le Duc d’Olmédo, Le Duc de Lerme, Fontanarès, Quinola.</stage>
           <sp who="leducdolmedo">
             <speaker>Le Duc D'Olmédo.</speaker>
             <p>Nous arrivons à temps !</p>
@@ -772,9 +772,9 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
 Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIII.</head>
-          <stage rend="i">Les Précédents, Le Roi, La Reine, La Marquise de Mondéjar, Le Capitaine des Gardes, Le Grand-Inquisiteur, Le Président du Conseil de Castille, Toute la cour.</stage>
+          <stage>Les Précédents, Le Roi, La Reine, La Marquise de Mondéjar, Le Capitaine des Gardes, Le Grand-Inquisiteur, Le Président du Conseil de Castille, Toute la cour.</stage>
           <sp who="philippeii">
           	<speaker>Philippe II, <stage>au capitaine des gardes</stage>.</speaker>
           <p>Notre homme est-il venu ?</p>
@@ -942,9 +942,9 @@ Ajout d’un point d’interrogation qui me paraît être manquant.--> ?… <st
 Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIV.</head>
-          <stage rend="i">Fontanarès, Quinola.­</stage>
+          <stage>Fontanarès, Quinola.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
             <p>Je rêve… Duc ! Grand d’Espagne ! La Toison-d’Or !</p>
@@ -1008,16 +1008,16 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
       			<castItem xml:id="autres">Les Ouvriers, Un Page</castItem>
       		</castList>
       	</div>
-      <div type="act"><!-- JL- ajout de la castlist, non présente dans l'odt -->
+      <div type="act" subtype="level1"><!-- JL- ajout de la castlist, non présente dans l'odt -->
 	<pb n="67" xml:id="p67"/>
             <head>Acte premier.</head>
             <stage><pb n="68" xml:id="p68"/><p>La scène se passe à Barcelone.</p>
             <p>Le théâtre représente une place publique. À gauche du spectateur, des maisons, parmi lesquelles est celle de Lothundiaz qui fait encoignure de rue. À droite, se trouve le palais où loge madame Brancadori, dont le balcon fait face au spectateur et tourne. On entre par l’angle du palais à droite et par l’angle de la maison de Lothundiaz.</p>
 <p>Au lever du rideau, il fait encore nuit ; mais le jour va poindre.</p></stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="69" xml:id="p69"/>
           <head>Scène Première.</head>
-          <stage rend="i">Monipodio, enveloppé dans un manteau, assis sous le balcon du palais Brancadori, Quinola se glisse avec des précautions de voleur, et frôle Monipodio.</stage>
+          <stage>Monipodio, enveloppé dans un manteau, assis sous le balcon du palais Brancadori, Quinola se glisse avec des précautions de voleur, et frôle Monipodio.</stage>
           <sp who="monipodio">
             <speaker>Monipodio.</speaker>
             <p>Qui marche ainsi, dans mes souliers ?</p>
@@ -1254,7 +1254,7 @@ Point d’interrogation ou pas ?-->.</p>
             <p>D’autant plus que, selon un vieil auteur, nous sommes l’humanité… Il faut que je t’embrasse…</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène II.</head>
           <stage>Les Mêmes, Paquita.</stage>
           <sp who="quinola">
@@ -1282,7 +1282,7 @@ Point d’interrogation ou pas ?-->.</p>
             <p>Aussi faut-il beaucoup de prudence. Écoute ? je vais te donner un mot pour Mathieu Magis, le plus fameux lombard de la ville et à ma discrétion : vous y trouverez tout, depuis des diamants jusqu’à des souliers. Quand vous reviendrez ici, vous y verrez notre infante.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène III.</head>
           <stage>Paquita, Faustine.</stage>
           <sp who="paquita">
@@ -1294,7 +1294,7 @@ Point d’interrogation ou pas ?-->.</p>
             <p>Ce vieux vice-roi finira par m’ennuyer ! il me suspecte encore chez moi pendant qu’il me parle et me voit.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="83" xml:id="p83"/>
           <head>Scène IV.</head>
           <stage>Faustine, Don Frégose.</stage>
@@ -1325,7 +1325,7 @@ Point d’interrogation ou pas ?-->.</p>
 Indent. p89-->Elle le laisse.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="85" xml:id="p85"/>
           <head>Scène V.</head>
           <sp who="donfregose">
@@ -1333,7 +1333,7 @@ Indent. p89-->Elle le laisse.</stage>
             <p>Ah ! Pourquoi ne puis-je me passer d’entendre et de voir cette femme. Tout d’elle me plait, même sa colère, et j’aime à me faire ronder pour l’écouter.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VI.</head>
           <stage>Paquita, Monipodio, en frère quêteur, Dona Lopez.</stage>
           <sp who="paquita">
@@ -1367,10 +1367,10 @@ Indent. p91-->Il va frapper à la porte de Lothundiaz.</stage>
             <p>Ah ! si vous comptez sur les restes de notre propriétaire, vous seriez plus avec ma promesse. <stage>(À la Brancador, qui paraît sur le balcon.)</stage> Madame, les hommes sont partis.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="87" xml:id="p87"/>
           <head>Scène VII.</head>
-          <stage rend="i">Monipodio, Dona Lopez.</stage>
+          <stage>Monipodio, Dona Lopez.</stage>
           <sp who="donalopez">
             <speaker>Dona Lopez, <stage>à Monipodio</stage>.</speaker>
             <p>Que voulez-vous ?</p>
@@ -1401,9 +1401,9 @@ Indent. p91-->Il va frapper à la porte de Lothundiaz.</stage>
 Indent. p93--><stage>(Elle rentre.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VIII.</head>
-          <stage rend="i">Monipodio, Quinola, Fontanarès.</stage>
+          <stage>Monipodio, Quinola, Fontanarès.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
             <p>Enfin, Quinola, nous voilà sous ses fenêtres.</p>
@@ -1438,10 +1438,10 @@ Manque‑t‑il un point d’exclamation ?-->Eh bien ! Où donc est Monipodill
             <p>Surtout, Monsieur, de la prudence ; n’allez pas vous livrer à des hélas ! qui pourraient faire ouvrir les yeux à la duègne.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="90" xml:id="p90"/>
           <head>Scène IX.</head>
-          <stage rend="i">Les Précédents, Dona Lopez, Marie.</stage>
+          <stage>Les Précédents, Dona Lopez, Marie.</stage>
           <sp who="monipodio">
             <speaker>Monipodio,<stage> à la duègne, en lui montrant Quinola</stage>.</speaker>
             <p>Voilà le chrétien qui sort de captivité.</p>
@@ -1452,9 +1452,9 @@ Manque‑t‑il un point d’exclamation ?-->Eh bien ! Où donc est Monipodill
 Indent. P95.--><stage>(Il l’emmène.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène X.</head>
-          <stage rend="i">Monipodio, Marie, Fontanarès.</stage>
+          <stage>Monipodio, Marie, Fontanarès.</stage>
           <sp who="marie">
             <speaker>Marie.</speaker>
             <p>Est-ce bien lui ?</p>
@@ -1496,9 +1496,9 @@ Indent. P95.--><stage>(Il l’emmène.)</stage></p>
             <p>Après avoir entendu de telles paroles, quel martyre n’endurerait-on pas ?</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XI.</head>
-          <stage rend="i">Les Précédents, Lothundiaz.</stage>
+          <stage>Les Précédents, Lothundiaz.</stage>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
             <p>Cette duègne laisse ma porte ouverte…</p>
@@ -1551,9 +1551,9 @@ Indent p100--><stage>(Lotliundiaz cherche autour de lui le duc.)</stage></p>
             <p>Toi ! que j’ai vu grand comme ça, dont le père vendait du drap, me prcnds-tu pour un nigaud ?</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XII.</head>
-          <stage rend="i">Les Mêmes, Quinola, Dona Lopez..</stage>
+          <stage>Les Mêmes, Quinola, Dona Lopez..</stage>
           <sp who="quinola">
           	<speaker>Quinola.</speaker>
           <p>Qui a dit nigaud ?</p>
@@ -1648,10 +1648,10 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <p>Le bonheur n’est pas dans ces extrêmes. Joli garçon et homme de génie, voilà deux raisons pour dépenser les trésors du Mexique. Ma fille sera madame Sarpi.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="102" xml:id="p102"/>
           <head>Scène XIII.</head>
-          <stage rend="i">Les Mêmes, Sarpi, sur le balcon.</stage>
+          <stage>Les Mêmes, Sarpi, sur le balcon.</stage>
           <sp who="sarpi">
             <speaker>Sarpi, <stage>à part</stage>.</speaker>
             <p>On a prononcé mon nom. Que vois-je ? l’héritière et son père, à cette heure, sur la place !</p>
@@ -1731,7 +1731,7 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <stage>Marie, la duègue, Lothundiaz sortent.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIV.</head>
           <stage>Monipodio, Sarpi, Fontanarès, Quinola.</stage>
           <sp who="sarpi">
@@ -1755,9 +1755,9 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <p>Oh ! nous ne nous quitterons pas.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XV.</head>
-          <stage rend="i">Les Mêmes, Faustine, Don Frégose, Paquita.</stage>
+          <stage>Les Mêmes, Faustine, Don Frégose, Paquita.</stage>
           <sp who="faustine">
           	<speaker>Faustine,<stage> au balcon.</stage></speaker>
           <p>Que se passe-t-il donc, Monseigneur, entre ce jeune homme et votre secrétaire ; descendons.</p>
@@ -1905,10 +1905,10 @@ Ajout d’un point d’interrogation.--> ?</p>
 Indent. p118--><stage>(Faustine, le Gouverneur et Paquita sortent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="114" xml:id="p114"/>
           <head>Scène XVI.</head>
-          <stage rend="i">Avaloros, Quinola, Monipodio, Fontanarès, Sarpi.</stage>
+          <stage>Avaloros, Quinola, Monipodio, Fontanarès, Sarpi.</stage>
           <sp who="sarpi">
             <speaker>Sarpi, à Avaloros.</speaker>
             <p>Il n’y a plus de promenade en mer.</p>
@@ -1950,7 +1950,7 @@ Indent. p119-->Sarpi et Avaloros se parlent.</stage>
 Indent p120.--><stage>(Monipodio lui prend sa bourse.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="116" xml:id="p116"/>
           <head>Scène XVII.</head>
           <stage>Monipodio, Fontanarès, Quinola.</stage>
@@ -2019,7 +2019,7 @@ Indent p120.--><stage>(Monipodio lui prend sa bourse.)</stage></p>
             <p>Cet homme m’inquiète ! il me paraît posséder mieux la mécanique de l’amour, que l’amour de la mécanique.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVIII.</head>
           <stage>Les Mêmes, Paquita.</stage>
           <sp who="paquita">
@@ -2053,7 +2053,7 @@ Indent. p126--><stage>(Il l’embrasse.)</stage></p>
 Indent--><stage>(Elle sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIX.</head>
           <stage>Les Mêmes, moins Paquita.</stage>
           <sp who="monipodio">
@@ -2103,13 +2103,13 @@ Indent. P 128--><stage>(Ils sortent.)</stage></p>
           </sp>
         </div>
       </div>
-      <div type="act">
+    	<div type="act" subtype="level1">
       <pb n="125" xml:id="p125"/>
         <head>Acte deuxième.</head>
         <stage><pb n="127" xml:id="p127"/>Un salon du palais de madame Brancador.</stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène Première.</head>
-          <stage rend="i">Avaloros, Sarpi, Paquita.</stage>
+          <stage>Avaloros, Sarpi, Paquita.</stage>
           <sp who="avaloros">
             <speaker>Avaloros.</speaker>
             <p>Noire souveraine serait-elle donc vraiment malade ?</p>
@@ -2139,10 +2139,10 @@ Indent. P 128--><stage>(Ils sortent.)</stage></p>
             <p>Je dirai que vous dépensez. Je vais décider Madame à s’habiller. <stage>(Elle sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="129" xml:id="p129"/>
           <head>Scène II.</head>
-          <stage rend="i">Avaloros, Sarpi.</stage>
+          <stage>Avaloros, Sarpi.</stage>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
             <p>Pauvre vice-roi ! il est le jeune homme, et je suis le vieillard.</p>
@@ -2250,10 +2250,10 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
             <p>Il faudrait avoir ce Quinola dans nos intérêts, et je l’ai mandé pour tenir conseil avec la Brancador.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="135" xml:id="p135"/>
           <head>Scène III.</head>
-          <stage rend="i">Les Mêmes, Quinola.</stage>
+          <stage>Les Mêmes, Quinola.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Me voici comme… entre deux larrons ; mais ceux-ci sont saupoudrés de vertus et caparaçonnés de belles manières. On nous pend, nous autres !</p>
@@ -2352,18 +2352,18 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
             <p>Ah ! voilà parler d’or.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="140" xml:id="p140"/>
           <head>Scène IV.</head>
-          <stage rend="i">Les Précédents, Faustine et Paquita.</stage>
+          <stage>Les Précédents, Faustine et Paquita.</stage>
           <sp who="paquita">
             <speaker>Paquita.</speaker>
             <p>Messieurs, voici Madame.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène V.</head>
-          <stage rend="i">Les Précédents, moins Paquita.</stage>
+          <stage>Les Précédents, moins Paquita.</stage>
           <sp who="quinola">
             <speaker>Quinola, <stage>va au-devant de la Brancador</stage>.</speaker>
             <p>Madame, mon maître parle de se tuer s’il n’a son vaisseau que le comte Sarpi lui refuse depuis un mois ; le seigneur Avaloros lui demande la vie en lui offrant sa bourse, comprenez-vous ?… <stage>(À part.)</stage> Une femme nous a sauvés à Valladolid, les femmes nous sauverons à Barcelone. <stage>(Haut et à la Brancador.)</stage> Il est bien triste !</p>
@@ -2425,10 +2425,10 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
             <p>Il pense tout le contraire, il va m’envoyer le vice-roi furieux. <stage>(Sort Sarpi.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="144" xml:id="p144"/>
           <head>Scène VI.</head>
-          <stage rend="i">Les Mêmes, moins Sarpi.</stage>
+          <stage>Les Mêmes, moins Sarpi.</stage>
           <sp who="avaloros">
             <speaker>Avaloros.</speaker>
             <p>Voici, madame.</p>
@@ -2482,7 +2482,7 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
             <p>Rien de discret comme les capitaux<stage>. (à part.)</stage> Elles sont désintéressées jusqu’au jour où elles ont une passion. Nous allons essayer de la renverser, elle devient trop couteûse.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VII.</head>
           <stage>Faustine, Quinola.</stage>
           <sp who="faustine">
@@ -2596,9 +2596,9 @@ Indent + parenthèses. p152-->
 Indent p156--><stage>(Quinola sort en rencontrant don Frégose.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène Vlll.</head>
-          <stage rend="i">Faustine, Frégose.</stage>
+          <stage>Faustine, Frégose.</stage>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
             <p>En attendant le maître, vous tâchiez de corrompre le valet.</p>
@@ -2653,9 +2653,9 @@ Ajout Point d’interrogation--> ?</p>
             <p>Et que je vous donnerais jusqu’à mon honneur.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène IX.</head>
-          <stage rend="i">Les Mêmes, Paquita.</stage>
+          <stage>Les Mêmes, Paquita.</stage>
           <sp who="faustine">
           <speaker>Faustine, <stage>à Paquita</stage>.</speaker>
           <p>Dis à mon majordome de faire porter les tableaux de ma galerie chez Don Frégose.</p>
@@ -2673,9 +2673,9 @@ Ajout Point d’interrogation--> ?</p>
             <p>N’en faites rien, et sortez. <stage>(Sort Paquita.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène X.</head>
-          <stage rend="i">Les Mêmes, moins Paquita.</stage>
+          <stage>Les Mêmes, moins Paquita.</stage>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
             <p>Je ne suis point encore la marquise de Frégose, comment osez-vous donner des ordres chez moi.</p>
@@ -2739,14 +2739,14 @@ Insertion d’une réplique de Frégose dans la tirade de Faustine. Ou bien c’
             <p>Hé ! bien, vous voilà comme je vous aime.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XI.</head>
           <sp who="faustine">
             <speaker>Faustine, <stage>seule</stage>.</speaker>
             <p>Et il y a pourtant des femmes qui souhaitent d’être hommes !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="160" xml:id="p160"/><head>Scène XII.</head>
           <stage>Faustine, Paquita, Lothundiaz, Marie.</stage>
           <sp who="paquita">
@@ -2754,7 +2754,7 @@ Insertion d’une réplique de Frégose dans la tirade de Faustine. Ou bien c’
             <p>Madame, voici Lothundiaz et sa fille. <stage>(Sort Paquita.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIII.</head>
           <stage>Les Mêmes, moins Paquita.</stage>
           <sp who="lothundiaz">
@@ -2771,9 +2771,9 @@ Insertion d’une réplique de Frégose dans la tirade de Faustine. Ou bien c’
 Indent p166--><stage>(Il sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIV.</head>
-          <stage rend="i">Faustine, Marie.</stage>
+          <stage>Faustine, Marie.</stage>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
             <p>Mon enfant, je vous aime et sais en quelle situation vous vous trouvez. Votre père veut vous marier à mon cousin Sarpi, tandis que vous aimez Fontanarès.</p>
@@ -2827,9 +2827,9 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Quel coup de poinard elle me donne ! Oh! Elle sera comtesse Sarpi !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XV.</head>
-          <stage rend="i">Les Memes, Fontanarès.</stage>
+          <stage>Les Memes, Fontanarès.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès,<stage> à Faustine</stage>.</speaker>
             <p>Madame, <stage>(il lui baise la main.)</stage></p>
@@ -2891,9 +2891,9 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Ah ! au couvent, pour se rendre maître de son esprit, pour torturer son âme !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="168" xml:id="p168"/><head>Scène XVI.</head>
-          <stage rend="i">Les Mêmes, Lothundiaz.</stage>
+          <stage>Les Mêmes, Lothundiaz.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
             <p>Et vous amenez cet ange de pureté chez une femme pour qui don Frégose dissipe sa fortune, et qui accepte de lui des dons insensés, sans l’épouser…</p>
@@ -2931,7 +2931,7 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Mais emmenez donc votre fille de chez la marquise de Mondéjar de la Catalogne.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         <pb n="170" xml:id="p170"/>
           <head>Scène XVII.</head>
           <stage>Faustine, Fontanarès.</stage>
@@ -2940,9 +2940,9 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Ah ! votre générosité, Madame, était donc une combinaison pour servir les intérêts de Sarpi ?Nous sommes quittes alors ! adieu…</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVIII.</head>
-          <stage rend="i">Faustine, Paquita.</stage>
+          <stage>Faustine, Paquita.</stage>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
             <p>Comme il était beau dans sa colère, Paquita !</p>
@@ -2956,16 +2956,16 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Mon enfant, je m’aperçois que je n’ai jamais aimé, et je viens, là, dans un instant, d’être métamorphosée comme par un coup de foudre. J’ai, dans un moment, aimé pour tout le temps perdu ! Peut-être ai-je mis le pied dans un abime. Envoie un de mes valets chez Matthieu Mais le Lombard.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIX.</head>
           <sp who="faustine">
             <speaker>Faustine, seule.</speaker>
             <p>Je l’aime déjà trop pour confier ma vengeance au stylet de Monipodio, car il m’a trop méprisée pour que je ne lui fasse pas regarder comme le plus grand honneur de m’avoir pour sa femme ! Je veux le voir soumis à mes pieds, ou nous nous briserons dans la lutte.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="172" xml:id="p172"/><head>Scène XX.</head>
-          <stage rend="i">Faustine, Frégose.</stage>
+          <stage>Faustine, Frégose.</stage>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
             <p>Eh bien ! je croyais trouver ici Fontanarès, heureux d’avoir par vous son navire.</p>
@@ -3035,14 +3035,14 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <p>Plus on vous donne de pouvoir, plus vous en abusez.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XXI.</head>
           <sp who="faustine">
             <speaker>Faustine, <stage>seule</stage>.</speaker>
             <p>Maîtresse d’un vice-roi ? Oh ! Je vais ourdir avec Avalaros et Sarpi une trame de Venise.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="176" xml:id="p176"/><head>Scène XXII.</head>
           <stage>Faustine, Mathieu Magis.</stage>
           <sp who="mathieumagis">
@@ -3155,20 +3155,20 @@ Indent p166--><stage>(Il sort.)</stage></p>
           </sp>
         </div>
       </div>
-      <div type="act">
+    	<div type="act" subtype="level1">
       <pb n="183" xml:id="p183"/>
         <head>Acte troisième.</head>
       	<stage><pb n="184" xml:id="p184"/>Le théâtre représente un intérieur d’écurie. Dans les combles, du foin ; le long des murs, des roues, des tubes, des pivots, une longue cheminée en cuivre, une vaste chaudière. À gauche du spectateur, un pilier sculpté, où se trouve une madone. À droite, une table ; sur la table, des papiers, des instruments de mathématiques. Sur le mur, au-dessus de la table, un tableau noir couvert de figures. Sur la table, une lampe. À côté du tableau, une planche sur laquelle sont des oignons, une cruche et du pain. À droite du spectateur, il y a une grande porte d’écurie ; et à gauche une porte donnant sur les champs. Un lit de paille à côté de la Madone.</stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="185" xml:id="p185"/><head>Scène Première.</head>
-          <stage rend="i">Fontanarès, Quinola.</stage>
+          <stage>Fontanarès, Quinola.</stage>
           <stage>Fontanarès, en robe noire serrée par une ceinture de cuir, travaille à sa table. Quinola vérifie les pièces de la machine.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Mais moi aussi, Monsieur, j’ai aimé ! Seulement quand j’ai eu compris la femme, je lui ai souhaité le bon soir. La bonne chère et la bouteille, ça ne vous trahit pas et ça vous engraisse. <stage>(Il regarde son maître.)</stage> Bon ! il ne m’entend pas. Voici trois pièces à forger, <stage>(Il ouvre la porte.)</stage> Eh ! Monipodille.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="186" xml:id="p186"/><head>Scène II.</head>
           <stage>Les Mêmes, Monipodio.</stage>
           <sp who="quinola">
@@ -3235,9 +3235,9 @@ Indent. P195
 --><stage>(Monipodio sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène III.</head>
-          <stage rend="i">Quinola, Fontanarès.</stage>
+          <stage>Quinola, Fontanarès.</stage>
           <sp who="quinola">
           	<speaker>Quinola, <stage>frottant un oignon sur son pain</stage>.</speaker>
           <p>On dit que c’est avec ça que se nourrissaient les ouvriers des pyramides d’Égypte, mais ils devaient avoir l’assaisonnement qui nous soutient : la Foi… <stage>(Il boit de l’eau.)</stage> Vous n’avez donc pas faim, Monsieur ? Prenez garde que la machine ne se détraque.</p>
@@ -3259,9 +3259,9 @@ Indent. P195
             <p>Sangodémie, Monsieur, la fortune aime les gens gais presqu’autant que les gens gais aiment la fortune.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="192" xml:id="p192"/><head>Scène IV.</head>
-          <stage rend="i">Les Mêmes, Mathieu Magis.</stage>
+          <stage>Les Mêmes, Mathieu Magis.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Oh ! voilà notre Lombard, il regarde tou les les pièces comme si elles étaient déjà sa propriété légitime.</p>
@@ -3483,9 +3483,9 @@ Majuscule dans le fac‑similé.-->Foi, c’est très-beau, mais c’est ruineux
 Indent p 207--><stage>(Il sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène V.</head>
-          <stage rend="i">Fontanarès, Quinola.</stage>
+          <stage>Fontanarès, Quinola.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
             <p>Ses paroles me glacent.</p>
@@ -3568,7 +3568,7 @@ emphase-->de profundis ?</p>
             <p>Laissez-moi donc vous luire revenir ce grand-père de quelque part, ce sera le premier qui sera revenu des Indes.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="207" xml:id="p207"/><head>Scène VI.</head>
           <stage>Les Mêmes, Monipodio.</stage>
           <sp who="quinola">
@@ -3609,14 +3609,14 @@ I majuscule dans la version fac‑similaire. p212-->nfante a la lettre.</p>
             <p>Vous voyez bien, Monsieur, qu’il faut que je vous défasse de ce savant-là ? <stage>(À Monipodio.)</stage> Viens avec moi, tu vas être mon valet.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VIl.</head>
-          <stage rend="i">Fontanarès, seul.</stage>
+          <stage>Fontanarès, seul.</stage>
           <p>Quelle cervelle cerclée de bronze, résisterait à chercher de l’argent en cherchant les secrets les mieux gardés par la nature, à se défier des hommes, les combattre et combiner des affaires ? deviner sur-le-champ le mieux en toute chose, afin de ne pas se voir voler sa gloire par un don Ramon qui trouverait le plus léger perfectionnement, et il y a des don Ramon partout. Oh ! je n’ose me l’avouer… Je me lasse.</p>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="209" xml:id="p209"/><head>Scène VIII.</head>
-          <stage rend="i">Fontanarès, Éstéban, Girone, et deux Ouvriers, personnages muets.</stage>
+          <stage>Fontanarès, Éstéban, Girone, et deux Ouvriers, personnages muets.</stage>
           <sp who="esteban">
             <speaker>Éstéban.</speaker>
             <p>Pourriez-vous nous dire où se cache un nommé Fonlatanarès ?</p>
@@ -3719,9 +3719,9 @@ Indent. p219--><stage>(Il fond sur eux.)</stage> Oh !… <stage>(Il s’arrête
             <p>Restez, mes maîtres ! j’ai tort : je dois.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="215" xml:id="p215"/><head>Scène IX.</head>
-          <stage rend="i">Les Mêmes, Coppolus et Carpano.</stage>
+          <stage>Les Mêmes, Coppolus et Carpano.</stage>
           <sp who="coppolus">
             <speaker>Coppolus.</speaker>
             <p>Monsieur, je viens vous annoncer qu’hier les magistrats de Barcelone m’ont, jusqu’à parfait paiement, donné privilège sur votre invention, et je veillerai a ce qui rien ne sorte d’ici. Le privilège comprend la créance de mon confrère Carpano, votre serrurier.</p>
@@ -3759,7 +3759,7 @@ Indent. p219--><stage>(Il fond sur eux.)</stage> Oh !… <stage>(Il s’arrête
             <p>Cela coûterait encore deux cents sequins.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="217" xml:id="p217"/><head>Scène X.</head>
           <stage>Les Mêmes, Quinola, en vieillard centenaire, une figure fantastique dans le genre de Callot, Monipodio, en habit de fantaisie. L’Hôte du Soleil-d’Or.</stage>
           <sp who="lhotedusoleildor">
@@ -3812,9 +3812,9 @@ Indent p224--><stage>(Ils sortent.)</stage></p>
             <p>Notre dernier doublon ! c’est la réclame.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XI.</head>
-          <stage rend="i">Les Mêmes, moins l’Hôte et Les Ouvriers.</stage>
+          <stage>Les Mêmes, moins l’Hôte et Les Ouvriers.</stage>
           <sp who="quinola">
             <speaker>Quinola,<stage> aux deux négociants</stage>.</speaker>
             <p>Quant à vous, mes braves, vous me paraissez être de meilleure composition, et avec de l’argent, nous serons d’accord.</p>
@@ -3837,9 +3837,9 @@ Indent p224--><stage>(Ils sortent.)</stage></p>
 Indent--><stage>(Ils sortent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="221" xml:id="p221"/><head>Scène XII.</head>
-          <stage rend="i">Quinola, Fontanarès, Monipoidio.</stage>
+          <stage>Quinola, Fontanarès, Monipoidio.</stage>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
             <p>Quel sera le fruit de celle imposture ?</p>
@@ -3866,9 +3866,9 @@ indent--><stage>(Quinola fait un signe altirmalif.)</stage></p>
             <p>Son audace me fait peur.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIII.</head>
-          <stage rend="i">Les Mêmes, Mathieu Magis, Don Ramon.</stage>
+          <stage>Les Mêmes, Mathieu Magis, Don Ramon.</stage>
           <sp who="mathieumagis">
             <speaker>Mathieu Magis.</speaker>
             <p>Je vous amène don Ramon, sans l’avis duquel je ne veux plus rien faire.</p>
@@ -4063,9 +4063,9 @@ Maj ou min ?-->X.</p>
 Indent.--><stage>(il sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="231" xml:id="p231"/><head>Scène XIV.</head>
-          <stage rend="i">Les Précédents, moins Mathieu Magis. Lothundiaz., Marie.</stage>
+          <stage>Les Précédents, moins Mathieu Magis. Lothundiaz., Marie.</stage>
           <sp who="marie">
             <speaker>Marie.</speaker>
             <p>Arriverai-je à temps ?…</p>
@@ -4189,9 +4189,9 @@ Réponse au commentaire sur fontanaresi-->Fontanaresi.</p>
 indent--><stage>(Quinola et Monipodio disparaissent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="237" xml:id="p237"/><head>Scène XV.</head>
-          <stage rend="i">Les Mêmes, Sarpi.</stage>
+          <stage>Les Mêmes, Sarpi.</stage>
           <sp who="sarpi">
             <speaker>Sarpi,
         <stage> a Lothnndiaz</stage>.</speaker>
@@ -4300,16 +4300,16 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
             <p>Adieu, futur grand d’Espagne.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVI.</head>
           <sp who="fontanares">
             <speaker>Fontanarès, <stage>seul sur le devant de la scène</stage>.</speaker>
             <p>Marie au couvent, j’aurai froid au soleil. Je supporte un monde, et j’ai peur de ne pas être un Atlas… Non, je ne réussirai pas, tout me trahit. Œuvre de trois ans de pensée et de dix mois de travaux silloneras-tu jamais la mer ?… Ah ! le sommeil m’accable… <stage>(Il se couche sur la paille.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="242" xml:id="p242"/><head>Scène XVII.</head>
-          <stage rend="i">Fontanarès endormi, Quinola et Monipodio, revenant par la petite porte.</stage>
+          <stage>Fontanarès endormi, Quinola et Monipodio, revenant par la petite porte.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Des diamants ! des perles et de l’or ! nous sommes sauvés.</p>
@@ -4327,9 +4327,9 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
             <p>Le voici.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="243" xml:id="p243"/><head>Scène XVIII.</head>
-          <stage rend="i">Les Mêmes, L’Hôte du Soleil-d’Or.</stage>
+          <stage>Les Mêmes, L’Hôte du Soleil-d’Or.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Or çà ! monsieur l’hôte du Soleil-d’Or, vous n’avez pas eu confiance dans l’étoile de mon petit-fils.</p>
@@ -4352,17 +4352,17 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
 indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIX.</head>
-          <stage rend="i">Les Mêmes, moins l’hôte.</stage>
+          <stage>Les Mêmes, moins l’hôte.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Allons nous déshabiller. <stage>(Il regarde Fontanarès.)</stage> Il dort ! cette riche nature a succombé à tant de secousses : il n’y a que nous autres qui sachions nous prêter à la douleur, il lui manque notre insouciance. Ai-je bien agi en demandant toujours le double de ce qu’il lui fallait. <stage>(À Monipodio.)</stage> Voici le dessin de la dernière pièce, prends-le ? <stage>(Ils sortent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="245" xml:id="p245"/><head>Scène XX.</head>
-          <stage rend="i">Fontanarès endormi, Faustine, Mathieu Magis.</stage>
+          <stage>Fontanarès endormi, Faustine, Mathieu Magis.</stage>
           <sp who="mathieumagis">
             <speaker>Mathieu Magis.</speaker>
             <p>Le voici !</p>
@@ -4373,14 +4373,14 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
         </div>
       </div>
-      <div type="act">
+    	<div type="act" subtype="level1">
       <pb n="247" xml:id="p247"/>
         <head>Acte quatrième.</head>
         <stage><pb n="248" xml:id="p248"/>Le théâtre représente une place publique. Au fond de la place, sur des tréteaux, au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite, Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
         	<pb n="249" xml:id="p249"/>
           <head>Scène Première.</head>
-          <stage rend="i">Fontanarès, Monipodio, Quinola, Coppolus, L’Hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, Don Ramon, Lothundiaz, L’Huissier,— Deux groupes de peuple.</stage>
+          <stage>Fontanarès, Monipodio, Quinola, Coppolus, L’Hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, Don Ramon, Lothundiaz, L’Huissier,— Deux groupes de peuple.</stage>
           <sp who="lhuissier">
             <speaker>L’Huissier.</speaker>
             <p>Messeigneurs, un peu plus de chaleur ! il s’agit d’une chaudière où l’on pourrait faire un olla-podrida pour le régiment des gardes-vallones.</p>
@@ -4504,9 +4504,9 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
             <p>Pas encore assez, Monsieur, pour croire que O plus o soit un binôme.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène II.</head>
-          <stage rend="i">Les Mêmes, Don Frégose, Faustine, Avaloros, Sarpi.</stage>
+          <stage>Les Mêmes, Don Frégose, Faustine, Avaloros, Sarpi.</stage>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
             <p>Nous arrivons trop tard, la vente est finie…</p>
@@ -4569,7 +4569,7 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
 Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="260" xml:id="p260"/><head>Scène III.</head>
           <stage>Les Mêmes, Marie Lothundiaz.</stage>
           <stage>Au moment où les Alguasils s’emparent de Fontanarès, Marie paraît en novice, accompagnée d’un moine et de deux sœurs.</stage>
@@ -4639,7 +4639,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Dieu le veuille, venez ma fille. <stage>(Lothundiaz, Marie et son cortège, Don Ramon et Sarpi sortent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène IV.</head>
           <stage>Faustine, Frégose, Avaloros, Fontanarès, Quinola, Monipodio.</stage>
           <sp who="avaloros">
@@ -4683,7 +4683,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Ils s’arrangent, nous sommes perdus. Je vais me sauver en France avec l’invention.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="266" xml:id="p266"/><head>Scène VI.</head>
           <stage>Quinola, Fontanarès, Faustine, Avaloros.</stage>
           <sp who="faustine">
@@ -4715,7 +4715,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Je dois en remercier Quinola. <stage>(Elle tend une bourse à Quinola.)</stage> Tiens. <stage>(À Fontanarès.)</stage> Àbientôt.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VI.</head>
           <stage>Fontanarès, Quinola.</stage>
           <sp who="fontanares">
@@ -4760,14 +4760,14 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <stage>Le théâtre change, et représente les salons de madame de Brancador.</stage>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="270" xml:id="p270"/><head>Scène VII.</head>
           <sp who="faustine">
             <speaker>Faustine, <stage>seule</stage>.</speaker>
             <p>Voici donc venue l’heure à laquelle ont tendu tous mes efforts depuis quatorze mois. Dans quelques moments, Fontanarès verra Marie à jamais perdue pour lui. Avaloros, Sarpi et moi, nous avons endormi le génie et amené l’homme à la veille de son expérience, les mains vides. Oh ! le voilà bien à moi comme je le voulais. Mais revient-on du mépris à l’amour ? Non, jamais. Ah !il ignore que, depuis un an, je suis son adversaire, et voilà le malheur, il me haïrait alors. La haine n’est pas le contraire de l’amour, c’en est l’envers. Il saura tout : je me ferai haïr.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="271" xml:id="p271"/><head>Scène VIII.</head>
           <stage>Faustine, Paquita.</stage>
           <sp who="paquita">
@@ -4779,14 +4779,14 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Sarpi doit être venu, dis-lui je veux lui parler. <stage>(Paquita sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="272" xml:id="p272"/><head>Scène IX.</head>
           <sp who="faustine">
             <speaker>Faustine, seule.</speaker>
             <p>Écartons Monipodio ! Quinola tremble qu’il n’ait reçu l’ordre de se défaire de Fontanarès, c’est déjà trop que d’avoir à le craindre.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène X.</head>
           <stage>Faustine, Frégose.</stage>
           <sp who="faustine">
@@ -4822,7 +4822,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Vous allez être obéie. <stage>(Il écrit.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="274" xml:id="p274"/><head>Scène XI.</head>
           <stage>Les Mêmes, Sarpi.</stage>
           <sp who="faustine">
@@ -4846,7 +4846,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Sarpi, faites éxécuter sévèrement cet ordre, et sans retard. <stage>(Sarpi sor.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XII.</head>
           <stage>Les Précédents, moins Sarpi. </stage>
           <sp who="donfregose">
@@ -4870,7 +4870,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Après tout, il n’aime que sa Marie Lothundiaz  !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIII.</head>
           <stage>Faustine, Fontanarès.</stage>
           <sp who="fontanares">
@@ -4910,7 +4910,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Nous ?… Madame.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIV.</head>
           <stage>Les Mêmes. Des gardes paraissent à toutes les portes. Un alcade se présente. Sarpi.</stage>
           <sp who="sarpi">
@@ -4926,7 +4926,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Voici l’heure de la mort venue  !… Heureusement j’emporte mon secret à Dieu, et j’ai pour linceul mon amour.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XV.</head>
           <stage>Les Mêmes, Marie, Lothundiaz.</stage>
           <sp who="marie">
@@ -5002,7 +5002,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Cours, et reveins me dire quand ils seront mariés.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVI.</head>
           <stage>Faustine, Fontanarès.</stage>
           <sp who="faustine">
@@ -5148,7 +5148,7 @@ indent--><stage>( Entre Paquita qui sort après avoir fait un signe à Faustine
             <p>Vous l’avez dit en pleine place publique : les hommes insultent ce qu’ils doivent plus tard adorer.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVII.</head>
           <stage>Les Mêmes, Don Frégose.</stage>
           <sp who="donfregose">
@@ -5164,7 +5164,7 @@ indent--><stage>( Entre Paquita qui sort après avoir fait un signe à Faustine
             <p>De nouvelles persécutions, monseigneur ? vous me comblez de joie. Frappez sur moi mille coups, ils se multiplieront, dit-elle, dans son cœur. Allez !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head><!-- Julien LEMAIRE : 2021-05-20T13:48:36.564263627
 Il y a deux scènes XVII-->Scène XVII.</head>
           <stage>Les Mêmes, Quinola.</stage>
@@ -5209,7 +5209,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Des trois enfants de Job : Silence, Patience et Constance.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XVIII.</head>
           <stage>Faustine, Frégose.</stage>
           <sp who="donfregose">
@@ -5277,7 +5277,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Vous voyez bien que je puis toujours être marquse de Frégose. <stage>(Elle sort en riant.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène XIX.</head>
           <sp who="donfregose">
             <speaker>Don Frégose, <stage>seul</stage>.</speaker>
@@ -5285,13 +5285,13 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
         </div>
       </div>
-      <div type="act">
+      <div type="act" >
       <pb n="299" xml:id="p299"/>
         <head>Acte cinquième.</head>
         <stage><pb n="300" xml:id="p300"/><p>Le théâtre représente la terrasse de l’Hôtel-de-Ville de Barcelone, de chaque côté de laquelle sont des pavillons. La terrasse, qui donne sur la mer est terminée par un balcon régnant au fond de la scène. On voit la haute mer, les mâts des vaisseaux du port. On entre par la droite et par la gauche. Un grand fauteuil, des sièges et une table se trouvent à la droite du spectateur.</p>
         <p>On entend le bruit des acclamations d’une foule immense.</p>
         <p>Faustine regarde, appuyée au balcon, le bateau à vapeur. Lothundiaz est à gauche, plongé dans la stupéfaction, don Frégose est à droite avec le secrétaire qui a dressé le procès-verbal de l’expérience. Le Grand-Inquisiteur occupe le milieu de la scène.</p></stage>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="301" xml:id="p301"/><head>Scène Première.</head>
           <stage>Lothundiaz, Le Grand-inquisiteur, Don Frégose</stage>
           <sp who="donfregose">
@@ -5343,7 +5343,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Vive don Ramon. Eh ! bien, tant mieux, je serai vengé du mal que je me suis fait à moi-même.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène II.</head>
           <stage><p>Les Mêmes, Don Ramon, Mathieu Magis, L'Hôte du Soleil-d’Or, Coppolus, Carpano, Esteban, Girone, et tout le peuple.</p><p>Tous les personnages et le peuple forment un demi-cercle au centre duquel arrive don Ramon.</p></stage>
           <sp who="legrandinquisiteur">
@@ -5359,7 +5359,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Au nom de la ville de Barcelone, don Ramon, j’ai l’honneur de vous offrir cette couronne due à votre persévérance et à l’auteur d’une invention qui donne l’immortalité.</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <pb n="306" xml:id="p306"/><head>Scène III.</head>
           <stage>Les Mêmes, Fontanarès.</stage>
           <stage>Il entre, ses vêtements souillés par le travail de son expérience.</stage>
@@ -5428,7 +5428,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Oh ! toute ma gloire pour une vengeance  !</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène IV.</head>
           <stage>Les Mêmes, Quinola.</stage>
           <sp who="quinola">
@@ -5468,7 +5468,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Obéir sans comprendre : pour une première fois, je me risque. <stage>(Il sort.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène V.</head>
           <stage>Les Mêmes, moins Quinola.</stage>
           <sp who="fontanares">
@@ -5509,7 +5509,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
 Indent + parenthèses--><stage>(Tous sortent.)</stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" subtype="level2">
           <head>Scène VI.</head>
           <stage>Quinola, Fontanarès, Faustine.</stage>
           <sp who="faustine">
