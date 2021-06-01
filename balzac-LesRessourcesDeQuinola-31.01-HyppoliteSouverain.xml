@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
 <?xml-model href="http://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2021-05-25T14:26:00+02:00-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zxx">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -87,7 +87,7 @@
         <castItem xml:id="leducdelerme">Le Duc de Lerme.</castItem>
         <castItem xml:id="fontanares">Alfonso Fontanarès.</castItem>
         <castItem xml:id="quinola">Quinola.</castItem>
-        <castItem xml:id="unhallebardier">Un Hallebardier.</castItem>
+        <castItem xml:id="lehallebardier">Un Hallebardier.</castItem>
         <castItem xml:id="alcade">Un Alcade du Palais.</castItem>
         <castItem xml:id="x">Un Familier de l’Inquisition. Personnage muet.</castItem>
         <castItem xml:id="lareine">La Reine d’Espagne.</castItem>
@@ -105,23 +105,23 @@
         <pb n="17" xml:id="p17"/>
           <head>Scène Première.</head>
           <stage>Le Capitaine des Gardes, Quinola, enveloppé dans son manteau, un Hallebardier.</stage>
-          <sp who="lehallerbardier">
-            <speaker>Le Hallerbardier, <stage>Il barre la porte à Quinola</stage>.</speaker>
+          <sp who="lehallebardier">
+            <speaker>Le Hallebardier, <stage>Il barre la porte à Quinola</stage>.</speaker>
             <p>On n’andre bointe sans en affoir le troide. Ki ê dû ?</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola, <stage>levant la hallebarde</stage>.</speaker>
             <p>Ambassadeur. <stage>(On le regarde.)</stage></p>
           </sp>
-          <sp who="lehallerbardier">
-            <speaker><pb n="18" xml:id="p18"/>Le Hallerbardier.</speaker>
+          <sp who="lehallebardier">
+            <speaker><pb n="18" xml:id="p18"/>Le Hallebardier.</speaker>
             <p>T’où ?</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola, <stage>Il passe</stage>.</speaker>
             <p>D’où ! Du pays de misère.</p>
           </sp>
-          <sp who="lecapitainedesgardes">
+          <sp who="lecapitaine">
             <speaker>Le Capitaine des Gardes.</speaker>
             <p>Allez chercher le majordome du palais pour rendre à cet ambassadeur-là les honneurs qui lui sont dus. <stage>(Au hallebardier.)</stage> Trois jours de prison.</p>
           </sp>
@@ -472,11 +472,11 @@ Même remarque sur l’indentation particulière de cette didascalie = p41
             <speaker>Quinola.</speaker>
             <p>Je n’aurai pas la peine de me mettre à genoux, ils plient déjà, car il ne s’agit pas seulement d’un homme, mais d’un monde.</p>
           </sp>
-          <sp who="unpage">
+          <sp who="autres">
             <speaker>Un Page.</speaker>
             <p>La reine !</p>
           </sp>
-          <sp who="unpage">
+          <sp who="autres">
             <speaker>Un Page.</speaker>
             <p>Le roi ! <!-- Julien LEMAIRE : 2021-05-17T17:53:00.480498784
 Didascalie indentée de façon particulière. p41--><stage>(Tableau.)</stage></p>
@@ -558,8 +558,8 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <speaker>La Marquise,<stage> U part</stage>.</speaker>
             <p>Nous sommes perdus.</p>
           </sp>
-          <sp who="lecapitainedesgardes">
-            <speaker>Le Capitaine des gardes.</speaker>
+          <sp who="lecapitaine">
+            <speaker>Le Capitaine.</speaker>
             <p>Sire, le duc n’est pas encore… arrivé…</p>
           </sp>
           <sp who="philippeii">
@@ -758,12 +758,12 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <speaker>Quinola.</speaker>
             <p>Monsieur, gardez-vous bien de toutes ces fariboles d’amour devant le roi… car le roi, voyez-vous…</p>
           </sp>
-          <sp who="unpage">
+          <sp who="autres">
             <speaker>Un Page.</speaker>
             <p>Le roi !</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="52" xml:id="52"/>Fontanarès.</speaker>
+            <speaker><pb n="52" xml:id="p52"/>Fontanarès.</speaker>
             <p>Allons, pensons à Marie !</p>
           </sp>
           <sp who="quinola">
@@ -813,7 +813,7 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
             <speaker>Fontanarès, <stage>un genou en terre</stage>.</speaker>
             <p>Prêt à réaliser, à la très-grande gloire de Dieu, des merveilles pour la splendeur du règne du roi mon maitre…</p>
           </sp>
-        	<pb n="54" xml:id="54"/>
+        	<pb n="54" xml:id="p54"/>
           <sp who="philippeii">
             <speaker>Philippe II.</speaker>
             <p>Lève-toi, parle, quelle est cette force miraculeuse qui doit donner l’empire du monde à l’Espagne ?</p>
@@ -1004,7 +1004,8 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
       			<castItem xml:id="faustine">Madame Faustina Brancadori.</castItem>
       			<castItem xml:id="marie">Marie Lothundiaz.</castItem>
       			<castItem xml:id="paquita">Paquita, camériste de madame Faustina.</castItem>
-      			<!--pas présent dans la liste fac-similaire <castItem xml:id="donalopez">Dona Lopez.</castItem> -->
+      			<castItem xml:id="donalopez">Dona Lopez.</castItem><!--pas présent dans la liste fac-similaire  -->
+      			<castItem xml:id="autres">Les Ouvriers, Un Page</castItem>
       		</castList>
       	</div>
       <div type="act"><!-- JL- ajout de la castlist, non présente dans l'odt -->
@@ -1325,7 +1326,7 @@ Indent. p89-->Elle le laisse.</stage>
           </sp>
         </div>
         <div type="scene">
-        <pb n="85" xml:id="p86"/>
+        <pb n="85" xml:id="p85"/>
           <head>Scène V.</head>
           <sp who="donfregose">
             <speaker>Don Frégose, <stage>seul</stage>.</speaker>
@@ -1339,7 +1340,7 @@ Indent. p89-->Elle le laisse.</stage>
             <speaker>Paquita.</speaker>
             <p>Madame me dit de savoir pour le compte de qui Monipodio se trouve là, mais… je ne vois plus personne.</p>
           </sp>
-        <pb n="87" xml:id="p87"/>
+        <pb n="86" xml:id="p86"/>
           <sp who="monipodio">
             <speaker><pb n="**"/>Monipodio.</speaker>
             <p>L’aumône, ma chère enfant, est un revenu qu’on se fait dans le ciel.</p>
@@ -2311,8 +2312,8 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
             <speaker><pb n="**"/>Quinola.</speaker>
             <p>Je n’aurai sans doute les deux mille écus d’or qu’après la signature du traité.</p>
           </sp>
-          <sp who="sarpl">
-            <speaker>SARPl, <stage>vivement</stage>.</speaker>
+          <sp who="sarpi">
+            <speaker>Sarpi, <stage>vivement</stage>.</speaker>
             <p>Tu peux les avoir auparavant.</p>
           </sp>
           <sp who="quinola">
@@ -2835,7 +2836,7 @@ Indent p166--><stage>(Il sort.)</stage></p>
             <speaker>Fontanarès,<stage> à Faustine</stage>.</speaker>
             <p>Madame, <stage>(il lui baise la main.)</stage></p>
           </sp>
-          <sp who="">
+          <sp who="marie">
             <speaker>
               <stage>Marie, à part.</stage>
             </speaker>
@@ -3701,7 +3702,7 @@ I majuscule dans la version fac‑similaire. p212-->nfante a la lettre.</p>
             <speaker>Fontanarès.</speaker>
             <p>Misérables ! <stage>(Il tire son épée.)</stage></p>
           </sp>
-          <sp who="lesouvriers">
+          <sp who="autres">
             <speaker>Les ouvriers.</speaker>
             <p>Oh ! nous ne bougerons pas.</p>
           </sp>
@@ -3742,7 +3743,7 @@ Indent. p219--><stage>(Il fond sur eux.)</stage> Oh !… <stage>(Il s’arrête
             <speaker><pb n="**"/>Fontanarès.</speaker>
             <p>Quel ami vous enlace avec autant de force qu’un créancier ? Eh ! Bien, que le démon reprenne la pensée qu’il m’a donné.</p>
           </sp>
-          <sp who="tous">
+          <sp who="autres">
             <speaker>Tous.</speaker>
             <p>Le démon !</p>
           </sp>
@@ -3806,7 +3807,7 @@ Indent. p219--><stage>(Il fond sur eux.)</stage> Oh !… <stage>(Il s’arrête
             <speaker>Quinola.</speaker>
             <p>Je connais un peu les lois de la Catalogne, allez chercher le corrégidor pour me fourrer ces drôles en prison. Envoyez des huissiers à mon petit-fils, c’est votre droit ; mais restez chez vous, canaille ! <stage>(Il fouille dans sa poche.)</stage> Tenez ! allez boire a ma santé. <stage>(Il leur jette de la monnaie.)</stage> Vous viendrez vous faire payer chez moi.</p>
           </sp>
-          <sp who="les">
+          <sp who="autres">
             <speaker>Les Ouvriers.</speaker>
             <p>Vive Son Excellence ! <!-- Julien LEMAIRE : 2021-05-19T10:54:47.181644424
 Indent p224--><stage>(Ils sortent.)</stage></p>
@@ -4381,16 +4382,16 @@ indent--><stage>(L’hôte sort.)</stage></p>
       <div type="act">
       <pb n="247" xml:id="p247"/>
         <head>Acte quatrième.</head>
-        <stage><pb n="248" xml:id="248"/>Le théâtre représente une place publique. Au fond de la place, sur des tréteaux, au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite, Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
+        <stage><pb n="248" xml:id="p248"/>Le théâtre représente une place publique. Au fond de la place, sur des tréteaux, au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite, Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
         <div type="scene">
-        	<pb n="249" xml:id="249"/>
+        	<pb n="249" xml:id="p249"/>
           <head>Scène Première.</head>
           <stage rend="i">Fontanarès, Monipodio, Quinola, Coppolus, L’Hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, Don Ramon, Lothundiaz, L’Huissier,— Deux groupes de peuple.</stage>
           <sp who="lhuissier">
             <speaker>L’Huissier.</speaker>
             <p>Messeigneurs, un peu plus de chaleur ! il s’agit d’une chaudière où l’on pourrait faire un olla-podrida pour le régiment des gardes-vallones.</p>
           </sp>
-        <pb n="250" xml:id="250"/>
+        <pb n="250" xml:id="p250"/>
           <sp who="lhotedusoleildor">
             <speaker>L’Hôte du Soleil-d'Or.</speaker>
             <p>Quatre maravédis.</p>
@@ -4922,7 +4923,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <speaker>Sarpi.</speaker>
             <p>Faites votre devoir !</p>
           </sp>
-          <sp who="lalcade">
+          <sp who="alcade">
             <speaker><pb n="**"/>L’alcade, <stage>à Fontanarès</stage>.</speaker>
             <p>Au nom du roi je vous arrête.</p>
           </sp>
@@ -5290,9 +5291,9 @@ Il y a deux scènes XVII-->Scène XVII.</head>
         </div>
       </div>
       <div type="act">
-      <pb n="299" xml:id="299"/>
+      <pb n="299" xml:id="p299"/>
         <head>Acte cinquième.</head>
-        <stage><pb n="300" xml:id="300"/>Le théâtre représente la terrasse de l’Hôtel-de-Ville de Barcelone, de chaque côté de laquelle sont des pavillons. La terrasse, qui donne sur la mer est terminée par un balcon régnant au fond de la scène. On voit la haute mer, les mâts des vaisseaux du port. On entre par la droite et par la gauche. Un grand fauteuil, des sièges et une table se trouvent à la droite du spectateur. </stage>
+        <stage><pb n="300" xml:id="p300"/>Le théâtre représente la terrasse de l’Hôtel-de-Ville de Barcelone, de chaque côté de laquelle sont des pavillons. La terrasse, qui donne sur la mer est terminée par un balcon régnant au fond de la scène. On voit la haute mer, les mâts des vaisseaux du port. On entre par la droite et par la gauche. Un grand fauteuil, des sièges et une table se trouvent à la droite du spectateur. </stage>
         <stage>On entend le bruit des acclamations d’une foule immense. </stage>
         <stage>Faustine regarde, appuyée au balcon, le bateau à vapeur. Lothundiaz est à gauche, plongé dans la stupéfaction, don Frégose est à droite avec le secrétaire qui a dressé le procès-verbal de l’expérience. Le Grand-Inquisiteur occupe le milieu de la scène.</stage>
         <div type="scene">
@@ -5375,7 +5376,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <speaker>Fontanarès.</speaker>
             <p>Est-ce une plaisanterie ?</p>
           </sp>
-          <sp who="tous">
+          <sp who="autres">
             <speaker>Tous.</speaker>
             <p>Vive don Ramon !</p>
           </sp>
@@ -5383,7 +5384,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <speaker>Coppolus.</speaker>
             <p>Au nom des commerçants de la Catalogne, don Ramon, nous venons vous prier d’accepter cette couronne d’argent, gage de leur reconnaissance pour une découverte, source d’une prospérité nouvelle.</p>
           </sp>
-          <sp who="tous">
+          <sp who="autres">
             <speaker><pb n="**"/>Tous.</speaker>
             <p>Vive don Ramon !</p>
           </sp>
@@ -5491,7 +5492,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <speaker>Fontanarès.</speaker>
             <p>J'ai donc la vie sauve. Vous tous ici présents, vous regardez don Ramon comme le véritable inventeur du navire qui vient de marcher par la vapeur en présence de deux cent mille Espagnols.</p>
           </sp>
-          <sp who="tous">
+          <sp who="autres">
             <speaker>Tous.</speaker>
             <p>Oui… <stage>(Quinola se montre.)</stage></p>
           </sp>
