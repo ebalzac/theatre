@@ -71,6 +71,7 @@
   </teiHeader>
   <text>
     <body>
+      <!--  
       <p>Éditeur : (Paris)</p>
       <p>Date d‘édition : 1907</p>
       <p>Contributeur : Spoelberch de Lovenjoul, Charles de (1836-1907). Éditeur scientifique</p>
@@ -90,7 +91,7 @@
       <p>Droits : Public domain</p>
       <p>Identifiant : ark :/12148/bpt6k42214045</p>
       <p>Provenance : Bibliothèque nationale de France</p>
-      <p>Date de mise en ligne : 04/11/2019</p>
+      <p>Date de mise en ligne : 04/11/2019</p> -->
       <div subtype="level1">
         <head><!-- Auteur inconnu : 2021-05-04T14:45:01.497000000
 Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui pourront apparaître dans les speaker plutôt que les stage‑c. A vérifier au moment de passer au XML !-->Personnages</head>
@@ -118,7 +119,8 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
       <div type="act">
         <head>Acte premier</head>
         <div>
-          <head><pb n="5" xml:id="p5"/>Scène I</head>
+          <pb n="5" xml:id="p5"/>
+          <head>Scène I</head>
           <stage>Victoire, d’abord seule, puis Roblot.</stage>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -1916,7 +1918,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
             <p><!-- Auteur inconnu : 2021-05-11T10:51:56.074000000
 lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontre ; je voulais la voir la première ! Je l‘ai vainement attendue, et cependant elle n‘est pas au Magasin. Y aurait-il quelque malentendu ? À mon âge il n’y a plus d’heureuses chances ; le hasard est le courtisan de la jeunesse. Je suis dévoré de jalousie et d’inquiétude, car c‘est surtout pour nous que la crainte devient toute l‘imagination du bonheur. Eh bien ! personne ici. Soyez donc père de famille ! Il est vrai que ma femme et mes filles ignorent mon arrivée. J’ai cru pouvoir me rendre maître de mon amour pour Adrienne, l‘oublier. L’absence ne tue que les petites passions. Être vieux pour les <pb n="76" xml:id="p76"/>regards, être jeune pour le cœur, quel martyre ! Sentir croître son affection chaque jour, et chaque jour perdre quelques-uns des avantages qui font qu’on nous aime ! J’éprouve à cette idée des mouvements de rage, et alors je suis prêt à tout méconnaître. Parfois aussi, mon amour me rend meilleur. Ma femme et mes filles ne savent pas que, par devoir, je les traite mieux depuis que je les sens en second dans mon cœur. Tout le bonheur que je leur dois me semble un vol fait à Adrienne ! <stage>(il veut ouvrir la porte des appartements et la trouve fermée.)</stage></p>
           </sp>
-          <sp who="unevoix">
+          <sp who="justine">
             <speaker>Une voix</speaker>
             <p>On n’entre pas, ces dames s’habillent.</p>
           </sp>
@@ -5852,7 +5854,7 @@ parenthèses-->
             <p>Non, vous avez tué le père en moi.</p>
             <pb n="220" xml:id="p220"/>
           </sp>
-          <sp who="tous">
+              <sp who="anna francois madamegerard roblot duval caroline justine">
             <speaker>Tous<stage>, à Adrienne. </stage></speaker>
             <p>Restez, il reviendra.</p>
           </sp>
@@ -6290,13 +6292,14 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
             <speaker>Madame Gérard<stage>, à Caroline et à Louis Guérin. </stage></speaker>
             <p>Nos malheurs sont irréparables ; vous resterez ici, vous, pour que votre bonheur ne soit pas affligé de ce spectacle. Anna et moi, nous les emmènerons à la campagne. S‘il y avait une crise favorable, nous serions loin du monde… Ah ! nous avons tous fautes !</p>
           </sp>
+              <p>[ILLUSTRATION]</p>
             </div>
-            <p>[ILLUSTRATION]</p>
+        <!-- 
             <p>PARIS IMPRIMERIE GÉNÉRALE</p>
             <p>LAIIURE</p>
             <p>PARIS</p>
             <p>Imprimerie Générale Lahu 9, Rue de Fleurus, 9</p>
-            <p>— — &lt;</p>
+            <p>— — &lt;</p> -->
         </div>
     </body>
   </text>
