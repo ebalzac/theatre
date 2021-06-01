@@ -14,7 +14,7 @@
       <editor>Julien Lemaire</editor>
       </titleStmt>
       <editionStmt>
-      <edition>Cette édition électronique des œuvres dramaturgiques de Balzac constitue la première édition en ligne du théâtre balzacien dans sa versions la plus fidèle. Cette édition a été établie dans le cadre du projet PHŒBUS, financé par l’Agence nationale de la recherche (2015-2019).</edition>
+      <edition>Cette édition électronique des œuvres dramaturgiques de Balzac constitue la première édition en ligne du théâtre balzacien dans une version contemporaine de l'auteur. Cette édition a été établie dans le cadre du projet PHŒBUS, financé par l’Agence nationale de la recherche (2015-2019).</edition>
       <respStmt>
       	<name>Julien Lemaire</name>
       	<resp>Établissement du texte et stylage</resp>
@@ -122,7 +122,7 @@
             <p>D’où ! Du pays de misère.</p>
           </sp>
           <sp who="lecapitaine">
-            <speaker>Le Capitaine des Gardes.</speaker>
+            <speaker>Le Capitaine.</speaker>
             <p>Allez chercher le majordome du palais pour rendre à cet ambassadeur-là les honneurs qui lui sont dus. <stage>(Au hallebardier.)</stage> Trois jours de prison.</p>
           </sp>
           <sp who="quinola">
@@ -165,7 +165,7 @@ Pb
 Ajout de l’accent circonflexe (non présent chez hyppolite-->âmoison à cette lecture. Croyez que je professe, avec l’immense majorité des Espagnols, une aversion radicale pour… la potence.</p>
           </sp>
           <sp who="lecapitaine">
-            <speaker>Le Capitaine.</speaker>
+            <speaker><pb n="20"/>Le Capitaine.</speaker>
             <p>Et si quelque femme ambitieuse t’avait payé ta vie pour avoir celle d’une autre ?</p>
           </sp>
           <sp who="quinola">
@@ -179,7 +179,7 @@ Majuscule dans le fac‑similé-->Monseigneur <stage>(il décachette la lettre, 
           </sp>
         </div>
         <div type="scene">
-        <pb n="80" xml:id="p80"/>
+        <pb n="21" xml:id="p21"/>
           <head>Scène II</head>
           <sp who="quinola">
             <speaker>Quinola, <stage>seul, sur le devant de la scène, en regardant le capitaine</stage>.</speaker>
@@ -270,7 +270,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Je n’ai plus que trente doublons, mais je fais de l’effet pour soixante… Hein ! quel parfum ? La marquise pourra me parler sans crainte…</p>
           </sp>
           <sp who="lamarquise">
-            <speaker><pb n="**"/>La Marquise, <stage> montrant Quinola</stage>.</speaker>
+            <speaker><pb n="26" xml:id="p26"/>La Marquise, <stage> montrant Quinola</stage>.</speaker>
             <p>Est-ce là noire homme ?</p>
           </sp>
           <sp who="lecapitaine">
@@ -302,7 +302,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Ne prenez pas la perspicacité pour de l’impertinence. Vous voulez m’étudier avant d’en venir au fait, je vais vous dire mon caractère : mon vrai nom est Lavradi. En ce moment, Lavradi devrait être en Afrique pour dix ans, aux présides, une erreur des alcades de Barcelone. Quinola est la conscience, blanche comme vos belles mains, de Lavradi. Quinola ne connaît pas Lavradi. L’âme connait-elle le corps ? Vous pourriez faire rejoindre l’âme — Quinola, au corps — Lavradi, d’autant plus facilement que ce matin, Quinola se trouvait à la petite porte de votre jardin, avec les amis de l’aurore qui ont arrêté le duc d’OImédo…</p>
           </sp>
           <sp who="lamarquise">
-            <speaker><pb n="**"/>La Marquise.</speaker>
+            <speaker><pb n="27" xml:id="p27"/>La Marquise.</speaker>
             <p>Que lui est-il arrivé ?</p>
           </sp>
           <sp who="quinola">
@@ -314,7 +314,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Vous vous occupez beaucoup trop de vous…</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="28" xml:id="p28"/>Quinola.</speaker>
             <p>Et pas assez de lui… c’est juste. Le duc nous a pris pour de vils assassins, nous lui demandions seulement, d’un peu trop bonne heure un emprunt hypothéqué sur nos rapières. Le fameux Majoral qui nous commandait, vivement pressé par le duc, a été forcé de le mettre hors de combat par une petite botte dont il a le secret…</p>
           </sp>
           <sp who="lamarquise">
@@ -334,7 +334,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Quand nous avons vu que le duc n’avait pas un maravédis, — quelle imprudence ! — on l’a laissé là. Comme j’étais de tous ces braves gens, le moins compromis, on m’a chargé de le reconduire ; en remettant ses poches à l’endroit, j’ai trouvé le billet que vous lui avez écrit ; et, en m’informant de votre position à la cour, j’ai compris…</p>
           </sp>
           <sp who="lamarquise">
-            <speaker>La Marquise.</speaker>
+            <speaker><pb n="29" xml:id="p29"/>La Marquise.</speaker>
             <p>Que ta fortune était faite ?</p>
           </sp>
           <sp who="quinola">
@@ -362,7 +362,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Lavradi aura sa grâce. Que veut Quinola ? entrer à mon service.</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="30" xml:id="p30"/>Quinola.</speaker>
             <p>Les enfants trouvés sont gentilshommes : Quinola vous rendra voire billet sans vous demander un maravédis, sans vous obliger à rien d’indigne de vous, et il compte que vous vous dispenserez d’en vouloir à la tête d’un pauvre diable qui porte sous sa besace le cœur du Cid.</p>
           </sp>
           <sp who="lamarquise">
@@ -386,7 +386,7 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Tu veux ?</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola.</speaker>
+            <speaker><pb n="31" xml:id="p31"/>Quinola.</speaker>
             <p>Je veux… parler au roi… là, quand il passera pour aller à la chapelle ; rendez-le favorable à ma requête.</p>
           </sp>
           <sp who="lamarquise">
@@ -410,13 +410,13 @@ Indentation différente et pas de parenthèses dans les versions fac‑similaire
             <p>Au fait.</p>
           </sp>
           <sp who="quinola">
-            <speaker><!-- Julien LEMAIRE : 2021-05-17T17:38:51.503786227
+            <speaker><pb n="32" xml:id="p32"/><!-- Julien LEMAIRE : 2021-05-17T17:38:51.503786227
 Monologue sur deux pages. P32
 -->Quinola.</speaker>
             <p>Le seigneur Alfonso Fontanarès est venu de la Catalogne ici pour offrir au roi notre maître le sceptre de la mer.À Barcelone, on l’a pris pour un fou, ici pour un sorcier. Quand on a su ce qu’il promet, on l’a berné dans les antichambres. Celui-ci voulait le protéger pour le perdre, celui-là mettait en doute notre secret pour le lui arracher : c’était un savant ; d’autres lui proposaient d’en faire une affaire : des capitalistes qui voulaient l’entortiller. De la façon dont allaient les choses, nous ne savions que devenir. Personne assurément ne peut nier la puissance de la mécanique et de la géométrie, mais les plus beaux théorèmes sont peu nourrissants et le plus petit civet est meilleur pour l’estomac : vraiment, c’est un des défauts de la science. Cet hiver, mon maître et moi, nous nous chauffions de nos projets et nous remâchions nos illusions… Eh bien, Madame, il est en prison, car on l’accuse d’être au mieux avec le diable ; et malheureusement, cette fois, le saint Office a raison, nous l’avons vu constamment au fond de notre bourse. Eh ! bien, Madame, je vous en supplie, inspirez au roi la curiosité de voir un homme qui lui apporte une domination aussi étendue que celle que Colomb a donnée à l’Espagne.</p>
           </sp>
           <sp who="lamarquise">
-            <speaker>La Marquise.</speaker>
+            <speaker><pb n="33" xml:id="p33"/>La Marquise.</speaker>
             <p>Mais depuis que Colomb a donné le Nouveau-Monde à l’Espagne, on nous en offre un tous les quinze jours !</p>
           </sp>
           <sp who="quinola">
@@ -432,7 +432,7 @@ Monologue sur deux pages. P32
             <p>Encore une fois, ne riez pas, Madame ! Il s’agit de faire aller les vaisseaux sans voiles, ni rames, malgré le vent, au moyen d’une marmite pleine d’eau qui bout.</p>
           </sp>
           <sp who="lamarquise">
-            <speaker><pb n="**"/>La Marquise.</speaker>
+            <speaker><pb n="34" xml:id="p34"/>La Marquise.</speaker>
             <p>Ah ça ! d’où viens-lu ? Que dis-tu ? Rêves-tu ?</p>
           </sp>
           <sp who="quinola">
@@ -453,7 +453,7 @@ Monologue sur deux pages. P32
           </sp>
         </div>
         <div type="scene">
-        	<pb n="**"/>
+        	<pb n="35" xml:id="p35"/>
           <head>Scène VII.</head>
           <stage>Le Capitaine Des Gardes, Les Courtisans, Quinola.</stage>
           <sp who="quinola">
@@ -461,9 +461,8 @@ Monologue sur deux pages. P32
 Pas de virgule, mais j’ai préféré l’ajouter.-->,<stage> sur le devant</stage>.</speaker>
             <p>Il ne suffit donc pas d’avoir du génie et d’en user, car il y en a qui le dissimulent avec bien du bonheur, il faut encore des circonstances : une lettre trouvée qui mette une favorite en péril, pour obtenir une langue qui parle, et la perte de la plus grande des flottes, pour ouvrir les oreilles à un prince. Le hasard est un fameux misérable ! Allons ! dans le duel de Fontanarès avec son siècle, voici pour son pauvre second le moment de se montrer !… <stage>(On entend les cloches, on porte les armes.)</stage> Est-ce un présage du succès ? <stage>(Au capitaine des gardes.)</stage> Gomment parle-t-on au roi ?</p>
           </sp>
-        <pb n="**"/>
           <sp who="lecapitaine">
-            <speaker><pb n="**"/>Le Capitaine.</speaker>
+            <speaker><pb n="36" xml:id="p36"/>Le Capitaine.</speaker>
             <p>Tu t’avanceras, tu plieras le genou, tu diras : Sire !… Et prie Dieu de conduire ta langue. <!-- Julien LEMAIRE : 2021-05-17T17:51:35.351105647
 Même remarque sur l’indentation particulière de cette didascalie = p41
 --><stage>(Le cortège défile.)</stage></p>
@@ -483,6 +482,7 @@ Didascalie indentée de façon particulière. p41--><stage>(Tableau.)</stage></p
           </sp>
         </div>
         <div type="scene">
+        <pb n="37" xml:id="p37"/>
           <head>Scène VIII.</head>
           <stage rend="i">Les Précédents, La Reine, Le Roi, La Marquise de Mondéjar, Le Grand-Inquisiteur, Toute la Cour.</stage>
           <sp who="philippeii">
@@ -503,7 +503,7 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <p>Le plus petit et le plus dévoué de vos sujets, le valet d’un homme qui gémit dans les prisons du Saint-Office, accusé de magie pour vouloir donner à Votre Majesté les moyens d’éviter de pareils désastres…</p>
           </sp>
           <sp who="philippeii">
-            <speaker><pb n="**"/>Philippe II.</speaker>
+            <speaker><pb n="38" xml:id="p38"/>Philippe II.</speaker>
             <p>Si tu n’es qu’un valet, lève-toi. Les grands doivent seuls, ici, fléchir devant le roi.</p>
           </sp>
           <sp who="quinola">
@@ -523,7 +523,7 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <p>Mon père, <stage>(Le Grand-Inquisiteur s’approche)</stage> que pouvez-vous nous dire d’un certain Alfonso Fontanarès ?</p>
           </sp>
           <sp who="legrandinquisiteur">
-            <speaker>Le Grand Inquisiteur.</speaker>
+            <speaker><pb n="39" xml:id="p39"/>Le Grand Inquisiteur.</speaker>
             <p>C’est un élève de Galilée, il professe sa doctrine condamnée et se vante de pouvoir faire des prodiges en refusant d’en dire les moyens. Il est accusé d’être plus Maure qu’Espagnol.</p>
           </sp>
           <sp who="quinola">
@@ -531,7 +531,7 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <p>Cette face blême va tout gâter… <stage>(au roi.)</stage> Sire, mon maître, pour toute sorcellerie, est amoureux fou, d’abord de la gloire de Votre Majesté, puis d’une fille de Rarcelone, héritière de Lothundiaz, le plus riche bourgeois de la ville. Comme il avait ramassé plus de science que de richesse en étudiant les sciences naturelles en Italie, le pauvre garçon ne pouvait réussir à épouser cette fiille que couvert de gloire et d’or… Et voyez, Sire, comme on calomnie les grands hommes : il fit, dans son désespoir, un pèlerinage à Notre-Dame-del-Pilar, pour la prier de l’assister, parce que celle qu’il aime se nomme Marie. Au sortir de l’église, il s’assit fatigué sous un arbre, s’endormit, la Madone lui apparut et lui conseilla cette invention de faire marcher les vaisseaux sans voiles, sans rames, contre vent et marée. Il est venu vers vous, Sire : on s’est mis entre le soleil et lui, et après une lutte acharnée avec les nuages, il expie sa croyance en Notre-Dame-del-Pilar et en son roi. Il ne lui reste que son valet assez courageux pour venir mettre à vos pieds l’avis qu’il existe un moyen de réaliser la domination universelle.</p>
           </sp>
           <sp who="philippeii">
-            <speaker>Philippe II.</speaker>
+            <speaker><pb n="40" xml:id="p40"/>Philippe II.</speaker>
             <p>Je verrai ton maitre au sortir de la chapelle.</p>
           </sp>
           <sp who="legrandinquisiteur">
@@ -551,7 +551,7 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <p>Je les connais. Obéis et tais-toi. Je te dois un otage, je le le sais… <stage>(Il regarde.)</stage> Où donc est le duc d’Olmédo ?</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola,<stage> à part</stage>.</speaker>
+            <speaker><pb n="41" xml:id="p41"/>Quinola,<stage> à part</stage>.</speaker>
             <p>Aye ! aye !</p>
           </sp>
           <sp who="lamarquise">
@@ -575,7 +575,7 @@ Indent p42--><stage>(Il plie un genou.)</stage></p>
             <p>Et si le duc ne vient pas ?…</p>
           </sp>
           <sp who="philippeii">
-            <speaker><pb n="**"/>Philippe II.</speaker>
+            <speaker><pb n="42" xml:id="p42"/>Philippe II.</speaker>
             <p>Il serait donc mort. <stage>(Au capitaine.)</stage> Tu le remplaceras dans l’exécution de mes ordres.<!-- Julien LEMAIRE : 2021-05-17T18:10:46.523787775
 Indent p47--><stage>(Il passe.)</stage></p>
           </sp>
@@ -586,7 +586,7 @@ Indent p47--><stage>(Il passe.)</stage></p>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Comptez sur moi, mais protégez-nous. <stage>(seul.)</stage> Sangodémi, le roi m’a paru charmé de mon invention de Notre-Dame-del-Pilar, je lui fais vœu… de quoi ?… Nous verrons après le succès.</p>
-            <p>Le théâtre change et représente un cachot de l’Inquisition.</p>
+            <stage>Le théâtre change et représente un cachot de l’Inquisition.</stage>
           </sp>
         </div>
         <div type="scene">
@@ -597,7 +597,7 @@ Indent p47--><stage>(Il passe.)</stage></p>
             <p>Je comprends maintenant pourquoi Colomb a voulu que ses chaînes fussent mises près de lui dans son cercueil. Quelle leçon pour les inventeurs ! Une grande découverte est une <!-- Julien LEMAIRE : 2021-05-17T18:16:09.407717586
 Mise en italique dans le fac‑similé 
 -->vérité. La vérité ruine tant d’abus et d’erreurs<!-- Julien LEMAIRE : 2021-05-17T18:17:18.341241548
-emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité : ils commencent par s’attaquer à l’homme. Aux novateurs, la patience ! j’en aurai. Malheureusement, ma patience me vient de mon amour. Pour avoir Marie, je rêve la gloire et je cherchais… Je vois voler au-dessus d’une chaudière un brin de paille. Tous les hommes ont vu cela depuis qu’il y a des chaudières et de la paille ; moi j’y vois une force ; pour l’évaluer, je couvre la chaudière, le couvercle saute et il ne me tue pas. Archimède et moi, nous ne faisons qu’un ! il voulait un levier pour soulever le monde : ce levier,je le tiens, et j’ai la sottise de le dire : tous les malheurs fondent sur moi. Si je meurs, homme de génie à venir qui retrouveras ce secret, agis et lais-toi. La lumière que nous découvrons, on nous la prend pour allumer notre bûcher. Galilée, mon maître, est en prison pour avoir dit que la terre tourne, et j’y suis pour la vouloir organiser. Non ! j’y suis comme rebelle à la cupidité de ceux qui veulent mon secret ; si je n’aimais pas Marie, je sortirais ce soir, je leur abandonnerais le profit, la gloire me resterait… Oh ! rage… La rage est bonne pour les enfants : soyons calme, je suis puissant. Si du moins j’avais des nouvelles du seul homme qui ait foi en moi ? Est-il libre, lui qui mendiait pour me nourrir… La foi n’est que chez le pauvre, il en a tant besoin !</p>
+emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité : ils commencent par s’attaquer à l’homme. Aux novateurs, la patience ! j’en aurai. Malheureusement, ma patience me vient de mon amour. Pour avoir Marie, je rêve la gloire et je cherchais… Je vois voler au-dessus d’une chaudière un brin de paille. Tous les hommes ont vu cela depuis qu’il y a des chaudières et de la paille ; moi j’y vois une force ; pour l’évaluer, je couvre la chaudière, le couvercle saute et il ne me tue pas. Archimède et moi, nous ne faisons qu’un ! il voulait un levier pour soulever le monde : ce levier,je le tiens, et j’ai la sottise de le dire : tous les malheurs fondent sur moi. <pb n="44" xml:id="p44"/>Si je meurs, homme de génie à venir qui retrouveras ce secret, agis et lais-toi. La lumière que nous découvrons, on nous la prend pour allumer notre bûcher. Galilée, mon maître, est en prison pour avoir dit que la terre tourne, et j’y suis pour la vouloir organiser. Non ! j’y suis comme rebelle à la cupidité de ceux qui veulent mon secret ; si je n’aimais pas Marie, je sortirais ce soir, je leur abandonnerais le profit, la gloire me resterait… Oh ! rage… La rage est bonne pour les enfants : soyons calme, je suis puissant. Si du moins j’avais des nouvelles du seul homme qui ait foi en moi ? Est-il libre, lui qui mendiait pour me nourrir… La foi n’est que chez le pauvre, il en a tant besoin !</p>
           </sp>
         </div>
         <div type="scene">
@@ -625,7 +625,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Vous dites une parole impie : le démon a un maître, nos auto-da-fés le prouvent.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="46" xml:id="p46"/>Fontanarès.</speaker>
             <p>Avez-vous jamais vu un vaisseau en mer ? <stage>(Le Grand Inquisiteur fait un signe affirmatif.)</stage> Par quel moyen allait-il ?</p>
           </sp>
           <sp who="legrandinquisiteur">
@@ -645,7 +645,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Peut-être est-il devenu quelque puissance maritime oubliée… Enfin mon moyen est aussi naturel que le sien : j’ai vu comme lui dans la nature une force, et que l’homme peut s’approprier, car le vent est à Dieu ; l’homme n’en est pas le maitre, le vent emporte ses vaisseaux, et ma force à moi est dans le vaisseau…</p>
           </sp>
           <sp who="legrandinquisiteur">
-            <speaker>Le Grand Inquisiteur,
+            <speaker><pb n="47" xml:id="p47"/>Le Grand Inquisiteur,
         <stage> à part</stage>.</speaker>
             <p>Cet homme sera bien dangereux. <stage>(Haut)</stage> Et vous refusez do nous la dire !…</p>
           </sp>
@@ -666,7 +666,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Le hasard !</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="48" xml:id="p48"/>Fontanarès.</speaker>
             <p>J’ai tort. Je rendrais à Dieu la pensée que Dieu m’envoya.</p>
           </sp>
           <sp who="legrandinquisiteur">
@@ -690,7 +690,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Quinola ! et dans quelle livrée !</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="49" xml:id="p49"/>Quinola.</speaker>
             <p>Celle du succès, vous serez libre.</p>
           </sp>
           <sp who="fontanares">
@@ -718,7 +718,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
             <p>Ah ! vous vouliez le faire bouillir dans vos chaudières pleines d’huile, merci ! Les siennes vont nous faire faire le tour du monde… comme ça ! <stage>(Il fait tourner son chapeau.)</stage></p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="50" xml:id="p50"/>Fontanarès.</speaker>
             <p>Embrasse-moi donc, et dis-moi comment…</p>
           </sp>
           <sp who="leducdolmedo">
@@ -843,7 +843,7 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
             <p>En me donnant le vaisseau, Sire, vous m’avez fait justice ; en me le donnant à Barcelone, vous me faites une grâce qui change votre sujet en esclave.</p>
           </sp>
           <sp who="philippeii">
-            <speaker>Philippe II.</speaker>
+            <speaker><pb n="56" xml:id="p56"/>Philippe II.</speaker>
             <p>Perdre un vaisseau de l’État, c’est risquer ta tête. La loi le veut ainsi…</p>
           </sp>
           <sp who="fontanares">
@@ -863,7 +863,7 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
             <p>Tu seras don Alfonso Fontanarès, duc de… Neptunado, grand d’Espagne…</p>
           </sp>
           <sp who="leducdelerme">
-            <speaker>Le Duc De Lerme.</speaker>
+            <speaker><pb n="p57" xml:id="p57"/>Le Duc De Lerme.</speaker>
             <p>Sire… les statuts de la grandesse.</p>
           </sp>
           <sp who="philippeii">
@@ -884,7 +884,7 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
 Majuscule dans le fac‑similé. p63-->Royauté.</p>
           </sp>
           <sp who="philippeii">
-            <speaker><pb n="**"/>Philippe II.</speaker>
+            <speaker><pb n="58" xml:id="p58"/>Philippe II.</speaker>
             <p>Tout progrès vient du ciel.</p>
           </sp>
           <sp who="legrandinquisiteur">
@@ -897,7 +897,7 @@ Majuscule dans le fac‑similé. p63-->Royauté.</p>
 Ajout d’un point d’interrogation qui me paraît être manquant.--> ?… <stage>(à Fontanarès.)</stage> Donc, grand d’Espagne de première classe, et je mettrai sur ta poitrine la Toison-d’Or : tu seras enfin grand-maître des constructions navales de l’Espagne et des Indes… <stage>(À un ministre.)</stage> Président, tu expédieras aujourd’hui même, sous peine de me déplaire, l’ordre de mettre à la disposition de cet homme, dans notre port de Barcelone, un vaisseau à son choix, et… qu’on ne fasse aucun obstacle à son entreprise.</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola.</speaker>
+            <speaker><pb n="59" xml:id="p59"/>Quinola.</speaker>
             <p>Sire…</p>
           </sp>
           <sp who="philippeii">
@@ -917,7 +917,7 @@ Ajout d’un point d’interrogation qui me paraît être manquant.--> ?… <st
             <p>Indulgent, Sire, c’est presque la même chose.</p>
           </sp>
           <sp who="fontanares">
-            <speaker>Fontanarès.</speaker>
+            <speaker><pb n="60" xml:id="p60"/>Fontanarès.</speaker>
             <p>Grâce pour le seul homme qui m’ait soutenu dans ma lutte</p>
           </sp>
           <sp who="philippeii">
@@ -937,7 +937,7 @@ Ajout d’un point d’interrogation qui me paraît être manquant.--> ?… <st
             <p>Voici votre lettre, mais, entre nous, n’écrivez plus.</p>
           </sp>
           <sp who="lamarquise">
-            <speaker><pb n="**"/>La Marquise.</speaker>
+            <speaker><pb n="61" xml:id="p61"/>La Marquise.</speaker>
             <p>Nous sommes sauvés. <!-- Julien LEMAIRE : 2021-05-17T21:00:30.344666859
 Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
           </sp>
@@ -954,7 +954,7 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
             <p>Et les constructions navales ? Nous allons avoir les fournisseurs à protéger. La cour est un drôle de pays, j’y réussirais : que faut-il ? De l’audace ! j’en puis vendre ; de la ruse ? et le roi qui croit que c’est Notre-Dame-del-Pilar… <stage>(Il rit.)</stage> qui… Eh ! Bien, à quoi donc pense mon maître ?</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="62" xml:id="p62"/>Fontanarès.</speaker>
             <p>Allons !</p>
           </sp>
           <sp who="quinola">
@@ -970,7 +970,7 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage></p>
             <p>Non… au cabaret… Si l’air de la cour donne bon appétit aux courtisans, il me donne soif, à moi… Et après, mon glorieux maître,vous verrez à l’œuvre votre Quinola ; car, ne nous abusons pas : entre la parole du prince et le succès, nous rencontrerons autant de jaloux, de chicaniers, d’ergoteurs, de malveillants, d’animaux crochus, rapaces, voraces, écumeurs de grâces, vos charençons enfin ! Que nous en avons trouvés entre vous et le roi.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="63" xml:id="p63"/>Fontanarès.</speaker>
             <p>Et pour obtenir Marie, il faut réussir.</p>
           </sp>
           <sp who="quinola">
@@ -1053,7 +1053,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>Tu y restes bien. Moi, j’ai dans ma résille mes lettres de grâce. En attendant un marquisat et une famille, je me nomme Quinola.</p>
           </sp>
           <sp who="monipodio">
-            <speaker>Monipodio.</speaker>
+            <speaker><pb n="71" xml:id="p71"/>Monipodio.</speaker>
             <p>A qui donc as-tu volé ta grâce ?</p>
           </sp>
           <sp who="quinola">
@@ -1081,7 +1081,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>Jetais bien incompris, mon ami ! Traqué par nos ennemis politiques…</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola.</speaker>
+            <speaker><pb n="72" xml:id="p72"/>Quinola.</speaker>
             <p>Les corrégidors, alcades et alguazils.</p>
           </sp>
           <sp who="monipodio">
@@ -1105,7 +1105,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>Oh ! tu reviens de la cour. Et que veux-tu prendre ici ?</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="73" xml:id="p73"/>Quinola.</speaker>
             <p>Ecoute ? <stage>(À part.)</stage> Voilà mon homme, un œil dans Barcelone. <stage>(Haut.)</stage> D’après ce que tu viens de me dire, nous sommes amis comme…</p>
           </sp>
           <sp who="monipodio">
@@ -1125,7 +1125,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>En Vénitien, Brancador. Le beau nom ! Elle doit être veuve d’un patricien.</p>
           </sp>
           <sp who="monipodio">
-            <speaker><pb n="**"/>Monipodio.</speaker>
+            <speaker><pb n="74" xml:id="p74"/>Monipodio.</speaker>
             <p>Vingt-deux ans, fine comme le musc, gouvernant le gouverneur, et <stage>(ceci entre nous)</stage> l’ayant déjà diminué de tout ce qu’il a ramassé sous Charles-Quint dans les guerres d’Italie. Ce qui vient de la flûte…</p>
           </sp>
           <sp who="quinola">
@@ -1145,7 +1145,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>Ce vieux général est encore assez jeune pour m’employer à surveiller la Brancador, elle, me paie pour être libre ; et… comprends-tu comment je mène joyeuse vie en ne faisant pas de mal.</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="75" xml:id="p75"/>Quinola.</speaker>
             <p>Et tu tâches de tout savoir, curieux, pour mettre le poing sous la gorge à l’occasion. <stage>(Monipodio fait un signe affirmatif.)</stage> Lothundiaz existe-t il toujours ?</p>
           </sp>
           <sp who="monipodio">
@@ -1169,7 +1169,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
             <p>Ne pourrais-je entrer à son service ?</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="76" xml:id="p76"/>Quinola.</speaker>
             <p>Je compte bien sur ta collaboration ici… Écoute, Monipodio ? nous revenons changer la face du monde. Mon maître a promis au roi de faire marcher un des des plus beaux vaisseaux, sans voiles, ni rames, contre le vent, plus vite que le vent.</p>
           </sp>
           <sp who="monipodio">
@@ -1182,7 +1182,7 @@ Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</spe
 Je pense que ce point est en trop. p81-->. ne doivent s’étonner de rien. C’est petites gens. Le roi nous a donné le vaisseau, mais sans un doublon pour l’aller chercher. Nous arrivons donc ici avec les deux fidèles compagnons du talent : la faim et la soif. Un homme pauvre qui trouve une bonne idée m’a toujours fait l’effet d’un morceau de pain dans un vivier : chaque poisson vient lui donner un coup de dent. Nous pourrons arriver à la gloire nus et mourants.</p>
           </sp>
           <sp who="monipodio">
-            <speaker><pb n="**"/>Monipodio.</speaker>
+            <speaker><pb n="77" xml:id="p77"/>Monipodio.</speaker>
             <p>Tu es dans le vrai.</p>
           </sp>
           <sp who="quinola">
@@ -1202,7 +1202,7 @@ Je pense que ce point est en trop. p81-->. ne doivent s’étonner de rien. C’
             <p>Oh ! prenant un maître, tu l’as dû choisir…</p>
           </sp>
           <sp who="quinola">
-            <speaker><pb n="**"/>Quinola.</speaker>
+            <speaker><pb n="78" xml:id="p78"/>Quinola.</speaker>
             <p>Le dévouement, l’adresse valent mieux pour lui que l’argent et la faveur ; car, pour lui, la faveur et l’argent seront des trébuchets. Je le connais : il nous donnera ou nous laissera prendre de quoi finir nos jours en honnêtes gens.</p>
           </sp>
           <sp who="monipodio">
@@ -1223,7 +1223,7 @@ Je pense que ce point est en trop. p81-->. ne doivent s’étonner de rien. C’
 « o » ou « a ». « o » dans la version fac‑similaire. p83-->oyeurs, et nos ouvriers en serrurerie.</p>
           </sp>
           <sp who="monipodio">
-            <speaker>Monipodio.</speaker>
+            <speaker><pb n="79" xml:id="p79"/>Monipodio.</speaker>
             <p>Dame ! dans l’intérêt de l’État…</p>
           </sp>
           <sp who="quinola">
@@ -1250,7 +1250,7 @@ Indent. p84-->Paquita se montre au balcon</stage>
 Point d’interrogation ou pas ?-->.</p>
           </sp>
           <sp who="monipodio">
-            <speaker><pb n="**"/>Monipodio.</speaker>
+            <speaker><pb n="80" xml:id="p80"/>Monipodio.</speaker>
             <p>D’autant plus que, selon un vieil auteur, nous sommes l’humanité… Il faut que je t’embrasse…</p>
           </sp>
         </div>
@@ -1340,9 +1340,8 @@ Indent. p89-->Elle le laisse.</stage>
             <speaker>Paquita.</speaker>
             <p>Madame me dit de savoir pour le compte de qui Monipodio se trouve là, mais… je ne vois plus personne.</p>
           </sp>
-        <pb n="86" xml:id="p86"/>
           <sp who="monipodio">
-            <speaker><pb n="**"/>Monipodio.</speaker>
+          	<speaker><pb n="86" xml:id="p86"/>Monipodio.</speaker>
             <p>L’aumône, ma chère enfant, est un revenu qu’on se fait dans le ciel.</p>
           </sp>
           <sp who="paquita">
@@ -1481,7 +1480,7 @@ Indent. P95.--><stage>(Il l’emmène.)</stage></p>
             <p>Ce qui m’intéresse, Marie, est d’apprendre, avant de m’engager dans une affaire capitale, si vous aurez le courage de résister à votre père qui, dit-on, veut vous marier.</p>
           </sp>
           <sp who="marie">
-            <speaker><pb n="**"/>Marie.</speaker>
+            <speaker><pb n="92" xml:id="p92"/>Marie.</speaker>
             <p>Ai-je donc changé ?</p>
           </sp>
           <sp who="fontanares">
@@ -1523,7 +1522,7 @@ Indent. p99--><stage>(Jeu de scène entre Monipodio et Lothundiaz.)</stage></p>
 Indent. P 99--><stage>(Monipodio fait des signes à Quinola.)</stage></p>
           </sp>
           <sp who="marie">
-            <speaker><pb n="**"/>Marie.</speaker>
+            <speaker><pb n="95" xml:id="p95"/>Marie.</speaker>
             <p>Alfonso Fontanarès, mon père, n’est plus sans fortume, il a vu le roi.</p>
           </sp>
           <sp who="lothundiaz">
@@ -1548,7 +1547,7 @@ Indent p100--><stage>(Lotliundiaz cherche autour de lui le duc.)</stage></p>
             <p>Mais, c’est lui, mon père.</p>
           </sp>
           <sp who="lothundiaz">
-            <speaker><pb n="**"/>Lothundiaz.</speaker>
+            <speaker><pb n="96" xml:id="96"/>Lothundiaz.</speaker>
             <p>Toi ! que j’ai vu grand comme ça, dont le père vendait du drap, me prcnds-tu pour un nigaud ?</p>
           </sp>
         </div>
@@ -1588,7 +1587,7 @@ Indent p100--><stage>(Lotliundiaz cherche autour de lui le duc.)</stage></p>
             <p>Ah ! vous croyez qu’un bourgeois devient grand seigneur avec les patentes du roi . Voyons ? Figurez-vous que je suis marquis de Lavradi ? Mon cher, prête-moi cent ducats ?</p>
           </sp>
           <sp who="lothundiaz">
-            <speaker><pb n="**"/>Lothundiaz.</speaker>
+            <speaker><pb n="98" xml:id="p98"/>Lothundiaz.</speaker>
             <p>Cent coups de bâton ! Cent ducats ?… le revenu d’une terre de deux mille écus d’or.</p>
           </sp>
           <sp who="quinola">
@@ -1609,11 +1608,11 @@ Indent p100--><stage>(Lotliundiaz cherche autour de lui le duc.)</stage></p>
             <p>Ils veulent me berner. <stage>(Haut.)</stage> Tu feras marcher les vaisseaux tout seuls, je le veux bien, j’irai voir ça. Ça m’amusera. Mais je ne veux pas pour gendres, d’hommes à grandes visées. Les filles élevées dans nos familles n’ont pas besoin de prodiges, mais d’un homme qui se résigne à s’occuper de son ménage, et non des affaires du soleil et de la lune. Être bon père de famille est le seul prodige que je veuille en ceci.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="99" xml:id="p99"/>Fontanarès.</speaker>
             <p>A l’âge de douze ans, votre fille, Seigneur, m’a souri comme Beatrix à Dante. Enfant, elle a vu d’abord un frère en moi ; puis, quand nous nous sommes sentis séparés par la fortune, elle m’a vu concevant l’entreprise hardie de combler cette distance à force de gloire. Je suis allé pour elle en Italie, étudier avec Galilée. Elle a, la première, applaudi à mon œuvre, elle l’a comprise ! elle a épousé ma pensée avant de m’épouser moi-même ; elle est ainsi devenue pour moi le monde entier : comprenez-vous maintenant combien je l’idolâtre ?</p>
           </sp>
           <sp who="lothundiaz">
-            <speaker><pb n="**"/>Lothundiaz.</speaker>
+            <speaker><pb n="100" xml:id="p100"/>Lothundiaz.</speaker>
             <p>Et c’est justement pour cela que je ne le la donne pas ! Dans dix ans, elle serait abandonnée pour quelque autre découverte à faire…</p>
           </sp>
           <sp who="marie">
@@ -1637,7 +1636,7 @@ Point d’interrogation manquant ? P 105--> ? Les <!-- Julien LEMAIRE : 2021-
 emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus découvreurs de mondes.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="101"/>Fontanarès.</speaker>
             <p>Mais voici les lettres par lesquelles le roi me donne un vaisseau.</p>
           </sp>
           <sp who="quinola">
@@ -1670,7 +1669,7 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <p>Oh ! contre mon père.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="103" xml:id="p103"/>Fontanarès.</speaker>
             <p>Eh bien, dites-lui donc, Marie, tout ce que je fais pour vous mériter.</p>
           </sp>
           <sp who="sarpi">
@@ -1695,7 +1694,7 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <p>Pour n’ètre ni volé, ni damné, je garde ma fille à un homme qui n’aura pas de génie, c’est vrai, mais du bon sens…</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="104" xml:id="p104"/>Fontanarès.</speaker>
             <p>Attendez, du moins.</p>
           </sp>
           <sp who="sarpi">
@@ -1720,10 +1719,10 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
-            <p>Salut, monsieur le secrétaire, <stage>(a Fontanarès.)</stage> Adieu, mon cher, votre arrivée est une raison pour moi de presser le mariage, <stage>(À Marie.)</stage> Allons, rentrez, ma fille. <stage>(À la duègne.)</stage> Et vous, sorcière, vous allez avoir votre compte<stage>.</stage></p>
+            <p>Salut, monsieur le secrétaire, <stage>(a Fontanarès.)</stage> Adieu, mon cher, votre arrivée est une raison pour moi de presser le mariage, <stage>(À Marie.)</stage> Allons, rentrez, ma fille. <stage>(À la duègne.)</stage> Et vous, sorcière, vous allez avoir votre compte.</p>
           </sp>
           <sp who="sarpi">
-            <speaker><pb n="**"/>Sarpi, <stage>à Lothundiaz</stage>.</speaker>
+            <speaker><pb n="105" xml:id="p105"/>Sarpi, <stage>à Lothundiaz</stage>.</speaker>
             <p>Cet hidalgo donc des prétentions ?</p>
           </sp>
           <sp who="fontanares">
@@ -1748,7 +1747,7 @@ emphase-->si sont les chevaux qui mènent à l’hôpital tous ces prétendus d�
             <p>Je ne savais pas, Monseigneur, avoir un si grand personnage pour rival. Eh ! bien, futur duc de Neptunado, futur grand, futur chevalier de la Toison-d’Or, nous aimons la même femme ; et si vous avez la promesse de Marie, j’ai celle du père ; vous attendez des honneurs, j’en ai.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="107" xml:id="p107"/>Fontanarès.</speaker>
             <p>Tenez, restons-en là. Ne prononcez pas un mot de plus, ne vous permettez pas un regard qui puisse m’offenser… vous seriez un lâche. Eussé-je cent querelles, je ne veux me battre avec personne qu’après avoir terminé mon entreprise et répondu par le succès à l’attente de mon roi. Je me bats en ce moment seul contre tous. Quand j’en aurai fini avec mon siècle, vous me retrouverez… près du roi.</p>
           </sp>
           <sp who="sarpi">
@@ -1787,7 +1786,7 @@ Ajout d’un point d’interrgation. Pertinent ou non ?--> ?</p>
 Indent, p113--><stage>(Il remet un paquet.)</stage></p>
           </sp>
           <sp who="faustine">
-            <speaker>Faustine,<stage> à Paquita</stage>.</speaker>
+            <speaker><pb n="109" xml:id="p109"/>Faustine,<stage> à Paquita</stage>.</speaker>
             <p>Cet homme a l’air d’un roi.</p>
           </sp>
           <sp who="paquita">
@@ -1815,7 +1814,7 @@ Indent, p113--><stage>(Il remet un paquet.)</stage></p>
             <p>Tenez, Sarpi, voici la lettre du ministre, je garde celle du roi, <stage>(a Fontanarôs.)</stage> Eh ! Bien mon garçon, la lettre du roi me semble positive. Vous entreprenez de réaliser l’impossible ! quelque grand que vous vous fassiez, peut-être devriez-vous, dans cette affaire, prendre les conseils de don Ramon, un savant de Catalogne, qui, dans cette partie, a écrit des traités fort estimés…</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="**"/>Fontanarès.</speaker>
+            <speaker><pb n="110" xml:id="p110"/>Fontanarès.</speaker>
             <p>En ceci, Excellence, les plus belles dissertations du monde ne valent pas l’œuvre.</p>
           </sp>
           <sp who="donfregose">
@@ -1836,7 +1835,7 @@ Ajout d’un point d’interrogation.--> ?</p>
             <p>On nous a d’ailleurs écrit de Valladolid.</p>
           </sp>
           <sp who="faustine">
-            <speaker>Faustine,<stage> au vice-roi</stage>.</speaker>
+            <speaker><pb n="111" xml:id="p111"/>Faustine,<stage> au vice-roi</stage>.</speaker>
             <p>De quoi s’agit-il ?</p>
           </sp>
           <sp who="donfregose">
@@ -1860,7 +1859,7 @@ Ajout d’un point d’interrogation.--> ?</p>
             <p>Vous ne me parlez pas si gracieusement, à moi ! <stage>(Haut.)</stage> Il s’est engagé sur sa tête à faire aller comme le vent, contre le vent, un vaisseau sans rames ni voiles…</p>
           </sp>
           <sp who="faustine">
-            <speaker><pb n="**"/>Faustine.</speaker>
+            <speaker><pb n="112" xml:id="p112"/>Faustine.</speaker>
             <p>Sur sa tête. Oh ! mais, c’est un enfant ?</p>
           </sp>
           <sp who="sarpi">
@@ -1893,7 +1892,7 @@ Ajout d’un point d’interrogation.--> ?</p>
             <p>Madame, ne voulez-vous pas venir prendre une collation à la villa d’Avaloros ? Une tartane vous attend au port.</p>
           </sp>
           <sp who="faustine">
-            <speaker><pb n="**"/>Faustine.</speaker>
+            <speaker><pb n="113" xml:id="p113"/>Faustine.</speaker>
             <p>Non, Monseigneur, cette fête m’a fatiguée, et notre promenade en tartane serait de trop. Je n’ai pas comme vous l’obligation de me montrer infatigable, la jeunesse aime le sommeil, trouvez bon que j’aille me reposer.</p>
           </sp>
           <sp who="donfregose">
@@ -1933,7 +1932,7 @@ Indent. p119-->Sarpi et Avaloros se parlent.</stage>
             <p>Je me sens plein de tendresse pour lui.</p>
           </sp>
           <sp who="monipodio">
-            <speaker>Monipodio.</speaker>
+            <speaker><pb n="115" xml:id="p115"/>Monipodio.</speaker>
             <p>C'est notre maître à tous !</p>
           </sp>
           <sp who="avaloros">
