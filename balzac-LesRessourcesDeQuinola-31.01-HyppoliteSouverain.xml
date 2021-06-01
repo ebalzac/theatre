@@ -735,7 +735,7 @@ emphase-->, que tous ceux qui en vivent se dressent et veulent tuer la vérité�
           <head>Scène XII.</head>
           <stage rend="i">Le Duc d’Olmédo, Le Duc de Lerme, Fontanarès, Quinola.</stage>
           <sp who="leducdolmedo">
-            <speaker><pb n="**"/>Le Duc D'Olmédo.</speaker>
+            <speaker>Le Duc D'Olmédo.</speaker>
             <p>Nous arrivons à temps !</p>
           </sp>
           <sp who="leducdelerme">
@@ -863,7 +863,7 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
             <p>Tu seras don Alfonso Fontanarès, duc de… Neptunado, grand d’Espagne…</p>
           </sp>
           <sp who="leducdelerme">
-            <speaker><pb n="p57" xml:id="p57"/>Le Duc De Lerme.</speaker>
+            <speaker><pb n="57" xml:id="p57"/>Le Duc De Lerme.</speaker>
             <p>Sire… les statuts de la grandesse.</p>
           </sp>
           <sp who="philippeii">
@@ -3043,7 +3043,7 @@ Indent p166--><stage>(Il sort.)</stage></p>
           </sp>
         </div>
         <div type="scene">
-          <pb n="**"/><head>Scène XXII.</head>
+          <pb n="176" xml:id="p176"/><head>Scène XXII.</head>
           <stage>Faustine, Mathieu Magis.</stage>
           <sp who="mathieumagis">
             <speaker>Mathieu Magis.</speaker>
