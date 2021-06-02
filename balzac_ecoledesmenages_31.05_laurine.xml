@@ -120,6 +120,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
         <head>Acte premier</head>
     
           <pb n="5" xml:id="p5"/>
+        <div type="scene">
           <head>Scène I</head>
           <stage>Victoire, d’abord seule, puis Roblot.</stage>
           <sp who="victoire">
@@ -285,16 +286,18 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Eh bien ! allez donc. <stage>(Victoire sort.)</stage></p>
+            </div>
+        </sp>
+        <div type="scene">
             <head>Scène II</head>
-          </sp>
           <sp who="roblot">
             <speaker> Roblot, <stage>seul. </stage></speaker>
             <p>Voilà les domestiques d’aujourd‘hui ! C’est des ennemis apprivoisés par l’intérêt. Quand j’en aurai, je ne sais pas comment je ferai, moi qui m’étais tant promis de ne jamais avoir que ceux des autres. <stage>(Il va jusqu’à la porte de l’appartement.)</stage> Elle ne m’écoute pas ? Non. <stage>(Il revient.) </stage>Elle a remarqué ma tenue extraordinaire dès le matin. Je prétexterai un rendez-vous pour quelque affaire importante, et personne ne devinera le secret de la démarche que je vais tenter. Me voilà donc, malgré mon impassibilité, jeté comme acteur dans le drame qui se joue ici, après m‘être bien promis, en entrant dans ma carrière, de ne jamais me mêler que des affaires d‘argent dans les Maisons où je serais employé. Jusqu’à présent, quand madame Gérard me disait d‘un air dolent : « Ah ! mon cher Roblot, que de peines dans la vie ! <hi rend="b">–</hi> [Je <pb n="13" xml:id="p13"/>répondais :] C’est vrai, Madame ; mais la vente a doublé! <hi rend="b">–</hi> Monsieur Roblot, à quoi sert la fortune, si on n’a pas le bonheur ? <hi rend="b">–</hi> Madame, j’ai ordre de passer une voiture nouvelle à profits et pertes. Et en sortant j’entendais dire : « Il a le cœur dans sa caisse, ce Roblot ! » Moi, qui voulais mourir tranquille, garçon, sur mon fauteuil de caissier, remuant des écus, empilant des écus, ne me souciant que d’écus, je vais donc avoir une belle femme, sans doute des enfants, une fortune : embarras sur embarras. Je me serais mieux arrangé de rester premier ministre de la Maison Gérard ; ma tête se trouble aussitôt que je passe des écus aux sentiments. L’amour ? C’est des paroles et ça finit. Parlez-moi d’un beau bordereau à l’encre rouge et noire, de comptes bien alignés, d’où il résulte de l’argent dans la caisse ! Ça va toujours. Aussi monsieur Duval a-t-il bien trouvé le seul moyen de séduire mademoiselle Adrienne : l‘argent ! Moi, Roblot, me voilà pris. L‘intérêt la fera-t-il aussi succomber ? Mademoiselle Adrienne est une vertueuse fille. Hier, je ne l’aurais pas juré, ça ne me regardait pas ; mais ce matin !… Mademoiselle Adrienne, d’après mes relevés, doit avoir cinquante mille francs bien placés chez nos banquiers, par le conseil de monsieur Gérard. Moi, j’ai cinquante mille francs aussi. Nous pouvons commencer la banque Roblot et compagnie ! Ça pourra prêter à rire. Mais quelles masses de bordereaux ! Eh bien ! personne ne le croirait, ce n’est ni les bordereaux ni les comptes qui m’épouvantent, <pb n="14" xml:id="p14"/>c’est la belle femme ! Ce maudit monsieur Duval me donne le rôle de Satan à jouer… J’entends mademoiselle Adrienne ! Mais comment parler d‘amour, moi qui n’ai de passion qu’au bout de mes chiffres ! Après tout, l‘amour est une addition, le mariage une multiplication, et l‘arithmétique fait plus de mariages que l‘amour n’en défait.</p>
             <p>
               <hi rend="b">
-                <emph>S</emph>
-                <emph>cène</emph>
-                <emph>III</emph>
+                </div>
+                <div type="scene">
+               <head>Scène III</head>
               </hi>
             </p>
             <stage>Roblot, Victoire, Mademoiselle Adrienne. </stage>
@@ -699,13 +702,13 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="adrienne">
             <speaker>Adrienne<stage>, à part. </stage></speaker>
             <p>J’y suis.</p>
+          </sp>
+            </div>
+        <div type="scene">
             <p rend="b">
-              <emph>S
-        cène
-         IV</emph>
+             <head>Scène IV</head>
             </p>
             <stage>Les Mêmes, Hippolyte. </stage>
-          </sp>
           <sp who="hippolyte">
             <speaker>Hippolyte</speaker>
             <p>Pardon, Mademoiselle. Peut-on exposer la nouvelle étoffe arrivée hier ?</p>
@@ -725,10 +728,12 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="roblot">
             <speaker>Roblot<stage>, [à part]. </stage></speaker>
             <p>Femme d‘un régent de la Banque ! Elle y a mordu. <stage>(Hippolyte sort.)</stage></p>
+          </sp>
             <pb n="30" xml:id="p30"/>
+            </div>
+        <div type="scene">
             <head>Scène V</head>
             <stage> Mademoiselle Adrienne, Roblot. </stage>
-          </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Monsieur Roblot ? <stage>(Elle le prend et le pose devant elle.)</stage> Eût-il quarante ans, fût-il habile à faire des bordereaux, connût-il bien la place, un caissier ne connaîtra jamais à fond les ruses, non pas d’une femme, mais d‘une petite fille innocente ! Ce piège m’est tendu…</p>
@@ -786,9 +791,11 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <speaker>Roblot<stage>, seul sur le devant de la scène. </stage></speaker>
             <p>Elle ne s‘est pas laissé entamer de ça. Je reviens à mon opinion d‘hier : elle aime un peu trop son bienfaiteur. Quant au patron, il est comme tous les gens qui en sont à leur dernière passion : ils y sacrifieraient tout, car ils arrivent à méconnaître ce qu‘il y a de plus sacré : leurs intérêts. On parle beaucoup des folies de jeunesse ; je ne sais pas pourquoi on ne dit rien des folies de vieillesse. Je voudrais, pour cinq cents francs, ne pas avoir obéi à monsieur Duval. Que deviendrais-je si le patron apprenait mes déportements ?</p>
             <pb n="33" xml:id="p33"/>
+          </sp>
+            </div>
+        <div type="scene">
             <head>Scène VI</head>
             <stage>Les Mêmes, Victoire, Madame Gérard.</stage>
-          </sp>
           <sp who="victoire">
             <speaker> Victoire</speaker>
             <p>Mademoiselle a sonné ?</p>
@@ -916,9 +923,11 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <speaker>Victoire<stage>, [à part]. </stage></speaker>
             <p>C‘est dommage de quitter au moment où ça devenait gentil.<stage> (Elle sort.)</stage></p>
             <pb n="58" xml:id="p38"/>
+          </sp>
+        </div>
+          <div type="scene">
             <head>Scène VII</head>
             <stage>Madame Gérard, Mademoiselle Adrienne, Anna.</stage>
-          </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Qu‘as-tu donc, Maman ? Tu étais si contente en te levant. <stage>(Elle regarde mademoiselle Adrienne.)</stage> Ah ! je devine. Bonjour, Mademoiselle Adrienne.</p>
@@ -1013,9 +1022,11 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Elle est au Magasin, Madame, et j’y descends. <stage>(Elle les salue : Anna la salue gravement.)</stage></p>
+          </sp>
+          </div>
+        <div type="scene">
             <head>Scène VIII</head>
             <stage>Madame Gérard, Anna.</stage>
-          </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Eh bien ! tu étais lancée ! Pourquoi n’as-tu pas continué? Encore un peu elle s’emportait, te manquait de respect, et tu la renvoyais.</p>
@@ -1088,9 +1099,11 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Mais, petite fille, raconte-moi donc…</p>
+          </sp>
+        </div>
+        <div type="scene">
             <head>Scène IX</head>
             <stage>Madame Gérard, Caroline, Anna, puis Duval.</stage>
-          </sp>
           <sp who="anna">
             <speaker>Anna<stage>, à sa mère. </stage></speaker>
             <p>Chut ! Caroline dirait tout à mon père. Elle est comme toi, sans force contre lui.</p>
@@ -1428,9 +1441,11 @@ Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Madame, mon sort est entre vos mains. Souvenez-vous de douze ans de service, de mes cheveux blancs, ne me compromettez pas avec monsieur Gérard ; un seul de ses reproches me tuerait, <stage>(il sort.)</stage></p>
+          </sp>
+          </div>
+        <div type="scene">
             <head>Scène XI</head>
             <stage>Les Mêmes, excepté Roblot.</stage>
-          </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Le pauvre homme ! La frayeur qu‘il a de mon père donne à penser.</p>
@@ -1494,9 +1509,11 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
             <speaker>Caroline</speaker>
             <p>Voici l’ennemi.</p>
             <pb n="58" xml:id="p58"/>
+          </sp>
+        </div>
+        <div type="scene">
             <head>Scène XII</head>
             <stage>Les Mêmes, Mademoiselle Adrienne. </stage>
-          </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>On m‘a priée de votre part, Madame, de me rendre ici.</p>
@@ -1911,6 +1928,8 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
             <pb n="74" xml:id="p74"/>
             <pb n="75" xml:id="p75"/>
             <p>[ILLUSTRATION]</p>
+            </div>
+        <div type="scene">
             <head>Scène I</head>
           
           <sp who="gerard">
@@ -1925,9 +1944,11 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Justine, c’est moi.</p>
+          </sp>
+        </div>
+        <div type="scene">
             <head>Scène II</head>
             <stage>Gérard, Victoire. (Elle sort de l‘appartement.) </stage>
-          </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Tiens, tiens, c’est Monsieur. <stage>(Elle se tourne et crie dans l’appartement.)</stage> Madame, Mesdemoiselles, c’est Monsieur.</p>
@@ -2097,9 +2118,11 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Tenez, Monsieur, ces dames vous expliqueront elles- mêmes la chose, et vous leur donnerez raison. A la place de madame, vous n’auriez pas été si bon pour mademoiselle Adrienne, qui, de son côté, n’a pas tort de vouloir le mariage… <stage>(Elle sort.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
             <head>Scène III</head>
             <stage>Gérard, François. </stage>
-          </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Adrienne, vouloir le mariage ? Mon Dieu ! les femmes sont pires que les avocats pour embrouiller les choses les plus simples. Cependant, ce désir de se marier, n’est- ce pas ma seule crainte ? Si cela était, elle connaîtrait ce que peut le dernier amour d‘un homme.</p>
@@ -2149,10 +2172,12 @@ Parenthèses vérif manusc--><stage>. (Il rentre.) </stage></speaker>
           <sp who="francois">
             <speaker>François<stage>, [à part].</stage></speaker>
             <p>J’aime mieux qu’un autre que moi le lui apprenne. <stage>(Il sort.)</stage></p>
-            <pb n="84" xml:id="p84"/>
+            <pb n="84" xml:id="p84"/>        </sp>
+        </div>
+        <div type="scene">
             <head>Scène IV</head>
             <stage> Gérard, Anna.</stage>
-          </sp>
+  
           <sp who="anna">
             <speaker>Anna<stage>.</stage><!-- Auteur inconnu : 2021-05-25T15:34:19.145000000
 Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speaker>
@@ -2387,10 +2412,11 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Roblot ! à six heures du matin ? Elle, la pureté même ! Elle, qui m’a juré de ne jamais se marier sans mon consentement ! <stage>(il sonne.)</stage> Je sens une fureur ! Pour me la mieux attacher j‘ai voulu quelle tînt tout de moi ; mais peut-être l’ingratitude commence-t-elle à l’impossibilité de s’acquitter.</p>
+            <p>Roblot ! à six heures du matin ? Elle, la pureté même ! Elle, qui m’a juré de ne jamais se marier sans mon consentement ! <stage>(il sonne.)</stage> Je sens une fureur ! Pour me la mieux attacher j‘ai voulu quelle tînt tout de moi ; mais peut-être l’ingratitude commence-t-elle à l’impossibilité de s’acquitter.</p> </sp>
+        </div>
+        <div type="scene">
             <head>Scène V</head>
             <stage>Les Précédents, Madame Gérard, Caroline.</stage>
-          </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à François qui se montre à la porte. </stage></speaker>
             <p>Dites à monsieur Roblot que je veux lui parler.</p>
@@ -2516,10 +2542,12 @@ crochets-->[en] mourir ! Nous sommes engagées dans une voie périlleuse ; ils
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
-            <p>Monsieur Hippolyte est bien plus capable qu‘un avocat de diriger une maison de commerce ; je ne vois pas…</p>
+            <p>Monsieur Hippolyte est bien plus capable qu‘un avocat de diriger une maison de commerce ; je ne vois pas…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène VI</head>
             <stage>Les Mêmes, d‘abord François, puis Louis Guérin. </stage>
-          </sp>
+          
           <sp who="francois">
             <speaker>François</speaker>
             <p>Monsieur Louis Guérin demande à parler à Monsieur.</p>
@@ -2779,10 +2807,12 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="gerard">
             <speaker><!-- Auteur inconnu : 2021-05-25T15:35:36.989000000
 parethèses-->Gérard<stage>. (II court après Louis Guérin.)</stage> </speaker>
-            <p>Mais elle serait perdue alors, et eux aussi !</p>
+            <p>Mais elle serait perdue alors, et eux aussi !</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène VII</head>
             <stage>Les Précédents, moins Louis Guérin, Duval.</stage>
-          </sp>
+          
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Eh ! te voilà de retour, mon cher Gérard. Es-tu content ?</p>
@@ -2868,11 +2898,13 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, au fond. </stage></speaker>
-            <p>Allons, Roblot.</p>
+            <p>Allons, Roblot.</p></sp>
             <pb n="110" xml:id="p110"/>
+        </div>
+        <div type="scene">
             <head>Scène VIII</head>
             <stage>Les Mêmes, Roblot, [puis Hippolyte.] </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ah çà, mon cher, à nous deux !</p>
@@ -3216,10 +3248,12 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Monsieur, je ne suis qu’un caissier, et y eût-il un million de commandite, je ne bougerais plus. Il faut que Monsieur ait quelque chose en tête pour avoir été si bon. <stage>(Il sort.)</stage></p>
+            <p>Monsieur, je ne suis qu’un caissier, et y eût-il un million de commandite, je ne bougerais plus. Il faut que Monsieur ait quelque chose en tête pour avoir été si bon. <stage>(Il sort.)</stage></p></sp>
+        </div>
+        <div type="scene">
             <head>Scène IX</head>
             <stage>Les Mêmes, moins Roblot. </stage>
-          </sp>
+          
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>En la renvoyant nous n’avons fait que la mieux ancrer ici. Mon malheur est consommé !</p>
@@ -3243,10 +3277,12 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Oh ! voilà. Je ne puis pas voir pleurer une femme ! Ça trouble ma digestion. Allons, il le faut, je veux les sauver. Adélaïde, j‘ai des choses à te dire que tes tilles ne doivent pas entendre, viens chez toi. <stage>(ils sortent.) </stage></p>
+            <p>Oh ! voilà. Je ne puis pas voir pleurer une femme ! Ça trouble ma digestion. Allons, il le faut, je veux les sauver. Adélaïde, j‘ai des choses à te dire que tes tilles ne doivent pas entendre, viens chez toi. <stage>(ils sortent.) </stage></p></sp>
+        </div>
+        <div type="scene">
             <head>Scène X</head>
             <stage>Anna, Caroline.</stage>
-          </sp>
+          
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Des choses que nous ne devons pas entendre ?… Comme si nous ne savions pas les deviner ! Eh bien ! Caroline, tu pleures ?</p>
@@ -3399,6 +3435,8 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
             <pb n="128" xml:id="p128"/>
             <pb n="129" xml:id="p129"/>
             <p>[ILLUSTRATION]</p>
+            </div>
+        <div type="scene">
             <head>Scène I</head>
             <stage>Duval, Madame Gérard, puis Caroline, Anna.</stage>
           <sp who="duval">
@@ -3437,10 +3475,12 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Ingrate, ne vois-tu pas qu‘il m‘en coûte trop de dire : vous, à mes héritières, <stage>(il sort.)</stage></p>
+            <p>Ingrate, ne vois-tu pas qu‘il m‘en coûte trop de dire : vous, à mes héritières, <stage>(il sort.)</stage></p></sp>
+        </div>
+        <div type="scene">
             <head>Scène II</head>
             <stage>Les Précédents, moins Duval.</stage>
-          </sp>
+          
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>En voilà un qui ne tourmentera pas sa femme !</p>
@@ -3514,10 +3554,12 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Sa toilette annonce des projets.</p>
+            <p>Sa toilette annonce des projets.</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène III</head>
             <stage>Les Mêmes, Mademoiselle Adrienne. </stage>
-          </sp>
+          
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Madame, mon frère m’a tout dit, et je viens vous assurer de mon entier dévouement au bonheur de votre famille ; quelques instances que me fasse monsieur Gérard, je ne rentrerai point chez vous malgré vous.</p>
@@ -3549,11 +3591,13 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Mes Filles, laissez-nous.</p>
+            <p>Mes Filles, laissez-nous.</p></sp>
             <pb n="135" xml:id="p135"/>
+        </div>
+        <div type="scene">
             <head>Scène IV</head>
             <stage>Madame Gérard, Mademoiselle Adrienne. </stage>
-          </sp>
+          
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Expliquez-vous clairement ?</p>
@@ -3645,10 +3689,12 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne<stage>, seule sur le devant de la scène. </stage></speaker>
-            <p>Ai-je bien fait ? Il n’y avait plus que ce moyen de nous sauver tous ! Et je reste auprès de lui !… Je puis le ser<pb n="139" xml:id="p139"/>vir, le voir. Peut-être un danger sans cesse observé n‘existe-t-il plus.</p>
+            <p>Ai-je bien fait ? Il n’y avait plus que ce moyen de nous sauver tous ! Et je reste auprès de lui !… Je puis le ser<pb n="139" xml:id="p139"/>vir, le voir. Peut-être un danger sans cesse observé n‘existe-t-il plus.</p> </sp>
+        </div>
+        <div type="scene">
             <head>Scène V</head>
             <stage>Les Mêmes, Caroline, Anna.</stage>
-          </sp>
+         
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Mes Filles, mademoiselle Guérin est une noble et bonne fille ; elle demeure ici par ma volonté ; traitez-la comme une sœur ; elle méritera sans doute votre amitié.</p>
@@ -3704,13 +3750,15 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Volontiers. <stage>(Elle baise les mains de Madame Gérard.) </stage></p>
+            <p>Volontiers. <stage>(Elle baise les mains de Madame Gérard.) </stage></p></sp>
             <stage><!-- Auteur inconnu : 2021-05-19T11:00:37.626000000
 Style stage ou stage‑c ? J’ai mis stage là-->(Gérard parait au fond, et voit tout.)</stage>
             <pb n="141" xml:id="p141"/>
+        </div>
+        <div type="scene">
             <head>Scène VI</head>
             <p>Les Mêmes, Gérard.</p>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard<stage>, au fond. </stage></speaker>
             <p>Eh bien ! les voilà qui s’embrassent ! Qui diable peut déchiffrer ce que les femmes ont dans le cœur !…</p>
@@ -3815,10 +3863,12 @@ CROCHETs-->[d’être] bien indifférente… Anna, viens avec nous.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Mais, oui ; les affaires avant tout. <stage>(il ferme les portes. La mère et ses filles sortent.) </stage></p>
+            <p>Mais, oui ; les affaires avant tout. <stage>(il ferme les portes. La mère et ses filles sortent.) </stage></p> </sp>
+        </div>
+        <div type="scene">
             <head>Scène VII</head>
             <stage>Gérard, Mademoiselle Adrienne. </stage>
-          </sp>
+         
           <sp who="gerard">
             <speaker><!-- Auteur inconnu : 2021-05-25T15:36:46.332000000
 parznthèses-->Gérard<stage>. (Il prend la clef de son cabinet.) </stage></speaker>
@@ -4130,11 +4180,13 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Mais ma fille n’aime personne, elle épousera Louis. <stage>(Il crie à la porte de l’appartement.)</stage> Caroline ! Vous allez voir.</p>
+            <p>Mais ma fille n’aime personne, elle épousera Louis. <stage>(Il crie à la porte de l’appartement.)</stage> Caroline ! Vous allez voir.</p> </sp>
             <pb n="155" xml:id="p155"/>
+        </div>
+        <div type="scene">
             <head>Scène VIII</head>
             <stage>Les Précédents, Madame Gérard, Caroline, Anna. </stage>
-          </sp>
+         
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Viens, Caroline. Il s’agit d’une chose très grave qui fait toujours sourire une fille, de ton mariage.</p>
@@ -4322,11 +4374,13 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Elle nous a trompés ! <stage>(Adrienne et Anna sortent.)</stage></p>
+            <p>Elle nous a trompés ! <stage>(Adrienne et Anna sortent.)</stage></p></sp>
             <pb n="162" xml:id="p162"/>
+        </div>
+        <div type="scene">
             <head>Scène IX</head>
             <stage>Gérard, Madame Gérard, Caroline. </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Caroline, regardez-moi !</p>
@@ -4418,11 +4472,13 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Dites à monsieur Hippolyte de venir me parler.</p>
+            <p>Dites à monsieur Hippolyte de venir me parler.</p></sp>
             <pb n="165" xml:id="p165"/>
+        </div>
+        <div type="scene">
             <head>Scène X</head>
             <stage>Gérard, Madame Gérard. </stage>
-          </sp>
+          
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Je vous connais, vous avez trompé votre fille.</p>
@@ -4572,10 +4628,12 @@ En italique dans le manuscrit--><emph>cette fille</emph> qui la déshonore…</p
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Et vous désirez que ce soit moi…</p>
+            <p>Et vous désirez que ce soit moi…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène XI</head>
             <stage>Les Mêmes, Hippolyte, Roblot. </stage>
-          </sp>
+          
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Eh bien ! Monsieur, n‘est-ce pas un bonheur que j’aie été là quand monsieur Hippolyte vous a parlé des mousselines de la Maison Copin ? Elle dépose…</p>
@@ -4645,10 +4703,12 @@ En italique dans le manuscrit--><emph>cette fille</emph> qui la déshonore…</p
             <p>Hippolyte</p>
             <p>De quoi s‘agit-il ?</p>
             <p>Gérard</p>
-            <p>Il faut le secret, d’abord ! Demain, vous partirez pour Londres, où je vous confierai de graves intérêts de commerce… Il y a de la contrebande à faire en grand. Vous aurez mes instructions… Votre avenir dépend de votre conduite.</p>
+            <p>Il faut le secret, d’abord ! Demain, vous partirez pour Londres, où je vous confierai de graves intérêts de commerce… Il y a de la contrebande à faire en grand. Vous aurez mes instructions… Votre avenir dépend de votre conduite.</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène XII</head>
             <stage>Gérard, Madame Gérard, Anna, Caroline, Hippolyte.</stage>
-          </sp>
+          
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Monsieur Hippolyte…</p>
@@ -4667,12 +4727,14 @@ En italique dans le manuscrit--><emph>cette fille</emph> qui la déshonore…</p
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Mon Père, vous chargez votre compte.</p>
+            <p>Mon Père, vous chargez votre compte.</p></sp>
             <stage>(Hippolyte sort, après avoir baisé furtivement la main à Caroline.)</stage>
             <pb n="174" xml:id="p174"/>
+        </div>
+        <div type="scene">
             <head>Scène XIII</head>
             <stage>Les Mêmes, Louis Guérin.</stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard<stage>, à Caroline. </stage></speaker>
             <p>Ma Fille, je te présente Monsieur comme ton futur époux.</p>
@@ -4727,11 +4789,13 @@ crocheeeeets--><stage>, [à par</stage><stage>t</stage><stage>]. </stage></speak
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Je ne suis pas plus maîtresse de choisir mes moments que mes gendres.</p>
+            <p>Je ne suis pas plus maîtresse de choisir mes moments que mes gendres.</p></sp>
             <pb n="176" xml:id="p176"/>
+        </div>
+        <div type="scene">
             <head>Scène XIV</head>
             <stage>Anna, Gérard, Louis Guérin. </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ne vous épouvantez pas de ces façons ; les femmes crient, elles pleurent et finissent par trouver qu‘on a très bien fait…</p>
@@ -4790,6 +4854,8 @@ Capitaine crochets--><stage>[(</stage><stage>À</stage><stage> Louis Guérin.)] 
             <pb n="180" xml:id="p180"/>
             <pb n="181" xml:id="p181"/>
             <p>[Illustration]</p>
+            </div>
+        <div type="scene">
             <head>Scène I</head>
             <stage>François, Victoire, Justine.</stage>
           <sp who="francois">
@@ -4887,17 +4953,21 @@ Capitaine crochets--><stage>[(il sort.)] </stage></p>
           </sp>
           <sp who="justine">
             <speaker>Justine</speaker>
-            <p>Ça lui donnera des forces pour passer la nuit, si monsieur l’enlève.</p>
+            <p>Ça lui donnera des forces pour passer la nuit, si monsieur l’enlève.</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène II</head>
-          </sp>
+          
           <sp who="gerard">
             <speaker><!-- Auteur inconnu : 2021-05-25T15:37:33.970000000
 Style stage ou speaker ? + parenhèses-->Gérard<stage>. (Il regarde Justine qui rentre dans l’appartement, Victoire et François dans l’antichambre.) </stage></speaker>
-            <p>Je suis sûr que maintenant ils causent tous de mon prétendu désastre, et que, dans la loge de mon portier, il va se tenir un conciliabule où l’on discutera sur mes affaires, sur mon luxe et sur Adrienne. Ah ! le sort de ma vie se joue en ce moment ! Résistera-t-elle à Roblot, lui parlant en mon nom ! Comme ma vie toute entière est venue aboutira ce moment solennel ! Suis-je donc un homme privilégié ? Y a-t-il beaucoup d‘hommes qui aient été traités comme moi par la destinée ? Je suis né avec un foyer de sentiments qui ne pouvaient être assouvis que par de grandes choses… À dix-huit ans, je suis allé me battre à la frontière ; la République, ma première passion, a succombé. Napoléon est venu, j‘ai voulu le servir ; il haïssait les fournisseurs, j’étais probe, il m’a <pb n="186" xml:id="p186"/>presque ruiné ! J‘avais trente-huit ans, je n’avais jamais pu rencontrer de femme qui m’aimât véritablement, comme nous voulons tous être aimés ; je n’étais plus jeune ; fatigué de déceptions, las de désenchantements, je me suis marié pour être père, pour être aimé par des enfants. Mais à quarante-huit ans j’avais encore et j‘ai toujours le cœur d’un jeune homme. Une femme n‘est pas une maîtresse ; c’est une mère avec ses droits et ses dignités. Enfin, je me domptai par les affaires. Les affaires ne m‘ont donné que de l‘or… À la porte de l’enfer terrestre des gens passionnés, et qui s’appelle la vieillesse, a surgi cette jeune fille ; elle a été aimée de tout l‘amour perdu pendant trente ans. Candeur, noblesse, beauté, dévouement, toutes les délices de la vie, toutes les fleurs de l‘amour, elle a tout offert à mes yeux altérés, elle a rafraîchi mon âme qui se desséchait, la vie s‘est réveillée, j‘ai ressenti cette soif de bonheur qui nous poursuit tous ! Dans la jeunesse, nous aimons avec notre force qui va diminuant ; mais, à mon âge, on aime avec la faiblesse qui va croissant ; aussi la vie me paraît-elle impossible sans elle. Et quelle journée !… Ils sont tous contre elle, ils veulent l‘éprouver Oh ! lâches ! Et toi aussi ! Mais si elle triomphe, ils sont perdus ; et si elle succombe, je deviendrai… fou peut-être. À cette idée, ma tête… Ah ! j’entends Roblot.</p>
+            <p>Je suis sûr que maintenant ils causent tous de mon prétendu désastre, et que, dans la loge de mon portier, il va se tenir un conciliabule où l’on discutera sur mes affaires, sur mon luxe et sur Adrienne. Ah ! le sort de ma vie se joue en ce moment ! Résistera-t-elle à Roblot, lui parlant en mon nom ! Comme ma vie toute entière est venue aboutira ce moment solennel ! Suis-je donc un homme privilégié ? Y a-t-il beaucoup d‘hommes qui aient été traités comme moi par la destinée ? Je suis né avec un foyer de sentiments qui ne pouvaient être assouvis que par de grandes choses… À dix-huit ans, je suis allé me battre à la frontière ; la République, ma première passion, a succombé. Napoléon est venu, j‘ai voulu le servir ; il haïssait les fournisseurs, j’étais probe, il m’a <pb n="186" xml:id="p186"/>presque ruiné ! J‘avais trente-huit ans, je n’avais jamais pu rencontrer de femme qui m’aimât véritablement, comme nous voulons tous être aimés ; je n’étais plus jeune ; fatigué de déceptions, las de désenchantements, je me suis marié pour être père, pour être aimé par des enfants. Mais à quarante-huit ans j’avais encore et j‘ai toujours le cœur d’un jeune homme. Une femme n‘est pas une maîtresse ; c’est une mère avec ses droits et ses dignités. Enfin, je me domptai par les affaires. Les affaires ne m‘ont donné que de l‘or… À la porte de l’enfer terrestre des gens passionnés, et qui s’appelle la vieillesse, a surgi cette jeune fille ; elle a été aimée de tout l‘amour perdu pendant trente ans. Candeur, noblesse, beauté, dévouement, toutes les délices de la vie, toutes les fleurs de l‘amour, elle a tout offert à mes yeux altérés, elle a rafraîchi mon âme qui se desséchait, la vie s‘est réveillée, j‘ai ressenti cette soif de bonheur qui nous poursuit tous ! Dans la jeunesse, nous aimons avec notre force qui va diminuant ; mais, à mon âge, on aime avec la faiblesse qui va croissant ; aussi la vie me paraît-elle impossible sans elle. Et quelle journée !… Ils sont tous contre elle, ils veulent l‘éprouver Oh ! lâches ! Et toi aussi ! Mais si elle triomphe, ils sont perdus ; et si elle succombe, je deviendrai… fou peut-être. À cette idée, ma tête… Ah ! j’entends Roblot.</p></sp>
             <pb n="187" xml:id="p187"/>
+        </div>
+        <div type="scene">
             <head>Scène III</head>
             <stage>Gérard, Roblot.</stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Eh bien, tu as les yeux mouillés, toi.</p>
@@ -4967,10 +5037,12 @@ Style stage ou speaker ? + parenhèses-->Gérard<stage>. (Il regarde Justine qu
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Que veux-tu que je voie quand elle est là ? J‘entends ses pas. Je vais aller chercher ma femme, afin de jouir de son triomphe,<!-- Auteur inconnu : 2021-05-24T15:04:07.125000000
-crochets--> [(il sort.)]</p>
+crochets--> [(il sort.)]</p>  </sp>
+        </div>
+        <div type="scene">
             <head>Scène IV</head>
             <stage>Roblot, Mademoiselle Adrienne. </stage>
-          </sp>
+        
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>D’où vient que c‘est moi qui suis le plus clairvoyant ? Il me semble que nous touchons à une catastrophe.</p>
@@ -5043,11 +5115,13 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Ah ! peut-être lui donnerai-je le courage de recouvrer l‘honneur.</p>
+            <p>Ah ! peut-être lui donnerai-je le courage de recouvrer l‘honneur.</p> </sp>
             <pb n="192" xml:id="p192"/>
+        </div>
+        <div type="scene">
             <head>Scène V</head>
             <stage>Les Précédents, Gérard, Madame Gérard, Caroline, Anna. </stage>
-          </sp>
+         
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Non, ma chère, je partirai seul.</p>
@@ -5261,10 +5335,12 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à Roblot. </stage></speaker>
-            <p>Laisse-nous…</p>
+            <p>Laisse-nous…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène VI</head>
             <stage>Gérard, Mademoiselle Adrienne. </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Eh bien ! Adrienne, qu’avez-vous ? Votre stupeur…</p>
@@ -5400,16 +5476,20 @@ Pas de ponc dans le manuscrit wtfff-->our Écoutez, à minuit, il vient une voit
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Je vais le lui dire. <stage>(Elle entre dans les appartements.)</stage></p>
+            <p>Je vais le lui dire. <stage>(Elle entre dans les appartements.)</stage></p> </sp>
+        </div>
+        <div type="scene">
             <head>Scène VII</head>
-          </sp>
+         
           <sp who="gerard">
             <speaker>Gérard<stage>, seul. </stage></speaker>
-            <p>Quel ange ! Tant qu’elle est là, sa vertu me domine ; une fois seul, j‘éprouve, comme Satan, le désir d’attirer cette âme divine dans ma fange, pour me l‘approprier à jamais… Je me sens capable de la faire tomber dans quelque piège… Elle y viendra.</p>
+            <p>Quel ange ! Tant qu’elle est là, sa vertu me domine ; une fois seul, j‘éprouve, comme Satan, le désir d’attirer cette âme divine dans ma fange, pour me l‘approprier à jamais… Je me sens capable de la faire tomber dans quelque piège… Elle y viendra.</p></sp>
             <pb n="205" xml:id="p205"/>
-            <p rend="i">Scène VIII</p>
+        </div>
+        <div type="scene">
+            <head>Scène VIII</head>
             <stage>Gérard, Duval.</stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Quel air effaré ? Que t’arrive-t-il, pour venir à cette heure ? tu dois éprouver quelque malheur ?</p>
@@ -5466,11 +5546,13 @@ kraushé--><stage>[à part.] </stage></speaker>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Ah ! mon Frère <stage>(Il l’embrasse.)</stage></p>
+            <p>Ah ! mon Frère <stage>(Il l’embrasse.)</stage></p></sp>
             <pb n="207" xml:id="p207"/>
-            <p rend="i">Scène IX</p>
+        </div>
+        <div type="scene">
+            <head>Scène IX</p>
             <stage>Les Mêmes, Victoire, Roblot.</stage>
-          </sp>
+          
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Monsieur, le chien de madame se meurt dans d’horribles convulsions…</p>
@@ -5510,10 +5592,12 @@ kraushé--><stage>[à part.] </stage></speaker>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Venez avec moi, ne me quittez pas <stage>(</stage><stage>I</stage><stage>ls sortent.)</stage></p>
+            <p>Venez avec moi, ne me quittez pas <stage>(</stage><stage>I</stage><stage>ls sortent.)</stage></p></sp>
+        </div>
+        <div type="scene">
             <head>Scène X</head>
             <stage>Anna, Caroline. </stage>
-          </sp>
+          
           <sp who="anna">
             <speaker>Anna<stage>, </stage><!-- Auteur inconnu : 2021-05-25T10:37:28.889000000
 Khraushaient--><stage>[qui] </stage><stage>traîne Caroline. </stage></speaker>
@@ -5525,17 +5609,21 @@ Khraushaient--><stage>[qui] </stage><stage>traîne Caroline. </stage></speaker>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Te tairas-tu ! Viens…</p>
+            <p>Te tairas-tu ! Viens…</p></sp>
             <pb n="209" xml:id="p209"/>
+        </div>
+        <div type="scene">
             <head>Scène XI</head>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard<stage>. (Il entre dans son appartement quand ses filles disparaissent.)</stage></speaker> <!-- Auteur inconnu : 2021-05-25T15:38:59.073000000
 Stage ou speaker ? + parenthèses-->
-            <p>Qui m’appelle ? On ne sait où elle est, et ma femme s’est évanouie… Si elle est morte, je me tue, pour ne pas…</p>
+            <p>Qui m’appelle ? On ne sait où elle est, et ma femme s’est évanouie… Si elle est morte, je me tue, pour ne pas…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène XII</head>
             <stage>Duval, Mademoiselle Adrienne, Gérard.</stage>
-          </sp>
+          
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>La voici ! Elle était à écrire à son frère.</p>
@@ -5632,10 +5720,12 @@ Stage ou speaker ? + parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Allez les chercher de ma part. <stage>(Il arrange deux fauteuils pour sa femme et lui, deux chaises pour ses filles et un troisième fauteuil pour Duval.)</stage> Que résoudre ? Ah ! si ce fatal événement pouvait décider Adrienne à…</p>
+            <p>Allez les chercher de ma part. <stage>(Il arrange deux fauteuils pour sa femme et lui, deux chaises pour ses filles et un troisième fauteuil pour Duval.)</stage> Que résoudre ? Ah ! si ce fatal événement pouvait décider Adrienne à…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène XIII</head>
             <stage>Madame Gérard soutenue par Justine et son Frère ; Duval, Gérard, puis Anna, Caroline. </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard<stage>. (</stage><stage>Il</stage><stage> remplace Justine.) </stage></speaker> <!-- Auteur inconnu : 2021-05-25T15:39:16.057000000
 parenthèses-->
@@ -5657,11 +5747,13 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Leur dire un mot, n‘est-ce pas ? Qu‘elles viennent seules. <stage>(</stage><stage>À</stage><stage> François.)</stage> Mettez-vous à la porte des appartements, <stage>(à Duval)</stage> va voir s‘il ferme l’antichambre.</p>
+            <p>Leur dire un mot, n‘est-ce pas ? Qu‘elles viennent seules. <stage>(</stage><stage>À</stage><stage> François.)</stage> Mettez-vous à la porte des appartements, <stage>(à Duval)</stage> va voir s‘il ferme l’antichambre.</p></sp>
             <stage>(Duval accompagne François ; on entend fermer une porte, Duval ferme celle du salon.) </stage>
+        </div>
+        <div type="scene">
             <head>Scène XIV</head>
             <stage>Madame Gérard, Gérard, Duval, Caroline, Anna ; Mademoiselle Adrienne dans le cabinet. </stage>
-          </sp>
+          
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Caroline et Anna Gérard, un crime vient d’être commis ici sur la personne d‘Adrienne Guérin ; une de vous, Caroline, a été vue dérobant…</p>
@@ -5878,14 +5970,18 @@ parenthèses-->
             </p>
             <pb n="&#10;222" xml:id="p222"/>
             <pb n="223" xml:id="p223"/>
+            </div>
+        <div type="scene">
             <head>Scène I</head>
           <sp who="roblot">
             <speaker>Roblot<stage>, seul. </stage></speaker>
             <p><!-- Auteur inconnu : 2021-05-25T11:25:57.226000000
-Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard disparue, et je suis comme mon pauvre patron, sans âme ni esprit. Cette malheureuse madame Gérard veut me garder avec elle, et me fait deux mille livres de rentes viagères ; mais je vais aller vivre à la campagne ; je ne saurais voir mon patron, ni mademoiselle Adrienne dans l’état où ils sont…</p>
+Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard disparue, et je suis comme mon pauvre patron, sans âme ni esprit. Cette malheureuse madame Gérard veut me garder avec elle, et me fait deux mille livres de rentes viagères ; mais je vais aller vivre à la campagne ; je ne saurais voir mon patron, ni mademoiselle Adrienne dans l’état où ils sont…</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène II</head>
             <stage>Roblot, François.</stage>
-          </sp>
+          
           <sp who="francois">
             <speaker>François</speaker>
             <p>Monsieur, voici le juge et son greffier, ainsi que monsieur le docteur…</p>
@@ -5901,10 +5997,12 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Rien. Va prévenir madame Gérard.</p>
+            <p>Rien. Va prévenir madame Gérard.</p></sp>
+        </div>
+        <div type="scene">
             <head>Scène III</head>
             <stage>Roblot, un juge, le greffier, le médecin. </stage>
-          </sp>
+          
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Messieurs, j‘ai l’honneur de vous présenter mes devoirs. <stage>(Le juge salue Roblot, et continue de causer avec le médecin</stage><stage> </stage><stage>:)</stage> Et vous croyez que ces deux malheureuses personnes sont incurables ?</p>
@@ -5995,12 +6093,14 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="lejuge">
             <speaker>Le juge</speaker>
-            <p>Il va falloir constater leur identité.</p>
+            <p>Il va falloir constater leur identité.</p> </sp>
             <pb n="229" xml:id="p229"/>
+        </div>
+        <div type="scene">
             <head>Scène IV</head>
             <stage>Les Mêmes, Anna conduisant Mademoiselle Adrienne. Caroline et Louis Guérin la suivent. </stage>
             <stage>(Anna est en deuil ; Adrienne est vêtue en mariée.) Louis Guérin salue le juge. </stage>
-          </sp>
+         
           <sp who="lejuge">
             <speaker>Le juge</speaker>
             <p>Il faut vous féliciter et vous plaindre tout à la fois, Monsieur.</p>
@@ -6293,6 +6393,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
             <p>Nos malheurs sont irréparables ; vous resterez ici, vous, pour que votre bonheur ne soit pas affligé de ce spectacle. Anna et moi, nous les emmènerons à la campagne. S‘il y avait une crise favorable, nous serions loin du monde… Ah ! nous avons tous fautes !</p>
           </sp>
               <p>[ILLUSTRATION]</p>
+        </div>
             </div>
         <!-- 
             <p>PARIS IMPRIMERIE GÉNÉRALE</p>
