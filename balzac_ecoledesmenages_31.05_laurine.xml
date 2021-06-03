@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2021-05-31T10:19:09+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zxx">
   <teiHeader>
@@ -58,7 +58,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <p><!--Toutes les informations qui vous semblent importantes--></p>
+      <p>Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui pourront apparaître dans les speaker plutôt que les stage‑c. A vérifier au moment de passer au XML !</p>
     </encodingDesc>
     <profileDesc>
       <creation>
@@ -71,30 +71,8 @@
   </teiHeader>
   <text>
     <body>
-      <!--  
-      <p>Éditeur : (Paris)</p>
-      <p>Date d‘édition : 1907</p>
-      <p>Contributeur : Spoelberch de Lovenjoul, Charles de (1836-1907). Éditeur scientifique</p>
-      <p>Contributeur : Bertall (1820-1882). Illustrateur</p>
-      <p>Contributeur : Manesse, Georges-Henri (1854-1940?). Graveur</p>
-      <p>Contributeur : Robaudi, Alcide Théophile (1850-1928). Illustrateur</p>
-      <p>Notice d‘oeuvre : http ://catalogue.bnf.fr/ark :/12148/cb16589947t</p>
-      <p>Notice du catalogue : http ://catalogue.bnf.fr/ark :/12148/cb31756888n</p>
-      <p>Type : monographie imprimée</p>
-      <p>Langue : français</p>
-      <p>Langue : Français</p>
-      <p>Format : 1 vol. (II-239 p.) : portr. et vignettes gravés ; in-8</p>
-      <p>Format : Nombre total de vues : 268</p>
-      <p>Description : [L‘école des ménages (français)]</p>
-      <p>Description : Avec mode texte</p>
-      <p>Droits : Consultable en ligne</p>
-      <p>Droits : Public domain</p>
-      <p>Identifiant : ark :/12148/bpt6k42214045</p>
-      <p>Provenance : Bibliothèque nationale de France</p>
-      <p>Date de mise en ligne : 04/11/2019</p> -->
-      <div subtype="level1">
-        <head><!-- Auteur inconnu : 2021-05-04T14:45:01.497000000
-Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui pourront apparaître dans les speaker plutôt que les stage‑c. A vérifier au moment de passer au XML !-->Personnages</head>
+      <div type="set">
+        <head>Personnages</head>
         <castList>
           <castItem xml:id="gerard">Monsieur Gérard, négociant.</castItem>
           <castItem xml:id="madamegerard">Madame Gérard, sa femme.</castItem>
@@ -113,8 +91,10 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <castItem xml:id="lejuge"> Un Juge.</castItem>
           <castItem xml:id="legreffier"> Un Greffier.</castItem>
         </castList>
-        <set>La scène est à Paris, dans le salon des appartements de la famille. Au fond est une antichambre. À gauche de la scène est la porte des appartements de madame Gérard et de ses filles. À droite le cabinet de monsieur Gérard.</set>
-        <set>La décoration ne change pas. On ne baisse le rideau que dans l’entr’acte qui précède le cinquième acte, pour marquer un laps de temps.</set> <!-- je mets 2 fois set ? -->
+        <set>
+          <p>La scène est à Paris, dans le salon des appartements de la famille. Au fond est une antichambre. À gauche de la scène est la porte des appartements de madame Gérard et de ses filles. À droite le cabinet de monsieur Gérard.</p>
+          <p>La décoration ne change pas. On ne baisse le rideau que dans l’entr’acte qui précède le cinquième acte, pour marquer un laps de temps.</p>
+        </set>
       </div>
       <div type="act">
         <head>Acte premier</head>
@@ -292,7 +272,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
             <head>Scène II</head>
           <sp who="roblot">
             <speaker> Roblot, <stage>seul. </stage></speaker>
-            <p>Voilà les domestiques d’aujourd‘hui ! C’est des ennemis apprivoisés par l’intérêt. Quand j’en aurai, je ne sais pas comment je ferai, moi qui m’étais tant promis de ne jamais avoir que ceux des autres. <stage>(Il va jusqu’à la porte de l’appartement.)</stage> Elle ne m’écoute pas ? Non. <stage>(Il revient.) </stage>Elle a remarqué ma tenue extraordinaire dès le matin. Je prétexterai un rendez-vous pour quelque affaire importante, et personne ne devinera le secret de la démarche que je vais tenter. Me voilà donc, malgré mon impassibilité, jeté comme acteur dans le drame qui se joue ici, après m‘être bien promis, en entrant dans ma carrière, de ne jamais me mêler que des affaires d‘argent dans les Maisons où je serais employé. Jusqu’à présent, quand madame Gérard me disait d‘un air dolent : « Ah ! mon cher Roblot, que de peines dans la vie ! <hi rend="b">–</hi> [Je <pb n="13" xml:id="p13"/>répondais :] C’est vrai, Madame ; mais la vente a doublé! <hi rend="b">–</hi> Monsieur Roblot, à quoi sert la fortune, si on n’a pas le bonheur ? <hi rend="b">–</hi> Madame, j’ai ordre de passer une voiture nouvelle à profits et pertes. Et en sortant j’entendais dire : « Il a le cœur dans sa caisse, ce Roblot ! » Moi, qui voulais mourir tranquille, garçon, sur mon fauteuil de caissier, remuant des écus, empilant des écus, ne me souciant que d’écus, je vais donc avoir une belle femme, sans doute des enfants, une fortune : embarras sur embarras. Je me serais mieux arrangé de rester premier ministre de la Maison Gérard ; ma tête se trouble aussitôt que je passe des écus aux sentiments. L’amour ? C’est des paroles et ça finit. Parlez-moi d’un beau bordereau à l’encre rouge et noire, de comptes bien alignés, d’où il résulte de l’argent dans la caisse ! Ça va toujours. Aussi monsieur Duval a-t-il bien trouvé le seul moyen de séduire mademoiselle Adrienne : l‘argent ! Moi, Roblot, me voilà pris. L‘intérêt la fera-t-il aussi succomber ? Mademoiselle Adrienne est une vertueuse fille. Hier, je ne l’aurais pas juré, ça ne me regardait pas ; mais ce matin !… Mademoiselle Adrienne, d’après mes relevés, doit avoir cinquante mille francs bien placés chez nos banquiers, par le conseil de monsieur Gérard. Moi, j’ai cinquante mille francs aussi. Nous pouvons commencer la banque Roblot et compagnie ! Ça pourra prêter à rire. Mais quelles masses de bordereaux ! Eh bien ! personne ne le croirait, ce n’est ni les bordereaux ni les comptes qui m’épouvantent, <pb n="14" xml:id="p14"/>c’est la belle femme ! Ce maudit monsieur Duval me donne le rôle de Satan à jouer… J’entends mademoiselle Adrienne ! Mais comment parler d‘amour, moi qui n’ai de passion qu’au bout de mes chiffres ! Après tout, l‘amour est une addition, le mariage une multiplication, et l‘arithmétique fait plus de mariages que l‘amour n’en défait.</p></sp>
+            <p>Voilà les domestiques d’aujourd‘hui ! C’est des ennemis apprivoisés par l’intérêt. Quand j’en aurai, je ne sais pas comment je ferai, moi qui m’étais tant promis de ne jamais avoir que ceux des autres. <stage>(Il va jusqu’à la porte de l’appartement.)</stage> Elle ne m’écoute pas ? Non. <stage>(Il revient.) </stage>Elle a remarqué ma tenue extraordinaire dès le matin. Je prétexterai un rendez-vous pour quelque affaire importante, et personne ne devinera le secret de la démarche que je vais tenter. Me voilà donc, malgré mon impassibilité, jeté comme acteur dans le drame qui se joue ici, après m‘être bien promis, en entrant dans ma carrière, de ne jamais me mêler que des affaires d‘argent dans les Maisons où je serais employé. Jusqu’à présent, quand madame Gérard me disait d‘un air dolent : « Ah ! mon cher Roblot, que de peines dans la vie ! – [Je <pb n="13" xml:id="p13"/>répondais :] C’est vrai, Madame ; mais la vente a doublé! – Monsieur Roblot, à quoi sert la fortune, si on n’a pas le bonheur ? – Madame, j’ai ordre de passer une voiture nouvelle à profits et pertes. Et en sortant j’entendais dire : « Il a le cœur dans sa caisse, ce Roblot ! » Moi, qui voulais mourir tranquille, garçon, sur mon fauteuil de caissier, remuant des écus, empilant des écus, ne me souciant que d’écus, je vais donc avoir une belle femme, sans doute des enfants, une fortune : embarras sur embarras. Je me serais mieux arrangé de rester premier ministre de la Maison Gérard ; ma tête se trouble aussitôt que je passe des écus aux sentiments. L’amour ? C’est des paroles et ça finit. Parlez-moi d’un beau bordereau à l’encre rouge et noire, de comptes bien alignés, d’où il résulte de l’argent dans la caisse ! Ça va toujours. Aussi monsieur Duval a-t-il bien trouvé le seul moyen de séduire mademoiselle Adrienne : l‘argent ! Moi, Roblot, me voilà pris. L‘intérêt la fera-t-il aussi succomber ? Mademoiselle Adrienne est une vertueuse fille. Hier, je ne l’aurais pas juré, ça ne me regardait pas ; mais ce matin !… Mademoiselle Adrienne, d’après mes relevés, doit avoir cinquante mille francs bien placés chez nos banquiers, par le conseil de monsieur Gérard. Moi, j’ai cinquante mille francs aussi. Nous pouvons commencer la banque Roblot et compagnie ! Ça pourra prêter à rire. Mais quelles masses de bordereaux ! Eh bien ! personne ne le croirait, ce n’est ni les bordereaux ni les comptes qui m’épouvantent, <pb n="14" xml:id="p14"/>c’est la belle femme ! Ce maudit monsieur Duval me donne le rôle de Satan à jouer… J’entends mademoiselle Adrienne ! Mais comment parler d‘amour, moi qui n’ai de passion qu’au bout de mes chiffres ! Après tout, l‘amour est une addition, le mariage une multiplication, et l‘arithmétique fait plus de mariages que l‘amour n’en défait.</p></sp>
           </div>  
                 <div type="scene">
                <head>Scène III</head>
@@ -470,7 +450,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Vous piquez ma curiosité, je l’avoue. <stage>(</stage><stage>À</stage><stage> part.)</stage> Il y a quelque piège. Mais Roblot… oh ! Non.</p>
+            <p>Vous piquez ma curiosité, je l’avoue. <stage>(À part.)</stage> Il y a quelque piège. Mais Roblot… oh ! Non.</p>
           </sp>
           <sp who="roblot">
             <speaker> Roblot,<stage> à part. </stage></speaker>
@@ -864,7 +844,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Victoire.</stage> </speaker>
-            <p>Laissez-nous. <stage>(</stage><stage>À</stage><stage> Adrienne.)</stage> Il est bien indifférent, Mademoiselle, qu’elle entende ce que je vous dis, quand elle voit, comme tout le monde d‘ailleurs, la marche des choses ici. Vous êtes la maîtresse de la maison, et je suis la parvenue.</p>
+            <p>Laissez-nous. <stage>(À Adrienne.)</stage> Il est bien indifférent, Mademoiselle, qu’elle entende ce que je vous dis, quand elle voit, comme tout le monde d‘ailleurs, la marche des choses ici. Vous êtes la maîtresse de la maison, et je suis la parvenue.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -881,7 +861,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           </sp>
           <sp who="madamegerard">
             <speaker> Madame Gérard</speaker>
-            <p>Ce <emph>on</emph> est bien trouvé, car <emph>on</emph> vous en a tirée, ma chère.</p>
+            <p>Ce <hi rend="i">on</hi> est bien trouvé, car <hi rend="i">on</hi> vous en a tirée, ma chère.</p>
           </sp>
           <sp who="adrienne">
             <speaker> Adrienne</speaker>
@@ -1182,7 +1162,7 @@ Note pour plus tard : j’ai potentiellement mal stylé certaines virgules, qui
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Un droguiste de la rue des Lombards touche de bien près à l‘épicerie, ma Sœur. Mais je ne rougis pas de mon état, et j‘oppose plaisanterie à plaisanterie. Je disais ce mot à un jeune écrivain, à qui j‘ai eu le plaisir de rendre service : <!-- Auteur inconnu : 2021-05-04T13:39:45.568000000
-Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.</emph></p>
+Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des drogues.</hi></p>
             <pb n="47" xml:id="p47"/>
           </sp>
           <sp who="anna">
@@ -1224,7 +1204,7 @@ Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Mais oui. <stage>(</stage><stage>À</stage><stage> sa nièce Anna.)</stage> Ah çà ! tais-toi ; laisse-moi l‘honneur du plan ; j‘y suis pour les cent mille francs. <stage>(</stage><stage>À </stage><stage>sa sœur.) </stage>Elle est bien gentille, Anna ; elle était dans le secret. On peut la consulter. Elle a sa petite tête. C’est un démon.</p>
+            <p>Mais oui. <stage>(À sa nièce Anna.)</stage> Ah çà ! tais-toi ; laisse-moi l‘honneur du plan ; j‘y suis pour les cent mille francs. <stage>(</stage><stage>À </stage><stage>sa sœur.) </stage>Elle est bien gentille, Anna ; elle était dans le secret. On peut la consulter. Elle a sa petite tête. C’est un démon.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1266,15 +1246,12 @@ Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Vous allez le savoir, voici Roblot.</p>
-            <pb n="50" xml:id="p50"/>
-            <p>
-              <hi rend="b">
-                <emph>S</emph>
-                <emph>cène X</emph>
-              </hi>
-            </p>
-            <stage>Les Mêmes, Roblot.</stage>
           </sp>
+        </div>
+        <div type="scene">
+            <pb n="50" xml:id="p50"/>
+            <head>Scène X</head>
+            <stage>Les Mêmes, Roblot.</stage>
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Monsieur Duval, tout est perdu. Je suis allé chez vous pour vous le dire, mais…</p>
@@ -1297,7 +1274,7 @@ Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Tu trouves ? <stage>(</stage><stage>À</stage><stage> Roblot.)</stage> Pour se faire agréer, il faut savoir s‘y prendre, et vous vous y serez mal pris.</p>
+            <p>Tu trouves ? <stage>(À Roblot.)</stage> Pour se faire agréer, il faut savoir s‘y prendre, et vous vous y serez mal pris.</p>
             <pb n="51" xml:id="p51"/>
           </sp>
           <sp who="roblot">
@@ -1433,7 +1410,7 @@ Italique dans l’imprimé--><emph>je ne suis pas le seul qui vende des drogues.
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Vous resterez, Monsieur Roblot. <stage>(</stage><stage>À</stage><stage> Anna.)</stage> Tu ferais battre les anges. <stage>(</stage><stage>À</stage><stage> Roblot.)</stage> Allez, Monsieur Roblot, dites à mademoiselle Guérin de monter.</p>
+            <p>Vous resterez, Monsieur Roblot. <stage>(À Anna.)</stage> Tu ferais battre les anges. <stage>(À Roblot.)</stage> Allez, Monsieur Roblot, dites à mademoiselle Guérin de monter.</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -1917,7 +1894,9 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
             <speaker>Victoire<stage>, seule. </stage></speaker>
             <p>Plus souvent que je vais me hasarder à essuyer la colère de monsieur ! S’il entre par les Magasins et n’y trouve pas mademoiselle, ce sera bien amusant ! Le reçoive qui voudra ; je vais aller acheter la truite.</p>
           </sp>
-            <p>[ILLUSTRATION]</p>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
             <pb n="73" xml:id="p73"/>
         </div>
       </div>
@@ -1925,8 +1904,9 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
               <head>Acte deuxième</head>
             <pb n="74" xml:id="p74"/>
             <pb n="75" xml:id="p75"/>
-            <p>[ILLUSTRATION]</p>
-            </div>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
         <div type="scene">
             <head>Scène I</head>
           
@@ -2378,7 +2358,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Oui, tu me feras plaisir. <stage>(</stage><stage>À</stage><stage> part.) </stage>J‘étouffe.</p>
+            <p>Oui, tu me feras plaisir. <stage>(À part.) </stage>J‘étouffe.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2394,7 +2374,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Mes raisons, mes raisons… <stage>(</stage><stage>À</stage><stage> part.) </stage>Mon Dieu, gardons- nous d‘éveiller ses soupçons ! <stage>(Haut.)</stage> Il s‘est donc passé des choses…</p>
+            <p>Mes raisons, mes raisons… <stage>(À part.) </stage>Mon Dieu, gardons- nous d‘éveiller ses soupçons ! <stage>(Haut.)</stage> Il s‘est donc passé des choses…</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2406,7 +2386,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Jaloux ! elle est la plus faible et vous la chagrinez ! <stage>(</stage><stage>À</stage><stage> part.)</stage> Il ne m’écoute pas.</p>
+            <p>Jaloux ! elle est la plus faible et vous la chagrinez ! <stage>(À part.)</stage> Il ne m’écoute pas.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2456,7 +2436,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>N’allez-vous pas m‘accueillir par une querelle ? Ce n‘est plus de notre âge… <stage>(</stage><stage>À</stage><stage> part.)</stage> Mais Roblot ?</p>
+            <p>N’allez-vous pas m‘accueillir par une querelle ? Ce n‘est plus de notre âge… <stage>(À part.)</stage> Mais Roblot ?</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2522,7 +2502,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Madame, si vous disiez vrai… <stage>(</stage><stage>À</stage><stage> part.)</stage> De quel côté se trouve la trahison ? J‘ai le cœur dévoré de soupçons....</p>
+            <p>Madame, si vous disiez vrai… <stage>(À part.)</stage> De quel côté se trouve la trahison ? J‘ai le cœur dévoré de soupçons....</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Anna. </stage></speaker>
@@ -2692,7 +2672,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Louis Guérin. </stage></speaker>
-            <p>Arrêtez, Monsieur. <stage>(</stage><stage>À</stage><stage> Gérard.)</stage> Je n’ai pas renvoyé mademoiselle Guérin sans les plus graves raisons, et son rappel peut avoir des conséquences que vous déploreriez plus tard ! D’abord, songez que vous allez me donner tort devant toute ma Maison, devant le public.</p>
+            <p>Arrêtez, Monsieur. <stage>(À Gérard.)</stage> Je n’ai pas renvoyé mademoiselle Guérin sans les plus graves raisons, et son rappel peut avoir des conséquences que vous déploreriez plus tard ! D’abord, songez que vous allez me donner tort devant toute ma Maison, devant le public.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2705,7 +2685,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Qui vous parle de vous immoler ! Vous avez le talent de vous rendre victime, d’embarrasser la vie intérieure de mille petites considérations qui ne sont rien en elles- mêmes, et qui, sans cesse ajoutées les unes aux autres, deviennent des montagnes. <stage>(</stage><stage>À</stage><stage> Louis Guérin.)</stage> Allez, mon cher !</p>
+            <p>Qui vous parle de vous immoler ! Vous avez le talent de vous rendre victime, d’embarrasser la vie intérieure de mille petites considérations qui ne sont rien en elles- mêmes, et qui, sans cesse ajoutées les unes aux autres, deviennent des montagnes. <stage>(À Louis Guérin.)</stage> Allez, mon cher !</p>
           </sp>
           <sp who="madamegerard">
             <speaker> Madame Gérard</speaker>
@@ -2783,7 +2763,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, à sa mère. </stage></speaker>
-            <p>Ma Mère, pourquoi vous humilier quand vous avez à pardonner ? <stage>(</stage><stage>À</stage><stage> son père.)</stage> Mon Père ! faites ce que ma mère vous demande,… ou… tu t‘en repentiras !</p>
+            <p>Ma Mère, pourquoi vous humilier quand vous avez à pardonner ? <stage>(À son père.)</stage> Mon Père ! faites ce que ma mère vous demande,… ou… tu t‘en repentiras !</p>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -2821,8 +2801,8 @@ parethèses-->Gérard<stage>. (II court après Louis Guérin.)</stage> </speaker
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Cependant le voyage te va. <stage>(</stage><stage>À</stage><stage> sa sœur.)</stage> Il est comme un jeune homme !<!-- Auteur inconnu : 2021-05-17T11:09:45.178000000
-Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> Gérard.)] </stage>Tu te portes à merveille. La santé est, selon les philosophes et les médecins, le premier bien…</p>
+            <p>Cependant le voyage te va. <stage>(À sa sœur.)</stage> Il est comme un jeune homme !<!-- Auteur inconnu : 2021-05-17T11:09:45.178000000
+Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te portes à merveille. La santé est, selon les philosophes et les médecins, le premier bien…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2909,7 +2889,7 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Monsieur. <stage>(</stage><stage>À</stage><stage> part.)</stage> J’ai déjà ma chemise mouillée dans le dos.</p>
+            <p>Monsieur. <stage>(À part.)</stage> J’ai déjà ma chemise mouillée dans le dos.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -3041,7 +3021,7 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Je suis calme, je t’écoute ; parle, mon vieux Roblot, dis-moi la vérité. <stage>(</stage><stage>À</stage><stage> la famille.) </stage>Taisez-vous.</p>
+            <p>Je suis calme, je t’écoute ; parle, mon vieux Roblot, dis-moi la vérité. <stage>(À la famille.) </stage>Taisez-vous.</p>
           </sp>
           <sp who="roblot">
             <speaker> Roblot</speaker>
@@ -3425,15 +3405,20 @@ Crochets à checker dans autre éd--><stage> [(</stage><stage>À</stage><stage> 
             <speaker>Anna</speaker>
             <p>Viens, nous allons le savoir.</p>
           </sp>
-            <p>[ILLUSTRATION]</p>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
             <pb n="127" xml:id="p127"/>
+            </div>
             </div>
             <div type="act">
               <head>Acte troisième</head>
             <pb n="128" xml:id="p128"/>
             <pb n="129" xml:id="p129"/>
-            <p>[ILLUSTRATION]</p>
-            </div>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
+            
         <div type="scene">
             <head>Scène I</head>
             <stage>Duval, Madame Gérard, puis Caroline, Anna.</stage>
@@ -3792,7 +3777,7 @@ Style stage ou stage‑c ? J’ai mis stage là-->(Gérard parait au fond, et v
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Mais vous me surprenez fort…  <stage>(</stage><stage>À</stage><stage> part.)</stage> Le diable se mêle de mes affaires… <stage>(Haut.) </stage>Je suis accouru chez votre frère ; vous veniez de partir. <stage>(À sa femme.)</stage> Louis Guérin viendra dîner avec nous. <stage>(</stage><stage>À</stage><stage> part.) </stage>Elle a embelli. <stage>(Haut.) </stage>Vous paraissez émue.</p>
+            <p>Mais vous me surprenez fort…  <stage>(À part.)</stage> Le diable se mêle de mes affaires… <stage>(Haut.) </stage>Je suis accouru chez votre frère ; vous veniez de partir. <stage>(À sa femme.)</stage> Louis Guérin viendra dîner avec nous. <stage>(À part.) </stage>Elle a embelli. <stage>(Haut.) </stage>Vous paraissez émue.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -4236,7 +4221,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Anna ! <stage>(</stage><stage>À</stage><stage> Caroline.)</stage> Il n’y a rien de certain, que les facultés. Ce que Dieu nous donne, la pensée, a jusqu‘à présent échappé aux caprices des systèmes. Si les fortunes sont mobiles, les capacités sont fixes.</p>
+            <p>Anna ! <stage>(À Caroline.)</stage> Il n’y a rien de certain, que les facultés. Ce que Dieu nous donne, la pensée, a jusqu‘à présent échappé aux caprices des systèmes. Si les fortunes sont mobiles, les capacités sont fixes.</p>
             <pb n="157" xml:id="p157"/>
           </sp>
           <sp who="anna">
@@ -4245,7 +4230,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Cette petite est déjà trop grande. <stage>(</stage><stage>À</stage><stage> Caroline.)</stage> Ma Fille, le devoir des pères consiste à régler leur conduite sur les mœurs du temps… Te choisir pour mari un homme d’honneur, plein de talents, dont l’énergie a déjà dompté la misère, et qui, pouvant être l‘artisan de sa fortune, saura garder la tienne, la grossir pour tes enfants, c‘est te préparer un bonheur sûr…</p>
+            <p>Cette petite est déjà trop grande. <stage>(À Caroline.)</stage> Ma Fille, le devoir des pères consiste à régler leur conduite sur les mœurs du temps… Te choisir pour mari un homme d’honneur, plein de talents, dont l’énergie a déjà dompté la misère, et qui, pouvant être l‘artisan de sa fortune, saura garder la tienne, la grossir pour tes enfants, c‘est te préparer un bonheur sûr…</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -4318,11 +4303,11 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Anna, ma Fille, vous prenez avec votre père des licences… <stage>(</stage><stage>À</stage><stage> sa femme.) </stage>Vous devez connaître ce personnage ?</p>
+            <p>Anna, ma Fille, vous prenez avec votre père des licences… <stage>(À sa femme.) </stage>Vous devez connaître ce personnage ?</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Je suis aussi étonnée que vous l‘êtes, Monsieur, d’apprendre cette nouvelle. <stage>(</stage><stage>À</stage><stage> Caroline.) </stage>Est-ce vrai ?</p>
+            <p>Je suis aussi étonnée que vous l‘êtes, Monsieur, d’apprendre cette nouvelle. <stage>(À Caroline.) </stage>Est-ce vrai ?</p>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -4364,7 +4349,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Madame !… <stage>(</stage><stage>À</stage><stage> Anna.)</stage> Eh bien ! ma Fille.</p>
+            <p>Madame !… <stage>(À Anna.)</stage> Eh bien ! ma Fille.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -4524,7 +4509,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Vous avez une manière de dire <!-- Auteur inconnu : 2021-05-21T11:19:39.214000000
-En italique dans le manuscrit--><emph>cette fille</emph> qui la déshonore…</p>
+En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore…</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -4680,7 +4665,7 @@ En italique dans le manuscrit--><emph>cette fille</emph> qui la déshonore…</p
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Allons, pas d‘enfantillage… <stage>(Roblot sort. </stage><stage>À</stage><stage> Hippolyte.) </stage>Venez.</p>
+            <p>Allons, pas d‘enfantillage… <stage>(Roblot sort. À Hippolyte.) </stage>Venez.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, dans ses appar</stage><stage>t</stage><stage>ements. </stage></speaker>
@@ -4838,21 +4823,25 @@ crocheeeeets--><stage>, [à par</stage><stage>t</stage><stage>]. </stage></speak
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Embrasse-moi ! Tu es une adorable petite folle. <!-- Auteur inconnu : 2021-05-21T16:24:29.698000000
-Capitaine crochets--><stage>[(</stage><stage>À</stage><stage> Louis Guérin.)] </stage>Venez dans mon cabinet, nous avons à causer d‘affaires. <stage>(</stage><stage>I</stage><stage>ls sortent.) </stage></p>
+Capitaine crochets--><stage>[(À Louis Guérin.)] </stage>Venez dans mon cabinet, nous avons à causer d‘affaires. <stage>(</stage><stage>I</stage><stage>ls sortent.) </stage></p>
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, seule. </stage></speaker>
             <p>Les Guérin triomphent ! Ils ont pour eux le gouvernement et la gendarmerie paternelle ; l’opposition a, <pb n="178" xml:id="p178"/>comme on dit, l‘estime du pays ; le sacrifice de mademoiselle Anna est rejeté à l’unanimité! C’était beau de ma part, moi qui ne sais pas comment on peut aimer un homme. Je les trouve tous laids, de gros favoris noirs, des barbes dures, des teints à faire peur ! Quand ils sont jolis, ils nous ressemblent, et ils n’ont alors ni esprit, ni capacité… Vraiment, le monde est à refaire ; si je me marie, je ne veux que des garçons, afin de ne pas avoir l’ennui des gendres. Que va devenir ma sœur ? elle est capable… oh, non !</p>
           </sp>
-            <p>[ILLUSTRATION]</p>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
             <pb n="179" xml:id="p179"/>
+            </div>
             </div>
             <div type="act">
             <head>Acte quatrième</head>
             <pb n="180" xml:id="p180"/>
             <pb n="181" xml:id="p181"/>
-            <p>[Illustration]</p>
-            </div>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
         <div type="scene">
             <head>Scène I</head>
             <stage>François, Victoire, Justine.</stage>
@@ -5304,7 +5293,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
-            <p>Il partait, Monsieur. <stage>(</stage><stage>À</stage><stage> part.)</stage> Et moi je vais partir aussi !</p>
+            <p>Il partait, Monsieur. <stage>(À part.)</stage> Et moi je vais partir aussi !</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -5316,7 +5305,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           </sp>
           <sp who="caroline">
             <speaker>Caroline<stage>, à part. </stage></speaker>
-            <p>Il m’a embrassée… <stage>(</stage><stage>À</stage><stage> son père.)</stage> Vous m’avez donné la vie, vous pouvez me la rep… <stage>(Elle sort en larmes.)</stage></p>
+            <p>Il m’a embrassée… <stage>(À son père.)</stage> Vous m’avez donné la vie, vous pouvez me la rep… <stage>(Elle sort en larmes.)</stage></p>
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, montrant Adrienne. </stage></speaker>
@@ -5735,7 +5724,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à Justine. </stage></speaker>
-            <p>Sortez ! <stage>(</stage><stage>À</stage><stage> sa femme.)</stage> Nous y avons tous notre part.</p>
+            <p>Sortez ! <stage>(À sa femme.)</stage> Nous y avons tous notre part.</p>
             <stage> (Caroline et Anna paraissent à la porte du fond ; François soutient Caroline.) </stage>
           </sp>
           <sp who="duval">
@@ -5745,7 +5734,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Leur dire un mot, n‘est-ce pas ? Qu‘elles viennent seules. <stage>(</stage><stage>À</stage><stage> François.)</stage> Mettez-vous à la porte des appartements, <stage>(à Duval)</stage> va voir s‘il ferme l’antichambre.</p></sp>
+            <p>Leur dire un mot, n‘est-ce pas ? Qu‘elles viennent seules. <stage>(À François.)</stage> Mettez-vous à la porte des appartements, <stage>(à Duval)</stage> va voir s‘il ferme l’antichambre.</p></sp>
             <stage>(Duval accompagne François ; on entend fermer une porte, Duval ferme celle du salon.) </stage>
         </div>
         <div type="scene">
@@ -5933,7 +5922,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à Adrienne. </stage></speaker>
-            <p>Je t‘attends au Havre !… Je suis seul et pauvre. <stage>(</stage><stage>À</stage><stage> sa femme et à ses enfants.) </stage>Adieu, nous ne nous verrons plus jamais.</p>
+            <p>Je t‘attends au Havre !… Je suis seul et pauvre. <stage>(À sa femme et à ses enfants.) </stage>Adieu, nous ne nous verrons plus jamais.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna </speaker>
@@ -5959,16 +5948,18 @@ parenthèses-->
             <stage>
              (La toile tombe.)
             </stage>
-            <p>[Illustration]</p>
+            <figure xml:id="fig">
+<graphic url=""/>
+</figure>
             <pb n="221" xml:id="p221"/>
+            </div>
             </div>
             <div type="act">
             
-              <head>Acte Cinquième</head>
+              <head>Acte cinquième</head>
             
-            <pb n="&#10;222" xml:id="p222"/>
+            <pb n="222" xml:id="p222"/>
             <pb n="223" xml:id="p223"/>
-            </div>
         <div type="scene">
             <head>Scène I</head>
           <sp who="roblot">
@@ -6083,7 +6074,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="lejuge">
             <speaker>Le juge<stage>, à son greffier. </stage></speaker>
-            <p>Vous avez fini ?… <stage>(Il va à la table et lit.)</stage> Bien. <stage>(</stage><stage>À</stage><stage> Roblot.)</stage> Eh bien ! Procédons à l‘interrogatoire.</p>
+            <p>Vous avez fini ?… <stage>(Il va à la table et lit.)</stage> Bien. <stage>(À Roblot.)</stage> Eh bien ! Procédons à l‘interrogatoire.</p>
           </sp>
           <sp who="lemedecin">
             <speaker>Le médecin</speaker>
@@ -6150,20 +6141,17 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="lejuge">
             <speaker>Le juge<stage>, à Louis Guérin. </stage></speaker>
-            <p>Cette personne est votre sœur, Adrienne Guérin… ? <stage>(</stage><stage>À</stage><stage> Roblot.)</stage> Monsieur le déclare…</p>
+            <p>Cette personne est votre sœur, Adrienne Guérin… ? <stage>(À Roblot.)</stage> Monsieur le déclare…</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Je l’affirme.</p>
-            <pb n="231" xml:id="p231"/>
-            <p>
-              <hi rend="b">
-                <emph>S</emph>
-                <emph>cène V</emph>
-              </hi>
-            </p>
-            <stage>Les Mêmes, Madame Gérard et Duval amenant Gérard. (Il est mis avec toute la recherche d’un dandy.)</stage>
           </sp>
+        </div>
+              <div type="scene">
+            <pb n="231" xml:id="p231"/>
+                <head>Scène V</head>
+            <stage>Les Mêmes, Madame Gérard et Duval amenant Gérard. (Il est mis avec toute la recherche d’un dandy.)</stage>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Comme elle viendra sans doute aujourd’hui, j‘ai fait fine toilette qui m‘ôte vingt ans.</p>
@@ -6265,7 +6253,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Lui ? Un vieux fou, un homme de soixante ans, qui se teint les cheveux, qui s‘adonise, qui fait le jeune, qui met des bottes vernies, un ci-devant jeune homme ! Il veut paraître ce qu‘il n’est pas. Si sa maîtresse… et d‘abord, a-t-il une maîtresse ? Mais il aime, voyez-vous, et il faut respecter l‘amour, même imaginaire ; celui-là ne blesse point les lois… Vous allez voir combien il aime. <stage>(</stage><stage>À</stage><stage> Gérard.)</stage> Eh bien, l’avez-vous revue ?</p>
+            <p>Lui ? Un vieux fou, un homme de soixante ans, qui se teint les cheveux, qui s‘adonise, qui fait le jeune, qui met des bottes vernies, un ci-devant jeune homme ! Il veut paraître ce qu‘il n’est pas. Si sa maîtresse… et d‘abord, a-t-il une maîtresse ? Mais il aime, voyez-vous, et il faut respecter l‘amour, même imaginaire ; celui-là ne blesse point les lois… Vous allez voir combien il aime. <stage>(À Gérard.)</stage> Eh bien, l’avez-vous revue ?</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -6303,7 +6291,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           </sp>
           <sp who="lejuge">
             <speaker>Le juge</speaker>
-            <p>Messieurs, signez, je vous prie, vos déclarations. <stage>(</stage><stage>À</stage><stage> Gérard.)</stage> Monsieur Gérard ?</p>
+            <p>Messieurs, signez, je vous prie, vos déclarations. <stage>(À Gérard.)</stage> Monsieur Gérard ?</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne<stage>, à Gérard. </stage></speaker>
@@ -6343,7 +6331,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           </sp>
           <sp who="lejuge">
             <speaker>Le juge</speaker>
-            <p>Je ne prolongerai pas cette scène pénible pour tous Le tribunal prononcera l’interdiction, nommera monsieur Duval curateur de monsieur Gérard, et vous, Monsieur,<stage> (à Louis Guérin)</stage> curateur de votre sœur. <stage>(</stage><stage>À</stage><stage> Caroline.)</stage> Votre mariage sera retardé, mais monsieur Guérin pressera l‘expédition du jugement.</p>
+            <p>Je ne prolongerai pas cette scène pénible pour tous Le tribunal prononcera l’interdiction, nommera monsieur Duval curateur de monsieur Gérard, et vous, Monsieur,<stage> (à Louis Guérin)</stage> curateur de votre sœur. <stage>(À Caroline.)</stage> Votre mariage sera retardé, mais monsieur Guérin pressera l‘expédition du jugement.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -6390,15 +6378,11 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
             <speaker>Madame Gérard<stage>, à Caroline et à Louis Guérin. </stage></speaker>
             <p>Nos malheurs sont irréparables ; vous resterez ici, vous, pour que votre bonheur ne soit pas affligé de ce spectacle. Anna et moi, nous les emmènerons à la campagne. S‘il y avait une crise favorable, nous serions loin du monde… Ah ! nous avons tous fautes !</p>
           </sp>
-              <p>[ILLUSTRATION]</p>
+              <figure xml:id="fig">
+<graphic url=""/>
+</figure>
         </div>
-            
-        <!-- 
-            <p>PARIS IMPRIMERIE GÉNÉRALE</p>
-            <p>LAIIURE</p>
-            <p>PARIS</p>
-            <p>Imprimerie Générale Lahu 9, Rue de Fleurus, 9</p>
-            <p>— — &lt;</p> -->
+            </div>
     </body>
   </text>
 </TEI>
