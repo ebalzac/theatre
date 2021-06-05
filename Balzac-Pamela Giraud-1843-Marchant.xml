@@ -824,7 +824,7 @@
           <stage>Dupré, Antoine, Justine.</stage>
           <sp who="antoine">
             <speaker>Antoine, <stage>à part, voyant entrer Dupré</stage>.</speaker>
-            <p>Ah ! l’avocat. <stage>(Haut.)</stage> Justine, allez prévenir madame. <stage>(</stage><stage>À</stage><stage> part.)</stage> L’avocat ne me paraît pas facile. <stage>(Haut.)</stage> Monsieur, y a-t-il quelque espoir de sauver ce pauvre monsieur Jules ?</p>
+            <p>Ah ! l’avocat. <stage>(Haut.)</stage> Justine, allez prévenir madame. <stage>(À part.)</stage> L’avocat ne me paraît pas facile. <stage>(Haut.)</stage> Monsieur, y a-t-il quelque espoir de sauver ce pauvre monsieur Jules ?</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -900,7 +900,7 @@
           <stage>Les mêmes, Madame Rousseau.</stage>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau, <stage>à Dupré</stage>.</speaker>
-            <p>Ah ! monsieur, nous vous attendions avec une impatience… <stage>(</stage><stage>À</stage><stage> Antoine)</stage> Antoine ! vite, prévenez mon mari. <stage>(</stage><stage>À</stage><stage> Dupré.)</stage> Monsieur, je n’espère plus qu’en vous.</p>
+            <p>Ah ! monsieur, nous vous attendions avec une impatience… <stage>(À Antoine)</stage> Antoine ! vite, prévenez mon mari. <stage>(À Dupré.)</stage> Monsieur, je n’espère plus qu’en vous.</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -912,7 +912,7 @@
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>entrant, à Antoine</stage>.</speaker>
-            <p>Oui, le général Verby… je l’attends dès qu’il viendra… <stage>(</stage><stage>À</stage><stage> Dupré.)</stage> Eh bien, mon cher monsieur Dupré…</p>
+            <p>Oui, le général Verby… je l’attends dès qu’il viendra… <stage>(À Dupré.)</stage> Eh bien, mon cher monsieur Dupré…</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -1097,7 +1097,7 @@
           </sp>
           <sp who="jules">
             <speaker>Jules <stage>parait au fond, suivi par des Agents et un Juge d’instruction ; il court vers sa mère</stage>.</speaker>
-            <p>Ma mère ! ma bonne mère ! <stage>(Il embrasse sa mère.)</stage> Ah ! je vous revois ! <stage>(</stage><stage>À</stage><stage> mademoiselle du Brocard.)</stage> Ma tante.</p>
+            <p>Ma mère ! ma bonne mère ! <stage>(Il embrasse sa mère.)</stage> Ah ! je vous revois ! <stage>(À mademoiselle du Brocard.)</stage> Ma tante.</p>
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
@@ -1121,12 +1121,12 @@
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>au Juge d’instruction</stage>. </speaker>
-            <p>À l’instant, monsieur… je vais moi-même… <stage>(</stage><stage>À</stage><stage> Dupré, montrant Jules.)</stage> Ne le quittez pas !…</p>
+            <p>À l’instant, monsieur… je vais moi-même… <stage>(À Dupré, montrant Jules.)</stage> Ne le quittez pas !…</p>
             <stage>Il s’éloigne, conduisant le Juge d’instruction, qui fait signe aux Agents de surveiller Jules.</stage>
           </sp>
           <sp who="jules">
             <speaker>Jules, <stage>prenant la main De Verby</stage>.</speaker>
-            <p>Ah ! général… <stage>(</stage><stage>À</stage><stage> Dupré.)</stage> Et vous, monsieur Dupré, si bon, si généreux, vous êtes venu consoler ma mère… <stage>(Bas.)</stage> Ah ! cachez-lui le danger que je cours. <stage>(Haut, regardant sa mère.)</stage> Dites-lui la vérité… dites-lui qu’elle n’a rien à craindre.</p>
+            <p>Ah ! général… <stage>(À Dupré.)</stage> Et vous, monsieur Dupré, si bon, si généreux, vous êtes venu consoler ma mère… <stage>(Bas.)</stage> Ah ! cachez-lui le danger que je cours. <stage>(Haut, regardant sa mère.)</stage> Dites-lui la vérité… dites-lui qu’elle n’a rien à craindre.</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -1361,7 +1361,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Vous avez su le perdre, et vous ne sauriez le sauver ? <stage>(</stage><stage>À</stage><stage> part.)</stage> Je le tiens.</p>
+            <p>Vous avez su le perdre, et vous ne sauriez le sauver ? <stage>(À part.)</stage> Je le tiens.</p>
           </sp>
           <sp who="deverby">
             <speaker>De Verby.</speaker>
@@ -1502,7 +1502,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Ah ! il y a un père et une mère ? <stage>(</stage><stage>À</stage><stage> part.)</stage> Cela coûtera beaucoup d’argent. <stage>(Haut.)</stage> Qui sont-ils ?</p>
+            <p>Ah ! il y a un père et une mère ? <stage>(À part.)</stage> Cela coûtera beaucoup d’argent. <stage>(Haut.)</stage> Qui sont-ils ?</p>
           </sp>
           <sp who="joseph">
             <speaker>Binet.</speaker>
@@ -1874,7 +1874,7 @@
           </sp>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard.</speaker>
-            <p>Monsieur est un ami de la famille. Nous venons, mademoiselle, vous demander un service. <stage>(Regardant Binet, et embarrassée de sa présence. </stage><stage>À</stage><stage> Paméla, lui montrant Binet.)</stage> Votre frère ?…</p>
+            <p>Monsieur est un ami de la famille. Nous venons, mademoiselle, vous demander un service. <stage>(Regardant Binet, et embarrassée de sa présence. À Paméla, lui montrant Binet.)</stage> Votre frère ?…</p>
           </sp>
           <sp who="giraud">
             <speaker>GIRAUD.</speaker>
@@ -2017,7 +2017,7 @@
           </sp>
           <sp who="pamela">
             <speaker>Paméla, <stage>vivement</stage>.</speaker>
-            <p>Jamais. <stage>(</stage><stage>À</stage><stage> part.)</stage> Ils ne le voudraient pas, eux !</p>
+            <p>Jamais. <stage>(À part.)</stage> Ils ne le voudraient pas, eux !</p>
           </sp>
           <sp who="deverby">
             <speaker>De Verby, <stage>à Mademoiselle du Brocard</stage>.</speaker>
@@ -2154,7 +2154,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>De tout gâter. <stage>(</stage><stage>À</stage><stage> Madame Giraud)</stage> Madame, dites a votre fille que l’avocat de monsieur Jules Rousseau est ici ! suppliez-la de venir.</p>
+            <p>De tout gâter. <stage>(À Madame Giraud)</stage> Madame, dites a votre fille que l’avocat de monsieur Jules Rousseau est ici ! suppliez-la de venir.</p>
           </sp>
           <sp who="madamegiraud">
             <speaker>Madame Giraud.</speaker>
@@ -2178,7 +2178,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Ah ! madame, je vous en prie… <stage>(</stage><stage>À</stage><stage> Madame Giraud)</stage> C’est au nom de madame… de la mère de Jules, que je vous le demande… Laissez-moi voir votre fille.</p>
+            <p>Ah ! madame, je vous en prie… <stage>(À Madame Giraud)</stage> C’est au nom de madame… de la mère de Jules, que je vous le demande… Laissez-moi voir votre fille.</p>
           </sp>
           <sp who="madamegiraud">
             <speaker>Madame Giraud.</speaker>
@@ -2441,7 +2441,7 @@
           </sp>
           <sp who="pamela">
             <speaker>Paméla, <stage>à part, très-émue, puis haut, avec exaltation</stage>.</speaker>
-            <p>Lui, Jules ! Oh ! non, ce sera moi ! Pardonnez-moi, mon Dieu ! Eh bien ! oui, oui… il est venu le 24… c’est le jour de ma fête !… Je me nomme Louise Paméla… et il n’a pas manqué de m’apporter un bouquet en cachette de mon père et de ma mère ; il est venu le soir, tard, et près de moi… Ah ! Ah ! ne craignez rien, monsieur vous voyez… je dirai tout… <stage>(</stage><stage>À</stage><stage> part.)</stage> Tout ce qui n’est pas vrai !…</p>
+            <p>Lui, Jules ! Oh ! non, ce sera moi ! Pardonnez-moi, mon Dieu ! Eh bien ! oui, oui… il est venu le 24… c’est le jour de ma fête !… Je me nomme Louise Paméla… et il n’a pas manqué de m’apporter un bouquet en cachette de mon père et de ma mère ; il est venu le soir, tard, et près de moi… Ah ! Ah ! ne craignez rien, monsieur vous voyez… je dirai tout… <stage>(À part.)</stage> Tout ce qui n’est pas vrai !…</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -2473,7 +2473,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Binet, <stage>sortant vivement du cabinet</stage>.</speaker>
-            <p>Un <pb n="16" xml:id="p16"/>moment !… un moment ! j’ai tout entendu… et vous croyez que je souffrirai ça !… j’étais ici, caché… Paméla que j’ai aimée au point d’en faire ma femme, vous voudriez lui laisser dire… <stage>(</stage><stage>À</stage><stage> Dupré.)</stage> C’est comme ça que vous gagnez mes quatorze cents francs, vous ? Moi aussi j’irai au tribunal, et je dirai que tout ça est un mensonge.</p>
+            <p>Un <pb n="16" xml:id="p16"/>moment !… un moment ! j’ai tout entendu… et vous croyez que je souffrirai ça !… j’étais ici, caché… Paméla que j’ai aimée au point d’en faire ma femme, vous voudriez lui laisser dire… <stage>(À Dupré.)</stage> C’est comme ça que vous gagnez mes quatorze cents francs, vous ? Moi aussi j’irai au tribunal, et je dirai que tout ça est un mensonge.</p>
           </sp>
           <sp who="dupre deverby madamedubrocard rousseau giraud madamegiraud">
             <speaker>Tous.</speaker>
@@ -2552,11 +2552,11 @@
           </sp>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard.</speaker>
-            <p>Je vous le disais, ma sœur, il était impossible qu’on ne vînt pas bientôt nous apprendre… ici, chez moi, cour de la Sainte-Chapelle, dans le voisinage du palais, nous sommes à portée de savoir tout ce qui se passe à la cour d’assises. Mais asseyez-vous donc, monsieur Dupré. <stage>(</stage><stage>À</stage><stage> Justine.)</stage> Justine, de l’eau sucrée, — vite… <stage>(</stage><stage>À</stage><stage> Dupré. .)</stage> Ah ! monsieur, nos remercîments.</p>
+            <p>Je vous le disais, ma sœur, il était impossible qu’on ne vînt pas bientôt nous apprendre… ici, chez moi, cour de la Sainte-Chapelle, dans le voisinage du palais, nous sommes à portée de savoir tout ce qui se passe à la cour d’assises. Mais asseyez-vous donc, monsieur Dupré. <stage>(À Justine.)</stage> Justine, de l’eau sucrée, — vite… <stage>(À Dupré. .)</stage> Ah ! monsieur, nos remercîments.</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau.</speaker>
-            <p>Monsieur, vous avez plaidé !… <stage>(</stage><stage>À</stage><stage> sa femme.)</stage> Il a été magnifique.</p>
+            <p>Monsieur, vous avez plaidé !… <stage>(À sa femme.)</stage> Il a été magnifique.</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -2576,7 +2576,7 @@
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
-            <p>Lui ! <stage>(</stage><stage>À</stage><stage> Dupré,montrant Binet.)</stage> La menace qu’il nous a faite, l’aurait-il réalisée ?</p>
+            <p>Lui ! <stage>(À Dupré,montrant Binet.)</stage> La menace qu’il nous a faite, l’aurait-il réalisée ?</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -2584,7 +2584,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Binet.</speaker>
-            <p>C’est votre faute !… sans vous… ah ! bien… j’arrive bien décidé à tout brouiller ; mais de voir tout le monde, le président, les jurés, la foule, un silence à faire peur !…je tremble un moment… pourtant je prends une résolution… on m’interroge, je vas pour répondre, et puis v’là que mes yeux rencontrent ceux de mademoiselle Paméla, tout remplis de larmes… je sens une barre là… De l’autre côté je vois monsieur Jules… un beau garçon, une tête superbe, mais bien exposée ! un air tranquille, il semblait être là par curiosité. Ça me démonte ! « n’ayez pas peur, me dit le président… parIez…» Je n’y étais plus, moi ! Cependant la crainte de me compromettre… et puis j’avais juré de dire la vérité  ; ma foi ! voilà monsieur qui fixe sur moi un œil… un œil qui semblait me dire… Je ne peux pas vous dire… ma langue s’entortille… il me prend une sueur, mon cœur se gonfle, et je me mets à pleurer comme un imbécile ! Vous avez été magnifique… alors, c’était fini, voyez-vous… il m’avait retourné complètement… voilà que je patauge… je dis que le 24 au soir, à une heure indue, j’ai surpris monsieur Jules chez Paméla… Paméla, que je devais épouser, que j’aime encore… de sorte que, si je l’épouse, on dira dans le quartier… voilà… ça m’est égal ! grand avocat ! ça m’est égal ! <stage>(</stage><stage>À</stage><stage> Justine.)</stage> Donnez-moi de l’eau sucrée !</p>
+            <p>C’est votre faute !… sans vous… ah ! bien… j’arrive bien décidé à tout brouiller ; mais de voir tout le monde, le président, les jurés, la foule, un silence à faire peur !…je tremble un moment… pourtant je prends une résolution… on m’interroge, je vas pour répondre, et puis v’là que mes yeux rencontrent ceux de mademoiselle Paméla, tout remplis de larmes… je sens une barre là… De l’autre côté je vois monsieur Jules… un beau garçon, une tête superbe, mais bien exposée ! un air tranquille, il semblait être là par curiosité. Ça me démonte ! « n’ayez pas peur, me dit le président… parIez…» Je n’y étais plus, moi ! Cependant la crainte de me compromettre… et puis j’avais juré de dire la vérité  ; ma foi ! voilà monsieur qui fixe sur moi un œil… un œil qui semblait me dire… Je ne peux pas vous dire… ma langue s’entortille… il me prend une sueur, mon cœur se gonfle, et je me mets à pleurer comme un imbécile ! Vous avez été magnifique… alors, c’était fini, voyez-vous… il m’avait retourné complètement… voilà que je patauge… je dis que le 24 au soir, à une heure indue, j’ai surpris monsieur Jules chez Paméla… Paméla, que je devais épouser, que j’aime encore… de sorte que, si je l’épouse, on dira dans le quartier… voilà… ça m’est égal ! grand avocat ! ça m’est égal ! <stage>(À Justine.)</stage> Donnez-moi de l’eau sucrée !</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, Madame Rousseau et Madame du Brocard, <stage>à Binet</stage>.</speaker>
@@ -2681,7 +2681,7 @@
           </sp>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard.</speaker>
-            <p>Il faut qu’elle soit heureuse ! j’avoue que cette jeune personne est un secours du ciel ! il n’y a que le cœur qui puisse inspirer un pareil sacrifice ! il lui faut une fortune !… trente mille francs !… on lui doit la vie de Jules. <stage>(</stage><stage>À</stage><stage> part. )</stage> Pauvre garçon, vivra-t-il ?</p>
+            <p>Il faut qu’elle soit heureuse ! j’avoue que cette jeune personne est un secours du ciel ! il n’y a que le cœur qui puisse inspirer un pareil sacrifice ! il lui faut une fortune !… trente mille francs !… on lui doit la vie de Jules. <stage>(À part. )</stage> Pauvre garçon, vivra-t-il ?</p>
             <stage>Elle regarde du côté de la fenêtre.</stage>
           </sp>
           <sp who="madamerousseau">
@@ -3081,7 +3081,7 @@
           </sp>
           <sp who="deverby">
             <speaker>De Verby, <stage>à Dupré</stage>.</speaker>
-            <p>Je pense, monsieur, qu’on ne saurait avoir trop d’admiration pour votre talent et d’estime pour votre caractère !… votre souvenir sera religieusement gardé dans la famille Rousseau ; mais ces débats intérieurs ne sauraient avoir de témoins… Quant à moi, j’ai la parole de monsieur Rousseau, je la réclame !… <stage>(</stage><stage>À</stage><stage> Jules.)</stage> Venez, mon jeune ami, venez chez mon frère !… ma nièce vous attend !… demain nous signerons le contrat.</p>
+            <p>Je pense, monsieur, qu’on ne saurait avoir trop d’admiration pour votre talent et d’estime pour votre caractère !… votre souvenir sera religieusement gardé dans la famille Rousseau ; mais ces débats intérieurs ne sauraient avoir de témoins… Quant à moi, j’ai la parole de monsieur Rousseau, je la réclame !… <stage>(À Jules.)</stage> Venez, mon jeune ami, venez chez mon frère !… ma nièce vous attend !… demain nous signerons le contrat.</p>
             <stage>Paméla, tombe sans force sur un fauteuil.</stage>
           </sp>
           <sp who="joseph">
@@ -3291,7 +3291,7 @@
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
-            <p>Oui, ils m’avaient fait partir malgré moi, et je m’étais soumis !… élevé dans l’obéissance, je tremble devant ma famille !… mais j’emportais ses souvenirs avec moi !… Il y a six mois, monsieur, avant de la connaître… je risquais ma vie pour obtenir Mademoiselle de Verby, afin de contenter leur ambition , si vous le voulez aussi, pour satisfaire ma vanité ; j’espérais un jour être gentilhomme ; moi, fils d’un négociant enrichi !… Je la rencontrai et je l’aimai !… le reste, vous le savez !… ce qui n’était qu’un sentiment est devenu un devoir, et, quand chaque heure m’éloignait d’elle, j’ai senti que mon obéissance était une lâcheté ; quand ils m’ont cru bien loin, je suis revenu !… Elle allait être arrêtée, vous l’aviez dit !… et moi je serais parti !… <stage>(</stage><stage>À</stage><stage> tous deux.)</stage> Sans vous revoir, vous, mon sauveur, qui serez le sien…</p>
+            <p>Oui, ils m’avaient fait partir malgré moi, et je m’étais soumis !… élevé dans l’obéissance, je tremble devant ma famille !… mais j’emportais ses souvenirs avec moi !… Il y a six mois, monsieur, avant de la connaître… je risquais ma vie pour obtenir Mademoiselle de Verby, afin de contenter leur ambition , si vous le voulez aussi, pour satisfaire ma vanité ; j’espérais un jour être gentilhomme ; moi, fils d’un négociant enrichi !… Je la rencontrai et je l’aimai !… le reste, vous le savez !… ce qui n’était qu’un sentiment est devenu un devoir, et, quand chaque heure m’éloignait d’elle, j’ai senti que mon obéissance était une lâcheté ; quand ils m’ont cru bien loin, je suis revenu !… Elle allait être arrêtée, vous l’aviez dit !… et moi je serais parti !… <stage>(À tous deux.)</stage> Sans vous revoir, vous, mon sauveur, qui serez le sien…</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré, <stage>le regardant</stage>.</speaker>
@@ -3352,7 +3352,7 @@
           <stage>Le Domestique remet une carte à Dupré.</stage>
           <sp who="dupre">
             <speaker>Dupré, <stage>regardant la carte et paraissant très-surpris</stage>.</speaker>
-            <p>Comment ! <stage>(</stage><stage>À</stage><stage> Jules.)</stage> Où est monsieur de Verby ? le savez-vous ?</p>
+            <p>Comment ! <stage>(À Jules.)</stage> Où est monsieur de Verby ? le savez-vous ?</p>
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -3418,7 +3418,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Ah ! monsieur, vous allez me forcer de déclarer que vous, ancien officier de <pb n="23" xml:id="p23"/>l’empire, vous m’avez paru résumer complètement cette époque glorieuse, par votre loyauté, votre courage et votre indépendance. <stage>(</stage><stage>À</stage><stage> part.)</stage> j’espère que je ne lui dois rien !</p>
+            <p>Ah ! monsieur, vous allez me forcer de déclarer que vous, ancien officier de <pb n="23" xml:id="p23"/>l’empire, vous m’avez paru résumer complètement cette époque glorieuse, par votre loyauté, votre courage et votre indépendance. <stage>(À part.)</stage> j’espère que je ne lui dois rien !</p>
           </sp>
           <sp who="deverby">
             <speaker>De Verby.</speaker>
@@ -3751,7 +3751,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Tais-toi ! tais-toi !<stage> (Mouvement général d’effroi ; Dupré regarde avec anxiété la chambre où est Paméla. </stage><stage>À</stage><stage> Binet.)</stage> T’arrêter !…</p>
+            <p>Tais-toi ! tais-toi !<stage> (Mouvement général d’effroi ; Dupré regarde avec anxiété la chambre où est Paméla. À Binet.)</stage> T’arrêter !…</p>
           </sp>
           <sp who="joseph">
             <speaker>Binet.</speaker>
@@ -3789,7 +3789,7 @@
           <stage>Ils restent un moment embarrassés et ne sachant quelle mine se faire.</stage>
           <sp who="joseph">
             <speaker>Binet, <stage>s</stage><stage>’</stage><stage>approchant</stage>.</speaker>
-            <p>Nous voilà gentils ! <stage>(</stage><stage>À</stage><stage> de Verby.)</stage> Dites donc… quand nous serons en prison, vous me soignerez, vous !… c’est que j’ai le cœur gonflé et le gousset vide !… <stage>(De Verby lui tourne le dos. </stage><stage>À</stage><stage> Rousseau)</stage> Vous savez !… on m’a promis quelque chose !… <stage>(Rousseau s</stage><stage>’</stage><stage>éloigne sans lui répondre.</stage><stage>À</stage><stage> madame du Brocard.)</stage> Dites donc… on m’a promis quelque chose…</p>
+            <p>Nous voilà gentils ! <stage>(À de Verby.)</stage> Dites donc… quand nous serons en prison, vous me soignerez, vous !… c’est que j’ai le cœur gonflé et le gousset vide !… <stage>(De Verby lui tourne le dos. À Rousseau)</stage> Vous savez !… on m’a promis quelque chose !… <stage>(Rousseau s</stage><stage>’</stage><stage>éloigne sans lui répondre.À madame du Brocard.)</stage> Dites donc… on m’a promis quelque chose…</p>
           </sp>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard.</speaker>
@@ -3832,7 +3832,7 @@
           <stage>Les mêmes, Dupré, s’avançant.</stage>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Eh bien ! <stage>(Madame du Brocard lui remet la lettre qu</stage><stage>’</stage><stage>il a demandée ; Verby lui donne la sienne ; Rousseau l’examine.)</stage> Enfin !… <stage>(De Verby lance un regard </stage><pb n="26" xml:id="p26"/><stage>furieux à Dupré et à la famille, et sort vivement. </stage><stage>À</stage><stage> Rousseau)</stage> Et vous, monsieur ?</p>
+            <p>Eh bien ! <stage>(Madame du Brocard lui remet la lettre qu</stage><stage>’</stage><stage>il a demandée ; Verby lui donne la sienne ; Rousseau l’examine.)</stage> Enfin !… <stage>(De Verby lance un regard </stage><pb n="26" xml:id="p26"/><stage>furieux à Dupré et à la famille, et sort vivement. À Rousseau)</stage> Et vous, monsieur ?</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau.</speaker>
@@ -3864,7 +3864,7 @@
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau.</speaker>
-            <p>Oh ! dès qu’il sera de retour !… <stage>(</stage><stage>À</stage><stage> part.)</stage> j’aurai soin de l’y faire rester.</p>
+            <p>Oh ! dès qu’il sera de retour !… <stage>(À part.)</stage> j’aurai soin de l’y faire rester.</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré, <stage>allant vers la porte de gauche</stage>.</speaker>
@@ -3913,7 +3913,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Êtes-vous contents de moi ?…<stage> (Pendant ce temps, Jules et madame Rousseau ont supplié Rousseau de se laisser fléchir ; Rousseau hésite, et finit par embrasser au front Paméla, qui s</stage><stage>’</stage><stage>est approchée en tremblant. Dupré s</stage><stage>’</stage><stage>avance vers Rousseau, et lui voyant embrasser Paméla, il lui tend la main en disant.)</stage> Bien, monsieur !…<stage> (</stage><stage>À</stage><stage> Jules, l’interrogeant.)</stage> Elle sera heureuse ?…</p>
+            <p>Êtes-vous contents de moi ?…<stage> (Pendant ce temps, Jules et madame Rousseau ont supplié Rousseau de se laisser fléchir ; Rousseau hésite, et finit par embrasser au front Paméla, qui s</stage><stage>’</stage><stage>est approchée en tremblant. Dupré s</stage><stage>’</stage><stage>avance vers Rousseau, et lui voyant embrasser Paméla, il lui tend la main en disant.)</stage> Bien, monsieur !…<stage> (À Jules, l’interrogeant.)</stage> Elle sera heureuse ?…</p>
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -3935,7 +3935,6 @@
           <sp who="dupre">
             <speaker>Dupré.</speaker>
             <p>C’est sur ton reçu que tu veux dire ?…</p>
-            <p>FIN.</p>
           </sp>
         </div>
       </div>
