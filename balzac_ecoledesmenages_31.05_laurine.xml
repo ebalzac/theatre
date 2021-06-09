@@ -71,6 +71,9 @@
   </teiHeader>
   <text>
     <body>
+      <figure xml:id="fig1_edm">
+        <graphic url="/figures_edm/fig1_edm"/>
+      </figure>
       <div type="set">
         <head>Personnages</head>
         <castList>
@@ -101,6 +104,9 @@
     
           <pb n="5" xml:id="p5"/>
         <div type="scene">
+          <figure xml:id="fig2_edm">
+            <graphic url="/figures_edm/fig2_edm"/>
+          </figure>
           <head>Scène I</head>
           <stage>Victoire, d’abord seule, puis Roblot.</stage>
           <sp who="victoire">
@@ -1900,14 +1906,17 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
             <pb n="73" xml:id="p73"/>
         </div>
       </div>
+      <figure xml:id="fig3_edm">
+        <graphic url="/figures_edm/fig3_edm"/>
+      </figure>
             <div type="act">
               <head>Acte deuxième</head>
             <pb n="74" xml:id="p74"/>
             <pb n="75" xml:id="p75"/>
             
               
-              <figure xml:id="fig">
-                <graphic url=""/>
+              <figure xml:id="fig4_edm">
+                <graphic url="/figures_edm/fig4_edm"/>
               </figure>
               
         <div type="scene">
@@ -3414,13 +3423,16 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
             <pb n="127" xml:id="p127"/>
             </div>
             </div>
+      <figure xml:id="fig5_edm">
+        <graphic url="/figures_edm/fig5_edm"/>
+      </figure>
             <div type="act">
               <head>Acte troisième</head>
             <pb n="128" xml:id="p128"/>
             <pb n="129" xml:id="p129"/>
-            <figure xml:id="fig">
-<graphic url=""/>
-</figure>
+            <figure xml:id="fig6_edm">
+              <graphic url="/figures_edm/fig6_edm"/>
+            </figure>
             
         <div type="scene">
             <head>Scène I</head>
@@ -4838,12 +4850,15 @@ Capitaine crochets--><stage>[(À Louis Guérin.)] </stage>Venez dans mon cabinet
             <pb n="179" xml:id="p179"/>
             </div>
             </div>
+      <figure xml:id="fig7_edm">
+        <graphic url="/figures_edm/fig7_edm"/>
+      </figure>
             <div type="act">
             <head>Acte quatrième</head>
             <pb n="180" xml:id="p180"/>
             <pb n="181" xml:id="p181"/>
-            <figure xml:id="fig">
-<graphic url=""/>
+            <figure xml:id="fig8_edm">
+              <graphic url="/figures_edm/fig8_edm"/>
 </figure>
         <div type="scene">
             <head>Scène I</head>
@@ -5957,12 +5972,18 @@ parenthèses-->
             <pb n="221" xml:id="p221"/>
             </div>
             </div>
+      <figure xml:id="fig9_edm">
+        <graphic url="/figures_edm/fig9_edm"/>
+      </figure>
             <div type="act">
             
               <head>Acte cinquième</head>
             
             <pb n="222" xml:id="p222"/>
             <pb n="223" xml:id="p223"/>
+              <figure xml:id="fig10_edm">
+                <graphic url="/figures_edm/fig10_edm"/>
+              </figure>
         <div type="scene">
             <head>Scène I</head>
           <sp who="roblot">
@@ -6381,9 +6402,9 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
             <speaker>Madame Gérard<stage>, à Caroline et à Louis Guérin. </stage></speaker>
             <p>Nos malheurs sont irréparables ; vous resterez ici, vous, pour que votre bonheur ne soit pas affligé de ce spectacle. Anna et moi, nous les emmènerons à la campagne. S’il y avait une crise favorable, nous serions loin du monde… Ah ! nous avons tous fautes !</p>
           </sp>
-              <figure xml:id="fig">
-<graphic url=""/>
-</figure>
+                <figure xml:id="fig11_edm">
+                  <graphic url="/figures_edm/fig11_edm"/>
+                </figure>
         </div>
             </div>
     </body>
