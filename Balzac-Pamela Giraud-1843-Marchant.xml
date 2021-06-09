@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
-<?xml-model href="http://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <!--Odette: 2021-05-31T15:36:56+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zxx">
   <teiHeader>
@@ -73,13 +73,13 @@
           <titlePart type="main">Paméla Giraud</titlePart>
           <titlePart type="sub">Pièce en 5 actes</titlePart>
         </docTitle>
-        <docDate>Paris, Gaîté, 26 septembre 1843</docDate>
+        <docDate>Représentée pour la première fois, à Paris, sur le Théâtre de la Gaîté, le 26 septembre 1843</docDate>
       </titlePage>
     </front>
     <body>
       
       <div type="set">
-        <head>Personnages.</head>
+        <head>Personnages</head>
         <castList>
           <castItem xml:id="deverby">Le Général De Verby</castItem>
           <castItem xml:id="dupre">Dupré, avocat</castItem>
@@ -101,10 +101,7 @@
         <head>Acte premier</head>
         <stage>Le théâtre représente une mansarde et l’atelier d’une fleuriste. Au lever du rideau, Paméla travaille, et Joseph Binet est assis. La mansarde va vers le fond du théâtre ; la porte est à droite ; à gauche, une cheminée. La mansarde est coupée de manière à ce qu’en se baissant, un homme puisse tenir sous le toit au fond de la toile, à côté de la croisée.</stage>
         <div type="scene">
-          <head>Prologue</head>
-        </div>
-        <div type="scene">
-          <head>Scène première</head>
+           <head>Scène première<note>L’édition originale intégre aussi, par erreur, l’indication d'un prologue avant la scène première</note></head>
           <stage>Paméla, Joseph Binet, Jules Rousseau.</stage>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
@@ -436,7 +433,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>S<hi rend="b"><emph>cène</emph></hi> III.</head>
+          <head>Scène III</head>
           <stage>Paméla, Monsieur et Madame Giraud.</stage>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
@@ -956,7 +953,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>S<hi rend="b"><emph>cène</emph> </hi>IV</head>
+          <head>Scène IV</head>
           <stage>Les mêmes, le général Verby, mademoiselle du Brocard.</stage>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard, <stage>amenant Verby.</stage></speaker>
@@ -1209,7 +1206,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Dupré, de Verby.</stage>
           <sp who="deverby">
             <speaker>De Verby, <stage>à part</stage>.</speaker>
@@ -1551,7 +1548,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>S<hi rend="b"><emph>cène</emph> </hi>VIII</head>
+          <head>Scène VIII</head>
           <stage>Monsieur et Madame Rousseau, Madame de Brocard, soutenue par Justine, Dupré.</stage>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>

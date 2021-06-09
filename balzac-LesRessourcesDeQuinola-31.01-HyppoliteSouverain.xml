@@ -116,7 +116,7 @@
             <p>T’où ?</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola, <stage>Il passe</stage>.</speaker><!--KS - majuscule après la virgule ? -->
+            <speaker>Quinola. <stage>Il passe</stage>.</speaker>
             <p>D’où ! Du pays de misère.</p>
           </sp>
           <sp who="lecapitaine">
@@ -448,7 +448,7 @@ Monologue sur deux pages. P32
           </sp>
           <sp who="lamarquise">
             <speaker>La Marquise.</speaker>
-            <p>Tu ne connais pas le roi, et je le connais moi ! <stage>(à<!--KS - ajout d'accent sur a --> part.)</stage> Il faut ravoir ma lettre. <stage>(Haut.)</stage> Il se présente une circonstance heureuse pour ton maître : on apprend en ce moment au roi la perte de l’Armada, tiens-toi sur son passage et tu lui parleras.</p>
+            <p>Tu ne connais pas le roi, et je le connais moi ! <stage>(À part.)</stage> Il faut ravoir ma lettre. <stage>(Haut.)</stage> Il se présente une circonstance heureuse pour ton maître : on apprend en ce moment au roi la perte de l’Armada, tiens-toi sur son passage et tu lui parleras.</p>
           </sp>
         </div>
         <div type="scene">
@@ -1028,10 +1028,9 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage><!--KS - sortie du 
             <p>Qui marche ainsi, dans mes souliers ?</p>
           </sp>
           <sp who="quinola">
-            <speaker>Quinola,
-        <stage> </stage><!-- Julien LEMAIRE : 2021-05-17T21:27:02.781144632
-Indent. p74--><stage>déguenillé comme à son entrée au prologue</stage>.</speaker><!--KS - à voir ici -->
+            <speaker>Quinola.</speaker>
             <p>Un gentilhomme qui n’en a plus.</p>
+            <stage>Quinola est déguenillé comme à son entrée au prologue.</stage>
           </sp>
           <sp who="monipodio">
             <speaker><pb n="70" xml:id="p70"/>Monipodio.</speaker>
@@ -1958,8 +1957,8 @@ Indent. p119-->Sarpi et Avaloros se parlent.</stage>
           </sp>
           <sp who="avaloros">
             <speaker>Avaloros,<stage> à Fontanarès</stage>.</speaker>
-            <p>Eh ! bien, mon cher, vous viendrez me voir</p>
-            . <!-- Julien LEMAIRE : 2021-05-18T11:02:08.232933058
+            <p>Eh ! bien, mon cher, vous viendrez me voir.</p>
+             <!-- Julien LEMAIRE : 2021-05-18T11:02:08.232933058
 Indent p120.--><stage>(Monipodio lui prend sa bourse.)</stage><!--KS - sortie du <p> -->
           </sp>
         </div>

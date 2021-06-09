@@ -1904,9 +1904,12 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
               <head>Acte deuxième</head>
             <pb n="74" xml:id="p74"/>
             <pb n="75" xml:id="p75"/>
-            <figure xml:id="fig">
-<graphic url=""/>
-</figure>
+            
+              
+              <figure xml:id="fig">
+                <graphic url=""/>
+              </figure>
+              
         <div type="scene">
             <head>Scène I</head>
           
