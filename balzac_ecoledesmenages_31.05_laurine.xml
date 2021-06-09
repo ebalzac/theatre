@@ -32,7 +32,7 @@
           <resp>Informatique éditoriale</resp>
         </respStmt>
         <respStmt>
-          <name>Gallica</name> <!-- y'en a qu'on a trouvé sur google books mais j'me souv plus lesquels -->
+          <name>Gallica</name> 
           <resp>Traitement des images</resp>
         </respStmt>
       </editionStmt>
@@ -51,7 +51,7 @@
             <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable. </p>
           </licence>
         </availability>
-        <idno>http://gallica.bnf.fr/ark:/12148/bpt6k9603804m</idno>
+        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k42214045</idno>
       </publicationStmt>
       <sourceDesc>
         <bibl>L‘école des ménages : tragédie bourgeoise en cinq actes et en prose (Édition originale) / Honoré de Balzac ; précédée d‘une lettre par le Vte de Spoelberch de Lovenjoul, <date>1907</date></bibl> <!-- j'ai rajouté la date moi-même à voir si c'est bon (niveau conventions de titrage) -->
