@@ -70,9 +70,10 @@
       <titlePage>
         <docAuthor>Honoré de Balzac</docAuthor>
         <docTitle>
-          <titlePart>Les Ressources de Quinola</titlePart>
+          <titlePart type="main">Les Ressources de Quinola</titlePart>
+          <titlePart type="sub">Comédie en cinq actes, en prose, et précédée d’un prologue</titlePart>
         </docTitle>
-        <docDate>Paris, Odéon, 19 mars 1842</docDate>
+        <docDate>Représentée sur le second Théâtre Français (Odéon) le samedi 19 mars 1842</docDate>
       </titlePage>
     </front>
     <body>
@@ -80,18 +81,18 @@
       <pb n="15" xml:id="p15"/>
         <head>Personnages</head>
         <castList>
-        <castItem xml:id="philippeii">Phillipe II.</castItem>
-        <castItem xml:id="legrandinquisiteur">Le Cardinal Cienfugos, Grand-Inquisiteur.</castItem>
-        <castItem xml:id="lecapitaine">Le Capitaine des Gardes.</castItem>
-        <castItem xml:id="leducdolmedo">Le Duc d’Olmédo.</castItem>
-        <castItem xml:id="leducdelerme">Le Duc de Lerme.</castItem>
-        <castItem xml:id="fontanares">Alfonso Fontanarès.</castItem>
-        <castItem xml:id="quinola">Quinola.</castItem>
-        <castItem xml:id="lehallebardier">Un Hallebardier.</castItem>
-        <castItem xml:id="alcade">Un Alcade du Palais.</castItem>
-        <castItem xml:id="x">Un Familier de l’Inquisition. Personnage muet.</castItem>
-        <castItem xml:id="lareine">La Reine d’Espagne.</castItem>
-        <castItem xml:id="lamarquise">La Marquise de Mondéjar.</castItem>
+        <castItem xml:id="philippeii"><role>Phillipe II</role>.</castItem>
+        <castItem xml:id="legrandinquisiteur"><role>Le Cardinal Cienfugos</role>, Grand-Inquisiteur.</castItem>
+        <castItem xml:id="lecapitaine"><role>Le Capitaine des Gardes</role>.</castItem>
+        <castItem xml:id="leducdolmedo"><role>Le Duc d’Olmédo</role>.</castItem>
+        <castItem xml:id="leducdelerme"><role>Le Duc de Lerme</role>.</castItem>
+        <castItem xml:id="fontanares"><role>Alfonso Fontanarès</role>.</castItem>
+        <castItem xml:id="quinola"><role>Quinola</role>.</castItem>
+        <castItem xml:id="lehallebardier"><role>Un Hallebardier</role>.</castItem>
+        <castItem xml:id="alcade"><role>Un Alcade du Palais</role>.</castItem>
+        <castItem xml:id="x"><role>Un Familier de l’Inquisition</role>. Personnage muet.</castItem>
+        <castItem xml:id="lareine"><role>La Reine d’Espagne</role>.</castItem>
+        <castItem xml:id="lamarquise"><role>La Marquise de Mondéjar</role>.</castItem>
         </castList>
       </div>
       <div type="prologue">
@@ -988,28 +989,28 @@ Indent p66--><stage>(La cour suit te roi qui rentre.)</stage><!--KS - sortie du 
       		<pb n="66" xml:id="p66"/>
       		<head>Personnages</head>
       		<castList>
-      			<castItem xml:id="donfregose">Don Frégose, vice-roi de Catalogne.</castItem>
-      			<castItem>Le Grand-Inquisiteur.</castItem>
-      			<castItem xml:id="sarpi">Le Comte Sarpi, secrétaire de la vice-royaulé.</castItem>
-      			<castItem>Le Duc d’Olmédo.</castItem>
-      			<castItem xml:id="donramon">Don Ramon, savant</castItem>
-      			<castItem xml:id="avaloros">Avaloros, banquier</castItem>
-      			<castItem xml:id="mathieumagis">Mathieu Magis, Lombard.</castItem>
-      			<castItem xml:id="lothundiaz">Lothundiaz, bourgeois.</castItem>
-      			<castItem>Alfonso Fontanarès, mécanicien.</castItem>
-      			<castItem>Lavradi, Quinola, son valet.</castItem>
-      			<castItem xml:id="monipodio">Monipodio, ancien miquelet.</castItem>
-      			<castItem xml:id="coppolus">Coppolus, marchand de métaux.</castItem>
-      			<castItem xml:id="carpano">Carpano, serrurier (personnage muet).</castItem>
-      			<castItem xml:id="esteban">Éstéban, ouvrier.</castItem>
-      			<castItem xml:id="girone">Girone, autre ouvrier.</castItem>
-      			<castItem xml:id="lhotedusoleildor">L’Hôte du Soleil-d’Or.</castItem>
-      			<castItem xml:id="lhuissier">Un Huissier.</castItem>
-      			<castItem xml:id="unalcade">Un alcade.</castItem>
-      			<castItem xml:id="faustine">Madame Faustina Brancadori.</castItem>
-      			<castItem xml:id="marie">Marie Lothundiaz.</castItem>
-      			<castItem xml:id="paquita">Paquita, camériste de madame Faustina.</castItem>
-      			<castItem xml:id="donalopez">Dona Lopez.</castItem><!--pas présent dans la liste fac-similaire  -->
+      			<castItem xml:id="donfregose"><role>Don Frégose</role>, vice-roi de Catalogne.</castItem>
+      			<castItem><role>Le Grand-Inquisiteur</role>.</castItem>
+      			<castItem xml:id="sarpi"><role>Le Comte Sarpi</role>, secrétaire de la vice-royaulé.</castItem>
+      			<castItem><role>Le Duc d’Olmédo</role>.</castItem>
+      			<castItem xml:id="donramon"><role>Don Ramon</role>, savant</castItem>
+      			<castItem xml:id="avaloros"><role>Avaloros</role>, banquier</castItem>
+      			<castItem xml:id="mathieumagis"><role>Mathieu Magis</role>, Lombard.</castItem>
+      			<castItem xml:id="lothundiaz"><role>Lothundiaz</role>, bourgeois.</castItem>
+      			<castItem><role>Alfonso Fontanarès</role>, mécanicien.</castItem>
+      			<castItem><role>Lavradi</role>, <role>Quinola</role>, son valet.</castItem>
+      			<castItem xml:id="monipodio"><role>Monipodio</role>, ancien miquelet.</castItem>
+      			<castItem xml:id="coppolus"><role>Coppolus</role>, marchand de métaux.</castItem>
+      			<castItem xml:id="carpano"><role>Carpano</role>, serrurier (personnage muet).</castItem>
+      			<castItem xml:id="esteban"><role>Éstéban</role>, ouvrier.</castItem>
+      			<castItem xml:id="girone"><role>Girone</role>, autre ouvrier.</castItem>
+      			<castItem xml:id="lhotedusoleildor"><role>L’Hôte du Soleil-d’Or</role>.</castItem>
+      			<castItem xml:id="lhuissier"><role>Un Huissier</role>.</castItem>
+      			<castItem xml:id="unalcade"><role>Un alcade</role>.</castItem>
+      			<castItem xml:id="faustine"><role>Madame Faustina Brancadori</role>.</castItem>
+      			<castItem xml:id="marie"><role>Marie Lothundiaz</role>.</castItem>
+      			<castItem xml:id="paquita"><role>Paquita</role>, camériste de madame Faustina.</castItem>
+      			<castItem xml:id="donalopez"><role>Dona Lopez</role>.</castItem><!--pas présent dans la liste fac-similaire  -->
       			<castItem xml:id="autres">Les Ouvriers, Un Page</castItem>
       		</castList>
       	</div>
