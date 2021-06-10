@@ -81,24 +81,25 @@
       <div type="set">
         <head>Personnages</head>
         <castList>
-          <castItem xml:id="deverby">Le Général De Verby</castItem>
-          <castItem xml:id="dupre">Dupré, avocat</castItem>
-          <castItem xml:id="rousseau">Monsieur Rousseau</castItem>
-          <castItem xml:id="jules">Jules Rousseau, son fils</castItem>
-          <castItem xml:id="joseph">Joseph Binet</castItem>
-          <castItem xml:id="giraud">Le Père Giraud</castItem>
-          <castItem xml:id="agentsuperieur">Un Agent Supérieur</castItem>
-          <castItem xml:id="antoine">Antoine, domestique de Rousseau</castItem>
-          <castItem xml:id="pamela">Paméla Giraud</castItem>
-          <castItem xml:id="madamedubrocard">Madame veuve Du Brocard</castItem>
-          <castItem xml:id="madamerousseau">Madame Rousseau</castItem>
-          <castItem xml:id="madamegiraud">Madame Giraud</castItem>
-          <castItem xml:id="justine">Justine, femme de chambre de Madame Rousseau</castItem>
+          <castItem xml:id="deverby"><role>Le Général De Verby</role></castItem>
+          <castItem xml:id="dupre"><role>Dupré</role>, avocat</castItem>
+          <castItem xml:id="rousseau"><role>Monsieur Rousseau</role></castItem>
+          <castItem xml:id="jules"><role>Jules Rousseau</role>, son fils</castItem>
+          <castItem xml:id="joseph"><role>Joseph Binet</role></castItem>
+          <castItem xml:id="giraud"><role>Le Père Giraud</role></castItem>
+          <castItem xml:id="agentsuperieur"><role>Un Agent Supérieur</role></castItem>
+          <castItem xml:id="antoine"><role>Antoine</role>, domestique de Rousseau</castItem>
+          <castItem xml:id="pamela"><role>Paméla Giraud</role></castItem>
+          <castItem xml:id="madamedubrocard"><role>Madame veuve Du Brocard</role></castItem>
+          <castItem xml:id="madamerousseau"><role>Madame Rousseau</role></castItem>
+          <castItem xml:id="madamegiraud"><role>Madame Giraud</role></castItem>
+          <castItem xml:id="justine"><role>Justine</role>, femme de chambre de Madame Rousseau</castItem>
           <castItem xml:id="autres">Un Commissaire de police, un juge d’instruction, agent de police, gendarmes.</castItem>
         </castList>
       </div>
       <div type="act">
-        <head>Acte premier</head>
+        <pb n="1" xml:id="p1"/>
+         <head>Acte premier</head>
         <stage>Le théâtre représente une mansarde et l’atelier d’une fleuriste. Au lever du rideau, Paméla travaille, et Joseph Binet est assis. La mansarde va vers le fond du théâtre ; la porte est à droite ; à gauche, une cheminée. La mansarde est coupée de manière à ce qu’en se baissant, un homme puisse tenir sous le toit au fond de la toile, à côté de la croisée.</stage>
         <div type="scene">
            <head>Scène première<note>L’édition originale intégre aussi, par erreur, l’indication d'un prologue avant la scène première</note></head>
@@ -1098,7 +1099,7 @@
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
-            <p>Mon pauvre enfant ! Viens viens… près de moi… ils n’oseront pas…<pb n="8" xml:id="p8"/> <stage>(Aux Agents qui s</stage><stage>’</stage><stage>avancent.)</stage> Laissez !… Ah ! laissez-le.</p>
+             <p>Mon pauvre enfant ! Viens viens… près de moi… ils n’oseront pas…<pb n="8" xml:id="p8"/> <stage>(Aux Agents qui s</stage><stage>’</stage><stage>avancent.)</stage> Laissez !… Ah ! laissez-le.</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>s’élançant vers eux</stage>.</speaker>
@@ -1692,7 +1693,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>S<hi rend="b"><emph>cène</emph> </hi>IX</head>
+          <head>Scène IX</head>
           <stage>Les mêmes, Jules, ramené par les Agents, puis de Verby.</stage>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -1727,7 +1728,7 @@
         <head>Acte troisième</head>
         <stage>La mansarde de Paméla.</stage>
         <div type="scene">
-          <head>S<hi rend="b"><emph>cène première</emph></hi></head>
+          <head>Scène première</head>
           <stage>Paméla est debout près de sa mère qui tricote ; le père Giraud travaille sur une table à gauche.</stage>
           <stage>Paméla, Giraud, Madame Giraud.</stage>
           <sp who="madamegiraud">
@@ -2533,10 +2534,10 @@
         </div>
       </div>
       <div type="act">
-        <head>Acte Quatrième.</head>
+        <head>Acte Quatrième</head>
         <stage>Cour de la Sainte-Chapelle, dans un salon chez Madame du Brocard.</stage>
         <div type="scene">
-          <head>Scène Première.</head>
+          <head>Scène Première</head>
           <stage>Madame du Brocard, Madame Rousseau, Monsieur Rousseau, Binet, Dupré, Justine.</stage>
           <stage>Dupré est assis et parcourt son dossier.</stage>
           <sp who="madamerousseau">
@@ -2629,7 +2630,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène II.</head>
+          <head>Scène II</head>
           <stage>Les mêmes, excepté Dupré et Rousseau.</stage>
           <sp who="madamedubrocard">
             <speaker>Madame du Brocard, <stage>retenant Binet, qui va sortir</stage>.</speaker>
@@ -2662,7 +2663,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Madame Rousseau, Madame du Brocard, Justine.</stage>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
@@ -2704,7 +2705,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IV.</head>
+          <head>Scène IV</head>
           <stage>Les mêmes, de Verby.</stage>
           <sp who="justine">
             <speaker>JUSTINE, <stage>au fond</stage>.</speaker>
@@ -2756,7 +2757,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Les mêmes, Rousseau.</stage>
           <sp who="deverby">
             <speaker>De Verby, <stage>à Rousseau</stage>.</speaker>
@@ -2813,7 +2814,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Les mêmes, Binet.</stage>
           <sp who="joseph">
             <speaker>Binet, <stage>accourant</stage>.</speaker>
@@ -2862,7 +2863,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>On fait asseoir Paméla ; tout le monde l’entoure, on lui fait respirer des sels.</stage>
           <stage>Les mêmes, Antoine, Paméla.</stage>
           <sp who="madamedubrocard">
@@ -2949,7 +2950,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VIII.</head>
+          <head>Scène VIII</head>
           <stage>Les mêmes, Jules, ramené par sa mère,sa tante et suivi de ses amis.</stage>
           <p>Jules.</p>
           <stage>Il se précipite dans les bras de sa mère ; il ne voit pas d’abord Paméla, qui est restée dans un coin du théâtre, près de Binet.</stage>
@@ -3105,10 +3106,11 @@
         </div>
       </div>
       <div type="act">
-        <head>Acte Cinquième.</head>
+        <head>Acte Cinquième</head>
         <stage>La scène se passe chez Dupré, dans son cabinet ; bibliothèque, bureaux de chaque côté  ; une fenêtre avec deux rideaux.</stage>
         <div type="scene">
-          <head>Scène Première.</head>
+           <pb n="ill." xml:id="p1a" facs="figures-pamela/fig1.jpg"/>
+          <head>Scène Première</head>
           <stage>Dupré, Paméla, Giraud, Madame Giraud.</stage>
           <stage>Au lever du rideau, Paméla est assise dans un fauteuil, occupée à lire  ; la mère Giraud est debout près d’elle ; Giraud regarde les tableaux du cabinet ; Dupré se promène à grands pas ; tout à coup il s’arrête.</stage>
           <sp who="dupre">
@@ -3117,7 +3119,7 @@
           </sp>
           <sp who="giraud">
             <speaker>Giraud.</speaker>
-            <p>O monsieur ! vous pouvez t’être tranquille quand je viens ici, je marche la tête tournée derrière moi !… C’est que la moindre imprudence ferait bien vite un malheur. Ton cœur t’a entraînée, ma fille ; mais un faux témoignage<note place="bottom">Erreur de l’édition Marchant : « témoignagne » au lieu de « témoignage ».</note>, c’est mal, c’est sérieux !</p>
+            <p>Ô monsieur ! vous pouvez t’être tranquille quand je viens ici, je marche la tête tournée derrière moi !… C’est que la moindre imprudence ferait bien vite un malheur. Ton cœur t’a entraînée, ma fille ; mais un faux témoignage<note place="bottom">Erreur de l’édition Marchant : « témoignagne » au lieu de « témoignage ».</note>, c’est mal, c’est sérieux !</p>
           </sp>
           <sp who="madamegiraud">
             <speaker>Madame Giraud.</speaker>
@@ -3268,7 +3270,7 @@
           </sp>
         </div>
         <div>
-          <pb n="22" xml:id="p22"/><head>Scène II.</head>
+          <pb n="22" xml:id="p22"/><head>Scène II</head>
           <stage>Paméla, Dupré, Jules.</stage>
           <sp who="jules">
             <speaker>Jules <stage>aux domestiques</stage>.</speaker>
@@ -3344,7 +3346,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Les mêmes, un domestique.</stage>
           <stage>Le Domestique remet une carte à Dupré.</stage>
           <sp who="dupre">
@@ -3387,7 +3389,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IV.</head>
+          <head>Scène IV</head>
           <stage>Dupré, de Verby.</stage>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -3512,7 +3514,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Elle entre encapuchonnée dans un voile noir qu’elle enlève avec précaution.</stage>
           <stage>Dupré, madame du Brocard.</stage>
           <sp who="madamedubrocard">
@@ -3615,7 +3617,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Dupré, Monsieur Rousseau, Madame Rousseau.</stage>
           <sp who="rousseau">
             <speaker>Monsieur Rousseau.</speaker>
@@ -3732,7 +3734,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>Les mêmes, Binet, entrant, pâle, défait.</stage>
           <sp who="joseph">
             <speaker>Binet.</speaker>
@@ -3781,7 +3783,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VIII.</head>
+          <head>Scène VIII</head>
           <stage>De Verby, Madame du Brocard, Rousseau.</stage>
           <stage>Ils restent un moment embarrassés et ne sachant quelle mine se faire.</stage>
           <sp who="joseph">
@@ -3825,7 +3827,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IX.</head>
+          <head>Scène IX</head>
           <stage>Les mêmes, Dupré, s’avançant.</stage>
           <sp who="dupre">
             <speaker>Dupré.</speaker>

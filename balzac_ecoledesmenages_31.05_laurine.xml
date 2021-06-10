@@ -54,7 +54,7 @@
         <idno>https://gallica.bnf.fr/ark:/12148/bpt6k42214045</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>L‘école des ménages : tragédie bourgeoise en cinq actes et en prose (Édition originale) / Honoré de Balzac ; précédée d‘une lettre par le Vte de Spoelberch de Lovenjoul, <date>1907</date></bibl> <!-- j'ai rajouté la date moi-même à voir si c'est bon (niveau conventions de titrage) -->
+        <bibl>L’école des ménages : tragédie bourgeoise en cinq actes et en prose (Édition originale) / Honoré de Balzac ; précédée d‘une lettre par le Vte de Spoelberch de Lovenjoul, <date>1907</date></bibl> <!-- j'ai rajouté la date moi-même à voir si c'est bon (niveau conventions de titrage) -->
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -70,6 +70,15 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <titlePage>
+        <docAuthor>Honoré de Balzac</docAuthor>
+        <docTitle>
+          <titlePart type="main">L’école des ménages</titlePart>
+          <titlePart type="sub">Tragédie bourgeoise en cinq actes et en prose</titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
     <body>
       <figure xml:id="fig1_edm">
         <graphic url="/figures_edm/fig1_edm"/>
@@ -77,22 +86,25 @@
       <div type="set">
         <head>Personnages</head>
         <castList>
-          <castItem xml:id="gerard">Monsieur Gérard, négociant.</castItem>
-          <castItem xml:id="madamegerard">Madame Gérard, sa femme.</castItem>
-          <castItem xml:id="caroline">Caroline,</castItem>
-          <castItem xml:id="anna">Anna, leurs filles.</castItem> <!--Séparation de la ligne-->
-          <castItem xml:id="duval">Monsieur Duval, droguiste, frère de madame Gérard. </castItem>
-          <castItem xml:id="roblot">Roblot, caissier de la maison Gérard.</castItem>
-          <castItem xml:id="adrienne"> Adrienne Guérin, première demoiselle. </castItem>
-          <castItem xml:id="louisguerin">Louis Guérin, son frère, avocat.</castItem>
-          <castItem xml:id="hippolyte"> Hippolyte, premier commis. </castItem>
-          <castItem xml:id="justine">Justine, femme de chambre. </castItem>
-          <castItem xml:id="victoire">Victoire, cuisinière. </castItem>
-          <castItem xml:id="francois">François, domestique. </castItem>
-          <castItem>Un Notaire.</castItem>
-          <castItem xml:id="lemedecin"> Un Médecin.</castItem>
-          <castItem xml:id="lejuge"> Un Juge.</castItem>
-          <castItem xml:id="legreffier"> Un Greffier.</castItem>
+          <castItem xml:id="gerard"><role>Monsieur Gérard</role>, négociant.</castItem>
+          <castItem xml:id="madamegerard"><role>Madame Gérard</role>, sa femme.</castItem>
+          <castGroup rend="braced">
+            <castItem xml:id="caroline"><role>Caroline</role>,</castItem>
+            <castItem xml:id="anna"><role>Anna</role>,</castItem>
+            <roleDesc><add>} </add>leurs filles.</roleDesc>
+          </castGroup> <!--Séparation de la ligne-->
+          <castItem xml:id="duval"><role>Monsieur Duval</role>, droguiste, frère de madame Gérard. </castItem>
+          <castItem xml:id="roblot"><role>Roblot</role>, caissier de la maison Gérard.</castItem>
+          <castItem xml:id="adrienne"><role>Adrienne Guérin</role>, première demoiselle. </castItem>
+          <castItem xml:id="louisguerin"><role>Louis Guérin</role>, son frère, avocat.</castItem>
+          <castItem xml:id="hippolyte"> <role>Hippolyte</role>, premier commis. </castItem>
+          <castItem xml:id="justine"><role>Justine</role>, femme de chambre. </castItem>
+          <castItem xml:id="victoire"><role>Victoire</role>, cuisinière. </castItem>
+          <castItem xml:id="francois"><role>François</role>, domestique. </castItem>
+          <castItem><role>Un Notaire</role>.</castItem>
+          <castItem xml:id="lemedecin"><role>Un Médecin</role>.</castItem>
+          <castItem xml:id="lejuge"><role>Un Juge</role>.</castItem>
+          <castItem xml:id="legreffier"><role>Un Greffier</role>.</castItem>
         </castList>
         <set>
           <p>La scène est à Paris, dans le salon des appartements de la famille. Au fond est une antichambre. À gauche de la scène est la porte des appartements de madame Gérard et de ses filles. À droite le cabinet de monsieur Gérard.</p>
