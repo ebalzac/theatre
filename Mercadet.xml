@@ -92,20 +92,20 @@ PERSONNAGES. </head>
        
           <castList>
         <castItem xml:id="mercadet">AUGUSTE Mercadet. spéculateur.</castItem>
-        <castItem>ADOLPHE MINARD, teneur de livres.</castItem>
+            <castItem xml:id="minard">ADOLPHE MINARD, teneur de livres.</castItem>
             <castItem xml:id="delabrive">MICHONNIN DE LA BRIVE, jeune homme élégant.</castItem>
-        <castItem>DE MÉRICOURT, autre jeune homme.</castItem>
+            <castItem xml:id="mericourt">DE MÉRICOURT, autre jeune homme.</castItem>
         <castItem xml:id="bredif">Brédif.propriétaire.</castItem>
-        <castItem>BERCHUT, courtier-marron.</castItem>
-        <castItem>VERDELIN, ami de Mercadet.</castItem>
-        <castItem>GOULARD, homme d’ affaires.</castItem>
-        <castItem>PIERQUIN, usurier, (Tous créanciers de Mercadet.)</castItem>
-        <castItem>VIOLETTE, courtier d’affaires.</castItem>
-        <castItem>JUSTIN, valet de chambre.</castItem>
-        <castItem>MADAME Mercadet.</castItem>
-        <castItem>Julie Mercadet.</castItem>
-        <castItem>THÉRÈSE, femme de chambre.</castItem>
-        <castItem>VIRGINIE, cuisinière.</castItem>
+            <castItem xml:id="berchut">BERCHUT, courtier-marron.</castItem>
+            <castItem xml:id="verdelin">VERDELIN, ami de Mercadet.</castItem>
+            <castItem xml:id="goulard">GOULARD, homme d’ affaires.</castItem>
+            <castItem xml:id="pierquin">PIERQUIN, usurier, (Tous créanciers de Mercadet.)</castItem>
+            <castItem xml:id="violette">VIOLETTE, courtier d’affaires.</castItem>
+            <castItem xml:id="justin">JUSTIN, valet de chambre.</castItem>
+            <castItem xml:id="madamemercadet">MADAME Mercadet.</castItem>
+            <castItem xml:id="julie">Julie Mercadet.</castItem>
+            <castItem xml:id="therese">THÉRÈSE, femme de chambre.</castItem>
+            <castItem xml:id="virginie">VIRGINIE, cuisinière.</castItem>
       </castList>
         
       </div>
@@ -537,7 +537,7 @@ Je ne l’ai jamais revu ; il m’avait rencontrée à la Chaumière, il aura s
            <p>
 Eh ! bien, écoutez ce que le père Grumeau vient de me dire !… Hier, pendant que nous faisions nos commissions, il est venu deux beaux jeunes gens en cabriolet ; leur groom a dit au père Grumeau que l’un de ces messieurs allait épouser mademoiselle Mercadet. Or, monsieur avait donné cent francs au père Grumeau !…</p>
           </sp>
-          <sp who="virginieettherese">
+          <sp who="virginie therese">
             <speaker>Virginie et Thérèse <stage>étonnées.</stage></speaker>
            <p>
 Cent francs !…</p>
@@ -683,7 +683,7 @@ Et malheureux, donc !… Ils ne sauraient plus que faire de leur temps </p>
            <p>
 Il est inutile de vous cacher l’inquiétude excessive que me causent les affaires de mon mari. Nous aurons sans doute besoin de votre discrétion; car nous pouvons compter sur vous, n’est-ce pas ?</p>
           </sp>
-          <sp who="tous">
+          <sp who="virginie justin therese">
             <speaker>Tous.</speaker>
            <p>
 Ah ! madame !…</p>
@@ -3724,8 +3724,8 @@ D’autant plus que je veux être un homme politique…</p>
            <p>
 Au fait, tu es bien assez habile pour cela.</p>
           </sp>
-          <sp who="delabrise">
-            <speaker>De la Brise.</speaker>
+          <sp who="delabrive">
+            <speaker>De la Brive.</speaker>
            <p>
 Je serai d’abord journaliste.</p>
           </sp>
@@ -3788,8 +3788,8 @@ Celui-ci : « Les principes de mes amis… L’opinion à laquelle j’apparti
            <p>
 Monsieur est sans doute monsieur De la Brive.</p>
           </sp>
-          <sp who="delabrise">
-            <speaker>De la Brise.</speaker>
+          <sp who="delabrive">
+            <speaker>De la Brive.</speaker>
            <p>
 Oui, monsieur.</p>
           </sp>
@@ -4527,8 +4527,8 @@ Ah, diantre ! <stage>(Haut.)</stage> Je ne me souviens que de l’impression qu
            <p>
 Monsieur, vous m’aimez donc ? là, vraiment ?…</p>
           </sp>
-          <sp who="delabrise">
-            <speaker>De la Brise.</speaker>
+          <sp who="delabrive">
+            <speaker>De la Brive.</speaker>
            <p>
 Mademoiselle, j’ai su que vous étiez une personne pleine de courage, douée d’une élévation rare dans les sentiments et dans les idées, instruite surtout ; que vous sauriez créer un salon à Paris, être la compagne d’un homme politique, et, permettez-moi de vous le dire, toutes les femmes ne savent pas porter une haute fortune. Bien des parvenus ont été fort embarrassés de filles qu’ils avaient fait la faute d’épouser à l’aurore de leurs destinées ; et sur l’océan, politique, quand une femme n’est pas un puissant remorqueur, elle est un embargo ! Je doutais de pouvoir rencontrer une femme qui pût comprendre et servir mon avenir, je vous ai vue et je me suis dit : Je puis être ambassadeur. Celle que j’aime sera la rivale des diplomates en corset que la Russie nous envoie !…</p>
           </sp>
@@ -6386,7 +6386,7 @@ Enfin, monsieur le représente au naturel, je le reconnais… Tenez, Mercadet n�
            <p>
 Je ne nie pas que Godeau… <stage>(Il élève la voix.)</stage> Godeau, sur le compte de qui je m’étais entièrement trompé, je voudrais pouvoir le dire à tout Paris, que le probe, que le délicat, le bon Godeau, homme capable, plein d’énergie, ne puisse être en route, et sur le point d’arriver.</p>
           </sp>
-          <sp who="[2541e]violette">
+          <sp who="violette">
             <speaker><pb n="254-1e"/>Violette.</speaker>
            <p>
 Nous le savons, il est revenu de Calcutta.</p>
@@ -6398,7 +6398,7 @@ Avec une fortune…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
-            <eg rend="i">
+            <p>
 Incalcuttable !</p>
           </sp>
           <sp who="goulard">
@@ -6458,7 +6458,7 @@ Mon ami, il ne demande qu’à payer…</p>
           </sp>
         </div>
         <div>
-          <head><pb n="254-2a"/>Scène XV.</head>
+          <pb n="254-2a"/><head>Scène XV.</head>
           <stage>Les mêmes, Madame Mercadet. (Quand elle ouvre la porte, on aperçoit un groupe de créanciers. Elle fait signe à Julie et à Minard qui l’accompagnent, de passer dans sa chambre, et ils y passent.)</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à part).</stage></speaker>
@@ -6515,7 +6515,7 @@ Par monsieur Duval !… (Mouvement des deux créanciers qui se consultent.)</p>
            <p>
 Elle va… elle va…</p>
           </sp>
-          <sp who="[2542b]madamemercadet">
+          <sp who="madamemercadet">
             <speaker><pb n="254-2b"/>Madame Mercadet.</speaker>
            <p>
 Allez chez lui ce soir, vous m’y trouverez, et tous les créanciers de Monsieur Mercadet seront satisfaits.</p>
@@ -6569,7 +6569,7 @@ Je ne veux par savoir, monsieur, qui vous êtes ! mais, qui que vous soyez, vou
            <p>
 Madame, votre mari m’y a précipité en me promettant de me rendre des titres qui me barrent mon avenir…</p>
           </sp>
-          <sp who="[2542c]madamemercadet">
+          <sp who="madamemercadet">
             <speaker><pb n="254-2c"/>Madame Mercadet.</speaker>
            <p>
 Mon mari, monsieur, est un honnête homme, et il vous les rendra !… Nous nous contenterons de votre parole, et vous vous acquitterez quand vous aurez loyalement fait votre fortune.</p>
@@ -6664,7 +6664,7 @@ Vous venez de renverser avec d’excellentes intentions, la fortune que j’avai
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
            <p>
-Non, monsieur, je ne vous juge pas… <stage>(</stage><stage>À</stage><stage> part.)</stage> Ah ! <hi rend="bg_ffff00">quelle</hi> idée ! <stage>(Haut.)</stage> Laissez-moi consulter là-dessus deux cœurs droits, purs, d’une délicatesse que le contact du monde n’a pas encore <hi rend="bg_ffff00">effleurés</hi>. Faites-moi la grâce d’entrer dans votre cabinet pour deux minutes.</p>
+Non, monsieur, je ne vous juge pas… <stage>(</stage><stage>À</stage><stage> part.)</stage> Ah ! quelle idée ! <stage>(Haut.)</stage> Laissez-moi consulter là-dessus deux cœurs droits, purs, d’une délicatesse que le contact du monde n’a pas encore effleurés. Faites-moi la grâce d’entrer dans votre cabinet pour deux minutes.</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6673,7 +6673,7 @@ Voyons ! <stage>(</stage><stage>À</stage><stage> part.)</stage> J y pourrai r�
           </sp>
         </div>
         <div>
-          <head><pb n="255-1a"/>Scène XVIII.</head>
+          <pb n="255-1a"/><head>Scène XVIII.</head>
           <stage>Madame Mercadet, puis Julie, Minard.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -6695,7 +6695,7 @@ Votre père se trouve dans une situation encore plus affreuse que je ne le croya
            <p>
 Oh ! maman ! votre attachement pour mon père vous égare ! Pardon ! il ne peut pas avoir fait un pareil plan, et je n’épouserais pas Adolphe, s’il…</p>
           </sp>
-          <sp who="adolphe">
+          <sp who="minard">
             <speaker>Adolphe.</speaker>
            <p>
 Oh ! bien ! Julie… <stage>(Il lui baise la main.)</stage> Madame, <pb n="255-1b"/>demandez-moi ma vie et tout ce que je possède !… mais tremper dans une… Oh ! J’irai supplier Monsieur Duval donner l’appui de son crédit à monsieur Mercadet. Mais songez donc, madame, à ce que vous me demandez ?… C’est une…</p>
@@ -6757,7 +6757,7 @@ Je tremble ! Mes enfants, ne quittons pas votre père ! <stage>(Ils courent to
         </div>
       </div>
       <div subtype="level1">
-        <head><pb n="255-1c"/>Acte V.</head>
+        <pb n="255-1c"/><head>Acte V.</head>
         <div type="scene">
           <head>Scène I.</head>
           <stage>Justin, Thérèse, Virginie, Brédif. (Justin entre le premier et fait signe à Thérèse d’avancer. Virginie, munie de ses livres, se campe hardiment sur le canapé. Brédif entre vers le milieu de la scène. Justin va regarder par le trou de la serrure et colle son oreille à la porte.)</stage>
@@ -6883,7 +6883,7 @@ Quoi ?…</p>
            <p>
 Nos gages…</p>
           </sp>
-          <sp who="[2551e]mercadet">
+          <sp who="mercadet">
             <speaker><pb n="255-1e"/>Mercadet.</speaker>
            <p>
 Allez chez Madame Mercadet, elle vous paiera. <stage>(</stage><stage>À</stage><stage> Brédif.)</stage> Je reste ici, mon cher monsieur Brédif.</p>
@@ -6960,7 +6960,7 @@ De tout mon cœur !</p>
           </sp>
         </div>
         <div>
-          <head><pb n="256-1a"/>Scène III.</head>
+          <pb n="256-1a"/><head>Scène III.</head>
           <stage>Mercadet seul, puis Berchut.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6977,7 +6977,7 @@ Bonjour ! mon cher monsieur Mercadet.</p>
            <p>
 Eh bien ! vous avez dix degrés de froid sur la figure. Est-ce que les actions de la Basse-Indre ne sont pas en hausse ?</p>
           </sp>
-          <sp who="[2561b]berchut">
+          <sp who="berchut">
             <speaker><pb n="256-1b"/>Berchut.</speaker>
            <p>
 Si fait, monsieur. Nous atteindrons au pair ce matin, à Tortoni ; puis, à la Bourse . On ne sait pas où cela peut aller ! le feu y est. Votre lettre fait des merveilles. La Compagnie a senti le coup, elle va déclarer à la Bourse le résultat des opérations de sondage, et la mine de la Basse-Indre vaudra celle de Mons…</p>
@@ -6992,7 +6992,7 @@ Vous en avez acheté pour vous d’après mon conseil ?…</p>
            <p>
 Cinq cents !…</p>
           </sp>
-          <sp who="mercadet(leprendparlataille)">
+          <sp who="mercadet">
             <speaker>Mercadet (le prend par la taille).</speaker>
            <p>
 Vous me devez cela ! mais je suis enchanté de vous avoir mis… ah ! ah ! cinq cent mille francs peut-être dans votre poche. Madame Berchut voulait un équipage, elle l’aura !… Mon cher, les jolies femmes à  pied, moi, ça me navre ; mais à vingt pour cent au-dessous du pair, réalisez !</p>
@@ -7017,7 +7017,7 @@ Vous êtes un brave homme ! Tenez, entre nous, vous avez affaire à des ennemis
            <p>
 Un faux ! c’est écrit par moi…</p>
           </sp>
-          <sp who="[2561c]berchut">
+          <sp who="berchut">
             <speaker><pb n="256-1c"/>Berchut.</speaker>
            <p>
 Ainsi Godeau n’est pas à Paris !…</p>
@@ -7109,7 +7109,7 @@ Ah ! monsieur…</p>
            <p>
 Eh bien ! père Violette ! que voulez-vous ? tout casse, même les ancres ! Bah ! je ne serai pas le seul, la compagnie est nombreuse.</p>
           </sp>
-          <sp who="[2561e]violette">
+          <sp who="violette">
             <speaker><pb n="256-1e"/>Violette.</speaker>
            <p>
 Non, non ! Des hommes comme vous sont rares. Vous auriez dû avoir des fils… Payer les intérêts, les frais !… là, rubis sur l’ongle. J’avais beaucoup crié, je vous en demande pardon, je ne croyais plus au retour de Godeau…</p>
@@ -7164,7 +7164,7 @@ Honorable ! C’est un homme de Plutarque !…</p>
            <p>
 Et serviable !…</p>
           </sp>
-          <sp who="[2562a]mercadet">
+          <sp who="mercadet">
             <speaker><pb n="256-2a"/>Mercadet.</speaker>
            <p>
 Ah çà ! messieurs, avez-vous tous assez insulté à mon malheur ? Vous riez ! mais j’ai pris une résolution terrible, et je suis enchanté de vous avoir tous là. Je vous le déclare, si vous ne voulez pas m’accorder le temps de vous payer, je me coupe la gorge, là, devant vous !… <stage>(Il tire un rasoir.)</stage></p>
@@ -7209,7 +7209,7 @@ Ah ça ! l’on ne plaisante pas ainsi devant une faillite !…</p>
            <p>
 Pardon ! mille pardons ! mon cher Mercadet. Voici vos actions : elles ont été payées.</p>
           </sp>
-          <sp who="[2562b]mercadet">
+          <sp who="mercadet">
             <speaker><pb n="256-2b"/>Mercadet.</speaker>
            <p>
 Par qui ?</p>
@@ -7269,7 +7269,7 @@ Mon père, monsieur, est à Paris, et, comme vous l’avez dit, il a, depuis un 
            <p>
 Il a payé ces messieurs !</p>
           </sp>
-          <sp who="[2562c]minard">
+          <sp who="minard">
             <speaker><pb n="256-2c"/>Minard.</speaker>
            <p>
 Tous, scrupuleusement. Il a payé Berchut, et vous prie de garder ces actions comme un à-compte sur votre part dans les bénéfices de ses affaires aux Indes…</p>
@@ -7314,7 +7314,7 @@ Ah ! papa, quelle belle âme ! Il est millionnaire et il m’épouse… Je ne 
            <p>
 Ne fais pas de façon… va !</p>
           </sp>
-          <sp who="[2562d]madamemercadet">
+          <sp who="madamemercadet">
             <speaker><pb n="256-2d"/>Madame Mercadet.</speaker>
            <p>
 Ah ! mon ami !… (Elle pleure.)</p>
@@ -7364,7 +7364,7 @@ Non ! Après les fonds publics, les fonds de terre ! l’agriculture m’occup
            <p>
 Que veut monsieur ?</p>
           </sp>
-          <sp who="[2562e]mercadet">
+          <sp who="mercadet">
             <speaker><pb n="256-2e"/>Mercadet.</speaker>
            <p>
 Une voiture… <stage>(</stage><stage>À</stage><stage> part.)</stage> J’ai montré tant de fois Godeau que j’ai bien le droit de le voir.<stage> (Haut.)</stage> Allons voir Godeau !
