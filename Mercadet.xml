@@ -6839,10 +6839,14 @@ Je voudrais le voir parti, car ce diable d’homme a des ressources. <stage>(Hau
             <speaker>Mercadet.</speaker>
            <p>
 Oh ! inspirer la pitié !…</p>
-            <signed>Brédif.</signed>
+             </sp>
+            
+            <sp who="bredif">
+              <speaker> Brédif. </speaker>
            <p>
-Vous savez que je possède la maison contiguë à la mienne, rue de Ménars. Donc, au bout de mon jardin, j’ai une porte de sortie donnant dans la cour de cette seconde maison.</p>
-          </sp>
+Vous savez que je possède la maison contiguë à la mienne, rue de Ménars. Donc, au bout de mon jardin, j’ai une porte de sortie donnant dans la cour de cette seconde maison.</p></sp>
+         
+          
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
@@ -7179,7 +7183,7 @@ Serre-donc cet argument-là, mon cher : tout le monde est payé par Godeau.</p>
            <p>
 Godeau !… Mais Godeau est un mythe ! est une fable ! Godeau, c’est un fantôme… Vous le savez bien…</p>
           </sp>
-          <sp who="tous">
+          <sp who="verdelin pierquin goulard violette">
             <speaker>Tous.</speaker>
            <p>
 Il est arrivé…</p>
@@ -7189,7 +7193,7 @@ Il est arrivé…</p>
            <p>
 De Calcutta !</p>
           </sp>
-          <sp who="tous">
+          <sp who="verdelin pierquin goulard violette">
             <speaker>Tous.</speaker>
            <p>
 Oui.</p>
