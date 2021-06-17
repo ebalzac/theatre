@@ -159,19 +159,16 @@
           </sp>
           <sp who="quinola">
             <speaker>Quinola,<stage> lui tend une lettre</stage>.</speaker>
-            <p>Ce petit mot, remettez-le vous-même pour que ce <!-- Julien LEMAIRE : 2021-05-17T16:05:56.181145242
-Pb
--->secret demeure entre nous, et faites-moi pendre si vous ne voyez la marquise tomber en p<!-- Julien LEMAIRE : 2021-05-17T16:06:51.106814149
+            <p>Ce petit mot, remettez-le vous-même pour que ce secret demeure entre nous, et faites-moi pendre si vous ne voyez la marquise tomber en p<!-- Julien LEMAIRE : 2021-05-17T16:06:51.106814149
 Ajout de l’accent circonflexe (non présent chez hyppolite-->âmoison à cette lecture. Croyez que je professe, avec l’immense majorité des Espagnols, une aversion radicale pour… la potence.</p>
           </sp>
           <sp who="lecapitaine">
-            <speaker><pb n="20"/>Le Capitaine.</speaker>
+            <speaker><pb n="20" xml:id="p20"/>Le Capitaine.</speaker>
             <p>Et si quelque femme ambitieuse t’avait payé ta vie pour avoir celle d’une autre ?</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Serais-je en guenilles ? Ma vie vaut celle de César. Tenez, <!-- Julien LEMAIRE : 2021-05-17T16:08:30.243068862
-Majuscule dans le fac‑similé-->Monseigneur <stage>(il décachette la lettre, la sent, la replie et la lui rend.)</stage> êtes-vous content ?</p>
+            <p>Serais-je en guenilles ? Ma vie vaut celle de César. Tenez, Monseigneur <stage>(il décachette la lettre, la sent, la replie et la lui rend.)</stage> êtes-vous content ?</p>
           </sp>
           <sp who="lecapitaine">
             <speaker>Le Capitaine, <stage>à part</stage>.</speaker>
@@ -224,9 +221,8 @@ Majuscule dans le fac‑similé-->Monseigneur <stage>(il décachette la lettre, 
           </sp>
           <sp who="leducdelerme">
             <speaker><pb n="24" xml:id="p24"/>Le Duc de Lerme.</speaker>
-            <p>Vous m’avez demandé les nouvelles… <!-- Julien LEMAIRE : 2021-05-17T16:38:09.999560121
-Indentation différente et pas de parenthèses dans les versions fac‑similaires (hyppolite et bibliophiles). P24 pour hypp et p453 pour bib
---><stage>(Le duc se retire.)</stage></p>
+            <p>Vous m’avez demandé les nouvelles…</p>
+            <p><stage>Le duc se retire.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -462,9 +458,8 @@ Pas de virgule, mais j’ai préféré l’ajouter.-->,<stage> sur le devant</st
           </sp>
           <sp who="lecapitaine">
             <speaker><pb n="36" xml:id="p36"/>Le Capitaine.</speaker>
-            <p>Tu t’avanceras, tu plieras le genou, tu diras : Sire !… Et prie Dieu de conduire ta langue. <!-- Julien LEMAIRE : 2021-05-17T17:51:35.351105647
-Même remarque sur l’indentation particulière de cette didascalie = p41
---><stage>(Le cortège défile.)</stage></p>
+            <p>Tu t’avanceras, tu plieras le genou, tu diras : Sire !… Et prie Dieu de conduire ta langue.</p>
+            <p><stage>Le cortège défile.</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
@@ -575,8 +570,8 @@ Même remarque sur l’indentation particulière de cette didascalie = p41
           </sp>
           <sp who="philippeii">
             <speaker><pb n="42" xml:id="p42"/>Philippe II.</speaker>
-            <p>Il serait donc mort. <stage>(Au capitaine.)</stage> Tu le remplaceras dans l’exécution de mes ordres.<!-- Julien LEMAIRE : 2021-05-17T18:10:46.523787775
-Indent p47--><stage>(Il passe.)</stage></p>
+            <p>Il serait donc mort. <stage>(Au capitaine.)</stage> Tu le remplaceras dans l’exécution de mes ordres.</p>
+            <p><stage>Il passe.</stage></p>
           </sp>
           <sp who="lamarquise">
             <speaker>La Marquise,<stage> à Quinola</stage>.</speaker>
@@ -585,7 +580,7 @@ Indent p47--><stage>(Il passe.)</stage></p>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Comptez sur moi, mais protégez-nous. <stage>(Seul.)</stage> Sangodémi, le roi m’a paru charmé de mon invention de Notre-Dame-del-Pilar, je lui fais vœu… de quoi ?… Nous verrons après le succès.</p>
-            <stage>Le théâtre change et représente un cachot de l’Inquisition.</stage>
+            <p><stage>Le théâtre change et représente un cachot de l’Inquisition.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -764,8 +759,8 @@ Indent p47--><stage>(Il passe.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola,<stage> voyant faiblir le duc</stage>.</speaker>
-            <p>Hé bien ? <!-- Julien LEMAIRE : 2021-05-17T18:45:13.181490411
-Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
+            <p>Hé bien ?</p>
+            <p><stage>Il lui fait respirer un flacon.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -932,8 +927,8 @@ Indent p57--><stage>(Il lui fait respirer un flacon.)</stage></p>
           </sp>
           <sp who="lamarquise">
             <speaker><pb n="61" xml:id="p61"/>La Marquise.</speaker>
-            <p>Nous sommes sauvés. <!-- Julien LEMAIRE : 2021-05-17T21:00:30.344666859
-Indent p66--><stage>(La Cour suit le Roi qui rentre.)</stage></p>
+            <p>Nous sommes sauvés.</p>
+            <p><stage>La Cour suit le Roi qui rentre.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -1384,8 +1379,8 @@ Indent p66--><stage>(La Cour suit le Roi qui rentre.)</stage></p>
           </sp>
           <sp who="donalopez">
             <speaker><pb n="88" xml:id="p88"/>Dona Lopez.</speaker>
-            <p>Mon cher Lopez ! je vais faire dépêcher la senorita. <!-- Julien LEMAIRE : 2021-05-17T22:42:09.251663389
-Indent. p93--><stage>(Elle rentre.)</stage></p>
+            <p>Mon cher Lopez ! je vais faire dépêcher la senorita.</p>
+            <p><stage>Elle rentre.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -1435,8 +1430,8 @@ Manque‑t‑il un point d’exclamation ?-->Eh bien ! Où donc est Monipodill
           </sp>
           <sp who="quinola">
             <speaker>Quinola,<stage> à la duègne</stage>.</speaker>
-            <p>Ah ! Madame, je vous reconnais au portrait que le seigneur Lopez me faisait de vos charmes… <!-- Julien LEMAIRE : 2021-05-17T22:49:59.891486917
-Indent. P95.--><stage>(Il l’emmène.)</stage></p>
+            <p>Ah ! Madame, je vous reconnais au portrait que le seigneur Lopez me faisait de vos charmes…</p>
+          <p><stage>Il l’emmène.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -1496,8 +1491,8 @@ Indent. P95.--><stage>(Il l’emmène.)</stage></p>
           </sp>
           <sp who="lothundiaz">
             <speaker><pb n="94" xml:id="p94"/>Lothundiaz.</speaker>
-            <p>Travaille, et tu t’amasseras des trésors, ici-bas. <stage>(Il regarde.)</stage> Je ne vois point ma fille et sa duègne dans leur chemin. <!-- Julien LEMAIRE : 2021-05-17T22:59:56.646198328
-Indent. p99--><stage>(Jeu de scène entre Monipodio et Lothundiaz.)</stage></p>
+            <p>Travaille, et tu t’amasseras des trésors, ici-bas. <stage>(Il regarde.)</stage> Je ne vois point ma fille et sa duègne dans leur chemin.</p>
+          <p><stage>Jeu de scène entre Monipodio et Lothundiaz.</stage></p>
           </sp>
           <sp who="monipodio">
             <speaker>Monipodio.</speaker>
@@ -1505,8 +1500,8 @@ Indent. p99--><stage>(Jeu de scène entre Monipodio et Lothundiaz.)</stage></p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
-            <p>Eh ! laisse-moi, je suis Catalan et suis soupçonneux. <stage>(Il aperçoit sa fille et Fontanarès.)</stage> Que vois-je ?… ma fille avec un jeune seigneur. <stage>(Il court à eux.)</stage> On a beau payer des duègnes pour avoir le cœur et les yeux d’une mère, elles vous voleront toujours. <stage>(À sa fille.)</stage> Comment Marie, vous, héritière de dix mille sequins de rente, vous parlez à… Ai-je la berlue ?… c’est ce damné mécanicien qui n’a pas un maravédis. <!-- Julien LEMAIRE : 2021-05-17T23:02:21.458108705
-Indent. P 99--><stage>(Monipodio fait des signes à Quinola.)</stage></p>
+            <p>Eh ! laisse-moi, je suis Catalan et suis soupçonneux. <stage>(Il aperçoit sa fille et Fontanarès.)</stage> Que vois-je ?… ma fille avec un jeune seigneur. <stage>(Il court à eux.)</stage> On a beau payer des duègnes pour avoir le cœur et les yeux d’une mère, elles vous voleront toujours. <stage>(À sa fille.)</stage> Comment Marie, vous, héritière de dix mille sequins de rente, vous parlez à… Ai-je la berlue ?… c’est ce damné mécanicien qui n’a pas un maravédis.</p>
+            <p><stage>Monipodio fait des signes à Quinola.</stage></p>
           </sp>
           <sp who="marie">
             <speaker><pb n="95" xml:id="p95"/>Marie.</speaker>
@@ -1764,8 +1759,8 @@ Ajout d’un point d’interrgation. Pertinent ou non ?--> ?</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès,<stage> à part</stage>.</speaker>
-            <p>Combien de sourires semblables n’ai-je pas déjà dévorés. <stage>(Haut.)</stage> Excellence, le roi ne me l’a pas demandé. Voici d’ailleurs sa lettre et celle de ses ministres… <!-- Julien LEMAIRE : 2021-05-18T10:46:39.979710040
-Indent, p113--><stage>(Il remet un paquet.)</stage></p>
+            <p>Combien de sourires semblables n’ai-je pas déjà dévorés. <stage>(Haut.)</stage> Excellence, le roi ne me l’a pas demandé. Voici d’ailleurs sa lettre et celle de ses ministres…</p>
+            <p><stage>Il remet un paquet.</stage></p>
           </sp>
           <sp who="faustine">
             <speaker><pb n="109" xml:id="p109"/>Faustine,<stage> à Paquita</stage>.</speaker>
@@ -1883,8 +1878,8 @@ Ajout d’un point d’interrogation.--> ?</p>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Tremblez que je ne vous traite sérieusement ! <!-- Julien LEMAIRE : 2021-05-18T10:57:59.446988491
-Indent. p118--><stage>(Faustine, le Gouverneur et Paquita sortent.)</stage></p>
+            <p>Tremblez que je ne vous traite sérieusement !</p>
+          <p><stage>Faustine, le Gouverneur et Paquita sortent.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -1898,8 +1893,7 @@ Indent. p118--><stage>(Faustine, le Gouverneur et Paquita sortent.)</stage></p>
           <sp who="avaloros">
             <speaker>Avaloros.</speaker>
             <p>Peu m’importe, j’ai gagné cent écus d’or.</p>
-            <stage><!-- Julien LEMAIRE : 2021-05-18T11:00:09.136323079
-Indent. p119-->Sarpi et Avaloros se parlent.</stage>
+            <p><stage>Sarpi et Avaloros se parlent.</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès,<stage> à Monipodio</stage>.</speaker>
@@ -1928,8 +1922,8 @@ Indent. p119-->Sarpi et Avaloros se parlent.</stage>
           </sp>
           <sp who="avaloros">
             <speaker>Avaloros,<stage> à Fontanarès</stage>.</speaker>
-            <p>Eh ! bien, mon cher, vous viendrez me voir. <!-- Julien LEMAIRE : 2021-05-18T11:02:08.232933058
-Indent p120.--><stage>(Monipodio lui prend sa bourse.)</stage></p>
+            <p>Eh ! bien, mon cher, vous viendrez me voir.</p>
+          	<p><stage>Monipodio lui prend sa bourse.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -2022,8 +2016,8 @@ Indent p120.--><stage>(Monipodio lui prend sa bourse.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Ma mie, on ne pense pas à deux machines à la fois !… Dis à ta céleste maîtresse que mon maître lui baise les pieds. Je suis garçon, mon ange, et veux faire une heureuse fin. <!-- Julien LEMAIRE : 2021-05-18T11:18:49.865554302
-Indent. p126--><stage>(Il l’embrasse.)</stage></p>
+            <p>Ma mie, on ne pense pas à deux machines à la fois !… Dis à ta céleste maîtresse que mon maître lui baise les pieds. Je suis garçon, mon ange, et veux faire une heureuse fin.</p>
+          <p><stage>Il l’embrasse.</stage></p>
           </sp>
           <sp who="paquita">
             <speaker>Paquita, <stage>lui donne un soufflet</stage>.</speaker>
@@ -2031,8 +2025,8 @@ Indent. p126--><stage>(Il l’embrasse.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker><pb n="121" xml:id="p121"/>Quinola.</speaker>
-            <p>Charmante ! <!-- Julien LEMAIRE : 2021-05-18T11:19:06.875753610
-Indent--><stage>(Elle sort.)</stage></p>
+            <p>Charmante !</p>
+          <p><stage>Elle sort.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -2080,8 +2074,8 @@ Indent--><stage>(Elle sort.)</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>À l’ouvrage donc ! l’inventeur va sauver l’amoureux. <!-- Julien LEMAIRE : 2021-05-18T11:26:45.341368022
-Indent. P 128--><stage>(Ils sortent.)</stage></p>
+            <p>À l’ouvrage donc ! l’inventeur va sauver l’amoureux.</p>
+            <p><stage>Ils sortent.</stage></p>
           </sp>
         </div>
       </div>
@@ -2474,11 +2468,7 @@ Est‑ce une graphie de l’époque ?-->qu’Améric est à Christophe Colomb.<
           <sp who="quinola">
             <speaker><pb n="147" xml:id="p147"/>Quinola.</speaker>
             <p>Tout est contre lui.</p>
-            <p>
-              <!-- Julien LEMAIRE : 2021-05-18T13:42:14.081100392
-Indent + parenthèses. p152-->
-              <stage>(Il se fait un jeu de scène entre Faustine et Quinola à propos du bon de deux raille écus qu’elle tient à la main.)</stage>
-            </p>
+            <p><stage>(Il se fait un jeu de scène entre Faustine et Quinola à propos du bon de deux raille écus qu’elle tient à la main.)</stage></p>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
@@ -2574,8 +2564,8 @@ Indent + parenthèses. p152-->
           </sp>
           <sp who="quinola">
             <speaker><pb n="151" xml:id="p151"/>Quinola,<stage> à part</stage>.</speaker>
-            <p>Voilà l’ennemi, elle nous aime trop pour ne pas nous faire beaucoup de mal. <!-- Julien LEMAIRE : 2021-05-18T13:52:21.793446750
-Indent p156--><stage>(Quinola sort en rencontrant don Frégose.)</stage></p>
+            <p>Voilà l’ennemi, elle nous aime trop pour ne pas nous faire beaucoup de mal.</p>
+            <p><stage>Quinola sort en rencontrant don Frégose.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -2748,8 +2738,8 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
           </sp>
           <sp who="lothundiaz">
             <speaker><pb n="161" xml:id="p161"/>Lothundiaz.</speaker>
-            <p>Vous êtes bien bonne, madame ; mais permettez-moi d’aller voir cette fameuse galerie dont on parle dans toute la Catalogne. <!-- Julien LEMAIRE : 2021-05-18T15:51:42.476781604
-Indent p166--><stage>(Il sort.)</stage></p>
+            <p>Vous êtes bien bonne, madame ; mais permettez-moi d’aller voir cette fameuse galerie dont on parle dans toute la Catalogne.</p>
+            <p><stage>Il sort.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -3155,8 +3145,8 @@ Indent p166--><stage>(Il sort.)</stage></p>
           <stage>Les Mêmes, Monipodio.</stage>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Les trois dernières pièces nous sont revenues, emporte les modèles, et fais-en toujours deux paires en cas de malheur. <!-- Julien LEMAIRE : 2021-05-18T16:59:58.465440217
-Indent. p191--><stage>(Monipodio fait signe dans la coulisse : deux hommes paraissent.)</stage></p>
+            <p>Les trois dernières pièces nous sont revenues, emporte les modèles, et fais-en toujours deux paires en cas de malheur.</p>
+            <p><stage>Monipodio fait signe dans la coulisse : deux hommes paraissent.</stage></p>
           </sp>
           <sp who="monipodio">
             <speaker><pb n="187" xml:id="p187"/>Monipodio.</speaker>
@@ -3212,9 +3202,8 @@ Indent. p191--><stage>(Monipodio fait signe dans la coulisse : deux hommes para
           </sp>
           <sp who="quinola">
             <speaker><pb n="190" xml:id="p190"/>Quinola.</speaker>
-            <p>Veuille l’amour acquitter ma lettre de change, et nous nous en tirerons encore… <!-- Julien LEMAIRE : 2021-05-18T17:05:13.377222454
-Indent. P195
---><stage>(Monipodio sort.)</stage></p>
+            <p>Veuille l’amour acquitter ma lettre de change, et nous nous en tirerons encore…</p>
+            <p><stage>Monipodio sort.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -3258,8 +3247,8 @@ Indent. P195
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Je vous salue, monsieur Magis, <!-- Julien LEMAIRE : 2021-05-19T09:49:03.241751466
-Indent. P 197--><stage>(Il se coupe du pain.)</stage></p>
+            <p>Je vous salue, monsieur Magis.</p>
+            <p><stage>Il se coupe du pain.</stage></p>
           </sp>
           <sp who="mathieumagis">
             <speaker>Mathieu Magis.</speaker>
@@ -3685,8 +3674,9 @@ I majuscule dans la version fac‑similaire. p212-->nfante a la lettre.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p><!-- Julien LEMAIRE : 2021-05-19T10:45:39.987514252
-Indent entre le speaker et le pragraphe. p218 pdf--><stage>Il fond sur eux.</stage> Oh !… <stage>(Il s’arrête et jette son épée.)</stage> Peut-être Avaloros et Sarpi les ont-ils envoyés pour me pousser à bout. Je serais accusé de meurtre et pour des années en prison. <stage>(Il s’agenouille devant la Madone.)</stage> Ô mon Dieu ! le talent et le crime seraient-ils donc une même chose à tes yeux ? Qu’ai-je fait pour souffrir tant d’avanies, tant d’insultes, et tant d’outrages ? Faut-il donc d’avance expier le triomphe ? <stage>(Aux ouvriers.)</stage> Tout Espagnol est mâitre dans sa maison ?</p>
+            <!-- Julien LEMAIRE : 2021-05-19T10:45:39.987514252
+Indent entre le speaker et le pragraphe. p218 pdf--><p><stage>Il fond sur eux.</stage></p>
+            <p>Oh !… <stage>(Il s’arrête et jette son épée.)</stage> Peut-être Avaloros et Sarpi les ont-ils envoyés pour me pousser à bout. Je serais accusé de meurtre et pour des années en prison. <stage>(Il s’agenouille devant la Madone.)</stage> Ô mon Dieu ! le talent et le crime seraient-ils donc une même chose à tes yeux ? Qu’ai-je fait pour souffrir tant d’avanies, tant d’insultes, et tant d’outrages ? Faut-il donc d’avance expier le triomphe ? <stage>(Aux ouvriers.)</stage> Tout Espagnol est mâitre dans sa maison ?</p>
           </sp>
           <sp who="esteban">
             <speaker><pb n="214" xml:id="p214"/>Éstéban.</speaker>
@@ -3786,8 +3776,8 @@ Indent entre le speaker et le pragraphe. p218 pdf--><stage>Il fond sur eux.</sta
           </sp>
           <sp who="autres">
             <speaker>Les Ouvriers.</speaker>
-            <p>Vive Son Excellence ! <!-- Julien LEMAIRE : 2021-05-19T10:54:47.181644424
-Indent p224--><stage>(Ils sortent.)</stage></p>
+            <p>Vive Son Excellence !</p>
+            <p><stage>Ils sortent.</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola,<stage> à Fontanarès</stage>.</speaker>
@@ -3815,8 +3805,8 @@ Indent p224--><stage>(Ils sortent.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Vous êtes un homme immense, mon enfant ! Vous aurez votre jour comme le grand Colombo. <stage>(Il plie un genou.)</stage> Je remercie Dieu de l’honneur qu’il fait à notre famille. <stage>(Aux marchands.)</stage> Je vous paie dans deux heures d’ici… <!-- Julien LEMAIRE : 2021-05-19T10:57:33.374359340
-Indent--><stage>(Ils sortent.)</stage></p>
+            <p>Vous êtes un homme immense, mon enfant ! Vous aurez votre jour comme le grand Colombo. <stage>(Il plie un genou.)</stage> Je remercie Dieu de l’honneur qu’il fait à notre famille. <stage>(Aux marchands.)</stage> Je vous paie dans deux heures d’ici…</p>
+            <p><stage>Ils sortent.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4041,8 +4031,8 @@ Maj ou min ?-->X.</p>
           </sp>
           <sp who="mathieumagis">
             <speaker>Mathieu Magis.</speaker>
-            <p>Courons avertir madame Brancador, elle est de Venise. <!-- Julien LEMAIRE : 2021-05-19T11:24:50.466059965
-Indent.--><stage>(il sort.)</stage></p>
+            <p>Courons avertir madame Brancador, elle est de Venise.</p>
+            <p><stage>il sort.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4094,8 +4084,8 @@ Indent.--><stage>(il sort.)</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Au couvent ? Ils veulent nous séparer. Voilà des tortures à faire maudire la vie. Et vous, Marie, vous le principe et la fleur de ma décourerte ! Vous, cette étoile qui me protégeait, je vous force à rester dans le ciel. Oh ! je succombe. <!-- Julien LEMAIRE : 2021-05-19T11:39:16.051100492
-indent--><stage>(Il pleure.)</stage></p>
+            <p>Au couvent ? Ils veulent nous séparer. Voilà des tortures à faire maudire la vie. Et vous, Marie, vous le principe et la fleur de ma décourerte ! Vous, cette étoile qui me protégeait, je vous force à rester dans le ciel. Oh ! je succombe.</p>
+            <p><stage>Il pleure.</stage></p>
           </sp>
           <sp who="marie">
             <speaker>Marie.</speaker>
@@ -4545,8 +4535,8 @@ indent--><stage>(Il pleure.)</stage></p>
           </sp>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
-            <p>Sarpi, faites avancer des alguasils, et emparez-vous du complice de Quinola. <!-- Julien LEMAIRE : 2021-05-19T23:51:30.052276143
-Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></p>
+            <p>Sarpi, faites avancer des alguasils, et emparez-vous du complice de Quinola.</p>
+            <p><stage>On applaudit, et quelques voix crient : bravo.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -5016,8 +5006,8 @@ Fontanarès plutôt ?? à vérifier.-->Faustine.</speaker>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Comment n’être pas fidèle à cet inépuisable amour, qui, par trois fois, est venu me secourir, me sauver, et qui n’ayant plus qu’à s’offrir lui-même au malheur, s’immole d’une main en me tendant de l’autre, avec ceci, <stage>(Il montre la lettre.)</stage> mon honneur, l’estime du roi, l’admiration de l’univers. <!-- Julien LEMAIRE : 2021-05-20T13:16:04.571955218
-indent--><stage>( Entre Paquita qui sort après avoir fait un signe à Faustine. )</stage></p>
+            <p>Comment n’être pas fidèle à cet inépuisable amour, qui, par trois fois, est venu me secourir, me sauver, et qui n’ayant plus qu’à s’offrir lui-même au malheur, s’immole d’une main en me tendant de l’autre, avec ceci, <stage>(Il montre la lettre.)</stage> mon honneur, l’estime du roi, l’admiration de l’univers.</p>
+            <p><stage>Entre Paquita qui sort après avoir fait un signe à Faustine.</stage></p>
           </sp>
           <sp who="faustine">
             <speaker><pb n="286" xml:id="p286"/>Faustine, <stage>à part</stage>.</speaker>
@@ -5485,8 +5475,8 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
           <sp who="legrandinquisiteur">
             <speaker>Le Grand-Inquisiteur.</speaker>
-            <p>La France est en feu, les Pays-Bas sont en pleine révolte, Calvin remue l’Europe, le roi a trop d’affaires sur les bras, pour s’occuper d’un vaisseau. La vapeur et Calvin, c’est trop à la fois. Nous échappons encore pour quelque temps à la voracité des peuples. <!-- Julien LEMAIRE : 2021-05-20T14:39:49.883517013
-Indent + parenthèses--><stage>(Tous sortent.)</stage></p>
+            <p>La France est en feu, les Pays-Bas sont en pleine révolte, Calvin remue l’Europe, le roi a trop d’affaires sur les bras, pour s’occuper d’un vaisseau. La vapeur et Calvin, c’est trop à la fois. Nous échappons encore pour quelque temps à la voracité des peuples.</p>
+            <p><stage>(Tous sortent.)</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
