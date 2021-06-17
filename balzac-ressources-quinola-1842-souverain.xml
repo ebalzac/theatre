@@ -4126,7 +4126,8 @@ indent--><stage>(Il pleure.)</stage></p>
           </sp>
           <sp who="donramon">
             <speaker>Don Ramon.</speaker>
-            <p>Il l amettrait sur la paille. Il a dévoré cinq mille séquins et s’est endetté de trois mille, e, huit mois, sans arriver à un résultat ; mais je suis là!Ah ! parlez-moi de son grand-père, voilà un savant du premier ordre, et il a fort à faire avant de le valoir. <stage>(Il montre Quinola.)</stage></p>
+            <p>Il la mettrait sur la paille. Il a dévoré cinq mille séquins et s’est endetté de trois mille, en huit mois, sans arriver à un résultat ; mais je suis là ! Ah ! parlez-moi de son grand-père, voilà un savant du premier ordre, et il a fort à faire avant de le valoir.</p>
+          <p><stage>Il montre Quinola.</stage></p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
@@ -4134,8 +4135,7 @@ indent--><stage>(Il pleure.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Oui, Monsieur, mon nom de Fontanarès s’est changé, à Venise, en celui de <!-- Julien LEMAIRE : 2021-05-19T11:52:22.441941894
-Réponse au commentaire sur fontanaresi-->Fontanaresi.</p>
+            <p>Oui, Monsieur, mon nom de Fontanarès s’est changé, à Venise, en celui de Fontanaresi.</p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
@@ -4159,26 +4159,24 @@ Réponse au commentaire sur fontanaresi-->Fontanaresi.</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>SI vous pouvez me montrer ma signature, je suis prêt à y faire honneur.</p>
+            <p>Si vous pouvez me montrer ma signature, je suis prêt à y faire honneur.</p>
           </sp>
           <sp who="marie">
             <speaker>Marie, <stage>après une conversation avec Fontanarès</stage>.</speaker>
-            <p>Acceptez pour trimpher, ne s’agit-il pas de notre bonheur ?</p>
+            <p>Acceptez pour triompher, ne s’agit-il pas de notre bonheur ?</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Entraîner cette perle dans le gouffre où je me sens tomber. <!-- Julien LEMAIRE : 2021-05-19T11:57:44.081308316
-indent--><stage>(Quinola et Monipodio disparaissent.)</stage></p>
+            <p>Entraîner cette perle dans le gouffre où je me sens tomber.</p>
+            <p><stage>Quinola et Monipodio disparaissent.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
           <pb n="237" xml:id="p237"/><head>Scène XV.</head>
           <stage>Les Mêmes, Sarpi.</stage>
           <sp who="sarpi">
-            <speaker>Sarpi,
-        <stage> a Lothnndiaz</stage>.</speaker>
-            <p><!-- Julien LEMAIRE : 2021-05-19T11:59:35.206423210
-Vous êtes ???-->Vous et avec votre fille, seigneur Lothundiaz ?</p>
+            <speaker>Sarpi, <stage>à Lothundiaz</stage>.</speaker>
+            <p>Vous et avec votre fille, seigneur Lothundiaz ?</p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
@@ -4190,11 +4188,11 @@ Vous êtes ???-->Vous et avec votre fille, seigneur Lothundiaz ?</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Ah ! voilà le plus ardent de vos persécuteurs. Eh ! bien, seigneur, venez-vous mettre de nouveau ma constance à l’épreuve ?</p>
+            <p>Ah ! voilà le plus ardent de mes persécuteurs. Eh ! bien, seigneur, venez-vous mettre de nouveau ma constance à l’épreuve ?</p>
           </sp>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
-            <p>Je représenle ici le vice-roi de Calalogne, Monsieur, et j’ai droit à vos respects. <stage>(À don Ramon.)</stage> Êtes-vous content de lui ?</p>
+            <p>Je représente ici le vice-roi de Catalogne, Monsieur, et j’ai droit à vos respects. <stage>(À don Ramon.)</stage> Êtes-vous content de lui ?</p>
           </sp>
           <sp who="donramon">
             <speaker><pb n="238" xml:id="p238"/>Don Ramon.</speaker>
@@ -4206,7 +4204,7 @@ Vous êtes ???-->Vous et avec votre fille, seigneur Lothundiaz ?</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Rêvé je ? Voudrait-on me donner un rival ?</p>
+            <p>Rêvé-je ? Voudrait-on me donner un rival ?</p>
           </sp>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
@@ -4242,7 +4240,7 @@ Vous êtes ???-->Vous et avec votre fille, seigneur Lothundiaz ?</p>
           </sp>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
-            <p>L’administration de la Catalogne a le droit d’en exiger un, et nous avons reçu des ministres un ordre à cet égard. <stage>(Mouvement de surprise chez Fontanarès.)</stage> Oh ! prenez tout Votre temps : nous ne voulons pas contrarier un homme tel que vous. Seulement, nous pensons que vous ne voulez pas éluder la peine qui pèse sur votre tête, en gardant le vaisseau jusqu’à la fin de vos jours.</p>
+            <p>L’administration de la Catalogne a le droit d’en exiger un, et nous avons reçu des ministres un ordre à cet égard. <stage>(Mouvement de surprise chez Fontanarès.)</stage> Oh ! prenez tout votre temps : nous ne voulons pas contrarier un homme tel que vous. Seulement, nous pensons que vous ne voulez pas éluder la peine qui pèse sur votre tête, en gardant le vaisseau jusqu’à la fin de vos jours.</p>
           </sp>
           <sp who="marie">
             <speaker><pb n="240" xml:id="p240"/>Marie.</speaker>
@@ -4258,16 +4256,16 @@ Vous êtes ???-->Vous et avec votre fille, seigneur Lothundiaz ?</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Dans trois mois, comte Sarpi, et sans aide, j’aurai fini mon œuvre. Vous verrez alors un des plus grands spectacle qu’un homme puisse donner à son siècle.</p>
+            <p>Dans trois mois, comte Sarpi, et sans aide, j’aurai fini mon œuvre. Vous verrez alors un des plus grands spectacles qu’un homme puisse donner à son siècle.</p>
           </sp>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
-            <p>Voici votre engagement, signez-le. <!-- Julien LEMAIRE : 2021-05-19T12:05:57.556469532
-indent--><stage>(Fontanarès va signer.)</stage></p>
+            <p>Voici votre engagement, signez-le.</p>
+          <p><stage>Fontanarès va signer.</stage></p>
           </sp>
           <sp who="marie">
             <speaker>Marie.</speaker>
-            <p>Adieu, mon ami ! Si vous succombiez dans celle lutte, je crois que je vous aimerais encore davantage.</p>
+            <p>Adieu, mon ami ! Si vous succombiez dans cette lutte, je crois que je vous aimerais encore davantage.</p>
           </sp>
           <sp who="lothundiaz">
             <speaker><pb n="241" xml:id="p241"/>Lothundiaz.</speaker>
@@ -4286,7 +4284,8 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
           <head>Scène XVI.</head>
           <sp who="fontanares">
             <speaker>Fontanarès, <stage>seul sur le devant de la scène</stage>.</speaker>
-            <p>Marie au couvent, j’aurai froid au soleil. Je supporte un monde, et j’ai peur de ne pas être un Atlas… Non, je ne réussirai pas, tout me trahit. Œuvre de trois ans de pensée et de dix mois de travaux silloneras-tu jamais la mer ?… Ah ! le sommeil m’accable… <stage>(Il se couche sur la paille.)</stage></p>
+            <p>Marie au couvent, j’aurai froid au soleil. Je supporte un monde, et j’ai peur de ne pas être un Atlas… Non, je ne réussirai pas, tout me trahit. Œuvre de trois ans de pensée et de dix mois de travaux sillonneras-tu jamais la mer ?… Ah ! le sommeil m’accable…</p>
+          <p><stage>Il se couche sur la paille.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4298,7 +4297,7 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
           </sp>
           <sp who="monipodio">
             <speaker>Monipodio.</speaker>
-            <p>La Brancardor est de Venise.</p>
+            <p>La Brancador est de Venise.</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
@@ -4330,8 +4329,8 @@ indent--><stage>(Fontanarès va signer.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
-            <p>Laisscz-nous. <!-- Julien LEMAIRE : 2021-05-19T12:16:03.372227013
-indent--><stage>(L’hôte sort.)</stage></p>
+            <p>Laissez-nous.</p>
+            <p><stage>Sort l’hôte.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4351,14 +4350,14 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Voilà donc en quel état je l’ai réduit ! Par la profondeur des blessures que je me suis aini faites à moi-même, je reconnais la profondeur de mon amour. Oh ! combien de bonheur ne lui dois-je pas pourtant du souffrances.</p>
+            <p>Voilà donc en quel état je l’ai réduit ! Par la profondeur des blessures que je me suis ainsi faites à moi-même, je reconnais la profondeur de mon amour. Oh ! combien de bonheur ne lui dois-je pas pour tant de souffrances.</p>
           </sp>
         </div>
       </div>
     	<div type="act" subtype="level1">
       <pb n="247" xml:id="p247"/>
         <head>Acte quatrième.</head>
-        <stage><pb n="248" xml:id="p248"/>Le théâtre représente une place publique. Au fond de la place, sur des tréteaux, au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite, Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
+        <stage><pb n="248" xml:id="p248"/>Le théâtre représente une place publique. Au fond de la place sur des tréteaux au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
         <div type="scene" subtype="level2">
         	<pb n="249" xml:id="p249"/>
           <head>Scène Première.</head>
@@ -4382,7 +4381,7 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola, <stage>à Fontanarès</stage>.</speaker>
-            <p>Monsieur, l’on ne fera pas cent écus d’or.</p>
+            <p>Monsieur l’on ne fera pas cent écus d’or.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
@@ -4394,11 +4393,11 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
           <sp who="monipodio">
             <speaker>Monipodio.</speaker>
-            <p>Tais-toi, la justice est sur ses traces, et tu serais déjà pris, si tu ne passais pour être un des miens.</p>
+            <p>Tais-toi, la justice est sur ses traces, et tu serais<pb n="251" xml:id="p251"/> déjà pris, si tu ne passais pour être un des miens.</p>
           </sp>
           <sp who="lhuissier">
-            <speaker><pb n="251" xml:id="p251"/>L’Huissier.</speaker>
-            <p>C’est le dernier lot, Messeigneurs. Allons, personne ne dit mot ? Adjugé pour dix écus d’or dis maravédis, au seigneur Mathieu Magis.</p>
+            <speaker>L’Huissier.</speaker>
+            <p>C’est le dernier lot, Messeigneurs. Allons, personne ne dit mot ? Adjugé pour dix écus d’or dix maravédis, au seigneur Mathieu Magis.</p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz,<stage> àDon Ramon</stage>.</speaker>
@@ -4410,7 +4409,7 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
           <sp who="esteban">
             <speaker>Éstéban.</speaker>
-            <p>C’est nous autres, pauvres diables, qui payons ses folies.</p>
+            <p>C’est nous autres, pauvres diables, qui payons ses folies !</p>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
@@ -4442,10 +4441,10 @@ indent--><stage>(L’hôte sort.)</stage></p>
           </sp>
           <sp who="donramon">
             <speaker>Don Ramon.</speaker>
-            <p>Moi, je regrette un pareil désastre. Ce jeune artisan avait fini par m’écouter, et nous avions la certitude de réaliser les promesses faites au roi ; mais il peut dormir sur les deux oreilles : j’irai demander sa grâce à la cour en expliquant combien j’ai besoin de lui.</p>
+            <p>Moi, je regrette un pareil désastre. Ce jeune artisan<pb n="253" xml:id="p253"/> avait fini par m’écouter, et nous avions la certitude de réaliser les promesses faites au roi ; mais il peut dormir sur les deux oreilles : j’irai demander sa grâce à la cour en expliquant combien j’ai besoin de lui.</p>
           </sp>
           <sp who="coppolus">
-            <speaker><pb n="253" xml:id="p253"/>Coppolus.</speaker>
+            <speaker>Coppolus.</speaker>
             <p>Voilà de la générosité peu commune entre savants.</p>
           </sp>
           <sp who="lothundiaz">
@@ -4453,8 +4452,7 @@ indent--><stage>(L’hôte sort.)</stage></p>
             <p>Vous êtes l’honneur de la Catalogne !</p>
           </sp>
           <sp who="fontanares">
-            <speaker>Fontanarès,<stage> </stage><!-- Julien LEMAIRE : 2021-05-19T12:41:50.953732919
-Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
+            <speaker>Fontanarès, <stage>il s’avance</stage>.</speaker>
             <p>J’ai tranquillement supporté le supplice de voir vendre à vil prix une œuvre qui devait me mériter un triomphe… <stage>(Murmures chez le peuple.)</stage> Mais ceci passe la mesure. Don Ramon, si vous aviez, je ne dis pas connu, mais soupçonné l’usage de toutes ces pièces maintenant dispersées, vous les auriez achetées au prix de toute votre fortune.</p>
           </sp>
           <sp who="donramon">
@@ -4467,7 +4465,7 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
           </sp>
           <sp who="lothundiaz">
             <speaker>Lothundiaz.</speaker>
-            <p>N’as-tu donc pas honte dans ta position de venir insulter un savant qui a fait ses preuves ? Où en serais-je si je t’avais donné ma fille ? tu me mènerais, et grand train, à la mendicité, car tu as déjà mangé en pure perte dix mille sequins ! Hein ? le Grand d’Esapagne est aujourd’hui bien petit.</p>
+            <p>N’as-tu donc pas honte dans ta position de venir insulter un savant qui a fait ses preuves ? Où en serais-je si je t’avais donné ma fille ? tu me mènerais, et grand train, à la mendicité, car tu as déjà mangé en pure perte dix mille sequins ! Hein ? le Grand d’Espagne est aujourd’hui bien petit.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
@@ -4479,11 +4477,11 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
           </sp>
           <sp who="donramon">
             <speaker>Don Ramon.</speaker>
-            <p>Laissez-le : ne voyez-vos pas qu’il est fou.</p>
+            <p>Laissez-le : ne voyez-vous pas qu’il est fou.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Pas encore assez, Monsieur, pour croire que O plus o soit un binôme.</p>
+            <p>Pas encore assez, Monsieur, pour croire que O plus O soit un binôme.</p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4503,11 +4501,11 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
           </sp>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
-            <p>Votre audace égale votre malheur. Oubliez-vous que les magistrats de Barcelone vous regardent comme complice du vol de diamant fait à Lothundiaz. La fuite de votre valet prouve le crime et vous ne devez d’être libre qu’aux prières de madame <stage>(Il montre Faustine.)</stage></p>
+            <p>Votre audace égale votre malheur. Oubliez-vous que les magistrats de Barcelone vous regardent comme complice du vol de diamants fait à Lothundiaz. La fuite de votre valet prouve le crime et vous ne devez d’être libre qu’aux prières de madame. <stage>(Il montre Faustine.)</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Mon valet, Excellence, a pu, jadis, commettre des fautes, mais depuis qu’il s’est attaché à ma fortune, il a purifié sa vie au feu de mes épreuves. Par mon honneur, il est innocent. Les pierreries saisies au moment où il les vendait à Mathieu Mais, lui furent librement données par Marie Lothundiaz, de qui je les ai refusées.</p>
+            <p>Mon valet, Excellence, a pu, jadis, commettre des fautes, mais depuis qu’il s’est attaché à ma fortune, il a purifié sa vie au feu de mes épreuves. Par mon honneur, il est innocent. Les pierreries saisies au moment où il les vendait à Mathieu Magis, lui furent librement données par Marie Lothundiaz, de qui je les ai refusées.</p>
           </sp>
           <sp who="faustine">
             <speaker><pb n="257" xml:id="p257"/>Faustine.</speaker>
@@ -4539,10 +4537,10 @@ Parenthèses ?? p258--><stage>Il s’avance</stage>.</speaker>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Avant de mourir, on doit la vérité, madame, à ceux qui nous ont poussé dans l’abîme ! <stage>(À don Frégose.)</stage> Monseigneur, le roi m’avait promis la protection de ses gens à Barcelone et je n’y ai trouvé que la haine ! Ô grands de la terre, riches, vous tous qui tenez en vos mains un pouvoir quelconque, pourquoi donc en faites-vous un obstacle à la pensée nouvelle ? Est-ce donc une loi divine qui vous ordonne de bafouer, de honnir ce que vous devez plus tard adorer ! Plat, humble et flateur, j’eusse réussi ! Vous avez persécuté dans ma personne ce qu’il y a de plus noble en l’homme : la conscience qu’il a de sa force, la majesté du travail, l’inspiration céleste qui lui met la main à l’œuvre, et… l’amour, cette foi humaine, qui rallume le courage quand il va s’éteindre sous la bise de la raillerie. Ah ! si vous faites mal le bien, en revanche, vous faites toujours très bien le mal ! Je m’arrête… vous ne valez pas ma colère.</p>
+            <p>Avant de mourir, on doit la vérité, madame, à ceux qui nous ont poussé dans l’abîme ! <stage>(À don Frégose.)</stage> Monseigneur, le roi m’avait promis la protection de ses gens à Barcelone et je n’y ai trouvé que la haine ! Ô grands de la terre, riches, vous tous qui tenez en vos mains un pouvoir quelconque, pourquoi donc en faites-vous un obstacle à la pensée nouvelle ? Est-ce donc une loi divine qui vous ordonne de bafouer, de honnir ce que vous devez plus tard adorer ! Plat, humble et flatteur, j’eusse réussi ! Vous avez persécuté dans ma personne ce qu’il y a<pb n="259" xml:id="p259"/> de plus noble en l’homme : la conscience qu’il a de sa force, la majesté du travail, l’inspiration céleste qui lui met la main à l’œuvre, et… l’amour, cette foi humaine, qui rallume le courage quand il va s’éteindre sous la bise de la raillerie. Ah ! si vous faites mal le bien, en revanche, vous faites toujours très bien le mal ! Je m’arrête… vous ne valez pas ma colère.</p>
           </sp>
           <sp who="faustine">
-          <speaker><pb n="259" xml:id="p259"/>Faustine,<stage> à part, après avoir fait un pas</stage>.</speaker>
+          <speaker>Faustine,<stage> à part, après avoir fait un pas</stage>.</speaker>
             <p>Oh ! j’allais lui dire que je l’adore.</p>
           </sp>
           <sp who="donfregose">
@@ -4565,11 +4563,11 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès, <stage>il plie le genou devant Marie</stage>.</speaker>
-            <p>Merci, brillant et pur amour par qui je me rattache au ciel pour y puiser l’espérance et la foi ! vous venez de sauver mon honneur.</p>
+            <p>Merci, brillant et pur amour par qui je me rattache<pb n="261" xml:id="p261"/> au ciel pour y puiser l’espérance et la foi ! vous venez de sauver mon honneur.</p>
           </sp>
           <sp who="marie">
-            <speaker><pb n="261" xml:id="p261"/>Marie.</speaker>
-            <p>N’ est-il pas le mien ? la gloire viendra.</p>
+            <speaker>Marie.</speaker>
+            <p>N’est-il pas le mien ? la gloire viendra.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
@@ -4582,7 +4580,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           <sp who="marie">
             <speaker>Marie.</speaker>
             <p>Mon père ? Et vous, comte Sarpi ? <stage>(À part.)</stage> J’en mourrai !</p>
-            <p><stage>(Haut.)</stage> Consentez-vous à donner tout ce qu’exige la réussite de l’entreprise faite par le seigneur Fontanarès ? à ce prix, je vous obéirai, mon père. <stage>(A Faustine.)</stage> Je me dévoue madame !</p>
+            <p><stage>(Haut.)</stage> Consentez-vous à donner tout ce qu’exige la réussite de l’entreprise faite par le seigneur Fontanarès ? à ce prix, je vous obéirai, mon père. <stage>(À Faustine.)</stage> Je me dévoue madame !</p>
           </sp>
           <sp who="faustine">
             <speaker><pb n="262" xml:id="p262"/>Faustine.</speaker>
@@ -4694,7 +4692,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Je dois en remercier Quinola. <stage>(Elle tend une bourse à Quinola.)</stage> Tiens. <stage>(À Fontanarès.)</stage> Àbientôt.</p>
+            <p>Je dois en remercier Quinola. <stage>(Elle tend une bourse à Quinola.)</stage> Tiens. <stage>(À Fontanarès.)</stage> À bientôt.</p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4714,7 +4712,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="quinola">
             <speaker>Quinola, <stage>à part </stage>.</speaker>
-            <p>Monipodio n’est plus là <stage>(Haut)</stage> Un raccommodement, Monsieur, est bien facile avec une femme qui s’y prête aussi galamment que madame Brancador.</p>
+            <p>Monipodio n’est plus là <stage>(haut.)</stage> Un raccommodement, Monsieur, est bien facile avec une femme qui s’y prête aussi galamment que madame Brancador.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
@@ -4739,7 +4737,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           <sp who="quinola">
             <speaker>Quinola.</speaker>
             <p>Non, Monsieurn si vous saviez mon secret, tout serait perdu, vous avez trop de talent pour ne pas avoir la simplicité d’un enfant. <stage>(Ils sortent.)</stage></p>
-            <stage>Le théâtre change, et représente les salons de madame de Brancador.</stage>
+            <p><stage>Le théâtre change, et représente les salons de madame de Brancador.</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4758,7 +4756,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Sarpi doit être venu, dis-lui je veux lui parler. <stage>(Paquita sort.)</stage></p>
+            <p>Sarpi doit être venu, dis-lui que je veux lui parler. <stage>(Paquita sort.)</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4781,7 +4779,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Dans deux heures, Monipodio ne doit pas être dans Barcelone, ni même en Catalogne, envoyez le en Afrique.</p>
+            <p>Dans deux heures, Monipodio ne doit pas être dans Barcelone, ni même en Catalogne, envoyez-le en Afrique.</p>
           </sp>
           <sp who="donfregose">
             <speaker><pb n="273" xml:id="p273"/>Don Frégose.</speaker>
@@ -4825,7 +4823,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="donfregose">
             <speaker><pb n="275" xml:id="p275"/>Don Frégose.</speaker>
-            <p>Sarpi, faites éxécuter sévèrement cet ordre, et sans retard. <stage>(Sarpi sor.)</stage></p>
+            <p>Sarpi, faites exécuter sévèrement cet ordre, et sans retard. <stage>(Sarpi sor.)</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -4877,10 +4875,10 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Avaloros a mis à ma disposition un de ses navires, Monipodio m’a donné ses meilleurs contrebandiers, allons à Venise, la République vous fera patricien, et vous donnera dix fois plus d’or que l’Espagne ne vous en a promis… <stage>(À part.)</stage> Et ils ne viennent pas.</p>
+            <p>Avaloros a mis à ma disposition un de ses navires, Monipodio m’a donné ses meilleurs contrebandiers, allons à Venise, la République vous<pb n="278" xml:id="p278"/> fera patricien, et vous donnera dix fois plus d’or que l’Espagne ne vous en a promis… <stage>(À part.)</stage> Et ils ne viennent pas.</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="278" xml:id="p278"/>Fontanarès.</speaker>
+            <speaker>Fontanarès.</speaker>
             <p>Et Marie ? si nous l’enlevons, je crois en vous.</p>
           </sp>
           <sp who="faustine">
@@ -4900,7 +4898,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
             <p>Faites votre devoir !</p>
           </sp>
           <sp who="alcade">
-            <speaker><pb n="279" xml:id="p279"/>L’alcade, <stage>à Fontanarès</stage>.</speaker>
+            <speaker><pb n="279" xml:id="p279"/>L’Alcade, <stage>à Fontanarès</stage>.</speaker>
             <p>Au nom du roi je vous arrête.</p>
           </sp>
           <sp who="fontanares">
@@ -4949,7 +4947,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="marie">
             <speaker>Marie.</speaker>
-            <p>Mon père, accompissez votre promesse ?</p>
+            <p>Mon père, accomplissez votre promesse ?</p>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
@@ -4965,7 +4963,7 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="sarpi">
             <speaker>Sarpi.</speaker>
-            <p>Vous avez publiquement accusé la vice-royauté de Catalogne de faire mentir les promesses du roi d’Espagne, voici sa réponse : <stage>(Il tire un papier)</stage> une ordonnance qui dans l’intérêt de l’état suspend toutes les poursuites de vos créanciers, et vous accorde un an pour réaliser votre entreprise.</p>
+            <p>Vous avez publiquement accusé la vice-royauté de Catalogne de faire mentir les promesses du roi d’Espagne, voici sa réponse : <stage>(il tire un papier)</stage> une ordonnance qui dans l’intérêt de l’état suspend toutes les poursuites de vos créanciers, et vous accorde un an pour réaliser votre entreprise.</p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
@@ -4997,10 +4995,10 @@ Indent p264--><stage>(On applaudit, et quelques voix crient : bravo.)</stage></
           </sp>
           <sp who="faustine">
             <speaker><pb n="284" xml:id="p284"/>Faustine.</speaker>
-            <p>Qu’une femme vous aime et vous serve, je le conçois. Mais aimer, pour vous, c’est abdiquer. Tout ce que les plus grands hommes ont tous et toujours, souhaité : la gloire, les honneurs, la fortune, et plus que tout cela !… une souveraineté au-dessus des renversements populaires, celle du génie ; voilà le monde des César, des Lucullus et des Luther devant vous !… Et vous avez mis entre vous et cette magnifique existence, un amour digne d’un étudiant d’Alcala. Né géant, vous vous faites nain à plaisir. Mais un homme de génie a, parmi toutes les femmes, une femme spécialement créée pour lui. Cette femme doit être une reine aux yeux du monde, et pour lui une servante, souple comme les hasards de sa vie, gaie dans les souffrances, prévoyante dans le malheur comme dans la prospérité ; surtout indulgente à ses caprices, connaissant le monde et ses tournants périlleux ; capable enfin de ne s’asseoir dans le char triomphal qu’après l’avoir, s’il le faut, traîné…</p>
+            <p>Qu’une femme vous aime et vous serve, je le conçois. Mais aimer, pour vous, c’est abdiquer. Tout ce que les plus grands hommes ont tous et toujours, souhaité : la gloire, les honneurs, la fortune, et plus que tout cela !… une souveraineté au-dessus des renversements populaires, celle du génie ; voilà le monde des César, des Lucullus et des Luther devant vous !… Et vous avez mis entre vous et cette magnifique existence, un amour digne d’un étudiant d’Alcala. Né géant, vous vous faites nain à plaisir. Mais un homme de génie a, parmi toutes les femmes, une femme spécialement créée pour lui. Cette femme doit être une reine aux yeux du monde, et pour lui une servante, souple comme les hasards de sa vie, gaie dans les souffrances, prévoyante dans le malheur comme dans la prospérité ; surtout indulgente à ses caprices, connaissant le monde et ses tournants périlleux ; capable enfin de ne s’asseoir dans<pb n="285" xml:id="p285"/> le char triomphal qu’après l’avoir, s’il le faut, traîné…</p>
           </sp>
           <sp who="fontanares">
-            <speaker><pb n="285" xml:id="p285"/>Fontanarès.</speaker>
+            <speaker>Fontanarès.</speaker>
             <p>Vous avez fait son portrait.</p>
           </sp>
           <sp who="faustine">
@@ -5115,7 +5113,7 @@ indent--><stage>( Entre Paquita qui sort après avoir fait un signe à Faustine
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>J’attendrai, les bras croisés, le jour de mon arrêt. Du mêm coup, l’âme de Marie et la mienne iront au ciel.</p>
+            <p>J’attendrai, les bras croisés, le jour de mon arrêt. Du même coup, l’âme de Marie et la mienne iront au ciel.</p>
           </sp>
           <sp who="faustine">
             <speaker><pb n="291" xml:id="p291"/>Faustine, <stage>se jette aux pieds de Fontanarès</stage>.</speaker>
@@ -5216,7 +5214,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Oh ! Si je le voulais…</p>
+            <p>Oh ! si je le voulais…</p>
           </sp>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
@@ -5236,7 +5234,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
-            <p>Oui, bien chère, et maintenant et toujours ! Dès cet instant, il ne reste de Frégose qu’un pauvre vieillard qui sera malheureusement bien vengé par ce terrible artisan. Ma vie à moi est finie. Ne me renvoyez point ces tableaux que j’ai eu tant de bonheur à vous offrir. <stage>(À part)</stage> Elle en aura bientôt besoin. <stage>(Haut.)</stage> Ils vous rappelleront un homme de qui vous vous êtes joué, mais qui le savait et vous pardonnait ; car dans son amour, il y avait aussi de la parternité.</p>
+            <p>Oui, bien chère, et maintenant et toujours ! Dès cet instant, il ne reste de Frégose qu’un pauvre vieillard qui sera malheureusement bien vengé par ce terrible artisan. Ma vie à moi est finie. Ne me renvoyez point ces tableaux que j’ai eu tant de bonheur à vous offrir. <stage>(À part)</stage> Elle en aura bientôt besoin. <stage>(Haut.)</stage> Ils vous rappelleront un homme de qui vous vous êtes joué, mais qui le savait et vous pardonnait ; car dans son amour, il y avait aussi de la paternité.</p>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
@@ -5256,7 +5254,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
           <sp who="faustine">
             <speaker>Faustine.</speaker>
-            <p>Vous voyez bien que je puis toujours être marquse de Frégose. <stage>(Elle sort en riant.)</stage></p>
+            <p>Vous voyez bien que je puis toujours être marquise de Frégose. <stage>(Elle sort en riant.)</stage></p>
           </sp>
         </div>
         <div type="scene" subtype="level2">
@@ -5275,7 +5273,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
         <p>Faustine regarde, appuyée au balcon, le bateau à vapeur. Lothundiaz est à gauche, plongé dans la stupéfaction, don Frégose est à droite avec le secrétaire qui a dressé le procès-verbal de l’expérience. Le Grand-Inquisiteur occupe le milieu de la scène.</p></stage>
         <div type="scene" subtype="level2">
           <pb n="301" xml:id="p301"/><head>Scène Première.</head>
-          <stage>Lothundiaz, Le Grand-inquisiteur, Don Frégose</stage>
+          <stage>Lothundiaz, Le Grand-Inquisiteur, Don Frégose</stage>
           <sp who="donfregose">
             <speaker>Don Frégose.</speaker>
             <p>Je suis perdu, ruiné, déshonoré ! Aller tomber aux pieds du roi, je le trouverais impitoyable.</p>
@@ -5293,7 +5291,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Et, comment ? Ne dois-je pas obéir aux ordres du roi, du moins ostensiblement.</p>
           </sp>
           <sp who="legrandinquisiteur">
-            <speaker>Le Grand-inquisiteur.</speaker>
+            <speaker>Le Grand-Inquisiteur.</speaker>
             <p>Nous vous avons préparé les moyens d’obéir à la fois au Saint-Office et au roi. Vous n’avez qu’à m’obéir. <stage>(A Lothundiaz.)</stage> Comte Lothundiaz, en qualité de premier magistrat municipal de Barcelone, vous offrirez au nom de la ville une couronne d’or à don Ramon, l’auteur de la découverte dont le résultat assure à l’Espagne la domination de la mer.</p>
           </sp>
           <sp who="lothundiaz">
@@ -5435,7 +5433,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Obéis.</p>
+            <p>Obéis !</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
@@ -5466,7 +5464,7 @@ Il y a deux scènes XVII-->Scène XVII.</head>
             <p>Je reconnais tout ce que vous voudrez, même que O plus O est un binôme.</p>
           </sp>
           <sp who="donfregose">
-            <speaker>Don Frégose, <stage>après s’être consulté avec le grand-inquisiteur</stage>.</speaker>
+            <speaker>Don Frégose, <stage>après s’être consulté avec le Grand-Inquisiteur</stage>.</speaker>
             <p>Votre demande est légitime. Voici le procès-verbal en règle, nous gardons l’original.</p>
           </sp>
           <sp who="fontanares">
@@ -5524,10 +5522,10 @@ Indent + parenthèses--><stage>(Tous sortent.)</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Oui, car tu es un magnifique instrument de destruction et de ruine ! Maintenant, par toi je dompterai tous ceux qui jusqu’à présent m’ont fait obstacle : je te prends, non point pour femme mais pour esclave, et tu me serviras.</p>
+            <p>Oui, car tu es un magnifique instrument de destruction et de ruine ! Maintenant, par toi je dompterai tous ceux qui jusqu’à présent m’ont<pb n="315" xml:id="p315"/> fait obstacle : je te prends, non point pour femme mais pour esclave, et tu me serviras.</p>
           </sp>
           <sp who="faustine">
-            <speaker><pb n="315" xml:id="p315"/>Faustine.</speaker>
+            <speaker>Faustine.</speaker>
             <p>Aveuglément.</p>
           </sp>
           <sp who="fontanares">
@@ -5540,7 +5538,7 @@ Indent + parenthèses--><stage>(Tous sortent.)</stage></p>
           </sp>
           <sp who="fontanares">
             <speaker>Fontanarès.</speaker>
-            <p>Eh ! Bien ?</p>
+            <p>Eh ! bien ?</p>
           </sp>
           <sp who="quinola">
             <speaker>Quinola.</speaker>
