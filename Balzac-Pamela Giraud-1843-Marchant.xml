@@ -276,7 +276,7 @@
           </sp>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
-            <p>Mais vous ne pouvez rester ici.</p>
+            <p>Mais vous ne pouvez rester ici !</p>
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -361,7 +361,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Joseph, <stage>à part</stage>.</speaker>
-            <p>Il y a quelqu’un ici… je cours tout dire au père et à la mère Giraud <stage>(Haut.)</stage> A revoir, mademoiselle Paméla.</p>
+            <p>Il y a quelqu’un ici… je cours tout dire au père et à la mère Giraud <stage>(Haut.)</stage> À revoir, mademoiselle Paméla.</p>
             <stage>Il sort.</stage>
           </sp>
         </div>
@@ -663,7 +663,7 @@
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
-            <p>Monsieur… je suis victime de quelque méprise… Je ne me nomme pas Jules. Rousseau.</p>
+            <p>Monsieur… je suis victime de quelque méprise… Je ne me nomme pas Jules Rousseau.</p>
           </sp>
           <sp who="autres">
             <speaker>Le Chef.</speaker>
@@ -906,7 +906,7 @@
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
-            <p>Oh ! merci… et d’ailleurs Jules n’est pas coupable… lui conspirer!… un pauvre enfant, comment peut-on le craindre, quand au moindre reproche il reste tremblant devant moi… moi, sa mère ! Ah ! monsieur, dites que vous me le rendrez.</p>
+            <p>Oh ! merci… et d’ailleurs Jules n’est pas coupable… lui conspirer !… un pauvre enfant, comment peut-on le craindre, quand au moindre reproche il reste tremblant devant moi… moi, sa mère ! Ah ! monsieur, dites que vous me le rendrez.</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>entrant, à Antoine</stage>.</speaker>
