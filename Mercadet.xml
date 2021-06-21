@@ -95,7 +95,7 @@ PERSONNAGES. </head>
             <castItem xml:id="minard">ADOLPHE MINARD, teneur de livres.</castItem>
             <castItem xml:id="delabrive">MICHONNIN DE LA BRIVE, jeune homme élégant.</castItem>
             <castItem xml:id="mericourt">DE MÉRICOURT, autre jeune homme.</castItem>
-        <castItem xml:id="bredif">Brédif.propriétaire.</castItem>
+            <castItem xml:id="bredif">BRÉDIF,propriétaire.</castItem>
             <castItem xml:id="berchut">BERCHUT, courtier-marron.</castItem>
             <castItem xml:id="verdelin">VERDELIN, ami de Mercadet.</castItem>
             <castItem xml:id="goulard">GOULARD, homme d’ affaires.</castItem>
@@ -103,7 +103,7 @@ PERSONNAGES. </head>
             <castItem xml:id="violette">VIOLETTE, courtier d’affaires.</castItem>
             <castItem xml:id="justin">JUSTIN, valet de chambre.</castItem>
             <castItem xml:id="madamemercadet">MADAME Mercadet.</castItem>
-            <castItem xml:id="julie">Julie Mercadet.</castItem>
+            <castItem xml:id="julie">JULIE Mercadet.</castItem>
             <castItem xml:id="therese">THÉRÈSE, femme de chambre.</castItem>
             <castItem xml:id="virginie">VIRGINIE, cuisinière.</castItem>
       </castList>
