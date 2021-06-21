@@ -114,9 +114,9 @@ PERSONNAGES. </head>
      
       <div subtype="level1">
         
-      <pb n="240-1b"/>  <head>Acte I.</head>
+      <pb n="240-1b"/>  <head>Acte I</head>
         <div type="scene">
-          <head>Scène I.</head>
+          <head>Scène I</head>
           
            <stage>(l’action se passe en 1839 - La scène représente, pendant toute la pièce, le salon principal de l’appartement de Mercadet.)</stage>
           
@@ -124,7 +124,7 @@ PERSONNAGES. </head>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
-Un appartement de onze pièces, superbes, au cœur de Paris, rue de Grammont !… et pour deux mille cinq cents francs ! J’y perds trois mille francs tous les ans… et cela, depuis la révolution de Juillet. Ah ! le plus grand inconvénient des révolutions, cest cette subite diminution des loyers qui…  Non, je n’aurais pas dû faire de bail en 1830 !… Heureusement, Monsieur Mercadet est en arrière de six termes, les meubles sont saisis, et en les faisant vendre…</p>
+             Un appartement de onze pièces, superbes, au cœur de Paris, rue de Grammont !… et pour deux mille cinq cents francs ! J’y perds trois mille francs tous les ans… et cela, depuis la révolution de Juillet. Ah ! le plus grand inconvénient des révolutions, c’est cette subite diminution des loyers qui…  Non, je n’aurais pas dû faire de bail en 1830 !… Heureusement, Monsieur Mercadet est en arrière de six termes, les meubles sont saisis, et en les faisant vendre…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(qui a entendu les derniers mots )</stage>.</speaker>
@@ -345,7 +345,7 @@ J’aurai donc mon appartement dans trois mois.</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène II.</head>
+          <head>Scène II</head>
           <stage>Justin seul, puis Virginie et Thérèse.</stage>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -606,7 +606,7 @@ Soyons gentils, nous apprendrons quelque chose du mariage…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Les précédents, Madame Mercadet.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -755,7 +755,7 @@ Mais ils ne perdront pas un centime !</p>
           </sp>
         </div>
         <div>
-          <pb n="241-1a"/><head>Scène IV.</head>
+          <pb n="241-1a"/><head>Scène IV</head>
           <stage>Les mêmes, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(bas à sa femme ).</stage></speaker>
@@ -764,7 +764,7 @@ Voilà comment vous parlez à vos domestiques ? ils vous manqueront de respect 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Madame Mercadet, Virginie, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet<stage> (à Virginie.)</stage></speaker>
@@ -854,7 +854,7 @@ Dix francs tous les six mois ! <stage>(Haut.)</stage> Quant au second service, 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Mercadet, Madame Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet. <stage>(Il regarde Virginie qui s’ en va).</stage></speaker>
@@ -1003,7 +1003,7 @@ Jamais, de mon vivant ! car les mines d’or ne sont plus au Mexique, mais plac
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>Les mêmes, Goulard.</stage>
           <sp who="goulard">
             <speaker>Goulard.</speaker>
@@ -1252,7 +1252,7 @@ Cela tient du prodige !</p>
           </sp>
         </div>
         <div>
-          <pb n="242-1a"/><head>Scène VIII.</head>
+          <pb n="242-1a"/><head>Scène VIII</head>
           <stage>Mercadet, Madame Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet. <stage>(Il revient en riant).</stage></speaker>
@@ -1356,7 +1356,7 @@ Les difficultés avec nos fournisseurs m’ont empêchée de lui en parler hier.
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IX.</head>
+          <head>Scène IX</head>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
@@ -1364,7 +1364,7 @@ Dans cette époque, marier une fille jeune et belle, la bien marier, entendons-n
           </sp>
         </div>
         <div type="scene">
-          <head>Scène X.</head>
+          <head>Scène X</head>
           <stage>Mercadet, Madame Mercadet, Julie.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -1708,7 +1708,7 @@ C’est une sonnerie de créancier !…Va voir, Julie ! Et, quoi qu’on te di
           </sp>
         </div>
         <div>
-          <pb n="243-1b"/><head>Scène XI.</head>
+          <pb n="243-1b"/><head>Scène XI</head>
           <stage>Madame Mercadet, Mercadet.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -1732,7 +1732,7 @@ La force de s’endetter ! Et c’est bien assez que le beau-père…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XII.</head>
+          <head>Scène XII</head>
           <stage>Pierquin, Julie, Mercadet, Madame Mercadet.</stage>
           <sp who="julie">
             <speaker>Julie, <stage>entrant la première.</stage></speaker>
@@ -1756,7 +1756,7 @@ C'est-à-dire pour lui. Qu’elle se laisse aller à écouter son Adolphe, ça s
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XIII.</head>
+          <head>Scène XIII</head>
           <stage>Pierquin, Mercadet.</stage>
           <sp who="pierquin">
             <speaker>Pierquin.</speaker>
@@ -2025,7 +2025,7 @@ Vous savez ce que je vous souhaite, en ma qualité de créancier, dans l’affai
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XIV.</head>
+          <head>Scène XIV</head>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(seul).</stage></speaker>
            <p>
@@ -2034,9 +2034,9 @@ Michonnin ! quarante-deux mille francs et cinq mille francs d’intêrets et de
         </div>
       </div>
       <div subtype="level1">
-        <pb n="243-2d"/><head>Acte II.</head>
+        <pb n="243-2d"/><head>Acte II</head>
         <div type="scene">
-          <head>Scène I.</head>
+          <head>Scène I</head>
           <stage>Mercadet, Thérèse, Justin, Virginie.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(Il sonne Justin).</stage></speaker>
@@ -2169,7 +2169,7 @@ Monsieur Verdelin va venir.</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Les mêmes, Violette.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -2333,7 +2333,7 @@ Adieu ! Si tous les créanciers étaient comme celui-là ? mais je n’y tiend
           </sp>
         </div>
         <div>
-          <pb n="246-1a"/><head>Scène IV.</head>
+          <pb n="246-1a"/><head>Scène IV</head>
           <stage>Mercadet,Verdelin.</stage>
           <sp who="verdelin">
             <speaker>Verdelin.</speaker>
@@ -2547,7 +2547,7 @@ Cet homme ne mourra certes pas d’un anévrisme… <stage>(Haut.)</stage> Mais 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Les mêmes, Julie, Madame Mercadet.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -2621,7 +2621,7 @@ Je vais vous chercher l’argent. <stage>(Il sort.)</stage></p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Les mêmes, moins Verdelin.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -2660,7 +2660,7 @@ Au cri de Julie, non à mes supplications. Ah ! ma chère ! il a eu pour plus 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>Les mêmes, Verdelin.</stage>
           <sp who="verdelin">
             <speaker>Verdelin.</speaker>
@@ -2709,7 +2709,7 @@ Ma fille, voilà ton second père !…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VIII.</head>
+          <head>Scène VIII</head>
           <stage>Les mêmes, Justin, puis Thérèse.</stage>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -2739,7 +2739,7 @@ Eh bien ! je vous laisse…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IX.</head>
+          <head>Scène IX</head>
           <stage>Minard, Julie, Mercadet.</stage>
           <sp who="julie">
             <speaker>Julie, <stage>à Minard.</stage></speaker>
@@ -2998,7 +2998,7 @@ Ma fille, va voir ta mère ; laisse-moi parler d’affaires beaucoup moins imma
           </sp>
         </div>
         <div>
-         <pb n="247-1a"/> <head>Scène X.</head>
+         <pb n="247-1a"/> <head>Scène X</head>
           <stage>Minard, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -3262,7 +3262,7 @@ Le pourrai-je après tout ce que je lui ai dit et écrit ? <stage>(Mercadet sor
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XI.</head>
+          <head>Scène XI</head>
           <stage>Minard, Julie.</stage>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -3411,7 +3411,7 @@ Adieu, adieu, monsieur !… <stage>(Adolphe sort.)</stage> Il s’en va, il ne 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XII.</head>
+          <head>Scène XII</head>
           <sp who="julie">
             <speaker>Julie <stage>(Elle se regarde dans une glace.)</stage></speaker>
            <p>
@@ -3420,7 +3420,7 @@ Beauté, incomparable privilége, le seul qui ne se puisse acquérir et qui cepe
         </div>
       </div>
       <div subtype="level1">
-        <pb n="248-1a"/><head>Acte III.</head>
+        <pb n="248-1a"/><head>Acte III</head>
         <div type="scene">
           <head>Scène I<hi rend="sup">er</hi>.</head>
           <sp who="minard">
@@ -3430,7 +3430,7 @@ Si j’étais seulement chef de bureau dans une administration, je ne rapportera
           </sp>
         </div>
         <div type="scene">
-          <head>Scène II.</head>
+          <head>Scène II</head>
           <stage>Minard, Julie.</stage>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -3509,7 +3509,7 @@ Je tâcherai de rester libre encore quelque temps. J’ai dans le cœur une voix
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Madame Mercadet, Julie, Minard.</stage>
           <sp who="madamemercadet">
             <speaker><pb n="248-1d"/>Madame Mercadet.</speaker>
@@ -3563,7 +3563,7 @@ Cessez, ma mère !… pensez à la situation d’Adolphe !…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IV.</head>
+          <head>Scène IV</head>
           <stage>Les mêmes, Justin.</stage>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -3582,7 +3582,7 @@ Faites-les attendre ici, je vais leur envoyer monsieur. Allons nous habiller, ma
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Justin, De Méricourt, De la Brive.</stage>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -3781,7 +3781,7 @@ Celui-ci : « Les principes de mes amis… L’opinion à laquelle j’apparti
           </sp>
         </div>
         <div>
-          <pb n="249-1a"/><head>Scène VI.</head>
+          <pb n="249-1a"/><head>Scène VI</head>
           <stage>Les mêmes, Minard. (Ils se saluent.)</stage>
           <sp who="minard">
             <speaker>Minard.</speaker>
@@ -3845,7 +3845,7 @@ Ah ! Monsieur, malheureusement je n’ai rien que mon amour pour mademoiselle J
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>Les mêmes, Mercadet. (Il écoute un moment.)</stage>
           <sp who="delabrive">
             <speaker>De La Brive.</speaker>
@@ -3904,7 +3904,7 @@ Adieu, messieurs ! <stage>(</stage><stage>À</stage><stage> Mercadet.)</stage> 
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VIII.</head>
+          <head>Scène VIII</head>
           <stage>Les mêmes, moins Minard.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -4327,7 +4327,7 @@ Je suis sauvé !…</p>
           </sp>
         </div>
         <div>
-          <pb n="250-1a"/><head>Scène IX.</head>
+          <pb n="250-1a"/><head>Scène IX</head>
           <stage>Les mêmes, Madame Mercadet, Julie.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -4470,7 +4470,7 @@ Il est très fort, ce jeune homme.</p>
           </sp>
         </div>
         <div>
-          <pb n="250-1d"/><head>Scène X.</head>
+          <pb n="250-1d"/><head>Scène X</head>
           <stage>De la Brive, Julie.</stage>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -4654,7 +4654,7 @@ Oh ! J’ai donné dans cette invention de roman ! <stage>(Haut.)</stage> Quan
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XI.</head>
+          <head>Scène XI</head>
           <stage>Les mêmes, Justin, Pierquin.</stage>
           <sp who="justin">
             <speaker>Justin <stage>à Julie.</stage></speaker>
@@ -4758,7 +4758,7 @@ Oh ! <stage>(</stage><stage>À</stage><stage> part.)</stage> C’est marier deu
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XII.</head>
+          <head>Scène XII</head>
           <stage>Julie, de la Brive.</stage>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -4797,7 +4797,7 @@ Eh ! monsieur, je suis sans fortune. <stage>(Mercadet paraît.)</stage></p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XIII.</head>
+          <head>Scène XIII</head>
           <stage>Les précédents, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -4846,7 +4846,7 @@ Le diable entre dans mon jeu. <stage>(Julie sort.)</stage></p>
           </sp>
         </div>
         <div>
-          <pb n="252-1a"/><head>Scène XIV.</head>
+          <pb n="252-1a"/><head>Scène XIV</head>
           <stage>De la Brive, Mercadet.</stage>
           <sp who="delabrive">
             <speaker>De la Brive <stage>(à part.)</stage></speaker>
@@ -5130,7 +5130,7 @@ Non, nos deux misères feraient une trop grande pauvreté, mais écoutez-moi !�
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XV.</head>
+          <head>Scène XV</head>
           <stage>Les mêmes, Madame Mercadet.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet <stage>(à Mercadet).</stage></speaker>
@@ -5164,7 +5164,7 @@ Que dire à Verdelin ?</p>
           </sp>
         </div>
         <div>
-          <pb n="252-2a"/><head>Scène XVI.</head>
+          <pb n="252-2a"/><head>Scène XVI</head>
           <stage>Les mêmes, Verdelin, Justin en grande tenue.</stage>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -5296,9 +5296,9 @@ Il l’a voulu !… Demain je trône sur des millions, ou je me couche dans les
         </div>
       </div>
       <div subtype="level1">
-        <pb n="252-2c"/><head>Acte IV.</head>
+        <pb n="252-2c"/><head>Acte IV</head>
         <div type="scene">
-          <head>Scène I.</head>
+          <head>Scène I</head>
           <stage>Mercadet, Justin.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(Il sonne)</stage>.</speaker>
@@ -5387,7 +5387,7 @@ Justin, tu feras fortune. Allons ! veille à ce que personne ne me dérange jus
           </sp>
         </div>
         <div type="scene">
-          <head>Scène II.</head>
+          <head>Scène II</head>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(seul).</stage></speaker>
            <p>
@@ -5395,7 +5395,7 @@ Quand Mahomet a eu trois compères de bonne foi (les plus difficiles à trouver)
           </sp>
         </div>
         <div type="scene">
-          <head>Scène III.</head>
+          <head>Scène III</head>
           <stage>Mercadet, De la Brive (il entre effrayé).</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -5673,7 +5673,7 @@ Du bruit ? Justin écoute ! <stage>(Très-haut.)</stage> Rentre, Godeau, tu me
           </sp>
         </div>
         <div>
-          <pb n="253-1a"/><head>Scène IV.</head>
+          <pb n="253-1a"/><head>Scène IV</head>
           <stage>Mercadet, Justin, Berchut.</stage>
           <sp who="justin">
             <speaker>Justin <stage>(à travers la porte).</stage></speaker>
@@ -5817,7 +5817,7 @@ Encore un compère de bonne foi !… <stage>(Haut.)</stage> Oui, mais poussez r
           </sp>
         </div>
         <div>
-          <pb n="253-1d"/><head>Scène V.</head>
+          <pb n="253-1d"/><head>Scène V</head>
           <stage>Mercadet, Madame Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à part).</stage></speaker>
@@ -5851,7 +5851,7 @@ Il trame quelque chose contre ses créanciers, je veux tout savoir.</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Les mêmes, Julie, d’abord, puis Minard.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à sa fille qui traverse le théâtre).</stage></speaker>
@@ -5945,7 +5945,7 @@ Je ne vendrai les deux mille actions qu’à 25 pour 100 au-dessus du pair… <s
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
           <stage>Les mêmes, moins Mercadet.</stage>
           <sp who="minard">
             <speaker>Minard.</speaker>
@@ -5979,7 +5979,7 @@ Il faudrait, pour convertir ton père, de tels événements que je ne les souhai
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VIII.</head>
+          <head>Scène VIII</head>
           <stage>Les mêmes, Goulard.</stage>
           <sp who="goulard">
             <speaker>Goulard.</speaker>
@@ -6094,7 +6094,7 @@ Monsieur, je vais vous envoyer mon mari. <stage>(</stage><stage>À</stage><stage
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IX.</head>
+          <head>Scène IX</head>
           <stage>Goulard, Minard.</stage>
           <sp who="goulard">
             <speaker>Goulard <stage>(à part).</stage></speaker>
@@ -6118,7 +6118,7 @@ Monsieur, je n’ai pas encore le moindre droit à m’occuper des affaires de M
           </sp>
         </div>
         <div>
-          <pb n="253-3e"/><head>Scène X.</head>
+          <pb n="253-3e"/><head>Scène X</head>
           <stage>Les mêmes, Mercadet, puis Justin.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6187,7 +6187,7 @@ Goulard. vous permettez ?… J’ai deux mots à écrire relativement à ce que
           </sp>
         </div>
         <div>
-          <pb n="254-1a"/><head>Scène XI.</head>
+          <pb n="254-1a"/><head>Scène XI</head>
           <stage>Goulard, Justin.</stage>
           <sp who="goulard">
             <speaker>Goulard.</speaker>
@@ -6251,7 +6251,7 @@ Ils seront là comme du poisson dans un vivier, et je les mettrai dedans tous le
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XII.</head>
+          <head>Scène XII</head>
           <stage>Justin, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6270,7 +6270,7 @@ Va, mon garçon, fais ta recette, et surtout n’écoute ce que nous dirons Gode
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XIII.</head>
+          <head>Scène XIII</head>
           <stage>Mercadet, puis De la Brive.</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(un moment seul).</stage></speaker>
@@ -6329,7 +6329,7 @@ Bah ! le hasard, c’est cinquante pour cent pour, et cinquante pour cent contr
           </sp>
         </div>
         <div>
-          <pb n="254-1d"/><head>Scène XIV.</head>
+          <pb n="254-1d"/><head>Scène XIV</head>
           <stage>Les mêmes, Goulard, Violette.</stage>
           <sp who="goulard">
             <speaker>Goulard <stage>(à Violette).</stage></speaker>
@@ -6458,7 +6458,7 @@ Mon ami, il ne demande qu’à payer…</p>
           </sp>
         </div>
         <div>
-          <pb n="254-2a"/><head>Scène XV.</head>
+          <pb n="254-2a"/><head>Scène XV</head>
           <stage>Les mêmes, Madame Mercadet. (Quand elle ouvre la porte, on aperçoit un groupe de créanciers. Elle fait signe à Julie et à Minard qui l’accompagnent, de passer dans sa chambre, et ils y passent.)</stage>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à part).</stage></speaker>
@@ -6527,7 +6527,7 @@ Oh ! alors !… <stage>(Ils sortent.)</stage></p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XVI.</head>
+          <head>Scène XVI</head>
           <stage>Les mêmes, moins Goulard et Violette.</stage>
           <sp who="delabrive">
             <speaker>De la Brive.</speaker>
@@ -6596,7 +6596,7 @@ Comment reconnaître ?… je vous serai filialement attaché pour le reste de m
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XVII.</head>
+          <head>Scène XVII</head>
           <stage>Mercadet, Madame Mercadet.</stage>
           <stage>Mercadet.</stage>
          <p>
@@ -6673,7 +6673,7 @@ Voyons ! <stage>(</stage><stage>À</stage><stage> part.)</stage> J y pourrai r�
           </sp>
         </div>
         <div>
-          <pb n="255-1a"/><head>Scène XVIII.</head>
+          <pb n="255-1a"/><head>Scène XVIII</head>
           <stage>Madame Mercadet, puis Julie, Minard.</stage>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -6722,7 +6722,7 @@ Au nom de tout ce que vous avez de plus cher, madame, renoncez à une idée pare
           </sp>
         </div>
         <div type="scene">
-          <head>Scène XIX.</head>
+          <head>Scène XIX</head>
           <stage>Les mêmes, Mercadet.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6757,9 +6757,9 @@ Je tremble ! Mes enfants, ne quittons pas votre père ! <stage>(Ils courent to
         </div>
       </div>
       <div subtype="level1">
-        <pb n="255-1c"/><head>Acte V.</head>
+        <pb n="255-1c"/><head>Acte V</head>
         <div type="scene">
-          <head>Scène I.</head>
+          <head>Scène I</head>
           <stage>Justin, Thérèse, Virginie, Brédif. (Justin entre le premier et fait signe à Thérèse d’avancer. Virginie, munie de ses livres, se campe hardiment sur le canapé. Brédif entre vers le milieu de la scène. Justin va regarder par le trou de la serrure et colle son oreille à la porte.)</stage>
           <sp who="therese">
             <speaker>Thérèse.</speaker>
@@ -6823,7 +6823,7 @@ Voilà, monsieur… <stage>(Tous se mettent en place au fond de la scène pour n
           </sp>
         </div>
         <div type="scene">
-          <head>Scène II.</head>
+          <head>Scène II</head>
           <stage>Les mêmes, Mercadet. (Il est abattu.)</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -6964,7 +6964,7 @@ De tout mon cœur !</p>
           </sp>
         </div>
         <div>
-          <pb n="256-1a"/><head>Scène III.</head>
+          <pb n="256-1a"/><head>Scène III</head>
           <stage>Mercadet seul, puis Berchut.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -7053,7 +7053,7 @@ Allons !… je me ruine, il faut envoyer Adolphe chez Duval. <stage>(Il crie da
           </sp>
         </div>
         <div type="scene">
-          <head>Scène IV.</head>
+          <head>Scène IV</head>
           <stage>Mercadet, Minard.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -7071,7 +7071,7 @@ J’y cours.</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène V.</head>
+          <head>Scène V</head>
           <stage>Mercadet, Justin, puis Violette, Goulard, Pierquin et Verdelin.</stage>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -7206,7 +7206,7 @@ Ah ça ! l’on ne plaisante pas ainsi devant une faillite !…</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VI.</head>
+          <head>Scène VI</head>
           <stage>Les mêmes, Berchut, puis Brédif, puis Minard.</stage>
           <sp who="berchut">
             <speaker>Berchut.</speaker>
@@ -7305,7 +7305,7 @@ Il devient reconnaissant, il n’est pas reconnaissable.</p>
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII</head>
          <p>
 Mercadet, Madame Mercadet, Julie, Minard.</p>
           <sp who="julie">
