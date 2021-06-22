@@ -164,7 +164,7 @@ Demandez les intérêts judiciairement !… Je me laisserai condamner.</p>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
-Mon cher monsieur Mercadet.je ne fais pas de spéculation, moi ! je vis de mes revenus ; et si tous mes locataires vous ressemblaient… Ah ! tenez, il faut en finir…</p>
+Mon cher monsieur Mercadet je ne fais pas de spéculation, moi ! je vis de mes revenus ; et si tous mes locataires vous ressemblaient… Ah ! tenez, il faut en finir…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -194,7 +194,7 @@ De laquelle il avait un enfant, et qu’ils ont abandonné…</p>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
-Mais Duval, votre ancien caissier, touché par les prières de cette charmante femme, ne s’est -il pas chargé de ce jeune homme ?</p>
+Mais Duval, votre ancien caissier, touché par les prières de cette charmante femme, ne s’est-il pas chargé de ce jeune homme ?</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -274,10 +274,14 @@ Vieux filou !…</p>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
-Mais je suis bon homme ; renoncez à votre droit de sous-location, et je vous donne trois mois de tranquillité.
-Mercadet.
-Ah ! un homme dans le malheur ressemble à un morceau de pain jeté dans un vivier : chaque poisson y donne un coup de dent. Et quels brochets que les créanciers !… Ils ne s’arrêtent que quand le débiteur, de même que le morceau de pain, a disparu ! Ne sais-je pas que nous sommes en 1839 ? Mon bail a sept ans à courir, les loyers ont doublé…</p>
+             Mais je suis bon homme ; renoncez à votre droit de sous-location, et je vous donne trois mois de tranquillité. </p>
+ </sp>
+           <sp who="mercadet">
+            <speaker>Mercadet.</speaker>
+            <p>
+              Ah ! un homme dans le malheur ressemble à un morceau de pain jeté dans un vivier : chaque poisson y donne un coup de dent. Et quels brochets que les créanciers !… Ils ne s’arrêtent que quand le débiteur, de même que le morceau de pain, a disparu ! Ne sais-je pas que nous sommes en 1839 ? Mon bail a sept ans à courir, les loyers ont doublé…</p>
           </sp>
+         
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
