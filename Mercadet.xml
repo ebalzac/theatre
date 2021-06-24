@@ -764,7 +764,7 @@ Mais ils ne perdront pas un centime !</p>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(bas à sa femme ).</stage></speaker>
            <p>
-             Voilà comment vous parlez à vos domestiques ? ils vous manqueront de respect demain. <stage>(À Justin.)</stage>  Justin allez à l’instant, chez Monsieur Verdelin, vous le prierez de venir me parler pour une affaire qui ne souffre aucun retard. Soyez assez mystérieux ! car il faut qu’il vienne. –Vous, Thérèse, retournez chez tous les fournisseurs de Madame Mercadet dites-leur sèchement d’apporter tout ce qui a été commandé par vos maîtresses, ils seront payés… oui, comptant. Allez ! <stage>(Justin et Thérèse sortent.)</stage></p>
+             Voilà comment vous parlez à vos domestiques ? ils vous manqueront de respect demain. <stage> (À Justin.) </stage>  Justin allez à l’instant, chez Monsieur Verdelin, vous le prierez de venir me parler pour une affaire qui ne souffre aucun retard. Soyez assez mystérieux ! car il faut qu’il vienne. –Vous, Thérèse, retournez chez tous les fournisseurs de Madame Mercadet dites-leur sèchement d’apporter tout ce qui a été commandé par vos maîtresses, ils seront payés… oui, comptant. Allez ! <stage>(Justin et Thérèse sortent.)</stage></p>
           </sp>
         </div>
         <div type="scene">
@@ -1100,7 +1100,7 @@ Je ne viens pas chercher les preuves de votre esprit, je sais que vous en avez p
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Eh bien ! il faut que l’argent soit quelque part ! (À Madame Mercadet.) Tu vois en Monsieur un homme qui m’a poursuivi comme un lièvre ! Allons, convenez-en, mon cher Goulard, vous vous êtes mal conduit ! Un autre que moi se vengerait en ce moment, car je puis vous faire perdre une bien grosse somme…
+Eh bien ! il faut que l’argent soit quelque part ! <stage>(À Madame Mercadet.)</stage> Tu vois en Monsieur un homme qui m’a poursuivi comme un lièvre ! Allons, convenez-en, mon cher Goulard, vous vous êtes mal conduit ! Un autre que moi se vengerait en ce moment, car je puis vous faire perdre une bien grosse somme…
 Goulard.
 Si vous ne me payez pas, je le crois bien ; mais vous me paierez, ou, demain, les pièces seront remises au garde du commerce…
 Mercadet.
@@ -1199,7 +1199,7 @@ En toute occasion !</p>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Ecoutez ! encore un mot .</p>
+Ecoutez ! encore un mot.</p>
           </sp>
           <sp who="goulard">
             <speaker>Goulard.</speaker>
@@ -1353,7 +1353,7 @@ Spirituelle et vertueuse ! Son mari aura bien…</p>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
            <p>
-Monsieur </p>
+Monsieur. </p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -1400,7 +1400,7 @@ Monsieur Minard vous a donc parlé, mon père ?</p>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Monsieur Minard ?… Hein !… Qu' est-ce qu’un monsieur Minard ?… Vous attendiez-vous, Madame, à trouver un monsieur Minard établi dans le cœur de votre fille ? Julie serait-ce par hasard ce petit employé que Duval, mon ancien caissier, m’a plusieurs fois recommandé pour des places ? Un pauvre garçon dont la mère seule est connue… <stage>(</stage><stage>À</stage><stage> part.)</stage> Le fils naturel de Godeau… <stage>(</stage><stage>À</stage><stage> Julie.)</stage> Répondez.</p>
+Monsieur Minard ?… Hein !… Qu'est-ce qu’un monsieur Minard ?… Vous attendiez-vous, Madame, à trouver un monsieur Minard établi dans le cœur de votre fille ? Julie serait-ce par hasard ce petit employé que Duval, mon ancien caissier, m’a plusieurs fois recommandé pour des places ? Un pauvre garçon dont la mère seule est connue… <stage>(</stage><stage>À</stage><stage> part.)</stage> Le fils naturel de Godeau… <stage>(</stage><stage>À</stage><stage> Julie.)</stage> Répondez.</p>
           </sp>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -1635,7 +1635,7 @@ Ah ! mon père !… <stage>(Elle l’embrasse.)</stage></p>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Aujourd’hui même, un jeune homme élégant, ayant une grande existence, un beau nom, vient dîner ici. Ce jeune homme a des intentions et vous recherche. Voilà mon prétendu. Vous ne serez pas Madame Minard, vous serez Madame de la Brive ; au lieu d aller au quatrième étage, dans un faubourg, vous habiterez une belle maison dans la Chaussée d’Antin. Vous ayez des talents, de l’instruction, vous pourrez jouer un rôle brillant à Paris. Si vous n’ êtes pas la femme d’un ministre, vous serez peut-être la femme d’un pair de France. Je suis fâché, ma fille, de n’avoir pas mieux à vous offrir…</p>
+Aujourd’hui même, un jeune homme élégant, ayant une grande existence, un beau nom, vient dîner ici. Ce jeune homme a des intentions et vous recherche. Voilà mon prétendu. Vous ne serez pas Madame Minard, vous serez Madame de la Brive ; au lieu d aller au quatrième étage, dans un faubourg, vous habiterez une belle maison dans la Chaussée d’Antin. Vous ayez des talents, de l’instruction, vous pourrez jouer un rôle brillant à Paris. Si vous n’êtes pas la femme d’un ministre, vous serez peut-être la femme d’un pair de France. Je suis fâché, ma fille, de n’avoir pas mieux à vous offrir…</p>
           </sp>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -1660,7 +1660,7 @@ S’il n’y a pas de bonheur possible dans la misère, il n’y a pas de malheu
           <sp who="julie">
             <speaker>Julie.</speaker>
            <p>
-Et c’est vous, ma mère, qui me dites ces tristes paroles ! Mon père, je vais vous parler votre langage amer et positif. Ne vous ai-je pas entendu parler de gens riches, oisifs et par conséquent sans force contre le malheur, ruinés par leurs vices ou leur laisser-aller, plongeant leur famille dans une misère irréparable ? n’aurait-il pas mieux valu marier alors la pauvre fille à un homme sans fortune, mais capable d’en <pb n="242-2e"/>gagner une ? Monsieur De la Brive.eut, je le sais, être riche, spirituel et plein de talents, mais vous étiez tout cela, vous avez perdu votre fortune et vous avez pris en ma mère une fille riche et belle, tandis que moi…</p>
+Et c’est vous, ma mère, qui me dites ces tristes paroles ! Mon père, je vais vous parler votre langage amer et positif. Ne vous ai-je pas entendu parler de gens riches, oisifs et par conséquent sans force contre le malheur, ruinés par leurs vices ou leur laisser-aller, plongeant leur famille dans une misère irréparable ? n’aurait-il pas mieux valu marier alors la pauvre fille à un homme sans fortune, mais capable d’en <pb n="242-2e"/>gagner une ? Monsieur De la Brive eut, je le sais, être riche, spirituel et plein de talents, mais vous étiez tout cela, vous avez perdu votre fortune et vous avez pris en ma mère une fille riche et belle, tandis que moi…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -1902,7 +1902,7 @@ Et cela vaut ?</p>
           <sp who="pierquin">
             <speaker>Pierquin.</speaker>
            <p>
-Ce que vaut l’avenir d’un jeune homme maintenant forcé d avoir beaucoup d’industrie pour vivre…</p>
+             Ce que vaut l’avenir d’un jeune homme maintenant forcé d’avoir beaucoup d’industrie pour vivre…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
