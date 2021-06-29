@@ -7001,7 +7001,7 @@ Eh bien ! vous avez dix degrés de froid sur la figure. Est-ce que les actions 
           <sp who="berchut">
             <speaker><pb n="256-1b"/>Berchut.</speaker>
            <p>
-Si fait, monsieur. Nous atteindrons au pair ce matin, à Tortoni ; puis, à la Bourse . On ne sait pas où cela peut aller ! le feu y est. Votre lettre fait des merveilles. La Compagnie a senti le coup, elle va déclarer à la Bourse le résultat des opérations de sondage, et la mine de la Basse-Indre vaudra celle de Mons…</p>
+Si fait, monsieur. Nous atteindrons au pair ce matin, à Tortoni ; puis, à la Bourse. On ne sait pas où cela peut aller ! le feu y est. Votre lettre fait des merveilles. La Compagnie a senti le coup, elle va déclarer à la Bourse le résultat des opérations de sondage, et la mine de la Basse-Indre vaudra celle de Mons…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -7014,7 +7014,7 @@ Vous en avez acheté pour vous d’après mon conseil ?…</p>
 Cinq cents !…</p>
           </sp>
           <sp who="mercadet">
-            <speaker>Mercadet (le prend par la taille).</speaker>
+            <speaker>Mercadet <stage>(le prend par la taille)</stage>.</speaker>
            <p>
 Vous me devez cela ! mais je suis enchanté de vous avoir mis… ah ! ah ! cinq cent mille francs peut-être dans votre poche. Madame Berchut voulait un équipage, elle l’aura !… Mon cher, les jolies femmes à  pied, moi, ça me navre ; mais à vingt pour cent au-dessous du pair, réalisez !</p>
           </sp>
@@ -7056,7 +7056,7 @@ Si je suis payé, je laisserai cet ordre à Monsieur Duval… Mais, cher monsieu
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Vous êtes un digne homme, Berchut. <stage>(</stage><stage>À</stage><stage> part)</stage> Me voilà tiré du plus mauvais pas !…</p>
+Vous êtes un digne homme, Berchut. <stage>(À part)</stage> Me voilà tiré du plus mauvais pas !…</p>
           </sp>
           <sp who="berchut">
             <speaker>Berchut <stage>(à part).</stage></speaker>
@@ -7213,14 +7213,20 @@ De Calcutta !</p>
           <sp who="verdelin pierquin goulard violette">
             <speaker>Tous.</speaker>
            <p>
-Oui.</p>
-            <stage>Goulard.</stage>
-           <p>
-Avec une fortune <emph>incalcuttable</emph>, comme vous le disiez…</p>
-            <stage>Mercadet.</stage>
-           <p>
-Ah ça ! l’on ne plaisante pas ainsi devant une faillite !…</p>
+Oui.</p></sp>
+            
+          <sp who="goulard">
+            <speaker>Goulard.</speaker>
+            <p>
+              Avec une fortune <emph>incalcuttable</emph>, comme vous le disiez…</p>
           </sp>
+          
+          <sp who="mercadet">
+            <speaker>Mercadet.</speaker>
+            <p>
+              Ah ça ! l’on ne plaisante pas ainsi devant une faillite !…</p>
+          </sp>
+          
         </div>
         <div type="scene">
           <head>Scène VI</head>
@@ -7273,7 +7279,7 @@ Lui-même !… arrivé du Havre.</p>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
            <p>
-Monsieur, voilà vos quittances… <stage>(</stage><stage>À</stage><stage> part.)</stage> Je n’aurai pas mon appartement.</p>
+Monsieur, voilà vos quittances… <stage>(À part.)</stage> Je n’aurai pas mon appartement.</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -7324,7 +7330,7 @@ Il devient reconnaissant, il n’est pas reconnaissable.</p>
         <div type="scene">
           <head>Scène VII</head>
          <p>
-Mercadet, Madame Mercadet, Julie, Minard.</p>
+<stage>Mercadet, Madame Mercadet, Julie, Minard.</stage></p>
           <sp who="julie">
             <speaker>Julie.</speaker>
            <p>
@@ -7388,7 +7394,7 @@ Que veut monsieur ?</p>
           <sp who="mercadet">
             <speaker><pb n="256-2e"/>Mercadet.</speaker>
            <p>
-Une voiture… <stage>(</stage><stage>À</stage><stage> part.)</stage> J’ai montré tant de fois Godeau que j’ai bien le droit de le voir.<stage> (Haut.)</stage> Allons voir Godeau !
+Une voiture… <stage>(À part.)</stage> J’ai montré tant de fois Godeau que j’ai bien le droit de le voir.<stage> (Haut.)</stage> Allons voir Godeau !
 FIN.</p>
           </sp>
         </div>
