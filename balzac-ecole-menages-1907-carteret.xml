@@ -80,10 +80,11 @@
       </titlePage>
     </front>
     <body>
-      <figure xml:id="fig1_edm">
+      <!--<figure xml:id="fig1_edm">
         <graphic url="/figures_edm/fig1_edm"/>
-      </figure>
+      </figure>-->
       <div type="set">
+        <pb n="1" xml:id="p1" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f19.highres"/>
         <head>Personnages</head>
         <castList>
           <castItem xml:id="gerard"><role>Monsieur Gérard</role>, négociant.</castItem>
@@ -97,11 +98,11 @@
           <castItem xml:id="roblot"><role>Roblot</role>, caissier de la maison Gérard.</castItem>
           <castItem xml:id="adrienne"><role>Adrienne Guérin</role>, première demoiselle. </castItem>
           <castItem xml:id="louisguerin"><role>Louis Guérin</role>, son frère, avocat.</castItem>
-          <castItem xml:id="hippolyte"> <role>Hippolyte</role>, premier commis. </castItem>
+          <castItem xml:id="hippolyte"><role>Hippolyte</role>, premier commis. </castItem>
           <castItem xml:id="justine"><role>Justine</role>, femme de chambre. </castItem>
           <castItem xml:id="victoire"><role>Victoire</role>, cuisinière. </castItem>
           <castItem xml:id="francois"><role>François</role>, domestique. </castItem>
-          <castItem><role>Un Notaire</role>.</castItem>
+          <castItem xml:id="not"><role>Un Notaire</role>.</castItem>
           <castItem xml:id="lemedecin"><role>Un Médecin</role>.</castItem>
           <castItem xml:id="lejuge"><role>Un Juge</role>.</castItem>
           <castItem xml:id="legreffier"><role>Un Greffier</role>.</castItem>
@@ -112,14 +113,15 @@
         </set>
       </div>
       <div type="act">
+       
         <head>Acte premier</head>
-    
-          <pb n="5" xml:id="p5"/>
+        <figure xml:id="fig2_edm">
+          <graphic url="https://ebalzac.com/romans/ecole-des-menages/carteret-1907/illustrations/fig2_edm.jpg"/>
+        </figure>
+          <pb n="5" xml:id="p5" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f23.highres"/>
         <div type="scene">
-          <figure xml:id="fig2_edm">
-            <graphic url="/figures_edm/fig2_edm"/>
-          </figure>
           <head>Scène I</head>
+          
           <stage>Victoire, d’abord seule, puis Roblot.</stage>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -132,7 +134,7 @@
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
-            <p>Un hasard de tous les jours. Je viens prendre les <pb n="6" xml:id="p6"/>ordres pour aller au marché. Mais vous voilà matinal comme un commis chargé de l’étalage.</p>
+            <p>Un hasard de tous les jours. Je viens prendre les <pb n="6" xml:id="p6" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f24.highres"/>ordres pour aller au marché. Mais vous voilà matinal comme un commis chargé de l’étalage.</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -149,7 +151,7 @@
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Mais après qui donc en avez-vous, Monsieur Roblot ? Comment ? De quoi ! Dès six heures, rasé, du linge blanc, votre redingote neuve, point de lunettes et sans vos doubles manches vertes, comme si c’était dimanche ! Monsieur Roblot, êtes-vous somnambule, ou, ce qui serait plus drôle, amoureux ? Et pour qui ? Pour moi peut-être.</p>
-            <pb n="7" xml:id="p7"/>
+            <pb n="7" xml:id="p7" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f25.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -182,7 +184,7 @@
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Pourquoi pas la première ?</p>
-            <pb n="8" xml:id="p8"/>
+            <pb n="8" xml:id="p8" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f26.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -215,7 +217,7 @@
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Peut-être, quand vous êtes rasé, que vous avez du linge blanc ; mais à votre bureau, derrière votre grillage, avec vos lunettes vertes, vous êtes un peu vieillot…</p>
-            <pb n="9" xml:id="p9"/>
+            <pb n="9" xml:id="p9" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f27.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -239,7 +241,7 @@
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
-            <p>Elle me ferait renvoyer ? À son aise ; je ne suis pas embarrassée pour me placer. Cependant , ne lui dites rien, Monsieur Roblot, quoique… Après tout, je ne suis pas <pb n="10" xml:id="p10"/>un homme, et suis assez lasse d’avoir plusieurs maîtresses ; je ne sais à qui obéir. Mais si monsieur tarde à revenir, tenez, Monsieur Roblot, entre nous, on la renverra ; les cartes sont trop brouillées.</p>
+            <p>Elle me ferait renvoyer ? À son aise ; je ne suis pas embarrassée pour me placer. Cependant , ne lui dites rien, Monsieur Roblot, quoique… Après tout, je ne suis pas <pb n="10" xml:id="p10" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f28.highres"/>un homme, et suis assez lasse d’avoir plusieurs maîtresses ; je ne sais à qui obéir. Mais si monsieur tarde à revenir, tenez, Monsieur Roblot, entre nous, on la renverra ; les cartes sont trop brouillées.</p>
           </sp>
           <sp who="roblot">
             <speaker> Roblot</speaker>
@@ -251,7 +253,7 @@
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Taisez-vous. Apprenez qu’il est des hommes chez qui la bienfaisance et la bonté ne sont pas des calculs, <stage>(à part)</stage> et ce n’est pas ce qu’ils font de mieux ! <stage>(Haut.)</stage> Ordinairement, ma chère, les bienfaiteurs exploitent leurs obligés ou les obligés deviennent les tyrans de leurs bienfaiteurs ; <pb n="11" xml:id="p11"/>aussi, quand on a le bonheur de rencontrer d’aussi belles âmes que celles de mademoiselle Adrienne et de son frère, y a-t-il du plaisir à cultiver des sentiments qui se soldent de part et d’autre sans mécomptes. Il n’est pas aussi facile que vous le croyez de placer un bienfait.</p>
+            <p>Taisez-vous. Apprenez qu’il est des hommes chez qui la bienfaisance et la bonté ne sont pas des calculs, <stage>(à part)</stage> et ce n’est pas ce qu’ils font de mieux ! <stage>(Haut.)</stage> Ordinairement, ma chère, les bienfaiteurs exploitent leurs obligés ou les obligés deviennent les tyrans de leurs bienfaiteurs ; <pb n="11" xml:id="p11" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f29.highres"/>aussi, quand on a le bonheur de rencontrer d’aussi belles âmes que celles de mademoiselle Adrienne et de son frère, y a-t-il du plaisir à cultiver des sentiments qui se soldent de part et d’autre sans mécomptes. Il n’est pas aussi facile que vous le croyez de placer un bienfait.</p>
           </sp>
           <sp who="victoire">
             <speaker> Victoire</speaker>
@@ -279,7 +281,7 @@
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
-            <p>Mais je viens prendre les ordres de mademoiselle Adrienne. Encore une bonne niche que madame a faite à <pb n="12" xml:id="p12"/>monsieur, d’ôter mademoiselle Guérin du second, et de la mettre entre elle et ses filles ! Oh ! malgré sa finesse et la protection de monsieur, Mademoiselle J’ordonne sautera.</p>
+            <p>Mais je viens prendre les ordres de mademoiselle Adrienne. Encore une bonne niche que madame a faite à <pb n="12" xml:id="p12" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f30.highres"/>monsieur, d’ôter mademoiselle Guérin du second, et de la mettre entre elle et ses filles ! Oh ! malgré sa finesse et la protection de monsieur, Mademoiselle J’ordonne sautera.</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -290,7 +292,7 @@
             <head>Scène II</head>
           <sp who="roblot">
             <speaker> Roblot, <stage>seul. </stage></speaker>
-            <p>Voilà les domestiques d’aujourd’hui ! C’est des ennemis apprivoisés par l’intérêt. Quand j’en aurai, je ne sais pas comment je ferai, moi qui m’étais tant promis de ne jamais avoir que ceux des autres. <stage>(Il va jusqu’à la porte de l’appartement.)</stage> Elle ne m’écoute pas ? Non. <stage>(Il revient.) </stage>Elle a remarqué ma tenue extraordinaire dès le matin. Je prétexterai un rendez-vous pour quelque affaire importante, et personne ne devinera le secret de la démarche que je vais tenter. Me voilà donc, malgré mon impassibilité, jeté comme acteur dans le drame qui se joue ici, après m’être bien promis, en entrant dans ma carrière, de ne jamais me mêler que des affaires d’argent dans les Maisons où je serais employé. Jusqu’à présent, quand madame Gérard me disait d’un air dolent : « Ah ! mon cher Roblot, que de peines dans la vie ! – [Je <pb n="13" xml:id="p13"/>répondais :] C’est vrai, Madame ; mais la vente a doublé! – Monsieur Roblot, à quoi sert la fortune, si on n’a pas le bonheur ? – Madame, j’ai ordre de passer une voiture nouvelle à profits et pertes. Et en sortant j’entendais dire : « Il a le cœur dans sa caisse, ce Roblot ! » Moi, qui voulais mourir tranquille, garçon, sur mon fauteuil de caissier, remuant des écus, empilant des écus, ne me souciant que d’écus, je vais donc avoir une belle femme, sans doute des enfants, une fortune : embarras sur embarras. Je me serais mieux arrangé de rester premier ministre de la Maison Gérard ; ma tête se trouble aussitôt que je passe des écus aux sentiments. L’amour ? C’est des paroles et ça finit. Parlez-moi d’un beau bordereau à l’encre rouge et noire, de comptes bien alignés, d’où il résulte de l’argent dans la caisse ! Ça va toujours. Aussi monsieur Duval a-t-il bien trouvé le seul moyen de séduire mademoiselle Adrienne : l’argent ! Moi, Roblot, me voilà pris. L’intérêt la fera-t-il aussi succomber ? Mademoiselle Adrienne est une vertueuse fille. Hier, je ne l’aurais pas juré, ça ne me regardait pas ; mais ce matin !… Mademoiselle Adrienne, d’après mes relevés, doit avoir cinquante mille francs bien placés chez nos banquiers, par le conseil de monsieur Gérard. Moi, j’ai cinquante mille francs aussi. Nous pouvons commencer la banque Roblot et compagnie ! Ça pourra prêter à rire. Mais quelles masses de bordereaux ! Eh bien ! personne ne le croirait, ce n’est ni les bordereaux ni les comptes qui m’épouvantent, <pb n="14" xml:id="p14"/>c’est la belle femme ! Ce maudit monsieur Duval me donne le rôle de Satan à jouer… J’entends mademoiselle Adrienne ! Mais comment parler d’amour, moi qui n’ai de passion qu’au bout de mes chiffres ! Après tout, l’amour est une addition, le mariage une multiplication, et l’arithmétique fait plus de mariages que l’amour n’en défait.</p></sp>
+            <p>Voilà les domestiques d’aujourd’hui ! C’est des ennemis apprivoisés par l’intérêt. Quand j’en aurai, je ne sais pas comment je ferai, moi qui m’étais tant promis de ne jamais avoir que ceux des autres. <stage>(Il va jusqu’à la porte de l’appartement.)</stage> Elle ne m’écoute pas ? Non. <stage>(Il revient.) </stage>Elle a remarqué ma tenue extraordinaire dès le matin. Je prétexterai un rendez-vous pour quelque affaire importante, et personne ne devinera le secret de la démarche que je vais tenter. Me voilà donc, malgré mon impassibilité, jeté comme acteur dans le drame qui se joue ici, après m’être bien promis, en entrant dans ma carrière, de ne jamais me mêler que des affaires d’argent dans les Maisons où je serais employé. Jusqu’à présent, quand madame Gérard me disait d’un air dolent : « Ah ! mon cher Roblot, que de peines dans la vie ! – [Je <pb n="13" xml:id="p13" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f31.highres"/>répondais :] C’est vrai, Madame ; mais la vente a doublé! – Monsieur Roblot, à quoi sert la fortune, si on n’a pas le bonheur ? – Madame, j’ai ordre de passer une voiture nouvelle à profits et pertes. Et en sortant j’entendais dire : « Il a le cœur dans sa caisse, ce Roblot ! » Moi, qui voulais mourir tranquille, garçon, sur mon fauteuil de caissier, remuant des écus, empilant des écus, ne me souciant que d’écus, je vais donc avoir une belle femme, sans doute des enfants, une fortune : embarras sur embarras. Je me serais mieux arrangé de rester premier ministre de la Maison Gérard ; ma tête se trouble aussitôt que je passe des écus aux sentiments. L’amour ? C’est des paroles et ça finit. Parlez-moi d’un beau bordereau à l’encre rouge et noire, de comptes bien alignés, d’où il résulte de l’argent dans la caisse ! Ça va toujours. Aussi monsieur Duval a-t-il bien trouvé le seul moyen de séduire mademoiselle Adrienne : l’argent ! Moi, Roblot, me voilà pris. L’intérêt la fera-t-il aussi succomber ? Mademoiselle Adrienne est une vertueuse fille. Hier, je ne l’aurais pas juré, ça ne me regardait pas ; mais ce matin !… Mademoiselle Adrienne, d’après mes relevés, doit avoir cinquante mille francs bien placés chez nos banquiers, par le conseil de monsieur Gérard. Moi, j’ai cinquante mille francs aussi. Nous pouvons commencer la banque Roblot et compagnie ! Ça pourra prêter à rire. Mais quelles masses de bordereaux ! Eh bien ! personne ne le croirait, ce n’est ni les bordereaux ni les comptes qui m’épouvantent, <pb n="14" xml:id="p14" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f32.highres"/>c’est la belle femme ! Ce maudit monsieur Duval me donne le rôle de Satan à jouer… J’entends mademoiselle Adrienne ! Mais comment parler d’amour, moi qui n’ai de passion qu’au bout de mes chiffres ! Après tout, l’amour est une addition, le mariage une multiplication, et l’arithmétique fait plus de mariages que l’amour n’en défait.</p></sp>
           </div>  
                 <div type="scene">
                <head>Scène III</head>
@@ -312,7 +314,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Mademoiselle, j’ai rendez-vous de bonne heure, chez les banquiers de la Maison, et je suis susceptible d’y déjeuner. <stage>(Il se retourne.)</stage> Eh bien ! Victoire, laissez-nous.</p>
-            <pb n="15" xml:id="p15"/>
+            <pb n="15" xml:id="p15" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f33.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -345,7 +347,7 @@
           <sp who="adrienne">
             <speaker> Adrienne</speaker>
             <p>Succomber ! Ce mot dans votre bouche, Monsieur Roblot, m’étonne.</p>
-            <pb n="16" xml:id="p16"/>
+            <pb n="16" xml:id="p16" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f34.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -370,7 +372,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>S’il est aimé…</p>
-            <pb n="17" xml:id="p17"/>
+            <pb n="17" xml:id="p17" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f35.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -403,7 +405,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>C’est bien ainsi que je l’entends. Écoutez-moi, Monsieur.</p>
-            <pb n="18" xml:id="p18"/>
+            <pb n="18" xml:id="p18" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f36.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -439,7 +441,7 @@
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Mademoiselle, quand vous êtes entrée ici, moins belle <pb n="19" xml:id="p19"/>encore que vous ne l’êtes aujourd’hui, mais charmante de grâce ingénue, de modestie, et pauvre, il était bien permis à un caissier de vous observer à travers les petits rideaux verts de son bureau, de faire des rêves. Mais, en voyant votre attachement pour monsieur Gérard, le pauvre caissier a gardé le silence.</p>
+            <p>Mademoiselle, quand vous êtes entrée ici, moins belle <pb n="19" xml:id="p19" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f37.highres"/>encore que vous ne l’êtes aujourd’hui, mais charmante de grâce ingénue, de modestie, et pauvre, il était bien permis à un caissier de vous observer à travers les petits rideaux verts de son bureau, de faire des rêves. Mais, en voyant votre attachement pour monsieur Gérard, le pauvre caissier a gardé le silence.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -464,7 +466,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Contrainte.</p>
-            <pb n="20" xml:id="p20"/>
+            <pb n="20" xml:id="p20" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f38.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -495,7 +497,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Mademoiselle, la haine de madame Gérard et de ses deux filles est arrivée à son comble, et vous n’y résisterez pas…</p>
-            <pb n="21" xml:id="p21"/>
+            <pb n="21" xml:id="p21" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f39.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -511,7 +513,7 @@
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Voici les chiffres. Si vous daignez m’accepter pour mari, certaine personne nous commanditera de cent mille francs. À nous deux, nous en réunissons plus de cent mille ; je puis donc ouvrir une petite maison de banque sous la raison Roblot et Cie. Vous êtes la femme d’un banquier, comprenez-vous ? Nous nous établissons aux environs de la rue Saint-Denis. Comme <pb n="22" xml:id="p22"/>nous serons heureux ! Vous tiendrez la caisse ; moi, je ferai les bordereaux. Je manierai des masses de papier ; six pour cent et demi de commission. Vous serez chérie, adorée ! On m’aime à la Bourse ! Vous aurez des enfants ! Être mère, entrer dans tous les emprunts, hein ? Avant dix ans vous êtes une des plus riches femmes de la Banque ! Vous serez dame patronnesse des bals pour les pauvres, ou pour les réfugiés des pays qui pourront être opprimés. Votre avenir est superbe : pas de soucis, reine chez vous comme vous l’êtes ici, pas de faillites à craindre. Je me connais en billets de complaisance, et en circulation ! Vous serez un jour femme d’un régent de la Banque de France. Eh bien ? Cela ne vaut-il pas mieux que d’avoir à craindre ici, tous les jours, d’être obligée de céder au ressentiment de toute une famille ? Aucune femme n’aurait supporté si longtemps d’être dans son ménage ce qu’est madame Gérard dans le sien ; elle n’y est pas la maîtresse.</p>
+            <p>Voici les chiffres. Si vous daignez m’accepter pour mari, certaine personne nous commanditera de cent mille francs. À nous deux, nous en réunissons plus de cent mille ; je puis donc ouvrir une petite maison de banque sous la raison Roblot et Cie. Vous êtes la femme d’un banquier, comprenez-vous ? Nous nous établissons aux environs de la rue Saint-Denis. Comme <pb n="22" xml:id="p22" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f40.highres"/>nous serons heureux ! Vous tiendrez la caisse ; moi, je ferai les bordereaux. Je manierai des masses de papier ; six pour cent et demi de commission. Vous serez chérie, adorée ! On m’aime à la Bourse ! Vous aurez des enfants ! Être mère, entrer dans tous les emprunts, hein ? Avant dix ans vous êtes une des plus riches femmes de la Banque ! Vous serez dame patronnesse des bals pour les pauvres, ou pour les réfugiés des pays qui pourront être opprimés. Votre avenir est superbe : pas de soucis, reine chez vous comme vous l’êtes ici, pas de faillites à craindre. Je me connais en billets de complaisance, et en circulation ! Vous serez un jour femme d’un régent de la Banque de France. Eh bien ? Cela ne vaut-il pas mieux que d’avoir à craindre ici, tous les jours, d’être obligée de céder au ressentiment de toute une famille ? Aucune femme n’aurait supporté si longtemps d’être dans son ménage ce qu’est madame Gérard dans le sien ; elle n’y est pas la maîtresse.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -524,7 +526,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Eh bien ! la vérité se saura tôt ou tard.</p>
-            <pb n="23" xml:id="p23"/>
+            <pb n="23" xml:id="p23" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f41.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -544,7 +546,7 @@
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Vous êtes irréprochable, soit ; mais monsieur Gérard est imprudent. Vous ne dites rien, vous ; mais on voit que le maître fait tout pour vous contenter ; vous ne demandez rien, mais on dit que vous vous faites offrir ; <pb n="24" xml:id="p24"/>si vous ne cédez pas à la première offre, madame et ses filles sont forcées de vous supplier d’accepter, pour avoir la paix. Les femmes voient là des finesses qui leur sont odieuses. À la longue, une famille s’exaspère, et l’on se portera contre vous à des extrémités.</p>
+            <p>Vous êtes irréprochable, soit ; mais monsieur Gérard est imprudent. Vous ne dites rien, vous ; mais on voit que le maître fait tout pour vous contenter ; vous ne demandez rien, mais on dit que vous vous faites offrir ; <pb n="24" xml:id="p24" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f42.highres"/>si vous ne cédez pas à la première offre, madame et ses filles sont forcées de vous supplier d’accepter, pour avoir la paix. Les femmes voient là des finesses qui leur sont odieuses. À la longue, une famille s’exaspère, et l’on se portera contre vous à des extrémités.</p>
           </sp>
           <sp who="adrienne">
             <speaker> Adrienne</speaker>
@@ -569,7 +571,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Mais, Mademoiselle, un père de famille peut s’épouvanter de voir la discorde régner chez lui.</p>
-            <pb n="25" xml:id="p25"/>
+            <pb n="25" xml:id="p25" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f43.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -597,7 +599,7 @@
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Vous faites très mal votre état. J’ai reçu de notre patron hier au soir, par son banquier, une lettre où il m’annonce son arrivée aujourd’hui. Vous, habile homme qui flairez les faillites, vous ne m’avez donc pas entendue demander à tout prix une truite saumonée qu’il aime <pb n="26" xml:id="p26"/>tant ? Si je vous avais vu, je n’aurais point parlé si haut. Mais silence ; je confie ce secret à votre honneur.</p>
+            <p>Vous faites très mal votre état. J’ai reçu de notre patron hier au soir, par son banquier, une lettre où il m’annonce son arrivée aujourd’hui. Vous, habile homme qui flairez les faillites, vous ne m’avez donc pas entendue demander à tout prix une truite saumonée qu’il aime <pb n="26" xml:id="p26" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f44.highres"/>tant ? Si je vous avais vu, je n’aurais point parlé si haut. Mais silence ; je confie ce secret à votre honneur.</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -622,7 +624,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Et où donc ?</p>
-            <pb n="27" xml:id="p27"/>
+            <pb n="27" xml:id="p27" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f45.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -651,7 +653,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Cent mille francs et un compte à la Banque,… si nous sommes mariés dans quinze jours. D’ici à deux ans nous aurions, à nous, trois cent mille francs. Oui, pour vous rendre plus promptement riche, j’irai jusqu’à prendre douze pour cent. Votre frère serait un jour député, et, de la Chambre au Ministère, il n’y a qu’un pas. Il sera bien ministre une fois, comme tout le monde.</p>
-            <pb n="28" xml:id="p28"/>
+            <pb n="28" xml:id="p28" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f46.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -688,7 +690,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Vous avez la sienne ?</p>
-            <pb n="29" xml:id="p29"/>
+            <pb n="29" xml:id="p29" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f47.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -724,7 +726,7 @@
             <speaker>Roblot<stage>, [à part]. </stage></speaker>
             <p>Femme d’un régent de la Banque ! Elle y a mordu. <stage>(Hippolyte sort.)</stage></p>
           </sp>
-            <pb n="30" xml:id="p30"/>
+            <pb n="30" xml:id="p30" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f48.highres"/>
             </div>
         <div type="scene">
             <head>Scène V</head>
@@ -744,7 +746,7 @@
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>La petite Anna ?</p>
-            <pb n="31" xml:id="p31"/>
+            <pb n="31" xml:id="p31" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f49.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -772,7 +774,7 @@
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Avec innocence, et c’est plus dangereux. Croyez-moi, <pb n="32" xml:id="p32"/>Monsieur Roblot, pour deviner une fille, il n’y a qu’une fille…</p>
+            <p>Avec innocence, et c’est plus dangereux. Croyez-moi, <pb n="32" xml:id="p32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f50.highres"/>Monsieur Roblot, pour deviner une fille, il n’y a qu’une fille…</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -785,7 +787,7 @@
           <sp who="roblot">
             <speaker>Roblot<stage>, seul sur le devant de la scène. </stage></speaker>
             <p>Elle ne s’est pas laissé entamer de ça. Je reviens à mon opinion d’hier : elle aime un peu trop son bienfaiteur. Quant au patron, il est comme tous les gens qui en sont à leur dernière passion : ils y sacrifieraient tout, car ils arrivent à méconnaître ce qu’il y a de plus sacré : leurs intérêts. On parle beaucoup des folies de jeunesse ; je ne sais pas pourquoi on ne dit rien des folies de vieillesse. Je voudrais, pour cinq cents francs, ne pas avoir obéi à monsieur Duval. Que deviendrais-je si le patron apprenait mes déportements ?</p>
-            <pb n="33" xml:id="p33"/>
+            <pb n="33" xml:id="p33" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f51.highres"/>
           </sp>
             </div>
         <div type="scene">
@@ -814,7 +816,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Un rôle auquel je n’ai jamais songé.</p>
-            <pb n="54" xml:id="p34"/>
+            <pb n="54" xml:id="p34" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f72.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot<stage>, à part. </stage></speaker>
@@ -850,7 +852,7 @@
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>J’en ai reçu beaucoup, Madame ; je sais ce qu’elles ont <pb n="35" xml:id="p35"/>de blessant, et n’en donne à personne. Dans cette observation si simple, il s’agissait plus de vous que de moi.</p>
+            <p>J’en ai reçu beaucoup, Madame ; je sais ce qu’elles ont <pb n="35" xml:id="p35" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f53.highres"/>de blessant, et n’en donne à personne. Dans cette observation si simple, il s’agissait plus de vous que de moi.</p>
           </sp>
           <sp who="madamegerard">
             <speaker> Madame Gérard</speaker>
@@ -871,7 +873,7 @@
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Faut-il que je fasse plus ? Vous attendez de moi peut-être l’héroïque effort de vous céder la place. Je dois me retirer, vous laisser le champ libre, moi et mes deux filles. Est-ce là ce que vous désirez ? Parlez, nous nous en irons.</p>
-            <pb n="36" xml:id="p36"/>
+            <pb n="36" xml:id="p36" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f54.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -900,7 +902,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Il n’y a pas d’énigme chez moi, Madame. Ma conduite est sans arrière-pensée. Ma tâche est de concourir à la prospérité de votre Maison, de grossir votre fortune ; ma vie est transparente, sans menées sourdes ; je ne cherche à humilier, ni à calomnier personne. Je ne pense enfin qu’à faire le bonheur de tous, dussé-je en être la victime.</p>
-            <pb n="37" xml:id="p37"/>
+            <pb n="37" xml:id="p37" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f55.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -917,7 +919,7 @@
           <sp who="victoire">
             <speaker>Victoire<stage>, [à part]. </stage></speaker>
             <p>C’est dommage de quitter au moment où ça devenait gentil.<stage> (Elle sort.)</stage></p>
-            <pb n="58" xml:id="p38"/>
+            <pb n="58" xml:id="p38" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f76.highres"/>
           </sp>
         </div>
           <div type="scene">
@@ -950,7 +952,7 @@
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Je t’ordonne d’avoir pour elle les plus grands égards.</p>
-            <pb n="39" xml:id="p39"/>
+            <pb n="39" xml:id="p39" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f57.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -979,7 +981,7 @@
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Ma Fille, remercie mademoiselle ; elle loue ton ouvrage.</p>
-            <pb n="40" xml:id="p40"/>
+            <pb n="40" xml:id="p40" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f58.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1008,7 +1010,7 @@
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Je puis alors me retirer.</p>
-            <pb n="41" xml:id="p41"/>
+            <pb n="41" xml:id="p41" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f59.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1032,7 +1034,7 @@
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Je la hais de tout l’amour que j’ai pour toi, ma chère <pb n="42" xml:id="p42"/>petite Mère. Pauvre Maman ! t’avoir enlevé l’affection de mon père !</p>
+            <p>Je la hais de tout l’amour que j’ai pour toi, ma chère <pb n="42" xml:id="p42" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f60.highres"/>petite Mère. Pauvre Maman ! t’avoir enlevé l’affection de mon père !</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1056,7 +1058,7 @@
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Mais tu me prends toujours pour une enfant. Tu me jettes mes seize ans à la tête, comme si nous n’étions <pb n="43" xml:id="p43"/>pas dans le siècle des progrès. Il y a des journaux de demoiselles où j’ai lu que le danger de ceux qu’on aime donne de l’esprit et de la résolution.</p>
+            <p>Mais tu me prends toujours pour une enfant. Tu me jettes mes seize ans à la tête, comme si nous n’étions <pb n="43" xml:id="p43" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f61.highres"/>pas dans le siècle des progrès. Il y a des journaux de demoiselles où j’ai lu que le danger de ceux qu’on aime donne de l’esprit et de la résolution.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1077,7 +1079,7 @@
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Eh bien ! Anna. Tu as dit cela d’un ton à me faire frémir.</p>
-            <pb n="44" xml:id="p44"/>
+            <pb n="44" xml:id="p44" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f62.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1106,7 +1108,7 @@
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Maman, voilà mon oncle Duval.</p>
-            <pb n="45" xml:id="p45"/>
+            <pb n="45" xml:id="p45" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f63.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1151,7 +1153,7 @@
           <sp who="duval">
             <speaker>Duval<stage>, à part.</stage></speaker>
             <p>Elle m’inquiète avec son petit air. <stage>(Haut.)</stage> Ma Sœur, ai combiné longtemps…</p>
-            <pb n="46" xml:id="p46"/>
+            <pb n="46" xml:id="p46" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f64.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, derrière son fauteuil. </stage></speaker>
@@ -1181,7 +1183,7 @@
             <speaker>Duval</speaker>
             <p>Un droguiste de la rue des Lombards touche de bien près à l’épicerie, ma Sœur. Mais je ne rougis pas de mon état, et j’oppose plaisanterie à plaisanterie. Je disais ce mot à un jeune écrivain, à qui j’ai eu le plaisir de rendre service : <!-- Auteur inconnu : 2021-05-04T13:39:45.568000000
 Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des drogues.</hi></p>
-            <pb n="47" xml:id="p47"/>
+            <pb n="47" xml:id="p47" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f65.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1214,7 +1216,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Roblot devait venir ce matin me dire si elle n’acceptait pas ; il n’est pas venu, donc elle accepte.</p>
-            <pb n="48" xml:id="p48"/>
+            <pb n="48" xml:id="p48" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f66.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1243,7 +1245,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Vous m’avez dit : pas une syllabe !</p>
-            <pb n="49" xml:id="p49"/>
+            <pb n="49" xml:id="p49" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f67.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1267,7 +1269,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           </sp>
         </div>
         <div type="scene">
-            <pb n="50" xml:id="p50"/>
+            <pb n="50" xml:id="p50" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f68.highres"/>
             <head>Scène X</head>
             <stage>Les Mêmes, Roblot.</stage>
           <sp who="roblot">
@@ -1293,7 +1295,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Tu trouves ? <stage>(À Roblot.)</stage> Pour se faire agréer, il faut savoir s’y prendre, et vous vous y serez mal pris.</p>
-            <pb n="51" xml:id="p51"/>
+            <pb n="51" xml:id="p51" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f69.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -1322,7 +1324,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="madamegerard">
             <speaker> Madame Gérard</speaker>
             <p>On ne vous demande pas précisément son éloge, Monsieur.</p>
-            <pb n="52" xml:id="p52"/>
+            <pb n="52" xml:id="p52" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f70.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -1347,7 +1349,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Quoi de plus naturel à un caissier que de penser à une première demoiselle. Quand on se voit tous les jours, il faut absolument s’aimer ou se haïr.</p>
-            <pb n="53" xml:id="p53"/>
+            <pb n="53" xml:id="p53" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f71.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, bas, à son oncle. </stage></speaker>
@@ -1376,7 +1378,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>De monsieur Gérard. Voyez-vous, Monsieur, Madame, je suis depuis douze ans ici, je connais les affaires, je suis attaché à la maison comme à une femme, vos intérêts sont les miens. Eh bien ! je préfère sortir, à me trouver compromis dans des choses de cœur. Ça ne me regarde pas. Et puis, je serais un misérable ; on a abusé de mon innocence.</p>
-            <pb n="54" xml:id="p54"/>
+            <pb n="54" xml:id="p54" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f72.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1416,7 +1418,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Madame, monsieur Duval a juré de me causer les plus <pb n="55" xml:id="p55"/>grands chagrins. Gardez-moi tous le secret, autrement je serais dans une position épouvantable. Je me connais, je ne suis pas même une machine, je suis un rouage…</p>
+            <p>Madame, monsieur Duval a juré de me causer les plus <pb n="55" xml:id="p55" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f73.highres"/>grands chagrins. Gardez-moi tous le secret, autrement je serais dans une position épouvantable. Je me connais, je ne suis pas même une machine, je suis un rouage…</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1441,7 +1443,7 @@ Italique dans l’imprimé--><hi rend="i">je ne suis pas le seul qui vende des d
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Le pauvre homme ! La frayeur qu’il a de mon père donne à penser.</p>
-            <pb n="56" xml:id="p56"/>
+            <pb n="56" xml:id="p56" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f74.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Duval. </stage></speaker>
@@ -1471,7 +1473,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Rusée ! Ma Sœur, du courage ; nous vous avons procuré l’occasion d’éclater.</p>
-            <pb n="57" xml:id="p57"/>
+            <pb n="57" xml:id="p57" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f75.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -1500,7 +1502,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Voici l’ennemi.</p>
-            <pb n="58" xml:id="p58"/>
+            <pb n="58" xml:id="p58" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f76.highres"/>
           </sp>
         </div>
         <div type="scene">
@@ -1537,7 +1539,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Une jeune personne se souvient toujours de ces choses-là.</p>
-            <pb n="59" xml:id="p59"/>
+            <pb n="59" xml:id="p59" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f77.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -1570,7 +1572,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Quoi ! Mademoiselle, vous mettez la cervelle de ce pauvre homme à l’envers par vos avances…</p>
-            <pb n="60" xml:id="p60"/>
+            <pb n="60" xml:id="p60" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f78.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -1603,7 +1605,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>On ne me fait point de déclarations.</p>
-            <pb n="61" xml:id="p61"/>
+            <pb n="61" xml:id="p61" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f79.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -1639,7 +1641,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Eh bien ! alors, vous devez comprendre, Mademoiselle <pb n="62" xml:id="p62"/>Guérin, que, malgré tout mon désir de vous conserver, il nous est impossible de vous garder. Entre monsieur Roblot, qui est ici depuis douze ans, et vous, qui êtes moins ancienne de quatre années, nous ne pouvons hésiter. Il ne veut pas rester ici si vous y demeurez. Je suis au désespoir que votre conduite donne lieu à cette séparation. Vous nous étiez utile, je rends justice à vos qualités commerciales ; mais, enfin, si vous avez contribué à la prospérité de notre Maison, nous n’avons pas été ingrats.</p>
+            <p>Eh bien ! alors, vous devez comprendre, Mademoiselle <pb n="62" xml:id="p62" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f80.highres"/>Guérin, que, malgré tout mon désir de vous conserver, il nous est impossible de vous garder. Entre monsieur Roblot, qui est ici depuis douze ans, et vous, qui êtes moins ancienne de quatre années, nous ne pouvons hésiter. Il ne veut pas rester ici si vous y demeurez. Je suis au désespoir que votre conduite donne lieu à cette séparation. Vous nous étiez utile, je rends justice à vos qualités commerciales ; mais, enfin, si vous avez contribué à la prospérité de notre Maison, nous n’avons pas été ingrats.</p>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -1651,7 +1653,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Mademoiselle, si je sors delà maison de monsieur votre père, ce sera de manière à exciter des regrets.</p>
+            <p>Mademoiselle, si je sors de la maison de monsieur votre père, ce sera de manière à exciter des regrets.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1659,7 +1661,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Comment, si vous sortez ? Mais monsieur Roblot va <pb n="63" xml:id="p63"/>faire le compte de vos intérêts, pendant que vous ferez vos dispositions.</p>
+            <p>Comment, si vous sortez ? Mais monsieur Roblot va <pb n="63" xml:id="p63" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f81.highres"/>faire le compte de vos intérêts, pendant que vous ferez vos dispositions.</p>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -1688,7 +1690,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Pourquoi n’obéissez-vous pas à ma mère ?</p>
-            <pb n="64" xml:id="p64"/>
+            <pb n="64" xml:id="p64" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f82.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -1708,7 +1710,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Ah ! ma chère, il est clair que je ne puis aller chercher le commissaire de police et la garde pour vous faire sortir de chez moi, si vous voulez y rester malgré ma volonté; mais, si vous le prenez sur ce ton, je vous <pb n="65" xml:id="p65"/>quitte la place et vais, avec mes filles, chez mon frère, à l’instant ! À son retour, monsieur Gérard choisira entre sa femme, sa famille et une…</p>
+            <p>Ah ! ma chère, il est clair que je ne puis aller chercher le commissaire de police et la garde pour vous faire sortir de chez moi, si vous voulez y rester malgré ma volonté; mais, si vous le prenez sur ce ton, je vous <pb n="65" xml:id="p65" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f83.highres"/>quitte la place et vais, avec mes filles, chez mon frère, à l’instant ! À son retour, monsieur Gérard choisira entre sa femme, sa famille et une…</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -1740,7 +1742,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Madame, si j’ai des torts envers vous, je vous prie de <pb n="66" xml:id="p66"/>me les pardonner. Quant à moi, je souhaite que vous n’ayez pas à vous repentir de la détermination que vous prenez. Je savais déjà que, pour prix de mes efforts, je ne trouvais ici que haine et jalousie ; mais, du moment où ces sentiments vont si loin, je me dois à moi-même et à mon bienfaiteur de vous obéir. Il nous jugera tous. S’il m’interroge, je serai généreuse.</p>
+            <p>Madame, si j’ai des torts envers vous, je vous prie de <pb n="66" xml:id="p66" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f84.highres"/>me les pardonner. Quant à moi, je souhaite que vous n’ayez pas à vous repentir de la détermination que vous prenez. Je savais déjà que, pour prix de mes efforts, je ne trouvais ici que haine et jalousie ; mais, du moment où ces sentiments vont si loin, je me dois à moi-même et à mon bienfaiteur de vous obéir. Il nous jugera tous. S’il m’interroge, je serai généreuse.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1763,7 +1765,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Plus d’avocat Guérin ! Ah ! Maman, tu as eu bien du courage.</p>
-            <pb n="67" xml:id="p67"/>
+            <pb n="67" xml:id="p67" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f85.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1796,7 +1798,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Oui, Victoire.</p>
-            <pb n="6 8"/>
+            <pb n="68" xml:id="p68" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f86.highres"/>
           </sp>
           <sp who="victoire">
             <speaker>Victoire<stage>, à Anna. </stage></speaker>
@@ -1829,7 +1831,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Mais c’est un guet-apens.</p>
-            <pb n="69" xml:id="p69"/>
+            <pb n="69" xml:id="p69" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f87.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -1861,7 +1863,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
-            <p>Mais, ma chère petite, Gérard est violent, et entre <pb n="70" xml:id="p70"/>hommes, vois-tu, les choses peuvent aller fort loin tout de suite.</p>
+            <p>Mais, ma chère petite, Gérard est violent, et entre <pb n="70" xml:id="p70" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f88.highres"/>hommes, vois-tu, les choses peuvent aller fort loin tout de suite.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1878,7 +1880,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Ta ! ta ! ta ! ta ! ta ! Tenez, ma Nièce, les femmes abusent un peu trop de leur position avec nous. Vous ne vous battez pas en duel, vous ! À table, on vous donne les ailes de poulet ; vous passez partout les premières ; nous nous exterminons pour satisfaire vos vanités, vous donner de belles toilettes, des voitures… Puis, vous avez pour toute fatigue celle de gloser sur nous. Vous dites : Monsieur Duval n’a pas de caractère, il se conduit de telle ou telle manière, il est trop versatile, il ne sait ce qu’il veut… À sa place, je… Il est facile de tout dire quand on n’a rien à faire.</p>
-            <pb n="71" xml:id="p71"/>
+            <pb n="71" xml:id="p71" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f89.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -1906,29 +1908,26 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Attendez mon père ; vous lui apprendrez la grande <pb n="72" xml:id="p72"/>nouvelle, et viendrez nous dire comme il prend la chose.</p>
+            <p>Attendez mon père ; vous lui apprendrez la grande <pb n="72" xml:id="p72" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f90.highres"/>nouvelle, et viendrez nous dire comme il prend la chose.</p>
           </sp>
           <sp who="victoire">
             <speaker>Victoire<stage>, seule. </stage></speaker>
             <p>Plus souvent que je vais me hasarder à essuyer la colère de monsieur ! S’il entre par les Magasins et n’y trouve pas mademoiselle, ce sera bien amusant ! Le reçoive qui voudra ; je vais aller acheter la truite.</p>
           </sp>
-            <figure xml:id="fig">
-<graphic url=""/>
-</figure>
-            <pb n="73" xml:id="p73"/>
+            
+            <pb n="73" xml:id="p73" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f91.highres"/>
         </div>
       </div>
-      <figure xml:id="fig3_edm">
-        <graphic url="/figures_edm/fig3_edm"/>
-      </figure>
+      
             <div type="act">
               <head>Acte deuxième</head>
-            <pb n="74" xml:id="p74"/>
-            <pb n="75" xml:id="p75"/>
+              
+            <pb n="74" xml:id="p74" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f92.highres"/>
+            <pb n="75" xml:id="p75" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f93.highres"/>
             
               
               <figure xml:id="fig4_edm">
-                <graphic url="/figures_edm/fig4_edm"/>
+                <graphic url="https://ebalzac.com/romans/ecole-des-menages/carteret-1907/illustrations/fig4_edm.jpg"/>
               </figure>
               
         <div type="scene">
@@ -1937,7 +1936,7 @@ parenthèses-->Duval<stage>. (Il se frappe le front.) </stage></speaker>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p><!-- Auteur inconnu : 2021-05-11T10:51:56.074000000
-lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontre ; je voulais la voir la première ! Je l’ai vainement attendue, et cependant elle n’est pas au Magasin. Y aurait-il quelque malentendu ? À mon âge il n’y a plus d’heureuses chances ; le hasard est le courtisan de la jeunesse. Je suis dévoré de jalousie et d’inquiétude, car c’est surtout pour nous que la crainte devient toute l’imagination du bonheur. Eh bien ! personne ici. Soyez donc père de famille ! Il est vrai que ma femme et mes filles ignorent mon arrivée. J’ai cru pouvoir me rendre maître de mon amour pour Adrienne, l’oublier. L’absence ne tue que les petites passions. Être vieux pour les <pb n="76" xml:id="p76"/>regards, être jeune pour le cœur, quel martyre ! Sentir croître son affection chaque jour, et chaque jour perdre quelques-uns des avantages qui font qu’on nous aime ! J’éprouve à cette idée des mouvements de rage, et alors je suis prêt à tout méconnaître. Parfois aussi, mon amour me rend meilleur. Ma femme et mes filles ne savent pas que, par devoir, je les traite mieux depuis que je les sens en second dans mon cœur. Tout le bonheur que je leur dois me semble un vol fait à Adrienne ! <stage>(il veut ouvrir la porte des appartements et la trouve fermée.)</stage></p>
+lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontre ; je voulais la voir la première ! Je l’ai vainement attendue, et cependant elle n’est pas au Magasin. Y aurait-il quelque malentendu ? À mon âge il n’y a plus d’heureuses chances ; le hasard est le courtisan de la jeunesse. Je suis dévoré de jalousie et d’inquiétude, car c’est surtout pour nous que la crainte devient toute l’imagination du bonheur. Eh bien ! personne ici. Soyez donc père de famille ! Il est vrai que ma femme et mes filles ignorent mon arrivée. J’ai cru pouvoir me rendre maître de mon amour pour Adrienne, l’oublier. L’absence ne tue que les petites passions. Être vieux pour les <pb n="76" xml:id="p76" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f94.highres"/>regards, être jeune pour le cœur, quel martyre ! Sentir croître son affection chaque jour, et chaque jour perdre quelques-uns des avantages qui font qu’on nous aime ! J’éprouve à cette idée des mouvements de rage, et alors je suis prêt à tout méconnaître. Parfois aussi, mon amour me rend meilleur. Ma femme et mes filles ne savent pas que, par devoir, je les traite mieux depuis que je les sens en second dans mon cœur. Tout le bonheur que je leur dois me semble un vol fait à Adrienne ! <stage>(il veut ouvrir la porte des appartements et la trouve fermée.)</stage></p>
           </sp>
           <sp who="justine">
             <speaker>Une voix</speaker>
@@ -1958,7 +1957,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Que font-elles donc ?</p>
-            <pb n="77" xml:id="p77"/>
+            <pb n="77" xml:id="p77" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f95.highres"/>
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -1995,7 +1994,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Ah ! si Monsieur sait la chose…</p>
-            <pb n="78" xml:id="p78"/>
+            <pb n="78" xml:id="p78" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f96.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2012,7 +2011,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Monsieur comprendra qu’il est bien difficile, à moi qui ne sors pas de ma cuisine, de savoir les raisons qu’elles ont eues avec mademoiselle Adrienne. Si Monsieur me trouve ici, c’est rapport au bain…</p>
-            <pb n="79" xml:id="p79"/>
+            <pb n="79" xml:id="p79" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f97.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2045,7 +2044,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Ces dames ont fait dire quelles étaient sorties ; mademoiselle Guérin les savait là; le frère n’a pas pu l’ignorer.</p>
-            <pb n="80" xml:id="p80"/>
+            <pb n="80" xml:id="p80" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f98.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2078,7 +2077,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Et de fortes, car enfin monsieur Roblot…</p>
-            <pb n="81" xml:id="p81"/>
+            <pb n="81" xml:id="p81" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f99.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2107,7 +2106,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Que de paroles vides !</p>
-            <pb n="82" xml:id="p82"/>
+            <pb n="82" xml:id="p82" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f100.highres"/>
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -2132,7 +2131,7 @@ lettrine-->J’ai cru qu’en prévenant Adrienne, elle viendrait à ma rencontr
           <sp who="francois">
             <speaker>François</speaker>
             <p>Monsieur a sonné…?</p>
-            <pb n="83" xml:id="p83"/>
+            <pb n="83" xml:id="p83" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f101.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2174,7 +2173,7 @@ Parenthèses vérif manusc--><stage>. (Il rentre.) </stage></speaker>
           <sp who="francois">
             <speaker>François<stage>, [à part].</stage></speaker>
             <p>J’aime mieux qu’un autre que moi le lui apprenne. <stage>(Il sort.)</stage></p>
-            <pb n="84" xml:id="p84"/>        </sp>
+            <pb n="84" xml:id="p84" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f102.highres"/>        </sp>
         </div>
         <div type="scene">
             <head>Scène IV</head>
@@ -2204,7 +2203,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Mais crois-tu donc que j’ai oublié ta mère et ta sœur !</p>
-            <pb n="85" xml:id="p85"/>
+            <pb n="85" xml:id="p85" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f103.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2237,7 +2236,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Je m’intéresse à elle comme à une personne accomplie, et chez qui…</p>
-            <pb n="86" xml:id="p86"/>
+            <pb n="86" xml:id="p86" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f104.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2262,7 +2261,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>À peine arrivé, tu m’accuses.</p>
-            <pb n="87" xml:id="p87"/>
+            <pb n="87" xml:id="p87" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f105.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2295,7 +2294,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="anna">
             <speaker> Anna</speaker>
             <p>Qui ?…</p>
-            <pb n="88" xml:id="p88"/>
+            <pb n="88" xml:id="p88" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f106.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2320,7 +2319,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Eh bien, Roblot…</p>
-            <pb n="89" xml:id="p89"/>
+            <pb n="89" xml:id="p89" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f107.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2341,7 +2340,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="gerard">
             <speaker> Gérard</speaker>
             <p>Mon Dieu, Mademoiselle, avez-vous la prétention, depuis que vous n’êtes plus un enfant, d’en savoir plus sur cette femme que moi, qui ne lui ai pas accordé ma confiance sans de mûres réflexions ?…</p>
-            <pb n="90" xml:id="p90"/>
+            <pb n="90" xml:id="p90" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f108.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -2370,7 +2369,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Tu me sembles plus agité que s’il s’agissait de maman…</p>
-            <pb n="91" xml:id="p91"/>
+            <pb n="91" xml:id="p91" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f109.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à part. </stage></speaker>
@@ -2402,7 +2401,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
-            <p>Oh ! des choses graves. Elle a été surprise, à six heures <pb n="92" xml:id="p92"/>du matin, avec Roblot ! Maman a dit qu’elle n’aurait jamais cru cela d’elle. Quand une fille a le mariage en goût, il parait que c’est terrible… Enfin, moi, je suis trop jeune pour comprendre ces singuliers usages ; je n’aime que ma mère et toi.</p>
+            <p>Oh ! des choses graves. Elle a été surprise, à six heures <pb n="92" xml:id="p92" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f110.highres"/>du matin, avec Roblot ! Maman a dit qu’elle n’aurait jamais cru cela d’elle. Quand une fille a le mariage en goût, il parait que c’est terrible… Enfin, moi, je suis trop jeune pour comprendre ces singuliers usages ; je n’aime que ma mère et toi.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2422,7 +2421,7 @@ Parenthèses encore--><stage> (Elle saute au cou de son père.) </stage></speake
           <sp who="gerard">
             <speaker>Gérard<stage>, à François qui se montre à la porte. </stage></speaker>
             <p>Dites à monsieur Roblot que je veux lui parler.</p>
-            <pb n="93" xml:id="p93"/>
+            <pb n="93" xml:id="p93" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f111.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2456,7 +2455,7 @@ parenthèses-->
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Est un effet du hasard, n’est-ce pas ?</p>
-            <pb n="94" xml:id="p94"/>
+            <pb n="94" xml:id="p94" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f112.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2485,7 +2484,7 @@ parenthèses-->
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Il s’agit moins de cette fille, Madame, que de moi, de mes projets, de mes volontés méconnues.</p>
-            <pb n="95" xml:id="p95"/>
+            <pb n="95" xml:id="p95" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f113.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2510,7 +2509,7 @@ parenthèses-->
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Caroline épousera monsieur Louis Guérin ; je ne me suis pas décidé sans de mûres réflexions sur le choix de mon gendre. Ce jeune homme est plein de sentiments élevés…</p>
-            <pb n="96" xml:id="p96"/>
+            <pb n="96" xml:id="p96" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f114.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2536,7 +2535,7 @@ crochets-->[en] mourir ! Nous sommes engagées dans une voie périlleuse ; ils
           <sp who="anna">
             <speaker>Anna<stage>, à sa mère. </stage></speaker>
             <p>Affronte sa colère, et s’il va trop loin, trouve-toi mal.</p>
-            <pb n="97" xml:id="p97"/>
+            <pb n="97" xml:id="p97" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f115.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Anna. </stage></speaker>
@@ -2569,7 +2568,7 @@ crochets-->[en] mourir ! Nous sommes engagées dans une voie périlleuse ; ils
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ah ! vous voilà, mon ami. Que signifie votre air solennel ?</p>
-            <pb n="98" xml:id="p98"/>
+            <pb n="98" xml:id="p98" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f116.highres"/>
           </sp>
           <sp who="louisguerin">
             <speaker>Louis Guérin</speaker>
@@ -2595,7 +2594,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Sortie !…</p>
-            <pb n="99" xml:id="p99"/>
+            <pb n="99" xml:id="p99" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f117.highres"/>
           </sp>
           <sp who="louisguerin">
             <speaker>Louis Guérin</speaker>
@@ -2631,7 +2630,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="louisguerin">
             <speaker>Louis Guérin</speaker>
-            <p>Monsieur, je pense comme elle, après l’avoir entendue. <pb n="100" xml:id="p100"/>Il est des cas rares où les obligés peuvent égaler leur bienfaiteur. Si vous aviez tort, nous paraîtrions ingrats. Mais de pauvres gens, obligés autant que nous le sommes, ont le temps pour eux ! Nous ne pourrons jamais nous acquitter : vous nous avez donné la vie sociale, et tous les enfants meurent insolvables envers leur père ; mais mon ambition est comme ma reconnaissance, infinie ; peut-être un jour en serez-vous tous convaincus.</p>
+            <p>Monsieur, je pense comme elle, après l’avoir entendue. <pb n="100" xml:id="p100" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f118.highres"/>Il est des cas rares où les obligés peuvent égaler leur bienfaiteur. Si vous aviez tort, nous paraîtrions ingrats. Mais de pauvres gens, obligés autant que nous le sommes, ont le temps pour eux ! Nous ne pourrons jamais nous acquitter : vous nous avez donné la vie sociale, et tous les enfants meurent insolvables envers leur père ; mais mon ambition est comme ma reconnaissance, infinie ; peut-être un jour en serez-vous tous convaincus.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2651,7 +2650,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="gerard">
             <speaker> Gérard</speaker>
-            <p>Madame, parlerez-vous ? Vous me devez, vous devez <pb n="101" xml:id="p101"/>au frère de mademoiselle Adrienne raison de ce renvoi. Mademoiselle Adrienne vous a-t-elle manqué?</p>
+            <p>Madame, parlerez-vous ? Vous me devez, vous devez <pb n="101" xml:id="p101" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f119.highres"/>au frère de mademoiselle Adrienne raison de ce renvoi. Mademoiselle Adrienne vous a-t-elle manqué?</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -2680,7 +2679,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Oui ; mais elle était, dit-on, à six heures du matin avec Roblot.</p>
-            <pb n="102" xml:id="p102"/>
+            <pb n="102" xml:id="p102" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f120.highres"/>
           </sp>
           <sp who="louisguerin">
             <speaker>Louis Guérin </speaker>
@@ -2705,7 +2704,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="madamegerard">
             <speaker> Madame Gérard</speaker>
             <p>Ainsi, vous préférez immoler votre femme à cette fille ?</p>
-            <pb n="103" xml:id="p103"/>
+            <pb n="103" xml:id="p103" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f121.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2733,7 +2732,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à son mari. </stage></speaker>
-            <p>Égoïstes ! Vous demandez de continuels sacrifices aux <pb n="104" xml:id="p104"/>mères de famille, et vous ne leur sacrifieriez pas un caprice !</p>
+            <p>Égoïstes ! Vous demandez de continuels sacrifices aux <pb n="104" xml:id="p104" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f122.highres"/>mères de famille, et vous ne leur sacrifieriez pas un caprice !</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2758,7 +2757,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Ah ! si vous le prenez ainsi, je vais avec mes filles chez mon frère. Votre Adrienne sera…</p>
-            <pb n="105" xml:id="p105"/>
+            <pb n="105" xml:id="p105" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f123.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2775,7 +2774,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Monsieur, je vous en supplie, un dernier mot ! Les femmes savent mieux que vous juger les femmes ; elles ne sont pas comme vous aveuglées par… l’admiration. Si nous savons aujourd’hui ce que cette fille nous coûte, l’avenir est effrayant ! Que faut-il faire pour vous éclairer ?<stage> (Elle tombe à ses pieds.)</stage> Monsieur, vous ne savez pas combien de malheurs vous aurez à vous reprocher.</p>
-            <pb n="10 6"/>
+            <pb n="106" xml:id="p106" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f124.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2804,7 +2803,7 @@ Parenthèses-->Gérard<stage>. (Il prend la lettre, la garde entre ses doigts et
           <sp who="louisguerin">
             <speaker>Louis Guérin</speaker>
             <p>Monsieur, nous ne devons pas être un sujet de trouble dans votre maison. Si ma sœur y cause de si fortes aversions, je vais être le premier à l’empêcher d’y revenir <stage>(Louis Guérin sort.)</stage></p>
-            <pb n="107" xml:id="p107"/>
+            <pb n="107" xml:id="p107" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f125.highres"/>
           </sp>
           <sp who="gerard">
             <speaker><!-- Auteur inconnu : 2021-05-25T15:35:36.989000000
@@ -2835,7 +2834,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Comme tu me reçois ! Eh bien, vous me semblez tous interdits. Suis-je de trop ?… Je me retire.</p>
-            <pb n="108" xml:id="p108"/>
+            <pb n="108" xml:id="p108" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f126.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -2872,7 +2871,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Non, elle ne veut pas se marier.</p>
-            <pb n="109" xml:id="p109"/>
+            <pb n="109" xml:id="p109" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f127.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -2901,7 +2900,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard<stage>, au fond. </stage></speaker>
             <p>Allons, Roblot.</p></sp>
-            <pb n="110" xml:id="p110"/>
+            <pb n="110" xml:id="p110" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f128.highres"/>
         </div>
         <div type="scene">
             <head>Scène VIII</head>
@@ -2934,7 +2933,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Restez ! Mademoiselle Guérin vous aime, m’a-t-on dit. Elle veut vous épouser ?…</p>
-            <pb n="111" xml:id="p111"/>
+            <pb n="111" xml:id="p111" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f129.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -2971,7 +2970,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Vous nous avez dit, là, ce matin, que vous lui aviez peint votre amour avec une éloquence…</p>
-            <pb n="112" xml:id="p112"/>
+            <pb n="112" xml:id="p112" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f130.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -3012,7 +3011,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Oui, non ! Pourquoi lui as-tu menti ?</p>
-            <pb n="113" xml:id="p113"/>
+            <pb n="113" xml:id="p113" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f131.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -3041,7 +3040,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Monsieur, vous avez un son de voix qui me met hors de moi… Si je compte de l’argent ce matin, je me tromperai.</p>
-            <pb n="114" xml:id="p114"/>
+            <pb n="114" xml:id="p114" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f132.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -3074,7 +3073,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Duval !</p>
-            <pb n="’115" xml:id="p115"/>
+            <pb n="115" xml:id="p115" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f133.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -3107,7 +3106,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Allons, mon Oncle, un effort.</p>
-            <pb n="116" xml:id="p116"/>
+            <pb n="116" xml:id="p116" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f134.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -3140,7 +3139,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard<stage>, à voix basse. </stage></speaker>
             <p>Elle te l’a dit ? Mais comment ? Cela partait-il du fond de l’âme ?…</p>
-            <pb n="117" xml:id="p117"/>
+            <pb n="117" xml:id="p117" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f135.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot<stage>, sur le même ton. </stage></speaker>
@@ -3173,7 +3172,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Vous me faites pitié.</p>
-            <pb n="118" xml:id="p118"/>
+            <pb n="118" xml:id="p118" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f136.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval</speaker>
@@ -3201,7 +3200,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Que lui avez-vous dit pour qu’elle soit arrivée en pleurs chez son frère ? Je le vois, vous l’avez humiliée ; une pauvre fille à qui nous devons tant, qui refuse de se marier pour continuer à veiller à nos intérêts ! Je vais l’aller chercher moi-même ; elle pourrait vouloir ne pas <pb n="119" xml:id="p119"/>revenir. Son frère a tant de fierté, que votre sot débat lui fera conseiller à Adrienne de ne pas rentrer ici.</p>
+            <p>Que lui avez-vous dit pour qu’elle soit arrivée en pleurs chez son frère ? Je le vois, vous l’avez humiliée ; une pauvre fille à qui nous devons tant, qui refuse de se marier pour continuer à veiller à nos intérêts ! Je vais l’aller chercher moi-même ; elle pourrait vouloir ne pas <pb n="119" xml:id="p119" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f137.highres"/>revenir. Son frère a tant de fierté, que votre sot débat lui fera conseiller à Adrienne de ne pas rentrer ici.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -3238,7 +3237,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Ah ! c’est bien le feu !…</p>
-            <pb n="120" xml:id="p120"/>
+            <pb n="120" xml:id="p120" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f138.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -3263,7 +3262,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Eh bien ! ma Sœur, il faut te résigner. Après tout, elle te débarrasse de bien des soins ici. Tu peux te distraire, tu as une assez belle fortune, et, à ta place, je céderais, en vivant tout à fait à part avec mes filles. On arrive à tout par des concessions.</p>
-            <pb n="121" xml:id="p121"/>
+            <pb n="121" xml:id="p121" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f139.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -3291,7 +3290,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
-            <p>Ne suis-je pas perdue ? Ah ! ma chère Anna, jamais notre mère n’aura deux fois autant de courage. Quant à <pb n="122" xml:id="p122"/>moi, je suis une pauvre fille, blonde et faible, sans plus de cœur qu’un agneau. Toute ma force est dans mon amour pour monsieur Hippolyte.</p>
+            <p>Ne suis-je pas perdue ? Ah ! ma chère Anna, jamais notre mère n’aura deux fois autant de courage. Quant à <pb n="122" xml:id="p122" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f140.highres"/>moi, je suis une pauvre fille, blonde et faible, sans plus de cœur qu’un agneau. Toute ma force est dans mon amour pour monsieur Hippolyte.</p>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -3328,7 +3327,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Mon Dieu, mon père est si bon ! Moi, je sais le prendre, et je le lui dirai.</p>
-            <pb n="123" xml:id="p123"/>
+            <pb n="123" xml:id="p123" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f141.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -3361,7 +3360,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Tu calomnies mon père.</p>
-            <pb n="124" xml:id="p124"/>
+            <pb n="124" xml:id="p124" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f142.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -3390,7 +3389,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>C’est toutes les petitesses et toutes les grandeurs ensemble ! Quand on se sent la tête dans les cieux, la terre fait mal aux pieds.</p>
-            <pb n="125" xml:id="p125"/>
+            <pb n="125" xml:id="p125" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f143.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -3415,7 +3414,7 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>L’amour n’est le plus beau de tous les sentiments que parce qu’il est le plus involontaire. Je ne saurais aimer un autre homme que monsieur Hippolyte, et il m’est impossible de dire pourquoi je l’aime.</p>
-            <pb n="126" xml:id="p126"/>
+            <pb n="126" xml:id="p126" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f144.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -3429,21 +3428,19 @@ Crochets à checker dans autre éd--><stage> [(À Gérard.)] </stage>Tu te porte
             <speaker>Anna</speaker>
             <p>Viens, nous allons le savoir.</p>
           </sp>
-            <figure xml:id="fig">
-<graphic url=""/>
-</figure>
-            <pb n="127" xml:id="p127"/>
+            
+            <pb n="127" xml:id="p127" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f145.highres"/>
             </div>
             </div>
-      <figure xml:id="fig5_edm">
+      <!--<figure xml:id="fig5_edm">
         <graphic url="/figures_edm/fig5_edm"/>
-      </figure>
+      </figure>-->
             <div type="act">
               <head>Acte troisième</head>
-            <pb n="128" xml:id="p128"/>
-            <pb n="129" xml:id="p129"/>
+            <pb n="128" xml:id="p128" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f146.highres"/>
+            <pb n="129" xml:id="p129" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f147.highres"/>
             <figure xml:id="fig6_edm">
-              <graphic url="/figures_edm/fig6_edm"/>
+              <graphic url="https://ebalzac.com/romans/ecole-des-menages/carteret-1907/illustrations/fig6_edm.jpg"/>
             </figure>
             
         <div type="scene">
@@ -3461,7 +3458,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Les filles sont après un secret comme un chasseur après le gibier.</p>
-            <pb n="130" xml:id="p130"/>
+            <pb n="130" xml:id="p130" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f148.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -3494,7 +3491,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>En voilà un qui ne tourmentera pas sa femme !</p>
-            <pb n="131" xml:id="p131"/>
+            <pb n="131" xml:id="p131" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f149.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -3523,7 +3520,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Il m’est impossible de t’obéir, Maman ; mes yeux démentiraient mes lèvres.</p>
-            <pb n="132" xml:id="p132"/>
+            <pb n="132" xml:id="p132" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f150.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -3552,7 +3549,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Nous devons donc l’aimer aussi, nous ?</p>
-            <pb n="133" xml:id="p133"/>
+            <pb n="133" xml:id="p133" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f151.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -3581,7 +3578,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Non, Madame. Aux premiers mots de mon frère sur la scène qui a eu lieu entre vous et monsieur Gérard, je suis venue ici pour vous faire part de mes résolutions.</p>
-            <pb n="134" xml:id="p134"/>
+            <pb n="134" xml:id="p134" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f152.highres"/>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
@@ -3602,7 +3599,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Mes Filles, laissez-nous.</p></sp>
-            <pb n="135" xml:id="p135"/>
+            <pb n="135" xml:id="p135" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f153.highres"/>
         </div>
         <div type="scene">
             <head>Scène IV</head>
@@ -3631,7 +3628,7 @@ Lettrine-->J’irai jusque-là, ma Sœur ; mais je m’en fie à toi pour savoi
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Je ne l’aime point, Madame.</p>
-            <pb n="1 3 6"/>
+            <pb n="136" xml:id="p136" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f154.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard.</speaker> <!-- Auteur inconnu : 2021-05-18T17:58:32.411000000
@@ -3649,7 +3646,7 @@ MAIS POURQUOI YA UN POINT ????!!!!-->
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>J’ai résisté, Madame.</p>
-            <pb n="137" xml:id="p137"/>
+            <pb n="137" xml:id="p137" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f155.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker><!-- Auteur inconnu : 2021-05-18T17:58:55.759000000
@@ -3679,7 +3676,7 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à part. </stage></speaker>
             <p>Oh ! c’est trop grand pour une fille ! Voudrait-elle nous épouvanter ?… <stage>(Haut.)</stage> Votre empire sur monsieur Gérard doit être aussi grand que sa passion ; vous pouvez nous sauver toutes en l’amenant à l’idée d’un riche établissement pour vous ! J’ai mieux que Roblot.</p>
-            <pb n="1 3 8"/>
+            <pb n="138" xml:id="p138" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f156.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -3699,7 +3696,7 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne<stage>, seule sur le devant de la scène. </stage></speaker>
-            <p>Ai-je bien fait ? Il n’y avait plus que ce moyen de nous sauver tous ! Et je reste auprès de lui !… Je puis le ser<pb n="139" xml:id="p139"/>vir, le voir. Peut-être un danger sans cesse observé n’existe-t-il plus.</p> </sp>
+            <p>Ai-je bien fait ? Il n’y avait plus que ce moyen de nous sauver tous ! Et je reste auprès de lui !… Je puis le ser<pb n="139" xml:id="p139" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f157.highres"/>vir, le voir. Peut-être un danger sans cesse observé n’existe-t-il plus.</p> </sp>
         </div>
         <div type="scene">
             <head>Scène V</head>
@@ -3728,7 +3725,7 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Je ne veux pas lui donner le baiser de Judas.</p>
-            <pb n="140" xml:id="p140"/>
+            <pb n="140" xml:id="p140" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f158.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -3763,7 +3760,7 @@ ALLÔ ????!!!!-->Madame Gérard. </speaker>
             <p>Volontiers. <stage>(Elle baise les mains de Madame Gérard.) </stage></p></sp>
             <stage><!-- Auteur inconnu : 2021-05-19T11:00:37.626000000
 Style stage ou stage‑c ? J’ai mis stage là-->(Gérard parait au fond, et voit tout.)</stage>
-            <pb n="141" xml:id="p141"/>
+            <pb n="141" xml:id="p141" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f159.highres"/>
         </div>
         <div type="scene">
             <head>Scène VI</head>
@@ -3796,7 +3793,7 @@ Style stage ou stage‑c ? J’ai mis stage là-->(Gérard parait au fond, et v
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Est-ce maintenant vous qui voulez la chasser ?…</p>
-            <pb n="142" xml:id="p142"/>
+            <pb n="142" xml:id="p142" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f160.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -3830,8 +3827,8 @@ Style stage ou stage‑c ? J’ai mis stage là-->(Gérard parait au fond, et v
             <speaker>Anna</speaker>
             <p>Rien que cela !… Oh ! mon Père, vous êtes devenu d’une douceur avec votre femme…</p>
             <p>
-              <pb/>
-              <pb n="143" xml:id="p143"/>
+              <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f.highres"/>
+              <pb n="143" xml:id="p143" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f161.highres"/>
             </p>
           </sp>
           <sp who="gerard">
@@ -3857,7 +3854,7 @@ CROCHETs-->[d’être] bien indifférente… Anna, viens avec nous.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Elles les comprennent trop au contraire. <stage>(Elle baise Adrienne au front, et, à voix basse :)</stage> Voilà le moment de tenir votre promesse ; du courage ! Rompez le mariage <pb/><pb n="144" xml:id="p144"/>de Caroline avec votre frère, et je vous croirai ; pour le défaire vous n’avez qu’à parler du vôtre.</p>
+            <p>Elles les comprennent trop au contraire. <stage>(Elle baise Adrienne au front, et, à voix basse :)</stage> Voilà le moment de tenir votre promesse ; du courage ! Rompez le mariage <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f.highres"/><pb n="144" xml:id="p144" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f162.highres"/>de Caroline avec votre frère, et je vous croirai ; pour le défaire vous n’avez qu’à parler du vôtre.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -3892,8 +3889,8 @@ parznthèses-->Gérard<stage>. (Il prend la clef de son cabinet.) </stage></spea
             <speaker>Gérard</speaker>
             <p>Adrienne, chez vous une pareille crainte est un aveu.</p>
             <p>
-              <pb/>
-              <pb n="145" xml:id="p145"/>
+              <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f.highres"/>
+              <pb n="145" xml:id="p145" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f163.highres"/>
             </p>
           </sp>
           <sp who="adrienne">
@@ -3924,7 +3921,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Toujours.</p>
-            <pb n="146" xml:id="p146"/>
+            <pb n="146" xml:id="p146" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f164.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -3957,7 +3954,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Vous venez de me dire à l’instant que vous pouviez tout endurer.</p>
-            <pb n="147" xml:id="p147"/>
+            <pb n="147" xml:id="p147" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f165.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -3990,7 +3987,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Vous appelez cela des sacrifices ?… Mais c’est le bonheur.</p>
-            <pb n="148" xml:id="p148"/>
+            <pb n="148" xml:id="p148" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f166.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4022,7 +4019,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Peut-être ! Eh bien, si je le voulais, ne m’aimeriez-vous <pb n="149" xml:id="p149"/>pas assez pour me faire le sacrifice de vous-même ? Combien de fois ne m’avez-vous pas dit que vous m’aimiez comme un père, comme un frère, comme un amant, comme un mari… que vous sauriez mourir pour moi… Eh bien ! je ne vous demande pas tant.</p>
+            <p>Peut-être ! Eh bien, si je le voulais, ne m’aimeriez-vous <pb n="149" xml:id="p149" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f167.highres"/>pas assez pour me faire le sacrifice de vous-même ? Combien de fois ne m’avez-vous pas dit que vous m’aimiez comme un père, comme un frère, comme un amant, comme un mari… que vous sauriez mourir pour moi… Eh bien ! je ne vous demande pas tant.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4051,7 +4048,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Encore voudrais-je savoir qui vous épousez.</p>
-            <pb n="150" xml:id="p150"/>
+            <pb n="150" xml:id="p150" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f168.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -4088,7 +4085,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Ah ! vous auriez recours au suicide ; alors vous ne m’appartiendriez pas entièrement.</p>
-            <pb n="151" xml:id="p151"/>
+            <pb n="151" xml:id="p151" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f169.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4116,7 +4113,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Mais elle ignore que sans vous je ne saurais vivre, <pb n="152" xml:id="p152"/>qu’elle tient son bonheur de votre pitié, que tout m’est indifférent de ce qui n’est pas vous… Une famille croule sans son chef, et je ne vis que par mon amour… C’est immoral, c’est mal, j’ai des filles… Je sais tout ce que la conscience peut dire ; la mienne a parlé longtemps en vain ; que veulent-ils ? J’ai fait ce voyage pour combattre ; je n’ai respiré d’air pur qu’en entrant dans Paris ; en voyage, je mourais. Mon amour, c’est leur bonheur, leur fortune, leur tranquillité.</p>
+            <p>Mais elle ignore que sans vous je ne saurais vivre, <pb n="152" xml:id="p152" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f170.highres"/>qu’elle tient son bonheur de votre pitié, que tout m’est indifférent de ce qui n’est pas vous… Une famille croule sans son chef, et je ne vis que par mon amour… C’est immoral, c’est mal, j’ai des filles… Je sais tout ce que la conscience peut dire ; la mienne a parlé longtemps en vain ; que veulent-ils ? J’ai fait ce voyage pour combattre ; je n’ai respiré d’air pur qu’en entrant dans Paris ; en voyage, je mourais. Mon amour, c’est leur bonheur, leur fortune, leur tranquillité.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -4137,7 +4134,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Dans ce cas, le monde ne nous reprocherait plus rien ; je serais heureuse de pouvoir me dévouer, malheureuse de vous savoir ignorer jusqu’où irait mon affection.</p>
-            <pb n="153" xml:id="p153"/>
+            <pb n="153" xml:id="p153" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f171.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4166,7 +4163,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ma fille Caroline ?</p>
-            <pb n="154" xml:id="p154"/>
+            <pb n="154" xml:id="p154" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f172.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -4191,7 +4188,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Mais ma fille n’aime personne, elle épousera Louis. <stage>(Il crie à la porte de l’appartement.)</stage> Caroline ! Vous allez voir.</p> </sp>
-            <pb n="155" xml:id="p155"/>
+            <pb n="155" xml:id="p155" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f173.highres"/>
         </div>
         <div type="scene">
             <head>Scène VIII</head>
@@ -4220,7 +4217,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>J’aurais voulu que vous m’eussiez entendue.</p>
-            <pb n="156" xml:id="p156"/>
+            <pb n="156" xml:id="p156" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f174.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à Anna. </stage></speaker>
@@ -4249,7 +4246,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Anna ! <stage>(À Caroline.)</stage> Il n’y a rien de certain, que les facultés. Ce que Dieu nous donne, la pensée, a jusqu’à présent échappé aux caprices des systèmes. Si les fortunes sont mobiles, les capacités sont fixes.</p>
-            <pb n="157" xml:id="p157"/>
+            <pb n="157" xml:id="p157" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f175.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -4277,7 +4274,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
-            <p>Encore faut-il pouvoir aimer le père de ses enfants, et <pb n="158" xml:id="p158"/>il me semble que vous devez connaître les inconvénients du mariage quand l’amour y manque.</p>
+            <p>Encore faut-il pouvoir aimer le père de ses enfants, et <pb n="158" xml:id="p158" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f176.highres"/>il me semble que vous devez connaître les inconvénients du mariage quand l’amour y manque.</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4310,7 +4307,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Mon Père !</p>
-            <pb n="159" xml:id="p159"/>
+            <pb n="159" xml:id="p159" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f177.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4347,7 +4344,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Encore dois-je le connaître.</p>
-            <pb n="160" xml:id="p160"/>
+            <pb n="160" xml:id="p160" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f178.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -4364,7 +4361,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Le meilleur des romanciers est encore un homme à pendre ! Voilà votre éducation moderne. En supprimant les couvents, on a supprimé l’innocence de l’âme. Si vous empêchez le roman d’arriver chez vous, vous le trouvez sur les boulevards en y promenant vos filles. Elles voient des femmes, créations du génie, déifiées, celle-ci pour avoir tué un prétendu qu’elle n’aimait pas, celle-là pour être morte avec Roméo, dona Julia pour avoir tenu tête à son mari… Ne croyez pas que ce soit le bien de ces belles compositions qui frappe, mais les vives couleurs du mal. Aussi, avons-nous des filles, qui, dès seize ans, font de l’opposition au sein de leur famille.</p>
-            <pb n="161" xml:id="p161"/>
+            <pb n="161" xml:id="p161" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f179.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -4385,7 +4382,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Elle nous a trompés ! <stage>(Adrienne et Anna sortent.)</stage></p></sp>
-            <pb n="162" xml:id="p162"/>
+            <pb n="162" xml:id="p162" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f180.highres"/>
         </div>
         <div type="scene">
             <head>Scène IX</head>
@@ -4417,7 +4414,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="caroline">
             <speaker>Caroline</speaker>
-            <p>Mon Père, avant de vous le dire, je veux savoir si vous <pb n="163" xml:id="p163"/>me permettrez de me marier selon mon inclination, en cas où mon choix serait convenable.</p>
+            <p>Mon Père, avant de vous le dire, je veux savoir si vous <pb n="163" xml:id="p163" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f181.highres"/>me permettrez de me marier selon mon inclination, en cas où mon choix serait convenable.</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -4450,7 +4447,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Mon commis ?</p>
-            <pb n="164" xml:id="p164"/>
+            <pb n="164" xml:id="p164" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f182.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -4483,7 +4480,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Dites à monsieur Hippolyte de venir me parler.</p></sp>
-            <pb n="165" xml:id="p165"/>
+            <pb n="165" xml:id="p165" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f183.highres"/>
         </div>
         <div type="scene">
             <head>Scène X</head>
@@ -4515,7 +4512,7 @@ CROCHETS-->[jamais] une occasion d’humilier mes espérances…</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Je vous dirai peu de choses. Mais d’abord, si nous devons vivre étrangers l’un à l’autre, pourquoi ne m’ac-<pb n="106" xml:id="p106"/>cordez-vous pas les égards que vous auriez pour une étrangère ?</p>
+            <p>Je vous dirai peu de choses. Mais d’abord, si nous devons vivre étrangers l’un à l’autre, pourquoi ne m’accordez-vous <pb n="166" xml:id="p166" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f184.highres"/>pas les égards que vous auriez pour une étrangère ?</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4540,7 +4537,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Faut-il que je l’honore ? Eh ! Monsieur, si vous avez les vices d’un gentilhomme, ayez donc aussi leur sentiment des convenances, leur dignité. Vous ne ménagez rien. Une femme peut consentir à être abandonnée et ne veut <pb n="167" xml:id="p167"/>pas en avoir l’air. Je dis cette fille, et j’ai raison : elle vous trompe…</p>
+            <p>Faut-il que je l’honore ? Eh ! Monsieur, si vous avez les vices d’un gentilhomme, ayez donc aussi leur sentiment des convenances, leur dignité. Vous ne ménagez rien. Une femme peut consentir à être abandonnée et ne veut <pb n="167" xml:id="p167" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f185.highres"/>pas en avoir l’air. Je dis cette fille, et j’ai raison : elle vous trompe…</p>
           </sp>
           <sp who="gerard">
             <speaker> Gérard</speaker>
@@ -4564,7 +4561,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
-            <p>Vous allez livrer votre famille à ces gens-là ! Oh ! ne me comptez pour rien, mon sacrifice à moi est accompli. Croyez-moi donc bien en dehors de tout ceci. Mais avant de marier votre fille, de lui donner une belle-sœur entrée ici en servante, et d’ouvrir à vos protégés une brèche <pb n="168" xml:id="p168"/>par où ils se précipiteront sur notre fortune, éprouvez-les ? Proposez vous-même à mademoiselle Adrienne un mariage sortable…</p>
+            <p>Vous allez livrer votre famille à ces gens-là ! Oh ! ne me comptez pour rien, mon sacrifice à moi est accompli. Croyez-moi donc bien en dehors de tout ceci. Mais avant de marier votre fille, de lui donner une belle-sœur entrée ici en servante, et d’ouvrir à vos protégés une brèche <pb n="168" xml:id="p168" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f186.highres"/>par où ils se précipiteront sur notre fortune, éprouvez-les ? Proposez vous-même à mademoiselle Adrienne un mariage sortable…</p>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4589,7 +4586,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Votre terreur me donne raison !</p>
-            <pb n="169" xml:id="p169"/>
+            <pb n="169" xml:id="p169" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f187.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4618,7 +4615,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Eh bien ! j’y consens… Il faut en finir avec vos tracasseries ou avec elle…</p>
-            <pb n="170" xml:id="p170"/>
+            <pb n="170" xml:id="p170" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f188.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -4647,7 +4644,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Eh bien ! Monsieur, n’est-ce pas un bonheur que j’aie été là quand monsieur Hippolyte vous a parlé des mousselines de la Maison Copin ? Elle dépose…</p>
-            <pb n="171" xml:id="p171"/>
+            <pb n="171" xml:id="p171" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f189.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -4676,7 +4673,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Mais si je te le demande ?</p>
-            <pb n="172" xml:id="p172"/>
+            <pb n="172" xml:id="p172" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f190.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -4709,7 +4706,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Vous avez raison ; à votre âge, moi !… Mais un homme doit se choisir une femme et non se laisser choisir par elle. Vous devez penser à faire une fortune, et je veux vous mettre à même ; vous pouvez me donner une preuve de dévouement.</p>
-            <pb n="17 3"/>
+            <pb n="173" xml:id="p173" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f191.highres"/>
             <p>Hippolyte</p>
             <p>De quoi s’agit-il ?</p>
             <p>Gérard</p>
@@ -4739,7 +4736,7 @@ En italique dans le manuscrit--><hi rend="i">cette fille</hi> qui la déshonore�
             <speaker>Anna</speaker>
             <p>Mon Père, vous chargez votre compte.</p></sp>
             <stage>(Hippolyte sort, après avoir baisé furtivement la main à Caroline.)</stage>
-            <pb n="174" xml:id="p174"/>
+            <pb n="174" xml:id="p174" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f192.highres"/>
         </div>
         <div type="scene">
             <head>Scène XIII</head>
@@ -4766,7 +4763,7 @@ Crochets encore--><stage> [à part].</stage></speaker>
           <sp who="louisguerin">
             <speaker>Louis Guérin</speaker>
             <p>Il serait injuste de demander l’exécution franche d’un contrat imposé; d’ailleurs, laissez-moi ne tenir mademoiselle que d’elle-même, cl me soumettre à ses décisions.</p>
-            <pb n="175" xml:id="p175"/>
+            <pb n="175" xml:id="p175" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f193.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna<!-- Auteur inconnu : 2021-05-21T16:23:11.650000000
@@ -4800,7 +4797,7 @@ crocheeeeets--><stage>, [à par</stage><stage>t</stage><stage>]. </stage></speak
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>Je ne suis pas plus maîtresse de choisir mes moments que mes gendres.</p></sp>
-            <pb n="176" xml:id="p176"/>
+            <pb n="176" xml:id="p176" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f194.highres"/>
         </div>
         <div type="scene">
             <head>Scène XIV</head>
@@ -4825,7 +4822,7 @@ crocheeeeets--><stage>, [à par</stage><stage>t</stage><stage>]. </stage></speak
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Est-ce que tu es en état de juger le mariage ?</p>
-            <pb n="177" xml:id="p177"/>
+            <pb n="177" xml:id="p177" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f195.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -4854,23 +4851,21 @@ Capitaine crochets--><stage>[(À Louis Guérin.)] </stage>Venez dans mon cabinet
           </sp>
           <sp who="anna">
             <speaker>Anna<stage>, seule. </stage></speaker>
-            <p>Les Guérin triomphent ! Ils ont pour eux le gouvernement et la gendarmerie paternelle ; l’opposition a, <pb n="178" xml:id="p178"/>comme on dit, l’estime du pays ; le sacrifice de mademoiselle Anna est rejeté à l’unanimité! C’était beau de ma part, moi qui ne sais pas comment on peut aimer un homme. Je les trouve tous laids, de gros favoris noirs, des barbes dures, des teints à faire peur ! Quand ils sont jolis, ils nous ressemblent, et ils n’ont alors ni esprit, ni capacité… Vraiment, le monde est à refaire ; si je me marie, je ne veux que des garçons, afin de ne pas avoir l’ennui des gendres. Que va devenir ma sœur ? elle est capable… oh, non !</p>
+            <p>Les Guérin triomphent ! Ils ont pour eux le gouvernement et la gendarmerie paternelle ; l’opposition a, <pb n="178" xml:id="p178" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f196.highres"/>comme on dit, l’estime du pays ; le sacrifice de mademoiselle Anna est rejeté à l’unanimité! C’était beau de ma part, moi qui ne sais pas comment on peut aimer un homme. Je les trouve tous laids, de gros favoris noirs, des barbes dures, des teints à faire peur ! Quand ils sont jolis, ils nous ressemblent, et ils n’ont alors ni esprit, ni capacité… Vraiment, le monde est à refaire ; si je me marie, je ne veux que des garçons, afin de ne pas avoir l’ennui des gendres. Que va devenir ma sœur ? elle est capable… oh, non !</p>
           </sp>
-            <figure xml:id="fig">
-<graphic url=""/>
-</figure>
-            <pb n="179" xml:id="p179"/>
+            
+            <pb n="179" xml:id="p179" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f197.highres"/>
             </div>
             </div>
-      <figure xml:id="fig7_edm">
+     <!-- <figure xml:id="fig7_edm">
         <graphic url="/figures_edm/fig7_edm"/>
-      </figure>
+      </figure>-->
             <div type="act">
             <head>Acte quatrième</head>
-            <pb n="180" xml:id="p180"/>
-            <pb n="181" xml:id="p181"/>
+            <pb n="180" xml:id="p180" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f198.highres"/>
+            <pb n="181" xml:id="p181" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f199.highres"/>
             <figure xml:id="fig8_edm">
-              <graphic url="/figures_edm/fig8_edm"/>
+              <graphic url="https://ebalzac.com/romans/ecole-des-menages/carteret-1907/illustrations/fig8_edm.jpg"/>
 </figure>
         <div type="scene">
             <head>Scène I</head>
@@ -4891,7 +4886,7 @@ lettrine-->Monsieur m’a envoyé chercher une calèche de voyage chez son selli
           <sp who="francois">
             <speaker>François</speaker>
             <p>Monsieur ne m’a rien dit pour ses paquets…</p>
-            <pb n="182" xml:id="p182"/>
+            <pb n="182" xml:id="p182" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f200.highres"/>
           </sp>
           <sp who="justine">
             <speaker>Justine</speaker>
@@ -4913,7 +4908,7 @@ Capitaine crochets--><stage>[(il sort.)] </stage></p>
           <sp who="justine">
             <speaker>Justine<stage>, seule. </stage></speaker>
             <p>Il se passe quelque chose de bien extraordinaire. Mademoiselle Caroline pleure comme une Madeleine ; elle écrit. Elle écrit peut-être à monsieur Hippolyte, qui fait ses paquets et s’en va demain. <stage>(François rentre.)</stage> Hé bien, quel air a-t-il ?</p>
-            <pb n="183" xml:id="p183"/>
+            <pb n="183" xml:id="p183" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f201.highres"/>
           </sp>
           <sp who="francois">
             <speaker>François</speaker>
@@ -4941,7 +4936,7 @@ Capitaine crochets--><stage>[(il sort.)] </stage></p>
           </sp>
           <sp who="francois">
             <speaker>François</speaker>
-            <p>Les maîtres veulent nous cacher leurs affaires, et ils <pb n="184" xml:id="p184"/>ne peuvent rien faire sans nous. Après le dîner, qui a été gai comme un enterrement, car monsieur Duval avait beau dire ses bêtises, mademoiselle Anna ne les écoutait pas et ne les faisait pas remarquer, monsieur Hippolyte n’a pas dîné à la maison, et mademoiselle Caroline avait les yeux rouges.</p>
+            <p>Les maîtres veulent nous cacher leurs affaires, et ils <pb n="184" xml:id="p184" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f202.highres"/>ne peuvent rien faire sans nous. Après le dîner, qui a été gai comme un enterrement, car monsieur Duval avait beau dire ses bêtises, mademoiselle Anna ne les écoutait pas et ne les faisait pas remarquer, monsieur Hippolyte n’a pas dîné à la maison, et mademoiselle Caroline avait les yeux rouges.</p>
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -4962,7 +4957,7 @@ Capitaine crochets--><stage>[(il sort.)] </stage></p>
           <sp who="francois">
             <speaker>François</speaker>
             <p>Il se soucie bien du Magasin ! Fallait l’entendre ce matin jurer dans l’escalier après monsieur Hippolyte, qui lui avait parlé de mousselines ! Le voici !</p>
-            <pb n="185" xml:id="p185"/>
+            <pb n="185" xml:id="p185" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f203.highres"/>
           </sp>
           <sp who="victoire">
             <speaker>Victoire</speaker>
@@ -4978,8 +4973,8 @@ Capitaine crochets--><stage>[(il sort.)] </stage></p>
           <sp who="gerard">
             <speaker><!-- Auteur inconnu : 2021-05-25T15:37:33.970000000
 Style stage ou speaker ? + parenhèses-->Gérard<stage>. (Il regarde Justine qui rentre dans l’appartement, Victoire et François dans l’antichambre.) </stage></speaker>
-            <p>Je suis sûr que maintenant ils causent tous de mon prétendu désastre, et que, dans la loge de mon portier, il va se tenir un conciliabule où l’on discutera sur mes affaires, sur mon luxe et sur Adrienne. Ah ! le sort de ma vie se joue en ce moment ! Résistera-t-elle à Roblot, lui parlant en mon nom ! Comme ma vie toute entière est venue aboutira ce moment solennel ! Suis-je donc un homme privilégié ? Y a-t-il beaucoup d’hommes qui aient été traités comme moi par la destinée ? Je suis né avec un foyer de sentiments qui ne pouvaient être assouvis que par de grandes choses… À dix-huit ans, je suis allé me battre à la frontière ; la République, ma première passion, a succombé. Napoléon est venu, j’ai voulu le servir ; il haïssait les fournisseurs, j’étais probe, il m’a <pb n="186" xml:id="p186"/>presque ruiné ! J’avais trente-huit ans, je n’avais jamais pu rencontrer de femme qui m’aimât véritablement, comme nous voulons tous être aimés ; je n’étais plus jeune ; fatigué de déceptions, las de désenchantements, je me suis marié pour être père, pour être aimé par des enfants. Mais à quarante-huit ans j’avais encore et j’ai toujours le cœur d’un jeune homme. Une femme n’est pas une maîtresse ; c’est une mère avec ses droits et ses dignités. Enfin, je me domptai par les affaires. Les affaires ne m’ont donné que de l’or… À la porte de l’enfer terrestre des gens passionnés, et qui s’appelle la vieillesse, a surgi cette jeune fille ; elle a été aimée de tout l’amour perdu pendant trente ans. Candeur, noblesse, beauté, dévouement, toutes les délices de la vie, toutes les fleurs de l’amour, elle a tout offert à mes yeux altérés, elle a rafraîchi mon âme qui se desséchait, la vie s’est réveillée, j’ai ressenti cette soif de bonheur qui nous poursuit tous ! Dans la jeunesse, nous aimons avec notre force qui va diminuant ; mais, à mon âge, on aime avec la faiblesse qui va croissant ; aussi la vie me paraît-elle impossible sans elle. Et quelle journée !… Ils sont tous contre elle, ils veulent l’éprouver Oh ! lâches ! Et toi aussi ! Mais si elle triomphe, ils sont perdus ; et si elle succombe, je deviendrai… fou peut-être. À cette idée, ma tête… Ah ! j’entends Roblot.</p></sp>
-            <pb n="187" xml:id="p187"/>
+            <p>Je suis sûr que maintenant ils causent tous de mon prétendu désastre, et que, dans la loge de mon portier, il va se tenir un conciliabule où l’on discutera sur mes affaires, sur mon luxe et sur Adrienne. Ah ! le sort de ma vie se joue en ce moment ! Résistera-t-elle à Roblot, lui parlant en mon nom ! Comme ma vie toute entière est venue aboutira ce moment solennel ! Suis-je donc un homme privilégié ? Y a-t-il beaucoup d’hommes qui aient été traités comme moi par la destinée ? Je suis né avec un foyer de sentiments qui ne pouvaient être assouvis que par de grandes choses… À dix-huit ans, je suis allé me battre à la frontière ; la République, ma première passion, a succombé. Napoléon est venu, j’ai voulu le servir ; il haïssait les fournisseurs, j’étais probe, il m’a <pb n="186" xml:id="p186" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f204.highres"/>presque ruiné ! J’avais trente-huit ans, je n’avais jamais pu rencontrer de femme qui m’aimât véritablement, comme nous voulons tous être aimés ; je n’étais plus jeune ; fatigué de déceptions, las de désenchantements, je me suis marié pour être père, pour être aimé par des enfants. Mais à quarante-huit ans j’avais encore et j’ai toujours le cœur d’un jeune homme. Une femme n’est pas une maîtresse ; c’est une mère avec ses droits et ses dignités. Enfin, je me domptai par les affaires. Les affaires ne m’ont donné que de l’or… À la porte de l’enfer terrestre des gens passionnés, et qui s’appelle la vieillesse, a surgi cette jeune fille ; elle a été aimée de tout l’amour perdu pendant trente ans. Candeur, noblesse, beauté, dévouement, toutes les délices de la vie, toutes les fleurs de l’amour, elle a tout offert à mes yeux altérés, elle a rafraîchi mon âme qui se desséchait, la vie s’est réveillée, j’ai ressenti cette soif de bonheur qui nous poursuit tous ! Dans la jeunesse, nous aimons avec notre force qui va diminuant ; mais, à mon âge, on aime avec la faiblesse qui va croissant ; aussi la vie me paraît-elle impossible sans elle. Et quelle journée !… Ils sont tous contre elle, ils veulent l’éprouver Oh ! lâches ! Et toi aussi ! Mais si elle triomphe, ils sont perdus ; et si elle succombe, je deviendrai… fou peut-être. À cette idée, ma tête… Ah ! j’entends Roblot.</p></sp>
+            <pb n="187" xml:id="p187" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f205.highres"/>
         </div>
         <div type="scene">
             <head>Scène III</head>
@@ -5016,7 +5011,7 @@ Style stage ou speaker ? + parenhèses-->Gérard<stage>. (Il regarde Justine qu
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Monsieur, voulez-vous permettre à un homme positif et matériel de vous donner un conseil dans cette affaire ?</p>
-            <pb n="188" xml:id="p188"/>
+            <pb n="188" xml:id="p188" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f206.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5041,7 +5036,7 @@ Style stage ou speaker ? + parenhèses-->Gérard<stage>. (Il regarde Justine qu
           <sp who="roblot">
             <speaker>Roblot</speaker>
             <p>Vous avez commandé une voiture, des chevaux, enlevez-la. Je viens de l’éprouver, son amour comporte tant de force contre votre prospérité, tant de faiblesse contre votre infortune, que votre prétendue faillite la décidera peut-être à vous suivre. Aimez-vous en Italie, en Angleterre, en Suisse, là tant que vous voudrez… On tue l’amour par ce qui fait durer l’avarice, la possession. Pendant ce temps-là, Hippolyte et moi, nous tâcherons de bien conduire les affaires. Vous nous reviendrez guéri, tandis que si vous restez ici, je crains des malheurs.</p>
-            <pb n="189" xml:id="p189"/>
+            <pb n="189" xml:id="p189" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f207.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5068,7 +5063,7 @@ crochets--> [(il sort.)]</p>  </sp>
             <speaker>Adrienne</speaker>
             <p>Qu’avez-vous dit ? <!-- Auteur inconnu : 2021-05-24T15:08:17.651000000
 craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétude est au comble ; je sais maintenant que monsieur a commandé pour minuit une voiture, que l’on doit lui apporter une procuration à signer. Soyez franc…</p>
-            <pb n="190" xml:id="p190"/>
+            <pb n="190" xml:id="p190" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f208.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -5100,7 +5095,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
-            <p>Monsieur, quelle insulte à mon cœur dans cette générosité ! Les hommes sont toujours hommes… Ils n’au-<pb n="191" xml:id="p191"/>ront jamais notre délicatesse ! Quand une femme aime un bandit, elle va dans les cavernes ! Il est pauvre, je ne dois rien avoir. Ah ! Monsieur Roblot, son infortune me perd, car je sais comment le rendre riche en un moment !</p>
+            <p>Monsieur, quelle insulte à mon cœur dans cette générosité ! Les hommes sont toujours hommes… Ils n’au-<pb n="191" xml:id="p191" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f209.highres"/>ront jamais notre délicatesse ! Quand une femme aime un bandit, elle va dans les cavernes ! Il est pauvre, je ne dois rien avoir. Ah ! Monsieur Roblot, son infortune me perd, car je sais comment le rendre riche en un moment !</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -5133,7 +5128,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Ah ! peut-être lui donnerai-je le courage de recouvrer l’honneur.</p> </sp>
-            <pb n="192" xml:id="p192"/>
+            <pb n="192" xml:id="p192" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f210.highres"/>
         </div>
         <div type="scene">
             <head>Scène V</head>
@@ -5162,7 +5157,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>À une condition…</p>
-            <pb n="193" xml:id="p193"/>
+            <pb n="193" xml:id="p193" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f211.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -5199,7 +5194,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
             <p>À elle....</p>
-            <pb n="194" xml:id="p194"/>
+            <pb n="194" xml:id="p194" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f212.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5232,7 +5227,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Vous êtes intéressée, riche de nos dépouilles… Vous êtes au-dessous de la vengeance.</p>
-            <pb n="195" xml:id="p195"/>
+            <pb n="195" xml:id="p195" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f213.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard<stage>, à sa femme et à sa fille. </stage></speaker>
@@ -5253,7 +5248,7 @@ craushé-->[Vous parlez d’] une catastrophe ? Monsieur Roblot, mon inquiétud
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p><!-- Auteur inconnu : 2021-05-25T15:12:25.347000000
-Mise en page ?-->Écoutez, Mesdames, ce sera ma seule vengeance : « Monsieur, Je veux sortir de votre Maison comme j’y suis entrée : pauvre et pure. Vous trouverez dans cette lettre un bon sur la Banque de toutes les sommes que j’ai reçues, moins mes appointements primitifs que je crois avoir gagnés ; aucun soupçon ne pourra dès lors <pb n="196" xml:id="p196"/>m’atteindre, et je cultiverai le souvenir de vos bontés sans les entacher par des pensées d’intérêt. D’ailleurs, ne suis-je pas richement récompensée en mon frère, que vous avez soutenu dans sa carrière, et qui maintenant est en état de me servir de protecteur ; nous vous serons toujours redevables de sa fortune, et il aura pour vous-même l’orgueil de la faire haute et noble.  » Voilà celle que vous accusiez d’être une intrigante, un Tartufe femelle ! <!-- Auteur inconnu : 2021-05-25T16:21:45.692000000
+Mise en page ?-->Écoutez, Mesdames, ce sera ma seule vengeance : « Monsieur, Je veux sortir de votre Maison comme j’y suis entrée : pauvre et pure. Vous trouverez dans cette lettre un bon sur la Banque de toutes les sommes que j’ai reçues, moins mes appointements primitifs que je crois avoir gagnés ; aucun soupçon ne pourra dès lors <pb n="196" xml:id="p196" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f214.highres"/>m’atteindre, et je cultiverai le souvenir de vos bontés sans les entacher par des pensées d’intérêt. D’ailleurs, ne suis-je pas richement récompensée en mon frère, que vous avez soutenu dans sa carrière, et qui maintenant est en état de me servir de protecteur ; nous vous serons toujours redevables de sa fortune, et il aura pour vous-même l’orgueil de la faire haute et noble.  » Voilà celle que vous accusiez d’être une intrigante, un Tartufe femelle ! <!-- Auteur inconnu : 2021-05-25T16:21:45.692000000
 Répondre à Auteur inconnu (25/05/2021, 15:12): "..."
 Élimine les guillemets sauf le premier et le dernier--></p>
           </sp>
@@ -5277,7 +5272,7 @@ Répondre à Auteur inconnu (25/05/2021, 15:12): "..."
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>J’étais soupçonnée de… Oh !</p>
-            <pb n="197" xml:id="p197"/>
+            <pb n="197" xml:id="p197" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f215.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5315,7 +5310,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           <sp who="caroline">
             <speaker>Caroline</speaker>
             <p>Aussi m’a-t-il baisé la main en y laissant une larme, ici, devant vous…</p>
-            <pb n="1 9 8"/>
+            <pb n="198" xml:id="p198" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f216.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5344,7 +5339,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           <sp who="gerard">
             <speaker>Gérard<stage>, à sa femme. </stage></speaker>
             <p>Emmenez votre fille, cela se calmera. <stage>(Madame Gérard rentre chez elle en soutenant Caroline. Victoire entre par la porte du fond en apportant le potage de mademoiselle Adrienne, et se rencontre avec Anna. Anna regarde le potage.)</stage></p>
-            <pb n="199" xml:id="p199"/>
+            <pb n="199" xml:id="p199" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f217.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -5373,7 +5368,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Un homme qui aime est-il jamais descendu à de pareils soupçons ! Ah ! que vous m’imaginiez infidèle, un tel soupçon est une preuve d’amour ; j’en étais heureuse</p>
-            <pb n="200" xml:id="p200"/>
+            <pb n="200" xml:id="p200" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f218.highres"/>
             <p>ce matin ! Mais soupçonner ma probité, ma vertu, c’est m’ensevelir vivante dans le mépris. Vous avez espionné, non pas mon cœur, mais mon caractère, et vous avez employé tout un monde de ruses, d’apprêts, trompé toute votre Maison, fait agir Roblot, tout cela pour savoir si j’aimais… Quoi ? l’argent ! Monsieur, je puis rester chez vous, j’y suis en sûreté…</p>
           </sp>
           <sp who="gerard">
@@ -5395,7 +5390,7 @@ parenthèses--><stage> (</stage><stage>Il</stage><stage> s’avance avec sa fill
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Adrienne, il y a des lâchetés qui prouvent bien de l’amour.</p>
-            <pb n="201" xml:id="p201"/>
+            <pb n="201" xml:id="p201" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f219.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -5413,7 +5408,7 @@ O aussi dans le manuscrit-->O vieillir ! c’est douter de tout.</p>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Oh ! tu m’aimes encore, n’est-ce pas ? Tu veux bien que je vive…</p>
-            <pb n="202" xml:id="p202"/>
+            <pb n="202" xml:id="p202" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f220.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -5439,7 +5434,7 @@ Pas de ponc dans le manuscrit wtfff-->our Écoutez, à minuit, il vient une voit
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ma vieillesse, n’est-ce pas ? Eh bien, non ! Un jour de</p>
-            <pb n="203" xml:id="p203"/>
+            <pb n="203" xml:id="p203" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f221.highres"/>
             <p>bonheur à mon âge est toute une vie… Je n’ai jamais été aimé, je veux… Oh ! tu céderas.</p>
           </sp>
           <sp who="adrienne">
@@ -5473,7 +5468,7 @@ Pas de ponc dans le manuscrit wtfff-->our Écoutez, à minuit, il vient une voit
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Cette idée seule me donne un frisson de folie !…</p>
-            <pb n="204" xml:id="p204"/>
+            <pb n="204" xml:id="p204" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f222.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -5501,7 +5496,7 @@ Pas de ponc dans le manuscrit wtfff-->our Écoutez, à minuit, il vient une voit
           <sp who="gerard">
             <speaker>Gérard<stage>, seul. </stage></speaker>
             <p>Quel ange ! Tant qu’elle est là, sa vertu me domine ; une fois seul, j’éprouve, comme Satan, le désir d’attirer cette âme divine dans ma fange, pour me l’approprier à jamais… Je me sens capable de la faire tomber dans quelque piège… Elle y viendra.</p></sp>
-            <pb n="205" xml:id="p205"/>
+            <pb n="205" xml:id="p205" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f223.highres"/>
         </div>
         <div type="scene">
             <head>Scène VIII</head>
@@ -5539,7 +5534,7 @@ kraushé--><stage>[à part.] </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Eh bien ! Cours lui dire que tu renonces à faire de Louis Guérin ton gendre.</p>
-            <pb n="206" xml:id="p206"/>
+            <pb n="206" xml:id="p206" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f224.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5564,7 +5559,7 @@ kraushé--><stage>[à part.] </stage></speaker>
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Ah ! mon Frère <stage>(Il l’embrasse.)</stage></p></sp>
-            <pb n="207" xml:id="p207"/>
+            <pb n="207" xml:id="p207" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f225.highres"/>
         </div>
         <div type="scene">
             <head>Scène IX</head>
@@ -5597,7 +5592,7 @@ kraushé--><stage>[à part.] </stage></speaker>
           <sp who="victoire">
             <speaker>Victoire</speaker>
             <p>Qui a pu faire un pareil coup ?</p>
-            <pb n="208" xml:id="p208"/>
+            <pb n="208" xml:id="p208" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f226.highres"/>
           </sp>
           <sp who="duval">
             <speaker>Duval<stage>, à Roblot. </stage></speaker>
@@ -5627,7 +5622,7 @@ Khraushaient--><stage>[qui] </stage><stage>traîne Caroline. </stage></speaker>
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>Te tairas-tu ! Viens…</p></sp>
-            <pb n="209" xml:id="p209"/>
+            <pb n="209" xml:id="p209" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f227.highres"/>
         </div>
         <div type="scene">
             <head>Scène XI</head>
@@ -5660,7 +5655,7 @@ Stage ou speaker ? + parenthèses-->
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Monsieur, ne les…</p>
-            <pb n="2 10"/>
+            <pb n="210" xml:id="p210" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f228.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5693,7 +5688,7 @@ Stage ou speaker ? + parenthèses-->
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Je suis comme si je n’avais pas de tête… Anna, l’innocence même ! Caroline, une pauvre…</p>
-            <pb n="’211’" xml:id="p211"/>
+            <pb n="211" xml:id="p211" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f229.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5729,7 +5724,7 @@ Stage ou speaker ? + parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Que personne ne monte dans mes appartements ; allez <pb n="212" xml:id="p212"/>fermer la porte du petit escalier de madame et apportez- m’en la clef…</p>
+            <p>Que personne ne monte dans mes appartements ; allez <pb n="212" xml:id="p212" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f230.highres"/>fermer la porte du petit escalier de madame et apportez- m’en la clef…</p>
           </sp>
           <sp who="francois">
             <speaker>François</speaker>
@@ -5760,7 +5755,7 @@ parenthèses-->
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Je vais…</p>
-            <pb n="213" xml:id="p213"/>
+            <pb n="213" xml:id="p213" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f231.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5782,7 +5777,7 @@ parenthèses-->
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Vous m’avez interrompu…</p>
-            <pb n="214" xml:id="p214"/>
+            <pb n="214" xml:id="p214" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f232.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna</speaker>
@@ -5815,7 +5810,7 @@ parenthèses-->
           <sp who="anna">
             <speaker>Anna </speaker>
             <p>J’y ai bien pensé, Monsieur ; mais toute autre chose aurait pu manquer.</p>
-            <pb n="215" xml:id="p215"/>
+            <pb n="215" xml:id="p215" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f233.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard </speaker>
@@ -5848,7 +5843,7 @@ parenthèses-->
           <sp who="gerard">
             <speaker>Gérard </speaker>
             <p>Et le remords ?</p>
-            <pb n="216" xml:id="p216"/>
+            <pb n="216" xml:id="p216" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f234.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna </speaker>
@@ -5881,7 +5876,7 @@ parenthèses-->
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Mademoiselle, votre père est trop cruel.</p>
-            <pb n="217" xml:id="p217"/>
+            <pb n="217" xml:id="p217" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f235.highres"/>
           </sp>
           <sp who="anna">
             <speaker>Anna </speaker>
@@ -5913,7 +5908,7 @@ parenthèses-->
           </sp>
           <sp who="gerard">
             <speaker>Gérard </speaker>
-            <p>Folle ! non ; à vingt ans je me suis senti ce qu’elle est. C’est une grande et belle chose qu’on dit en disant de la <pb n="218" xml:id="p218"/>jeunesse : elle voit tout en beau. Oui, elle a en elle un sentiment du beau absolu, qui lui défend les transactions de conscience ; ses fautes sont souvent un excès de vertu, tandis que nos vertus ne sont que du raisonnement. <stage>(il prend Anna sur lui.)</stage> Pauvre petite, tu as bien souffert pour en venir là, mais tu souffriras bien davantage un jour ; bourreau de ton père, tu as cru sauver ta famille, et tu l’as dispersée ! <stage>(il sonne.)</stage> Vous n’avez plus de père, mes Filles ! Vous allez recouvrer votre liberté, Madame… <stage>(François entre.)</stage> Dites à Roblot de monter, je révoque mes ordres !… Vous avez mis au jour la passion de votre père !… Elle est aussi violente, ma Fille, que votre haine est implacable. Madame, je vous laisse toute ma fortune, et n’en veux rien. Mademoiselle Adrienne, j’accepte la vôtre… <stage>(Roblot, suivi d’un homme en noir, se montre.)</stage> Eh quoi ! aurait-on commis une indiscrétion ?</p>
+            <p>Folle ! non ; à vingt ans je me suis senti ce qu’elle est. C’est une grande et belle chose qu’on dit en disant de la <pb n="218" xml:id="p218" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f236.highres"/>jeunesse : elle voit tout en beau. Oui, elle a en elle un sentiment du beau absolu, qui lui défend les transactions de conscience ; ses fautes sont souvent un excès de vertu, tandis que nos vertus ne sont que du raisonnement. <stage>(il prend Anna sur lui.)</stage> Pauvre petite, tu as bien souffert pour en venir là, mais tu souffriras bien davantage un jour ; bourreau de ton père, tu as cru sauver ta famille, et tu l’as dispersée ! <stage>(il sonne.)</stage> Vous n’avez plus de père, mes Filles ! Vous allez recouvrer votre liberté, Madame… <stage>(François entre.)</stage> Dites à Roblot de monter, je révoque mes ordres !… Vous avez mis au jour la passion de votre père !… Elle est aussi violente, ma Fille, que votre haine est implacable. Madame, je vous laisse toute ma fortune, et n’en veux rien. Mademoiselle Adrienne, j’accepte la vôtre… <stage>(Roblot, suivi d’un homme en noir, se montre.)</stage> Eh quoi ! aurait-on commis une indiscrétion ?</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -5926,7 +5921,7 @@ parenthèses-->
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Que faites-vous, Monsieur ?…</p>
-            <pb n="219" xml:id="p219"/>
+            <pb n="219" xml:id="p219" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f237.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -5961,7 +5956,7 @@ parenthèses-->
           <sp who="gerard">
             <speaker>Gérard </speaker>
             <p>Non, vous avez tué le père en moi.</p>
-            <pb n="220" xml:id="p220"/>
+            <pb n="220" xml:id="p220" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f238.highres"/>
           </sp>
               <sp who="anna francois madamegerard roblot duval caroline justine">
             <speaker>Tous<stage>, à Adrienne. </stage></speaker>
@@ -5978,23 +5973,23 @@ parenthèses-->
             <stage>
              (La toile tombe.)
             </stage>
-            <figure xml:id="fig">
+            <!--<figure xml:id="fig">
 <graphic url=""/>
-</figure>
-            <pb n="221" xml:id="p221"/>
+</figure>-->
+            <pb n="221" xml:id="p221" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f239.highres"/>
             </div>
             </div>
-      <figure xml:id="fig9_edm">
+      <!--<figure xml:id="fig9_edm">
         <graphic url="/figures_edm/fig9_edm"/>
-      </figure>
+      </figure>-->
             <div type="act">
             
               <head>Acte cinquième</head>
             
-            <pb n="222" xml:id="p222"/>
-            <pb n="223" xml:id="p223"/>
+            <pb n="222" xml:id="p222" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f240.highres"/>
+            <pb n="223" xml:id="p223" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f241.highres"/>
               <figure xml:id="fig10_edm">
-                <graphic url="/figures_edm/fig10_edm"/>
+                <graphic url="https://ebalzac.com/romans/ecole-des-menages/carteret-1907/illustrations/fig10_edm.jpg"/>
               </figure>
         <div type="scene">
             <head>Scène I</head>
@@ -6010,7 +6005,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           <sp who="francois">
             <speaker>François</speaker>
             <p>Monsieur, voici le juge et son greffier, ainsi que monsieur le docteur…</p>
-            <pb n="224" xml:id="p224"/>
+            <pb n="224" xml:id="p224" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f242.highres"/>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -6038,7 +6033,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="lejuge">
             <speaker>Le juge<stage>, à son greffier. </stage></speaker>
-            <p>Mettez-vous à cette table, et commencez le protocole <pb n="225" xml:id="p225"/>de l’enquête… <stage>(Au médecin.) </stage>Dans ce cas, le devoir de la justice est d’apporter la plus grande rigueur à l’interrogatoire d’un père de famille, car vous concevez combien il serait facile de l’abuser. <stage>(</stage><stage>À Roblot</stage><stage>.)</stage> Vous êtes ?</p>
+            <p>Mettez-vous à cette table, et commencez le protocole <pb n="225" xml:id="p225" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f243.highres"/>de l’enquête… <stage>(Au médecin.) </stage>Dans ce cas, le devoir de la justice est d’apporter la plus grande rigueur à l’interrogatoire d’un père de famille, car vous concevez combien il serait facile de l’abuser. <stage>(</stage><stage>À Roblot</stage><stage>.)</stage> Vous êtes ?</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -6058,7 +6053,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Jamais père de famille n’a eu le coup d’œil plus juste. Les débats qui lui ont fait tant de mal eurent lieu à propos du mariage de sa fille aînée ; elle avait une amourette pour un commis de la maison, petit sot, qui depuis a justifié l’opinion qu’avait de lui notre malheureux patron : il s’est amouraché d’une modiste et l’a <pb n="226" xml:id="p226"/>épousée. Aujourd’hui, la famille est forcée de procéder régulièrement à l’interdiction de monsieur Gérard, à cause du mariage de sa fille aînée. Les dernières volontés de monsieur Gérard éclairent encore sa famille pour le bonheur de tous, car monsieur Louis Guérin…</p>
+            <p>Jamais père de famille n’a eu le coup d’œil plus juste. Les débats qui lui ont fait tant de mal eurent lieu à propos du mariage de sa fille aînée ; elle avait une amourette pour un commis de la maison, petit sot, qui depuis a justifié l’opinion qu’avait de lui notre malheureux patron : il s’est amouraché d’une modiste et l’a <pb n="226" xml:id="p226" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f244.highres"/>épousée. Aujourd’hui, la famille est forcée de procéder régulièrement à l’interdiction de monsieur Gérard, à cause du mariage de sa fille aînée. Les dernières volontés de monsieur Gérard éclairent encore sa famille pour le bonheur de tous, car monsieur Louis Guérin…</p>
           </sp>
           <sp who="lejuge">
             <speaker> Le juge</speaker>
@@ -6082,7 +6077,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="lemedecin">
             <speaker>Le médecin</speaker>
-            <p>Ne leur donnons pas un faux espoir, Monsieur ; vous allez voir un phénomène que nous avons enregistré dans <pb n="227" xml:id="p227"/>nos annales : l’amant ne reconnaît pas sa maîtresse, et la maîtresse ne reconnaît pas son amant ; ils se parlent ici, à eux-mêmes, de leur fatale passion.</p>
+            <p>Ne leur donnons pas un faux espoir, Monsieur ; vous allez voir un phénomène que nous avons enregistré dans <pb n="227" xml:id="p227" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f245.highres"/>nos annales : l’amant ne reconnaît pas sa maîtresse, et la maîtresse ne reconnaît pas son amant ; ils se parlent ici, à eux-mêmes, de leur fatale passion.</p>
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
@@ -6102,7 +6097,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="roblot">
             <speaker>Roblot</speaker>
-            <p>Ici même. Monsieur partait, après une scène violente, il y a dix mois : dans la cour, au moment de monter en voiture, il a eu sa seule et unique fureur, car depuis il <pb n="228" xml:id="p228"/>est devenu d’une douceur angélique. Quand il a vu mademoiselle Adrienne, il ne l’a plus reconnue. Elle a été si frappée de cette affreuse scène, qu’elle est elle-même devenue folle.</p>
+            <p>Ici même. Monsieur partait, après une scène violente, il y a dix mois : dans la cour, au moment de monter en voiture, il a eu sa seule et unique fureur, car depuis il <pb n="228" xml:id="p228" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f246.highres"/>est devenu d’une douceur angélique. Quand il a vu mademoiselle Adrienne, il ne l’a plus reconnue. Elle a été si frappée de cette affreuse scène, qu’elle est elle-même devenue folle.</p>
           </sp>
           <sp who="lemedecin">
             <speaker>Le médecin</speaker>
@@ -6119,7 +6114,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           <sp who="lejuge">
             <speaker>Le juge</speaker>
             <p>Il va falloir constater leur identité.</p> </sp>
-            <pb n="229" xml:id="p229"/>
+            <pb n="229" xml:id="p229" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f247.highres"/>
         </div>
         <div type="scene">
             <head>Scène IV</head>
@@ -6145,7 +6140,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           <sp who="anna">
             <speaker>Anna</speaker>
             <p>L’auteur de ces malheurs ; aussi m’y suis-je à jamais consacrée.</p>
-            <pb n="230" xml:id="p230"/>
+            <pb n="230" xml:id="p230" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f248.highres"/>
           </sp>
           <sp who="lejuge">
             <speaker>Le juge</speaker>
@@ -6185,7 +6180,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
         </div>
               <div type="scene">
-            <pb n="231" xml:id="p231"/>
+            <pb n="231" xml:id="p231" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f249.highres"/>
                 <head>Scène V</head>
             <stage>Les Mêmes, Madame Gérard et Duval amenant Gérard. (Il est mis avec toute la recherche d’un dandy.)</stage>
           <sp who="gerard">
@@ -6214,7 +6209,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Que me veulent ces filles ? Tant que je ne verrai pas ma chère petite Anna, ma pauvre Caroline, ça ira mal. <pb n="232" xml:id="p232"/>J’ai voulu leur bien, elles m’abandonnent ; j’ai voulu leur bonheur, elles m’ont arraché le mien. Où est Adrienne ?</p>
+            <p>Que me veulent ces filles ? Tant que je ne verrai pas ma chère petite Anna, ma pauvre Caroline, ça ira mal. <pb n="232" xml:id="p232" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f250.highres"/>J’ai voulu leur bien, elles m’abandonnent ; j’ai voulu leur bonheur, elles m’ont arraché le mien. Où est Adrienne ?</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -6239,7 +6234,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           <sp who="duval">
             <speaker>Duval</speaker>
             <p>Oui, elle est montée, la voilà… <stage>(Il lui montre Adrienne.)</stage></p>
-            <pb n="233" xml:id="p233"/>
+            <pb n="233" xml:id="p233" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f251.highres"/>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
@@ -6272,7 +6267,7 @@ Lettrine-->Toutes les affaires sont liquidées ; voilà la Maison Gérard dispa
           <sp who="lejuge">
             <speaker>Le juge</speaker>
             <p>Vous aimez monsieur Gérard ?</p>
-            <pb n="234" xml:id="p234"/>
+            <pb n="234" xml:id="p234" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f252.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne<stage>. (</stage><!-- Auteur inconnu : 2021-05-25T15:40:28.498000000
@@ -6294,7 +6289,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Ma chère, je l’attends,… à moins qu’il n’y ait encore de ces obstacles… Il ne saurait y avoir de bonheur complet ici-bas… Le ciel est jaloux de la terre ! En formant son cœur, la nature avait trop fait pour moi.</p>
-            <pb n="235" xml:id="p235"/>
+            <pb n="235" xml:id="p235" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f253.highres"/>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -6323,7 +6318,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           <sp who="gerard">
             <speaker>Gérard</speaker>
             <p>Autant que j’aime Adrienne.</p>
-            <pb n="236" xml:id="p236"/>
+            <pb n="236" xml:id="p236" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f254.highres"/>
           </sp>
           <sp who="lejuge">
             <speaker>Le juge</speaker>
@@ -6351,7 +6346,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Bah ! Ah ! non, il est plus petit. Que disais-je ? Anna aurait eu deux millions ; elle aurait pu choisir dans la pairie, un homme d’État, un homme supérieur… Oh ! <pb n="237" xml:id="p237"/>elle avait de l’esprit, de la grandeur. Eh bien ! elle a eu la lâcheté d’empoisonner…</p>
+            <p>Bah ! Ah ! non, il est plus petit. Que disais-je ? Anna aurait eu deux millions ; elle aurait pu choisir dans la pairie, un homme d’État, un homme supérieur… Oh ! <pb n="237" xml:id="p237" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f255.highres"/>elle avait de l’esprit, de la grandeur. Eh bien ! elle a eu la lâcheté d’empoisonner…</p>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard</speaker>
@@ -6379,7 +6374,7 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           </sp>
           <sp who="gerard">
             <speaker>Gérard</speaker>
-            <p>Roblot ! c’est le seul ami que j’ai eu ! Il m’avait donné le conseil d’enlever Adrienne et d’aller vivre avec elle… <pb n="238" xml:id="p238"/>Si je l’avais écoulé, ce soir-là, rien ne serait arrivé. Il n’y a que les gens qui ne sentent rien qui savent bien juger des choses de la vie. Faites-lui bien mes amitiés. Je lui laisse deux mille francs de rentes viagères par mon testament ; mais on m’a tout pris ; Adrienne n’est plus là pour veiller à mes intérêts.</p>
+            <p>Roblot ! c’est le seul ami que j’ai eu ! Il m’avait donné le conseil d’enlever Adrienne et d’aller vivre avec elle… <pb n="238" xml:id="p238" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f256.highres"/>Si je l’avais écoulé, ce soir-là, rien ne serait arrivé. Il n’y a que les gens qui ne sentent rien qui savent bien juger des choses de la vie. Faites-lui bien mes amitiés. Je lui laisse deux mille francs de rentes viagères par mon testament ; mais on m’a tout pris ; Adrienne n’est plus là pour veiller à mes intérêts.</p>
           </sp>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
@@ -6408,15 +6403,15 @@ parenthèses--><stage>Elle pleure.) </stage></speaker>
           <sp who="adrienne">
             <speaker>Adrienne</speaker>
             <p>Quel vieillard ridicule ! Rentrons ; j’aime mieux être seule pour rêver à lui…</p>
-            <pb n="239" xml:id="p239"/>
+            <pb n="239" xml:id="p239" facs="https://gallica.bnf.fr/ark:/12148/bpt6k42214045/f257.highres"/>
           </sp>
           <sp who="madamegerard">
             <speaker>Madame Gérard<stage>, à Caroline et à Louis Guérin. </stage></speaker>
             <p>Nos malheurs sont irréparables ; vous resterez ici, vous, pour que votre bonheur ne soit pas affligé de ce spectacle. Anna et moi, nous les emmènerons à la campagne. S’il y avait une crise favorable, nous serions loin du monde… Ah ! nous avons tous fautes !</p>
           </sp>
-                <figure xml:id="fig11_edm">
+               <!-- <figure xml:id="fig11_edm">
                   <graphic url="/figures_edm/fig11_edm"/>
-                </figure>
+                </figure>-->
         </div>
             </div>
     </body>

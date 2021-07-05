@@ -265,9 +265,7 @@
             <p>Vous m’avez écrit… et cette lettre m’a ôté toute ma sécurité… Je ne sais plus ni qui vous êtes ni ce qui vous amène.</p>
           </sp>
           <sp who="joseph">
-            <speaker>
-              <stage>Joseph en dehors.</stage>
-            </speaker>
+            <speaker>Joseph<stage>, en dehors.</stage></speaker>
             <p>Mademoiselle, je suis <pb n="3" xml:id="p3"/>dans le grenier, et il n’y a rien… j’ai vu sur le toit.</p>
           </sp>
           <sp who="jules">

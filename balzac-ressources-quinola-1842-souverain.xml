@@ -27,8 +27,12 @@
       	<name>Frédéric Glorieux</name>
       	<resp>Informatique éditoriale</resp>
       </respStmt>
+        <respStmt>
+          <name>Karolina Suchecka</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
       <respStmt>
-      	<name>X</name>
+      	<name>Google Books / Julien Lemaire</name>
       	<resp>Traitement des images</resp>
       	</respStmt>
       </editionStmt>
@@ -95,7 +99,7 @@
             <castItem xml:id="alcade"><role>Un Alcade du Palais</role>.</castItem>
             <castItem xml:id="x"><role>Un Familier de l’Inquisition</role>. Personnage muet.</castItem>
             <castItem xml:id="lareine"><role>La Reine d’Espagne</role>.</castItem>
-            <castItem xml:id="lamarquise">La Marquise de Mondéjar.</castItem>
+            <castItem xml:id="lamarquise"><role>La Marquise de Mondéjar</role>.</castItem>
           </castList>
           <pb n="16" xml:id="p16" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-21.jpg"/>
         	<set>La scène est à Valladolid, dans le palais du roi d’Espagne. Le théâtre représente la galerie qui conduit à la chapelle. L’entrée de la chapelle est à gauche du spectateur, celle des appartements royaux est à droite. L’entrée principale est au fond. De chaque côté de la principale porte, il y a deux hallebardiers.</set>
@@ -981,7 +985,7 @@ Ajout de l’accent circonflexe (non présent chez hyppolite-->âmoison à cette
       			<castItem xml:id="monipodio"><role>Monipodio</role>, ancien miquelet.</castItem>
       			<castItem xml:id="coppolus"><role>Coppolus</role>, marchand de métaux.</castItem>
       			<castItem xml:id="carpano"><role>Carpano</role>, serrurier (personnage muet).</castItem>
-      			<castItem xml:id="esteban"><role>Éstéban</role>, ouvrier.</castItem>
+      			<castItem xml:id="esteban"><role>Estéban</role>, ouvrier.</castItem>
       			<castItem xml:id="girone"><role>Girone</role>, autre ouvrier.</castItem>
       			<castItem xml:id="lhotedusoleildor"><role>L’Hôte du Soleil-d’Or</role>.</castItem>
       			<castItem xml:id="lhuissier"><role>Un Huissier</role>.</castItem>
@@ -3575,9 +3579,9 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
         </div>
         <div type="scene" subtype="level2">
           <head>Scène VIII</head>
-          <stage>Fontanarès, Éstéban, Girone, et deux Ouvriers, personnages muets.</stage>
+          <stage>Fontanarès, Estéban, Girone, et deux Ouvriers, personnages muets.</stage>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Pourriez-vous nous dire où se cache un nommé Fontanarès ?</p>
           </sp>
           <sp who="fontanares">
@@ -3585,7 +3589,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Il ne se cache point, le voici ; mais il médite dans le silence. <stage>(À part.)</stage> Où est donc Quinola ? il sait si bien les renvoyer contents. <stage>(Haut.)</stage> Que voulez-vous ?</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Notre argent ! Depuis trois semaines nous travaillons à votre compte . L’ouvrier vit au jour le jour.</p>
           </sp>
           <sp who="fontanares">
@@ -3593,7 +3597,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Hélas ! mes amis, moi, je ne vis pas…</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Vous êtes seul, vous, vous pouvez vous serrer le ventre. Mais nous avons femme et enfants. Enfin, nous avons tout mis en gage…</p>
           </sp>
           <sp who="fontanares">
@@ -3601,7 +3605,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Ayez confiance en moi.</p>
           </sp>
           <sp who="esteban">
-            <speaker><pb n="211" xml:id="p211" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-216.jpg"/>Éstéban.</speaker>
+            <speaker><pb n="211" xml:id="p211" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-216.jpg"/>Estéban.</speaker>
             <p>Est-ce que nous pouvons payer le boulanger avec votre confiance ?</p>
           </sp>
           <sp who="fontanares">
@@ -3613,7 +3617,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Tiens ! Et nous aussi nous avons de l’honneur.</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Portez donc nos honneurs chez le Lombard, vous verrez ce qu’il prêtera dessus.</p>
           </sp>
           <sp who="girone">
@@ -3621,7 +3625,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Je ne suis pas un homme à talent, moi ! on ne me fait pas crédit.</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Je ne suis qu’un méchant ouvrier, mais si ma femme a besoin d’une marmite, je la paye, moi !</p>
           </sp>
           <sp who="fontanares">
@@ -3633,7 +3637,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Ameuter ? sommes-nous des chiens ?</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Les magistrats de Barcelone ont rendu une sentence en faveur de maîtres Coppulus et Carpano qui leur donne privilège sur vos intentions. Où donc est notre privilège, à nous ?</p>
           </sp>
           <sp who="girone">
@@ -3645,7 +3649,7 @@ Ajout d’un deuxième « t » à jetteront. absent dans la version fac-->jett
             <p>Quand vous resterez ici, y trouverez-vous de l’argent ? d’ailleurs, restez, bonsoir. <stage>(Il prend son chapeau et son manteau.)</stage></p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Oh ! vous ne sortirez pas sans nous avoir payés.</p>
           <stage>Mouvement général chez les ouvriers pour barrer la porte.</stage>
           </sp>
@@ -3668,7 +3672,7 @@ Indent entre le speaker et le pragraphe. p218 pdf--><stage>Il fond sur eux.</sta
             <p>Oh !… <stage>(Il s’arrête et jette son épée.)</stage> Peut-être Avaloros et Sarpi les ont-ils envoyés pour me pousser à bout. Je serais accusé de meurtre et pour des années en prison. <stage>(Il s’agenouille devant la Madone.)</stage> Ô mon Dieu ! le talent et le crime seraient-ils donc une même chose à tes yeux ? Qu’ai-je fait pour souffrir tant d’avanies, tant <pb n="214" xml:id="p214" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-219.jpg"/>d’insultes, et tant d’outrages ? Faut-il donc d’avance expier le triomphe ? <stage>(Aux ouvriers.)</stage> Tout Espagnol est mâitre dans sa maison ?</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Vous n’avez pas de maison. Nous sommes ici au Soleil-d’Or, l’hôte nous l’a bien dit.</p>
           </sp>
           <sp who="girone">
@@ -4335,11 +4339,11 @@ Maj ou min ?-->X.</p>
     	<div type="act" subtype="level1">
       <pb n="247" xml:id="p247" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-252.jpg"/>
         <head>Acte quatrième</head>
-        <stage><pb n="248" xml:id="p248" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-253.jpg"/>Le théâtre représente une place publique. Au fond de la place sur des tréteaux au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
+        <stage><pb n="248" xml:id="p248" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-253.jpg"/>Le théâtre représente une place publique. Au fond de la place sur des tréteaux au pied desquels sont toutes les pièces de la machine, s’élève un huissier. De chaque côté de ces tréteaux, il y a foule. À gauche du spectateur, un groupe composé de Coppolus, Carpano, l’hôte du Soleil-d’Or, Estéban, Girone, Mathieu Magis, don Ramon, Lothundiaz. À droite Fontanarès, Monipodio et Quinola caché dans un manteau derrière Monipodio.</stage>
         <div type="scene" subtype="level2">
         	<pb n="249" xml:id="p249" facs="https://www.ebalzac.com/romans/Th-ressources-quinola/Souverain/scans/Les_ressources_de_Quinola-page-254.jpg"/>
           <head>Scène Première</head>
-          <stage>Fontanarès, Monipodio, Quinola, Coppolus, L’Hôte du Soleil-d’Or, Éstéban, Girone, Mathieu Magis, Don Ramon, Lothundiaz, L’Huissier,— Deux groupes de peuple.</stage>
+          <stage>Fontanarès, Monipodio, Quinola, Coppolus, L’Hôte du Soleil-d’Or, Estéban, Girone, Mathieu Magis, Don Ramon, Lothundiaz, L’Huissier,— Deux groupes de peuple.</stage>
           <sp who="lhuissier">
             <speaker>L’Huissier.</speaker>
             <p>Messeigneurs, un peu plus de chaleur ! il s’agit d’une chaudière où l’on pourrait faire un olla-podrida pour le régiment des gardes-vallones.</p>
@@ -4386,7 +4390,7 @@ Maj ou min ?-->X.</p>
             <p>Vous pouvez en rire, il ne vous doit rien.</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>C’est nous autres, pauvres diables, qui payons ses folies !</p>
           </sp>
           <sp who="lothundiaz">
@@ -5354,7 +5358,7 @@ Il y a deux scènes XVII-->Scène XVII</head>
             <p>Avancez, mes ouvriers. Entrez, fils du peuple dont les mains ont élevé mon œuvre, donnez-moi le témoignage de vos sueurs et de vos veilles ! Vous qui n’avez reçu que de moi les modèles, parlez, qui de don Ramon ou de moi, créa la nouvelle puissance que la mer vient de reconnaître ?</p>
           </sp>
           <sp who="esteban">
-            <speaker>Éstéban.</speaker>
+            <speaker>Estéban.</speaker>
             <p>Ma foi ! sans don Ramon, vous eussiez été dans un fameux embarras.</p>
           </sp>
           <sp who="mathieumagis">
