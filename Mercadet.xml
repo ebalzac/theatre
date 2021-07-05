@@ -91,14 +91,14 @@ PERSONNAGES. </head>
           
        
           <castList>
-        <castItem xml:id="mercadet">AUGUSTE Mercadet. spéculateur.</castItem>
+        <castItem xml:id="mercadet">AUGUSTE Mercadet, spéculateur.</castItem>
             <castItem xml:id="minard">ADOLPHE MINARD, teneur de livres.</castItem>
             <castItem xml:id="delabrive">MICHONNIN DE LA BRIVE, jeune homme élégant.</castItem>
             <castItem xml:id="mericourt">DE MÉRICOURT, autre jeune homme.</castItem>
             <castItem xml:id="bredif">BRÉDIF,propriétaire.</castItem>
             <castItem xml:id="berchut">BERCHUT, courtier-marron.</castItem>
             <castItem xml:id="verdelin">VERDELIN, ami de Mercadet.</castItem>
-            <castItem xml:id="goulard">GOULARD, homme d’ affaires.</castItem>
+            <castItem xml:id="goulard">GOULARD, homme d’affaires.</castItem>
             <castItem xml:id="pierquin">PIERQUIN, usurier, (Tous créanciers de Mercadet.)</castItem>
             <castItem xml:id="violette">VIOLETTE, courtier d’affaires.</castItem>
             <castItem xml:id="justin">JUSTIN, valet de chambre.</castItem>
@@ -239,7 +239,7 @@ Le gouvernement veut ses impôts et ne se paye pas avec des raisons. Je suis don
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Vous ! je vous croyais si bon  ! Ne savez-vous pas que je vais marier ma fille… Laissez-moi conclure ce mariage ! vous y assisterez… allons ! Madame Brédif dansera !… Peut-être vous payerai-je demain.</p>
+Vous ! je vous croyais si bon ! Ne savez-vous pas que je vais marier ma fille… Laissez-moi conclure ce mariage ! vous y assisterez… allons ! Madame Brédif dansera !… Peut-être vous payerai-je demain.</p>
           </sp>
           <sp who="bredif">
             <speaker>Brédif.</speaker>
@@ -315,7 +315,7 @@ Oh ! devoir !… Les hommes rendent la dette quelque chose de pire que le crim
           <sp who="bredif">
             <speaker>Brédif<stage> (à part)</stage>.</speaker>
            <p>
-S’il l’avait fait de bonne grâce, je le ménagerais. Mais me dire que je lui vends… (Haut.) Monsieur, je ne veux pas d’un consentement ainsi donné… je ne suis pas un homme à  tourmenter les gens.</p>
+S’il l’avait fait de bonne grâce, je le ménagerais. Mais me dire que je lui vends… <stage>(Haut.)</stage> Monsieur, je ne veux pas d’un consentement ainsi donné… je ne suis pas un homme à  tourmenter les gens.</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -389,7 +389,7 @@ Son argent.</p>
           <sp who="therese">
             <speaker>Thérèse.</speaker>
            <p>
-Moi, je n’ ai qu’une manière. – « Vous demandez monsieur Mercadet ? – Oui, mademoiselle. –Il n’ y est pas. –Il n’y est pas ? –Non ; mais si monsieur vient pour mademoiselle…  Elle est seule ! » Et ils se sauvent ! Pauvre mademoiselle Julie, si elle était belle, on en ferait… quelque chose.</p>
+Moi, je n’ai qu’une manière. – « Vous demandez monsieur Mercadet ? – Oui, mademoiselle. –Il n’ y est pas. –Il n’y est pas ? –Non ; mais si monsieur vient pour mademoiselle…  Elle est seule ! » Et ils se sauvent ! Pauvre mademoiselle Julie, si elle était belle, on en ferait… quelque chose.</p>
           </sp>
           <sp who="justin">
             <speaker><pb n="240-2c"/>Justin.</speaker>
@@ -399,7 +399,7 @@ C' est qu’il y a des créanciers qui vous parlent comme si nous étions les ma
           <sp who="virginie">
             <speaker>Virginie.</speaker>
            <p>
-Mais que gagne-t-on donc à  se faire créancier ? Je les vois tous ne jamais se lasser d’aller, venir, guetter monsieur et rester des heures entières à l’écouter.</p>
+Mais que gagne-t-on donc à se faire créancier ? Je les vois tous ne jamais se lasser d’aller, venir, guetter monsieur et rester des heures entières à l’écouter.</p>
           </sp>
           <sp who="justin">
             <speaker>Justin.</speaker>
@@ -569,7 +569,7 @@ Ah ! elle chante bien ! quelquefois je l’écoute, et elle me fait plaisir. A
           <sp who="justin">
             <speaker>Justin.</speaker>
            <p>
-Vous ne connaissez pas Monsieur Mercadet… moi qui suis chez lui depuis six ans, et qui le vois, depuis sa dégringolade, aux prises avec ses créanciers, je le crois capable de tout, même de devenir riche… Tantôt, je me disais : Le voilà  perdu ! Les affiches jaunes fleurissaient à la porte ; il avait des rames de papier timbré que j’en vendais sans qu’il s’en aperçût ! Brrr ! il rebondissait, il triomphait ! Et quelles inventions !… Vous ne lisez pas les journaux, vous autres ! C’était du nouveau tous les jours : du bois en pavés ; des payés filés en soie ; des duchés, des moulins, enfin jusqu’au blanchissage mis en actions… C’était du propre !… Par exemple, je ne sais pas par où sa caisse est trouée ! il a beau l’emplir, ça se vide comme un verre !… Un jour, monsieur se couche abattu ; le lendemain, il se réveille millionnaire, quand il a dormi, car il travaille à effrayer ; il chiffre, il calcule, il écrit des prospectus qui sont comme des piégés à loups, il s’ y prend toujours des actionnaires ; mais il a beau lancer des affaires, il a toujours des créanciers ; et il les promène, et il les retourne ! Ah ! quelquefois je les ai vus arrivant : ils vont tout emporter, le faire mettre en prison ; il leur parle… Eh bien ! ils finissent par rire ensemble, et ils sortent les meilleurs amis du monde. Les créanciers ont débuté par des cris de paon, par des mots plus que durs, et ils terminent par des : « Mon cher Mercadet » et des poignées de main. Voyez-vous, quand un homme peut maintenir paisibles des gens comme ce Pierquin…</p>
+Vous ne connaissez pas Monsieur Mercadet… moi qui suis chez lui depuis six ans, et qui le vois, depuis sa dégringolade, aux prises avec ses créanciers, je le crois capable de tout, même de devenir riche… Tantôt, je me disais : Le voilà  perdu ! Les affiches jaunes fleurissaient à la porte ; il avait des rames de papier timbré que j’en vendais sans qu’il s’en aperçût ! Brrr ! il rebondissait, il triomphait ! Et quelles inventions !… Vous ne lisez pas les journaux, vous autres ! C’était du nouveau tous les jours : du bois en pavés ; des payés filés en soie ; des duchés, des moulins, enfin jusqu’au blanchissage mis en actions… C’était du propre !… Par exemple, je ne sais pas par où sa caisse est trouée ! il a beau l’emplir, ça se vide comme un verre !… Un jour, monsieur se couche abattu ; le lendemain, il se réveille millionnaire, quand il a dormi, car il travaille à effrayer ; il chiffre, il calcule, il écrit des prospectus qui sont comme des piégés à loups, il s’y prend toujours des actionnaires ; mais il a beau lancer des affaires, il a toujours des créanciers ; et il les promène, et il les retourne ! Ah ! quelquefois je les ai vus arrivant : ils vont tout emporter, le faire mettre en prison ; il leur parle… Eh bien ! ils finissent par rire ensemble, et ils sortent les meilleurs amis du monde. Les créanciers ont débuté par des cris de paon, par des mots plus que durs, et ils terminent par des : « Mon cher Mercadet » et des poignées de main. Voyez-vous, quand un homme peut maintenir paisibles des gens comme ce Pierquin…</p>
           </sp>
           <sp who="therese">
             <speaker>Thérèse.</speaker>
@@ -685,7 +685,7 @@ Et malheureux, donc !… Ils ne sauraient plus que faire de leur temps.</p>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
            <p>
-Il est inutile de vous cacher l’inquiétude excessive que me causent les affaires de mon mari. Nous aurons sans doute besoin de votre discrétion; car nous pouvons compter sur vous, n’est-ce pas ?</p>
+Il est inutile de vous cacher l’inquiétude excessive que me causent les affaires de mon mari. Nous aurons sans doute besoin de votre discrétion ; car nous pouvons compter sur vous, n’est-ce pas ?</p>
           </sp>
           <sp who="virginie justin therese">
             <speaker>Tous.</speaker>
@@ -745,7 +745,7 @@ Monsieur de la Brive, pour la corbeille, et ils livreront…</p>
           <sp who="therese">
             <speaker>Thérèse.</speaker>
            <p>
-Madame ne m’ avait rien dit de ce mariage-là ; sans cela, j’aurais tout obtenu, car l’idée de Justin est très bonne…</p>
+Madame ne m’avait rien dit de ce mariage-là ; sans cela, j’aurais tout obtenu, car l’idée de Justin est très bonne…</p>
           </sp>
           <sp who="virginie">
             <speaker>Virginie.</speaker>
@@ -758,7 +758,7 @@ Oh ! c’est sûr, ils seront dedans.</p>
 Mais ils ne perdront pas un centime !</p>
           </sp>
         </div>
-        <div>
+        <div type="scene">
           <pb n="241-1a"/><head>Scène IV</head>
           <stage>Les mêmes, Mercadet.</stage>
           <sp who="mercadet">
@@ -840,11 +840,7 @@ Cette fille a de l’argent ! <stage>(Haut.)</stage> Virginie, aujourd’hui le
            <p>
 Monsieur…</p>
           </sp>
-          <sp who="mercadet">
-            <speaker>Mercadet.</speaker>
-           <p>
-Allez ! je vous ferai gagner de bons intérêts, à dix francs pour cent francs, tous les six mois ! C’est un peu mieux que la caisse d’épargne…</p>
-          </sp>
+          
           <sp who="virginie">
             <speaker><pb n="241-1c"/>Virginie.</speaker>
            <p>
@@ -910,7 +906,7 @@ Croyez-vous, monsieur, que je sois indifférente à vos tourments, à votre lutt
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Eh bien ! ne jugez donc pas les moyens dont je me sers. Là, tout à 1’heure, vous vouliez prendre vos domestiques par la douceur : il fallait commander… comme Napoléon, brièvement.</p>
+Eh bien ! ne jugez donc pas les moyens dont je me sers. Là, tout à l’heure, vous vouliez prendre vos domestiques par la douceur : il fallait commander… comme Napoléon, brièvement.</p>
           </sp>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -1085,7 +1081,7 @@ Ma femme a tort de se mêler de notre conversation, les femmes n’entendent rie
           <sp who="goulard">
             <speaker>Goulard.</speaker>
            <p>
-Des affaires où tout n’ a pas été bénéfice…</p>
+Des affaires où tout n’a pas été bénéfice…</p>
           </sp>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
@@ -1101,11 +1097,21 @@ Je ne viens pas chercher les preuves de votre esprit, je sais que vous en avez p
             <speaker>Mercadet.</speaker>
            <p>
 Eh bien ! il faut que l’argent soit quelque part ! <stage>(À Madame Mercadet.)</stage> Tu vois en Monsieur un homme qui m’a poursuivi comme un lièvre ! Allons, convenez-en, mon cher Goulard, vous vous êtes mal conduit ! Un autre que moi se vengerait en ce moment, car je puis vous faire perdre une bien grosse somme…
-Goulard.
-Si vous ne me payez pas, je le crois bien ; mais vous me paierez, ou, demain, les pièces seront remises au garde du commerce…
-Mercadet.
-Oh ! il ne s’agit pas de ce que je vous dois, vous n’avez là-dessus aucune inquiétude, ni moi non plus ; mais il s’agit de capitaux bien plus considérables ! Rien ne m’a étonné comme de vous savoir, vous, homme d’un coup d’œil si sûr, vous à qui je demanderais un conseil, de vous savoir encore engagé dans cette affaire-là !…vous !… Enfin nous avons tous nos moments d’erreur…</p>
+</p>
           </sp>
+          
+          <sp who="goulard">
+            <speaker>Goulard.</speaker>
+            <p>
+              Si vous ne me payez pas, je le crois bien ; mais vous me paierez, ou, demain, les pièces seront remises au garde du commerce…</p>
+          </sp>
+          
+          <sp who="mercadet">
+            <speaker>Mercadet.</speaker>
+            <p>
+              Oh ! il ne s’agit pas de ce que je vous dois, vous n’avez là-dessus aucune inquiétude, ni moi non plus ; mais il s’agit de capitaux bien plus considérables ! Rien ne m’a étonné comme de vous savoir, vous, homme d’un coup d’œil si sûr, vous à qui je demanderais un conseil, de vous savoir encore engagé dans cette affaire-là !…vous !… Enfin nous avons tous nos moments d’erreur…</p>
+          </sp>
+          
           <sp who="goulard">
             <speaker>Goulard.</speaker>
            <p>
@@ -1114,7 +1120,7 @@ Mais quoi ?…</p>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à sa femme)</stage>.</speaker>
            <p>
-Tu ne le croirais jamais ? <stage>(</stage><stage>À </stage><stage>Goulard)</stage>. Elle a fini par se connaître en spéculations, elle a un tact pour les juger !… <stage>(</stage><stage>À</stage><stage> sa femme.)</stage> Eh bien ! ma chère, Goulard y est pour une somme très considérable.</p>
+Tu ne le croirais jamais ? <stage>(À Goulard)</stage>. Elle a fini par se connaître en spéculations, elle a un tact pour les juger !… <stage>(</stage><stage>À</stage><stage> sa femme.)</stage> Eh bien ! ma chère, Goulard y est pour une somme très considérable.</p>
           </sp>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -1159,7 +1165,7 @@ Merci, Mercadet nous causerons plus tard de nos petites affaires, Madame, mes ho
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Attendez donc, mon cher Goulard !<stage>(Il retient Goulard par le bras.)</stage> J’ai une nouvelle à vous donner qui vous rassurera sur…</p>
+Attendez donc, mon cher Goulard ! <stage>(Il retient Goulard par le bras.)</stage> J’ai une nouvelle à vous donner qui vous rassurera sur…</p>
           </sp>
           <sp who="goulard">
             <speaker>Goulard.</speaker>
@@ -1262,7 +1268,7 @@ Enchanté. Adieu ! <stage>(Mercadet suit Goulard en essayant de le retenir.)</s
 Cela tient du prodige !</p>
           </sp>
         </div>
-        <div>
+        <div type="scene">
           <pb n="242-1a"/><head>Scène VIII</head>
           <stage>Mercadet, Madame Mercadet.</stage>
           <sp who="mercadet">
@@ -1278,7 +1284,7 @@ Mais est-ce vrai ce que vous lui avez dit ? Car je ne sais plus démêler le se
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Il est dans l’intérêt de mon ami Verdelin d’organiser une panique sur les actions de la Basse-Indre, entreprise jusqu’à présent douteuse, et devenue excellente tout à coup. <stage>(</stage><stage>À</stage><stage> part.)</stage> S’il réussit à tuer l’affaire, je me ferai ma part… <stage>(Haut.)</stage> Ceci nous ramène à notre grande affaire : le mariage de Julie ! Oui, j’ai besoin d’un second moi-même pour récolter ce que je sème.</p>
+Il est dans l’intérêt de mon ami Verdelin d’organiser une panique sur les actions de la Basse-Indre, entreprise jusqu’à présent douteuse, et devenue excellente tout à coup. <stage>(À part.)</stage> S’il réussit à tuer l’affaire, je me ferai ma part… <stage>(Haut.)</stage> Ceci nous ramène à notre grande affaire : le mariage de Julie ! Oui, j’ai besoin d’un second moi-même pour récolter ce que je sème.</p>
           </sp>
           <sp who="madamemercadet">
             <speaker>Madame Mercadet.</speaker>
@@ -1400,7 +1406,7 @@ Monsieur Minard vous a donc parlé, mon père ?</p>
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Monsieur Minard ?… Hein !… Qu'est-ce qu’un monsieur Minard ?… Vous attendiez-vous, Madame, à trouver un monsieur Minard établi dans le cœur de votre fille ? Julie serait-ce par hasard ce petit employé que Duval, mon ancien caissier, m’a plusieurs fois recommandé pour des places ? Un pauvre garçon dont la mère seule est connue… <stage>(</stage><stage>À</stage><stage> part.)</stage> Le fils naturel de Godeau… <stage>(</stage><stage>À</stage><stage> Julie.)</stage> Répondez.</p>
+Monsieur Minard ?… Hein !… Qu'est-ce qu’un monsieur Minard ?… Vous attendiez-vous, Madame, à trouver un monsieur Minard établi dans le cœur de votre fille ? Julie serait-ce par hasard ce petit employé que Duval, mon ancien caissier, m’a plusieurs fois recommandé pour des places ? Un pauvre garçon dont la mère seule est connue… <stage>(À part.)</stage> Le fils naturel de Godeau… <stage>(À Julie.)</stage> Répondez.</p>
           </sp>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -1535,7 +1541,7 @@ Mais, malheureuse enfant !…</p>
           <sp who="mercadet">
             <speaker><pb n="242-2b"/>Mercadet <stage>(à sa femme).</stage></speaker>
            <p>
-Laissez-moi lui parler.<stage> (</stage><stage>À</stage><stage> Julie)</stage>. Julie, je te marie à ton monsieur Minard… <stage>(Mouvement de Julie.)</stage> Attends ! Tu n’as pas le premier sou, tu le sais : que devenez-vous le lendemain de votre mariage ? Y avez-vous songé ?…</p>
+Laissez-moi lui parler. <stage>(À Julie)</stage>. Julie, je te marie à ton monsieur Minard… <stage>(Mouvement de Julie.)</stage> Attends ! Tu n’as pas le premier sou, tu le sais : que devenez-vous le lendemain de votre mariage ? Y avez-vous songé ?…</p>
           </sp>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -1590,7 +1596,7 @@ Pauvre enfant ! à son âge, il est si facile de prendre ses espérances pour d
           <sp who="mercadet">
             <speaker>Mercadet.</speaker>
            <p>
-Elle croit que l’amour est le seul élément de bonheur dans le mariage : elle se trompe comme tous ceux qui mettent leurs propres fautes sur le compte du hasard, l’éditeur responsable de nos folies ! et alors on s’en prend de son malheur à la société, qu’on bouleverse. Bah ! c’ est une amourette qui n’a rien de sérieux.</p>
+Elle croit que l’amour est le seul élément de bonheur dans le mariage : elle se trompe comme tous ceux qui mettent leurs propres fautes sur le compte du hasard, l’éditeur responsable de nos folies ! et alors on s’en prend de son malheur à la société, qu’on bouleverse. Bah ! c’est une amourette qui n’a rien de sérieux.</p>
           </sp>
           <sp who="julie">
             <speaker>Julie.</speaker>
@@ -1625,7 +1631,7 @@ Il ne m’a jamais parlé d’argent.</p>
           <sp who="mercadet">
             <speaker>Mercadet <stage>(à part à sa femme).</stage></speaker>
            <p>
-Bien, j’y suis. <stage>(</stage><stage>À</stage><stage> Julie)</stage> Julie, vous allez lui écrire, à l’instant, de venir me parler.</p>
+Bien, j’y suis. <stage>(À Julie)</stage> Julie, vous allez lui écrire, à l’instant, de venir me parler.</p>
           </sp>
           <sp who="julie">
             <speaker><pb n="242-2d"/>Julie.</speaker>
@@ -1718,7 +1724,7 @@ On sonne toujours.</p>
 C’est une sonnerie de créancier !…Va voir, Julie ! Et, quoi qu’on te dise, réponds que ta mère et moi nous sommes sortis. Ce créancier aura peut-être de la pudeur, il croira sans doute une jeune personne…</p>
           </sp>
         </div>
-        <div>
+        <div type="scene">
           <pb n="243-1b"/><head>Scène XI</head>
           <stage>Madame Mercadet, Mercadet.</stage>
           <sp who="madamemercadet">
