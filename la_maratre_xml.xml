@@ -92,7 +92,7 @@ Jusqu’à page 20 : checker voir si y’a une diff parce que j’ai modif un o
         <stage>La scène se passe en 1829, dans une fabrique de draps, près de Louviers.</stage>
         </div>
       <div type="act">
-        <p rend="b">Acte premier.</p>
+        <head>Acte premier.</head>
         <stage>Le théâtre représente un salon assez orné, il s’y trouve les portraits de l’empereur et de son fils. On y entre par une porte donnant sur un perron à marquise. La porte des appartements de Pauline est à droite du spectateur ; celle des appartements du général et de sa femme est à gauche. De </stage>
         <stage>chaque côté de la porte du fond il y a, à gauche, une table, et à droite une armoire façon de Boule. </stage>
         <stage>Une jardinière pleine de fleurs se trouve dans le panneau à glace à côté de l’entrée des appartements de Pauline. En face, est une cheminée avec une riche garniture. Sur le devant du théâtre, il y a deux canapés à droite et à gauche. </stage>
@@ -1267,7 +1267,7 @@ Mise entre parenthèses + collé au dialogue--><stage>Napoléon sort.</stage><st
 Absence de point ???-->rtu</p></sp>
           </div>
       <div type="act">
-          <p rend="b">Acte II</p><div type="scene">
+          <head>Acte II</head><div type="scene">
          
             <!-- Auteur inconnu : 2021-06-16T15:29:23.285000000
 Scène I dans le pdf-->
@@ -2530,7 +2530,7 @@ Mais pourquoi ici pas de virguuuuuleeee-->Vernon <stage>le regarde et se mouche.
           <p>Je n’ai trouvé de jardinière nulle part… Décidément il se passe quelque chose d’extraordinaire ici. Gertrude ?… personne ! Ah ! Madame de Grandchamp, vous allez me dire… Il serait plaisant que ma femme et ma fille se jouassent de moi. <stage>(Il</stage><stage> reprend son bougeoir et entre chez Gertrude. </stage><stage><hi rend="b">–</hi></stage><stage> </stage><stage>Le rideau baisse pendant quelques instants pour indiquer </stage><stage>l’</stage><stage>entr’a</stage><stage>ct</stage><stage>e, puis le jour revient.</stage><stage>)</stage></p></sp>
           </div></div>
       <div type="act">
-          <p rend="b">ACTE III.</p>
+          <head>ACTE III.</head>
         <div type="scene">
          <head>Scène Première</head>
         
@@ -3905,7 +3905,7 @@ Police « stage » mais fonction » speaker » dans le pdf, stylé en speake
           <p>Où peut-il avoir caché cette tasse ?</p></sp>
         </div></div>
       <div type="act">
-          <p rend="b">ACTE IV.</p>
+          <head>ACTE IV.</head>
         <div type="scene">
          <head>Scène Première</head>
         
@@ -4864,7 +4864,7 @@ Pas de point dans le pdf-->r.</p>
           <p>Oh ! Pauline, tu me fais peur… <stage>(En s’enfuyant.)</stage> Maman ! maman !</p></sp>
       </div></div>
       <div type="act">
-          <p rend="b">Acte V.</p>
+          <head>Acte V.</head>
           <stage>La chambre de Pauline. </stage>
         <div type="scene">
           <head>Scène première.</head><!-- Auteur inconnu : 2021-06-28T15:38:16.212000000
