@@ -4,7 +4,7 @@
 <!--Odette: 2021-05-31T15:36:56+02:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="zxx">
   <teiHeader>
-    <fileDesc>
+    <fileDesc>Balzac-Pamela Giraud-1843-MarchantBalzac-Pamela Giraud-1843-MarchantBalzac-Pamela Giraud-1843-Marchant
       <titleStmt>
         <title>Paméla Giraud</title>
         <author key="Balzac, Honoré de (1799-1850)">Honoré de Balzac</author>
@@ -96,9 +96,8 @@
           <castItem xml:id="justine"><role>Justine</role>, femme de chambre de Madame Rousseau</castItem>
           <castItem xml:id="autres">Un Commissaire de police, un juge d’instruction, agent de police, gendarmes.</castItem>
         </castList>
-      </div>
       <div type="act">
-        <pb n="1" xml:id="p1"/>
+        <pb n="1" xml:id="p1" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-4.jpg"/>
          <head>Acte premier</head>
         <stage>Le théâtre représente une mansarde et l’atelier d’une fleuriste. Au lever du rideau, Paméla travaille, et Joseph Binet est assis. La mansarde va vers le fond du théâtre ; la porte est à droite ; à gauche, une cheminée. La mansarde est coupée de manière à ce qu’en se baissant, un homme puisse tenir sous le toit au fond de la toile, à côté de la croisée.</stage>
         <div type="scene">
@@ -129,7 +128,7 @@
             <p>Vous ne voulez donc pas que je vous dise combien je vous aime ?</p>
           </sp>
           <sp who="pamela">
-            <speaker><pb n="2" xml:id="p2"/>Paméla.</speaker>
+            <speaker><pb n="2" xml:id="p2" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-5.jpg"/>Paméla.</speaker>
             <p>Ah ! je vous dis tout net, puisque vous m’y forcez, que je ne veux pas être la femme d’un garçon tapissier.</p>
           </sp>
           <sp who="joseph">
@@ -266,7 +265,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Joseph<stage>, en dehors.</stage></speaker>
-            <p>Mademoiselle, je suis <pb n="3" xml:id="p3"/>dans le grenier, et il n’y a rien… j’ai vu sur le toit.</p>
+            <p>Mademoiselle, je suis <pb n="3" xml:id="p3" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-6.jpg"/>dans le grenier, et il n’y a rien… j’ai vu sur le toit.</p>
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -416,7 +415,7 @@
           </sp>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
-            <p>Monsieur Adolphe, vous me faites <pb n="4" xml:id="p4"/>peur !… que peut-il donc vous arriver ?… Attendez… je vais voir.</p>
+            <p>Monsieur Adolphe, vous me faites <pb n="4" xml:id="p4" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-7.jpg"/>peur !… que peut-il donc vous arriver ?… Attendez… je vais voir.</p>
           </sp>
           <sp who="jules">
             <speaker>Jules.</speaker>
@@ -579,7 +578,7 @@
             <p>Parlez !</p>
           </sp>
           <sp who="jules">
-            <speaker><pb n="5" xml:id="p5"/>Jules.</speaker>
+            <speaker><pb n="5" xml:id="p5" facs="1romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-8.jpg"/>Jules.</speaker>
             <p>Sans cet imbécile, j’étais sauvé !… vous aurez la perte d’un homme à vous reprocher.</p>
           </sp>
           <sp who="pamela">
@@ -764,7 +763,7 @@
         </div>
       </div>
       <div type="act">
-        <pb n="6" xml:id="p6"/><head>Acte deuxième</head>
+        <pb n="6" xml:id="p6" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-9.jpg"/><head>Acte deuxième</head>
         <stage>Le théâtre représente un salon. Antoine est occupé à parcourir les journaux.</stage>
         <div type="scene">
           <head>Scène première</head>
@@ -915,7 +914,7 @@
             <p>La bataille commence sans doute demain ; aujourd’hui les préparatifs, l’acte d’accusation.</p>
           </sp>
           <sp who="rousseau">
-            <speaker><pb n="7" xml:id="p7"/>Rousseau.</speaker>
+            <speaker><pb n="7" xml:id="p7" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-10.jpg"/>Rousseau.</speaker>
             <p>Mon pauvre Jules a-t-il donné prise ?…</p>
           </sp>
           <sp who="dupre">
@@ -1097,7 +1096,7 @@
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
-             <p>Mon pauvre enfant ! Viens viens… près de moi… ils n’oseront pas…<pb n="8" xml:id="p8"/> <stage>(Aux Agents qui s</stage><stage>’</stage><stage>avancent.)</stage> Laissez !… Ah ! laissez-le.</p>
+            <p>Mon pauvre enfant ! Viens viens… près de moi… ils n’oseront pas…<pb n="8" xml:id="p8" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-11.jpg"/> <stage>(Aux Agents qui s</stage><stage>’</stage><stage>avancent.)</stage> Laissez !… Ah ! laissez-le.</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>s’élançant vers eux</stage>.</speaker>
@@ -1268,7 +1267,7 @@
             <p>Comment influencer un pareil homme ? <stage>(Haut.)</stage> Mais, monsieur, vous avez cependant besoin des autres.</p>
           </sp>
           <sp who="dupre">
-            <speaker><pb n="9" xml:id="p9"/>Dupré.</speaker>
+            <speaker><pb n="9" xml:id="p9" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-12.jpg"/>Dupré.</speaker>
             <p>Jamais !</p>
           </sp>
           <sp who="deverby">
@@ -1446,7 +1445,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Binet.</speaker>
-            <p>Ah ça, moi, je croyais que les avocats étaient payés pour avoir de l’instruction et savaient tout… mais vous ne savez donc rien, monsieur ? Je ne m’étonne pas <pb n="10" xml:id="p10"/>qu’il y en a qui disent que les avocats sont des ignorants. Mais je retire mes quatorze cents francs. Paméla s’accuse, c’est-à-dire m’accuse d’avoir livré sa tête au bourreau, et vous comprenez, s’il est sauvé surtout, s’il est déporté, je me marie, j’épouse Paméla, et comme le déporté ne se trouve pas en France, je n’ai rien à craindre dans mon ménage. Obtenez quinze ans ; ce n’est rien quinze ans pour voyager, et j’ai le temps de voir mes enfants grandis, et ma femme arrivée à un âge… Vous comprenez ?…</p>
+            <p>Ah ça, moi, je croyais que les avocats étaient payés pour avoir de l’instruction et savaient tout… mais vous ne savez donc rien, monsieur ? Je ne m’étonne pas <pb n="10" xml:id="p10" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-13.jpg"/>qu’il y en a qui disent que les avocats sont des ignorants. Mais je retire mes quatorze cents francs. Paméla s’accuse, c’est-à-dire m’accuse d’avoir livré sa tête au bourreau, et vous comprenez, s’il est sauvé surtout, s’il est déporté, je me marie, j’épouse Paméla, et comme le déporté ne se trouve pas en France, je n’ai rien à craindre dans mon ménage. Obtenez quinze ans ; ce n’est rien quinze ans pour voyager, et j’ai le temps de voir mes enfants grandis, et ma femme arrivée à un âge… Vous comprenez ?…</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -1625,6 +1624,7 @@
             <speaker>Madame du Brocard.</speaker>
             <p>Une fleuriste.</p>
           </sp>
+          <pb n="11" xml:id="p11" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-14.jpg"/>
           <sp who="dupre">
             <speaker>Dupré, <stage>ironiquement</stage>.</speaker>
             <p>Ce ne sera pas cher.</p>
@@ -1763,7 +1763,7 @@
           </sp>
         </div>
         <div>
-          <pb n="12" xml:id="p12"/><head>Scène II</head>
+          <pb n="12" xml:id="p12" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-14.jpg"/><head>Scène II</head>
           <stage>Les mêmes, Binet.</stage>
           <sp who="madamegiraud">
             <speaker>Madame Giraud.</speaker>
@@ -1959,7 +1959,7 @@
             <p>Mon père, calmez-vous, je vous en prie.</p>
           </sp>
           <sp who="madamegiraud">
-            <speaker><pb n="13" xml:id="p13"/>Madame Giraud. </speaker>
+            <speaker><pb n="13" xml:id="p13" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-16.jpg"/>Madame Giraud. </speaker>
             <p>Voyons, Giraud ! laisse donc parler monsieur et madame.</p>
           </sp>
           <sp who="madamedubrocard">
@@ -2157,7 +2157,7 @@
             <p>Oh ! vous n’obtiendrez rien…</p>
           </sp>
           <sp who="giraud">
-            <speaker><pb n="14" xml:id="p14"/>Giraud.</speaker>
+            <speaker><pb n="14" xml:id="p14" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-17.jpg"/>Giraud.</speaker>
             <p>Ni d’elle ni de nous.</p>
           </sp>
           <sp who="joseph">
@@ -2305,7 +2305,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Eh bien, c’est à votre cœur que je m’adresse !… accordez-moi ce que vous avez refusé à d’autres… dites la vérité ! à la face <pb n="15" xml:id="p15"/>de la justice il n’y a que vous qui puissiez le sauver !… Vous l’aimez, Paméla ; je comprends qu’il vous en coûte d’avouer…</p>
+            <p>Eh bien, c’est à votre cœur que je m’adresse !… accordez-moi ce que vous avez refusé à d’autres… dites la vérité ! à la face <pb n="15" xml:id="p15" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-18.jpg"/>de la justice il n’y a que vous qui puissiez le sauver !… Vous l’aimez, Paméla ; je comprends qu’il vous en coûte d’avouer…</p>
           </sp>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
@@ -2469,7 +2469,7 @@
           </sp>
           <sp who="joseph">
             <speaker>Binet, <stage>sortant vivement du cabinet</stage>.</speaker>
-            <p>Un <pb n="16" xml:id="p16"/>moment !… un moment ! j’ai tout entendu… et vous croyez que je souffrirai ça !… J’étais ici, caché… Paméla que j’ai aimée au point d’en faire ma femme, vous voudriez lui laisser dire… <stage>(À Dupré.)</stage> C’est comme ça que vous gagnez mes quatorze cents francs, vous ? Moi aussi j’irai au tribunal, et je dirai que tout ça est un mensonge.</p>
+            <p>Un <pb n="16" xml:id="p16" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-19.jpg"/>moment !… un moment ! j’ai tout entendu… et vous croyez que je souffrirai ça !… J’étais ici, caché… Paméla que j’ai aimée au point d’en faire ma femme, vous voudriez lui laisser dire… <stage>(À Dupré.)</stage> C’est comme ça que vous gagnez mes quatorze cents francs, vous ? Moi aussi j’irai au tribunal, et je dirai que tout ça est un mensonge.</p>
           </sp>
           <sp who="dupre deverby madamedubrocard rousseau giraud madamegiraud">
             <speaker>Tous.</speaker>
@@ -2595,7 +2595,7 @@
             <p>Et moi donc ?</p>
           </sp>
           <sp who="dupre">
-            <speaker><pb n="17" xml:id="p17"/>Dupré.</speaker>
+            <speaker><pb n="17" xml:id="p17" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-20.jpg"/>Dupré.</speaker>
             <p>Son dévouement a été complet… Vous ignorez tout ce qu’elle a fait pour vous, moi-même elle m’a trompé… elle s’est accusée, elle était innocente. Oh ! j’ai tout deviné. Un seul instant elle a faibli ; mais un regard rapide jeté sur Jules, un feu subit remplaçant la pâleur qui couvrait son visage, nous a fait deviner qu’elle le sauvait ; malgré le danger dont on la menaçait, une fois encore, à la face de tous, elle a renouvelé son aveu, et elle est retombée en pleurant dans les bras de sa mère.</p>
           </sp>
           <sp who="joseph">
@@ -2723,7 +2723,7 @@
           </sp>
           <sp who="deverby">
             <speaker>De Verby.</speaker>
-            <p>Jules s’est bien conduit ! mon frère le comte de Verby est dans les meilleures dispositions à son égard ! ma nièce le trouve un <pb n="18" xml:id="p18"/>héros, et moi… et moi, je sais reconnaître le courage et l’honneur… une fois cette affaire assoupie, nous presserons le mariage.</p>
+            <p>Jules s’est bien conduit ! mon frère le comte de Verby est dans les meilleures dispositions à son égard ! ma nièce le trouve un <pb n="18" xml:id="p18" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-21.jpg"/>héros, et moi… et moi, je sais reconnaître le courage et l’honneur… une fois cette affaire assoupie, nous presserons le mariage.</p>
           </sp>
           <sp who="madamerousseau">
             <speaker>Madame Rousseau.</speaker>
@@ -2878,7 +2878,7 @@
           </sp>
           <sp who="pamela">
             <speaker>Paméla.</speaker>
-            <p>Je n’ai pu résister !… tant d’émotions… cette incertitude cruelle ! j’avais pris, repris de l’assurance… le calme de <pb n="19" xml:id="p19"/>monsieur Jules pendant qu’on délibérait, le sourire fixé sur ses lèvres, m’avaient fait partager ce pressentiment de bonheur qu’il éprouvait !… cependant, quand je regardais monsieur Dupré, sa figure morne, impassible !… me faisait froid au cœur !… et puis, cette sonnette annonçant le retour des jurés, ce mur mure d’anxiété qui parcourut la salle… je n’eus plus de force !… une sueur froide inonda mon visage, et je m’évanouis.</p>
+            <p>Je n’ai pu résister !… tant d’émotions… cette incertitude cruelle ! j’avais pris, repris de l’assurance… le calme de <pb n="19" xml:id="p19" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-22.jpg"/>monsieur Jules pendant qu’on délibérait, le sourire fixé sur ses lèvres, m’avaient fait partager ce pressentiment de bonheur qu’il éprouvait !… cependant, quand je regardais monsieur Dupré, sa figure morne, impassible !… me faisait froid au cœur !… et puis, cette sonnette annonçant le retour des jurés, ce mur mure d’anxiété qui parcourut la salle… je n’eus plus de force !… une sueur froide inonda mon visage, et je m’évanouis.</p>
           </sp>
           <sp who="joseph">
             <speaker>Binet.</speaker>
@@ -3028,7 +3028,7 @@
             <p>Mon père !</p>
           </sp>
           <sp who="dupre">
-            <speaker><pb n="20" xml:id="p20"/>Dupré, <stage>paraissant</stage>.</speaker>
+            <speaker><pb n="20" xml:id="p20" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-23.jpg"/>Dupré, <stage>paraissant</stage>.</speaker>
             <p>Jules ! c’est encore à moi de vous défendre.</p>
           </sp>
           <sp who="pamela joseph">
@@ -3107,8 +3107,10 @@
         <head>Acte Cinquième</head>
         <stage>La scène se passe chez Dupré, dans son cabinet ; bibliothèque, bureaux de chaque côté  ; une fenêtre avec deux rideaux.</stage>
         <div type="scene">
-           <pb n="ill." xml:id="p1a" facs="figures-pamela/fig1.jpg"/>
           <head>Scène Première</head>
+          <figure rendition="center" xml:id="ill001">
+            <graphic url="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/ill.png"></graphic>
+          </figure>
           <stage>Dupré, Paméla, Giraud, Madame Giraud.</stage>
           <stage>Au lever du rideau, Paméla est assise dans un fauteuil, occupée à lire  ; la mère Giraud est debout près d’elle ; Giraud regarde les tableaux du cabinet ; Dupré se promène à grands pas ; tout à coup il s’arrête.</stage>
           <sp who="dupre">
@@ -3128,7 +3130,7 @@
             <p>C’est bien… c’est bien… <stage>(Il continue de marcher à pas précipités.)</stage> Quelle ingratitude !… cette famille Rousseau, ils ignorent ce que j’ai fait… tous croient Paméla arrêtée, et personne ne s’en inquiète !… On a fait partir Jules pour Bruxelles… Monsieur de Verby. est à la campagne, et Monsieur Rousseau fait ses affaires de bourse comme si de rien n’était… l’argent, l’ambition… c’est leur mobile… chez eux les sentiments ne comptent pour rien !… ils tournent tous autour du veau d’or… et l’argent peut les faire danser devant leur idole… ils sont aveuglés dès qu’ils le voient.</p>
           </sp>
           <sp who="pamela">
-            <speaker><pb n="21" xml:id="p21"/>Paméla, <stage>qui l’a observé se lève et vient à lui</stage>.</speaker>
+            <speaker><pb n="21" xml:id="p21" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-24.jpg"/>Paméla, <stage>qui l’a observé se lève et vient à lui</stage>.</speaker>
             <p>Monsieur Dupré, vous êtes agité, vous paraissez souffrir ?… c’est encore pour moi, je le crains.</p>
           </sp>
           <sp who="dupre">
@@ -3268,7 +3270,7 @@
           </sp>
         </div>
         <div>
-          <pb n="22" xml:id="p22"/><head>Scène II</head>
+          <pb n="22" xml:id="p22" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-25.jpg"/><head>Scène II</head>
           <stage>Paméla, Dupré, Jules.</stage>
           <sp who="jules">
             <speaker>Jules <stage>aux domestiques</stage>.</speaker>
@@ -3415,7 +3417,7 @@
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Ah ! monsieur, vous allez me forcer de déclarer que vous, ancien officier de <pb n="23" xml:id="p23"/>l’empire, vous m’avez paru résumer complètement cette époque glorieuse, par votre loyauté, votre courage et votre indépendance. <stage>(À part.)</stage> j’espère que je ne lui dois rien !</p>
+            <p>Ah ! monsieur, vous allez me forcer de déclarer que vous, ancien officier de <pb n="23" xml:id="p23" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-26.jpg"/>l’empire, vous m’avez paru résumer complètement cette époque glorieuse, par votre loyauté, votre courage et votre indépendance. <stage>(À part.)</stage> j’espère que je ne lui dois rien !</p>
           </sp>
           <sp who="deverby">
             <speaker>De Verby.</speaker>
@@ -3545,7 +3547,7 @@
             <stage>Verby, qui écoutait, se cache de nouveau et fait un geste de colère.</stage>
           </sp>
           <sp who="dupre">
-            <speaker><pb n="24" xml:id="p24"/>Dupré.</speaker>
+            <speaker><pb n="24" xml:id="p24" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-27.jpg"/>Dupré.</speaker>
             <p>Vous paraissiez tant l’estimer !</p>
           </sp>
           <sp who="madamedubrocard">
@@ -3704,7 +3706,7 @@
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau, <stage>ironiquement</stage>.</speaker>
-            <p>Ah ! monsieur Dupré !… monsieur Dupré !… ce n’est pas que je tienne à Mademoiselle de Verby… la nièce d’un <pb n="25" xml:id="p25"/>homme taré !… C’est cette folle de Madame du Brocard qui voulait faire ce beau mariage… mais de là à la fille d’un portier !…</p>
+            <p>Ah ! monsieur Dupré !… monsieur Dupré !… ce n’est pas que je tienne à Mademoiselle de Verby… la nièce d’un <pb n="25" xml:id="p25" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-28.jpg"/>homme taré !… C’est cette folle de Madame du Brocard qui voulait faire ce beau mariage… mais de là à la fille d’un portier !…</p>
           </sp>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
@@ -3829,7 +3831,7 @@
           <stage>Les mêmes, Dupré, s’avançant.</stage>
           <sp who="dupre">
             <speaker>Dupré.</speaker>
-            <p>Eh bien ! <stage>(Madame du Brocard lui remet la lettre qu</stage><stage>’</stage><stage>il a demandée ; Verby lui donne la sienne ; Rousseau l’examine.)</stage> Enfin !… <stage>(De Verby lance un regard </stage><pb n="26" xml:id="p26"/><stage>furieux à Dupré et à la famille, et sort vivement. À Rousseau)</stage> Et vous, monsieur ?</p>
+            <p>Eh bien ! <stage>(Madame du Brocard lui remet la lettre qu</stage><stage>’</stage><stage>il a demandée ; Verby lui donne la sienne ; Rousseau l’examine.)</stage> Enfin !… <stage>(De Verby lance un regard </stage><pb n="26" xml:id="p26" facs="https://ebalzac.com/romans/Th-pamela-giraud/Marchant/scans/cfaf083254834944e6121b00bf4c30fdS2CNtJZDeyDR5VBb-29.jpg"/><stage>furieux à Dupré et à la famille, et sort vivement. À Rousseau)</stage> Et vous, monsieur ?</p>
           </sp>
           <sp who="rousseau">
             <speaker>Rousseau.</speaker>
@@ -3935,6 +3937,7 @@
           </sp>
         </div>
       </div>
+     </div>
     </body>
   </text>
 </TEI>
