@@ -8191,10 +8191,41 @@
          </aside>
       </div>
       <script> 
-var aElement = document.querySelector('a[href="/edition/vautrin"]');
+var aElement = document.querySelector('a[href="/edition/Th-vautrin"]');
 
 var spanElement = aElement.querySelector('span');
 
 spanElement.innerHTML = "Retour à la présentation de la pièce";</script>
+      <script>
+         var ulElement = document.querySelector('.liste-romans ul');
+
+// Seleziona gli elementi <li> all'interno dell'elemento <ul>
+var liElements = Array.from(ulElement.querySelectorAll('li[data-recherche]'));
+
+// Aggiungi un ID personalizzato basato sulla posizione nell'array
+for (var i = 0; i < liElements.length; i++) {
+    var customId = 'elementId' + (i + 1);
+    liElements[i].setAttribute('id', customId);
+}
+
+// Ordina gli elementi <li> in base all'ordine personalizzato
+var customOrder = ['elementId2', 'elementId3', 'elementId1'];
+liElements.sort(function(a, b) {
+    var idA = a.getAttribute('id');
+    var idB = b.getAttribute('id');
+    return customOrder.indexOf(idA) - customOrder.indexOf(idB);
+});
+
+// Rimuovi gli elementi <li> dall'elemento <ul>
+liElements.forEach(function(li) {
+    ulElement.removeChild(li);
+});
+
+// Aggiungi gli elementi <li> riordinati all'elemento <ul>
+liElements.forEach(function(li) {
+    ulElement.appendChild(li);
+});
+
+      </script>
    </body>
 </html>
