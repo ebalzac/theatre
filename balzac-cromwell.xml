@@ -1,0 +1,3139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet  type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model  href="http://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Marâtre</title>
+        <author key="Balzac, Honoré de (1799-1850)">Honoré de Balzac</author>
+        <principal>Andrea Del Lungo</principal>
+        <principal>Pierre Glaudes</principal>
+        <principal>Jean-Gabriel Ganascia</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Cette édition a été établie dans le cadre du projet PHŒBUS, financé par l’Agence nationale de la recherche (2015-2019).</edition>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Corrections OCR</resp>
+        </respStmt>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Établissement du texte et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+        <respStmt>
+          <name>Zibardi Matteo</name> 
+          <resp>Traitement des images</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>eBalzac</publisher>
+        <publisher>ALITHILA (Université Lille III)</publisher>
+        <publisher>CELLF (CNRS &amp; Université Paris IV Sorbonne)</publisher>
+        <publisher>LIP6 (Université Paris VI)</publisher>
+        <date when="2017"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p> Copyright © 2017 Université Charles-de-Gaulle Lille 3, agissant pour le projet ANR « Projet d’hypertexte de l’œuvre de Balzac par l’utilisation de similarités » (ci-après dénommé ANR Phœbus). </p>
+            <p> Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’ANR Phœbus, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ». </p>
+            <p> Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p>
+            <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite. </p>
+            <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable. </p>
+          </licence>
+        </availability>
+        <idno>https://gallica.bnf.fr/ark:/12148/bpt6k42214045</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title> Cromwell, Tragédie en 5 acts et en vers </title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1820"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docAuthor>Honoré de Balzac</docAuthor>
+        <docTitle>
+          <titlePart type="main">Cromwell</titlePart>
+          <titlePart type="sub">Tragédie en 5 acts et en vers</titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <head>Personnages.</head>
+        <castList>
+        <castItem id="leroi"><role>Charles 1<hi rend="sup">er</hi>,</role> roi d’Angleterre.</castItem>
+        <castItem id="lareine"> <role>Marie-Henriette,</role> sa femme.</castItem>
+        <castItem id="strafford"><role>Strafford,</role> fils du ministre décapité.</castItem>
+        <castItem id="fairfax"><role>Lord Fairfax,</role> général parlementaire.</castItem>
+        <castItem id="cromwell"><role>Cromwell.</role></castItem>
+        <castItem id="ireton"><role>Ireton,</role> gendre de Cromwell.</castItem>
+        <castItem id="lambert"> <role>Lambert,</role> major de l’armée de Cromwell.</castItem>
+         <castGroup rend="braced">
+        <castItem id="fleetvold">Fleetvold.</castItem>
+        <castItem id="barclay">Barclay.</castItem>
+        <castItem id="bradshaw">Bradshaw.</castItem>
+        <castItem id="harrisson">Harrisson.</castItem>
+        <castItem id="ludlow">Ludlow.</castItem>
+        <castItem id="thurloe">Thurloë.</castItem>
+        <castItem id="falcombridge">Falcombridge.</castItem>
+           <roleDesc> <add>}</add> Principaux amis de Cromwell. Personnages muets</roleDesc>
+        </castGroup>
+          <castGroup>
+        <castItem id="percy">Percy.</castItem>
+        <castItem id="lambot">Lambot.</castItem>
+        <castItem id="suffolk">Suffolk.</castItem>
+            <roleDesc> <add>}</add> Membres du Parlement</roleDesc>
+          </castGroup>  
+        <castItem>Tous les membres du Parlement.</castItem>
+      </castList>   
+        <stage>La scène se passe à Westminster.</stage>
+        <stage>Le quatrième acte se passe dans la salle des séances du Parlement, les autres actes sont dans l’endroit de Westminster où se trouve l’entrée des tombeaux des Rois d’Angleterre</stage>
+        <pb n="personnages" xml:id="personnages" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-8.jpeg"/>
+      </div>
+      <div type="titolo1" subtype="level1">
+        <head>[ACTE PREMIER]</head>
+        <div type="titolo2">
+          <head>Scène première</head>
+          <stage>La Reine, Strafford.</stage>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><pb n="9" xml:id="9" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-9.jpeg"/>Arrêtons-nous, Strafford, je me soutiens à peine !...</p>
+            <stage>Elle s’assied.</stage>
+            <p>En l’état où je suis, qui me croirait la Reine ?</p>
+            <p>Moi qui reçus le jour pour imposer des lois,</p>
+            <p>Il faut, en abordant le palais de vos Rois,</p>
+            <p>À l’heureuse indigence emprunter sa livrée !...</p>
+            <p>Strafford, rassurez-moi, je suis tout éplorée !</p>
+            <p>La marche et le secret que vous m’avez prescrits,</p>
+            <p>Le silence obstiné qui régne en vos écrits</p>
+            <p>Sur votre souverain et sur ce qui le touche,</p>
+            <p>Les récits alarmants volant de bouche en bouche,</p>
+            <p>Tout m’inspire la crainte et me glace d’effroi.</p>
+            <p>Expliquez-vous enfin ! parlez, que fait le Roi ?</p>
+            <p>Les victoires, je sais, ne suivent pas ses armes !...</p>
+            <p>Vous ne répondez pas, je vois couler vos larmes,</p>
+            <p>Aurions-nous éprouvé quelques nouveaux revers ?</p>
+            <p>Je n’ai pu les apprendre, en traversant les mers !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Madame, rappelez votre sainte constance.</p>
+            <p>Le ciel n’a pas encore épuisé sa vengeance !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><pb n="10" xml:id="10" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-10.jpeg"/>Et que peut-il de plus ? tout est bouleversé,</p>
+            <p>Le Royaume est en feu, le trône renversé ;</p>
+            <p>Errant et méconnu de son peuple lui-même,</p>
+            <p>Le Prince abandonné, quittant le diadème,</p>
+            <p>Plutôt en fugitif qu’en Monarque vainqueur</p>
+            <p>Parcourt votre Angleterre ! et pour comble d’horreur,</p>
+            <p>Partout il est trahi, partout de la licence</p>
+            <p>Il voit dresser l’autel, il voit l’effervescence</p>
+            <p>Et l’esprit de vertige aveugler ses états,</p>
+            <p>Et la révolte enfin renaître sous ses pas !...</p>
+            <p>Sont-ce là des malheurs ? le sort dans sa furie</p>
+            <p>Peut-il en ajouter ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                  </space>Oui.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                            </space>Lequel ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                                                 </space>L’infamie !...</p>
+            <p>Je la crains moins pour vous, que pour le peuple anglais</p>
+            <p>Trempant sa main complice au plus noir des forfaits ;</p>
+            <p>Je le pleure sans cesse, hélas, je ne puis croire</p>
+            <p>Que vous en ignoriez l’épouvantable histoire !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Ah ! vous me remplissez d’une nouvelle horreur.</p>
+            <p>Parlez, Strafford !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                  </space>Je vais déchirer votre cœur :</p>
+            <p>Quand vous avez quitté nos funestes rivages,</p>
+            <p>De la guerre, Fairfax, conduisant les ravages,</p>
+            <p>Du parlement vainqueur servait la faction.</p>
+            <p>Mais c’était le jouet d’une autre ambition</p>
+            <p><pb n="11" xml:id="11" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-11.jpeg"/>Dont l’audace attendit le moment de paraître,</p>
+            <p>S’il ne fût pas venu son bonheur l’eût fait naître !</p>
+            <p>Elle attaque le trône, assise sur l’autel,</p>
+            <p>Ce fatal ennemi, Madame, c’est Cromwell !</p>
+            <p>Cromwell, qui, secouant une torche incendiaire,</p>
+            <p>Gouverne habilement la discorde et la guerre.</p>
+            <p>Actif, impétueux ou feignant le repos,</p>
+            <p>Il sait se laisser battre et sait vaincre à propos,</p>
+            <p>Pour conquérir l’amour ou dissiper la haine.</p>
+            <p>Avant d’être soldat il fut grand capitaine.</p>
+            <p>D’une mitre enviée abandonnant l’éclat,</p>
+            <p>Il voua son génie à renverser l’État.</p>
+            <p>S’enveloppant, dès lors, d’une écorce grossière,</p>
+            <p>À l’ombre de l’autel il sondait la carrière,</p>
+            <p>Cherchant l’occasion de recueillir les fruits</p>
+            <p>Des travaux que Fairfax a d’abord seul conduits :</p>
+            <p>C’est lui dont la Commune écouta l’éloquence</p>
+            <p>Quand elle s’excitait contre votre puissance,</p>
+            <p>Et que de l’Angleterre exagérant les maux,</p>
+            <p>Elle osait refuser les plus justes impôts ;</p>
+            <p>Dès qu’il vit, à son gré, l’Angleterre enflammée,</p>
+            <p>Par de brillants exploits il séduisit l’armée,</p>
+            <p>De Fairfax supplanté prit le commandement</p>
+            <p>Et fut maître à l’armée et maître au parlement.</p>
+            <p>Ce serpent fanatique élève alors sa tête</p>
+            <p>Et pour votre couronne il la tient toute prête :</p>
+            <p>Déjà ses compagnons lui forment une Cour,</p>
+            <p>Ont l’encens à la bouche et vendent son amour.</p>
+            <p>Le premier qu’on distingue est Ireton son gendre,</p>
+            <p>Aux désirs de Cromwell toujours prêt à se rendre ;</p>
+            <p>Après, brillent encor de l’éclat des forfaits,</p>
+            <p>Les Fleetvold, les Lambert, les Bradshaw, les Bardais,</p>
+            <p>Agitateurs obscurs, ravis d’être complices,</p>
+            <p>Et méprisés de ceux qu’élèvent leurs services,</p>
+            <p>Dont même je devrais vous épargner les noms,</p>
+            <p>Qu’on éternisera par d’immortels affronts ;</p>
+            <p>À les voir s’agiter, pleins d’une horrible joie.</p>
+            <p>On dirait des vautours, attachés à leur proie ;</p>
+            <p>De leurs sanglantes mains ils déchirent l’État,</p>
+            <p><pb n="12" xml:id="12" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-12.jpeg"/>Et pour plaire à Cromwell disputent d’attentat ;</p>
+            <p>De son règne futur adorant l’espérance,</p>
+            <p>Ils s’arrachent l’honneur de fonder sa puissance.</p>
+            <p>Lui, cachant ses projets, par d’habiles ressorts</p>
+            <p>À sa seule grandeur fait servir leurs efforts.</p>
+            <p>Cependant, d’Albion l’antique monarchie,</p>
+            <p>Sous les coups redoublés d’une affreuse anarchie</p>
+            <p>S’écroule ! Nazeby vit son dernier soupir.</p>
+            <p>Vaincu dans ce combat, Charles contraint de fuir,</p>
+            <p>En ses propres États ne trouvant plus d’asile,</p>
+            <p>Oppose à ses sujets un courage inutile,</p>
+            <p>Et du trône abattu promenant le débris</p>
+            <p>Voit son Royaume ingrat rester sourd à ses cris.</p>
+            <p>Le mot de liberté créa tous ces prodiges,</p>
+            <p>Il fut le talisman dont les brillants prestiges</p>
+            <p>Faisaient du parlement triompher les drapeaux.</p>
+            <p>Madame, ce nom seul enfanta des héros !…</p>
+            <p>Le Roi, dans son malheur, a droit à mon silence,</p>
+            <p>Censurer sa conduite et surtout sa clémence</p>
+            <p>Marquerait peu d’égards pour son adversité.</p>
+            <p>Que n’eût-il de mon père entendu l’équité !</p>
+            <p>Que de fois il lui dit de se faire un système</p>
+            <p>Où le peuple eût pris part à son pouvoir suprême ;</p>
+            <p>Qu’aujourd’hui les humains savent ouvrir les yeux,</p>
+            <p>Que tous les Rois ligués ne peuvent rien contre eux ;</p>
+            <p>Qu’il fallait aux Anglais offrir la garantie</p>
+            <p>Dont chaque nation devrait être investie ;</p>
+            <p>Et qu’un peuple, au refus d’un tardif souverain,</p>
+            <p>Vient la lui demander les armes à la main ;</p>
+            <p>Alors, on méprisa cet avis salutaire ;</p>
+            <p>De sa fidélité la mort fut le salaire !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Et c’est en ce moment que vous le reprochez ?</p>
+            <p>Ne suis-je donc plus Reine ? Ah ! Strafford poursuivez !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Je sais en vous parlant apprécier, Madame,</p>
+            <p><pb n="13" xml:id="13" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-13.jpeg"/>La magnanimité qui distingue votre âme ;</p>
+            <p>Je dirai plus encor : votre religion</p>
+            <p>Fut même un des motifs de la sédition.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Continuez.</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                     </space>L’Écosse était seule fidelle</p>
+            <p>Et seule combattait l’audace du rebelle :</p>
+            <p>Votre époux fugitif, pressé de toutes parts,</p>
+            <p>Confia sa fortune aux éternels remparts</p>
+            <p>Dont la nature arma cette agreste contrée,</p>
+            <p>Où la fidélité paraissait retirée ;</p>
+            <p>Et de ses seuls regards il créa des soldats,</p>
+            <p>Qui, pour venger sa cause, aspiraient aux combats.</p>
+            <p>Il conçut de l’espoir en voyant leur courage ;</p>
+            <p>Ce moment de bonheur annonçait un orage :</p>
+            <p>Pleurons la trahison ! l’infâme amour de l’or !</p>
+            <p>Sans ce perfide appât, j’espérerais encor !...</p>
+            <p>Cromwell, impatient de terminer son crime,</p>
+            <p>Arrivait à grands pas dévorer sa victime ;</p>
+            <p>Deux traîtres courtisans mirent fin au combat,</p>
+            <p>Leur prince fut l’objet d’un avide attentat ;</p>
+            <p>Et son camp fut vendu, sa personne livrée,</p>
+            <p>On osa marchander cette tête sacrée ;</p>
+            <p>D’un traité si honteux l’argent seul fut le prix.</p>
+            <p>Cromwell, en les payant, prodigua ses mépris ;</p>
+            <p>Mais, qu’il sut profiter de leur noire bassesse !</p>
+            <p>Du souverain captif il surprit la tendresse</p>
+            <p>Par des égards flatteurs, qu’un vaincu n’attend pas</p>
+            <p>De l’homme ambitieux achetant le trépas.</p>
+            <p>L’audacieux vainqueur fit un apprentissage</p>
+            <p>Du perfide respect qu’emprunta son visage ;</p>
+            <p>Tout, imitant le chef, s’empressa d’obéir</p>
+            <p>Au monarque déchu qu’il semblait rétablir,</p>
+            <p>Alors, le parlement, inquiet de sa proie,</p>
+            <p>Aux fers qu’il lui prépare ordonne qu’on l’envoie.</p>
+            <p><pb n="14" xml:id="14" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-14.jpeg"/>Cromwell encourt sa haine en bravant son devoir,</p>
+            <p>Refuse le captif et s’essaye au pouvoir !...</p>
+            <p>Charles parut régner sur Albion calmée ;</p>
+            <p>Il est mené vers Londre et la ville alarmée</p>
+            <p>Abaissa son orgueil à l’aspect de son Roi,</p>
+            <p>Que Cromwell, à genoux, entraînait après soi.</p>
+            <p>Ce monarque en espoir, grandissant son audace.</p>
+            <p>Entre le trône et lui put mesurer l’espace :</p>
+            <p>Dès lors plus de repos, il bâtit sa grandeur,</p>
+            <p>Et du prince trahi consomma le malheur.</p>
+            <p>Le peuple mutiné, devenant son complice,</p>
+            <p>De Charles prisonnier demande le supplice :</p>
+            <p>D’une feinte pitié colorant ses desseins,</p>
+            <p>Cromwell l’excite à fuir des sujets inhumains.</p>
+            <p>L’infortuné partit, sans douter de sa suite,</p>
+            <p>En pensant que Cromwell protégerait sa fuite ;</p>
+            <p>Malgré les faux dangers, semés sur son chemin.</p>
+            <p>Il crut à ses malheurs entrevoir une fin :</p>
+            <p>Déjà, Charles voyait les côtes de la France,</p>
+            <p>Déjà, son triste cœur s’ouvrait à l’espérance.</p>
+            <p>Chargé d’ordres secrets, suivi par des soldats,</p>
+            <p>Ireton, en silence, accompagnait ses pas ;</p>
+            <p>Et lorsqu’un frêle esquif, contenant sa fortune,</p>
+            <p>Allait, le dérobant à la haine commune,</p>
+            <p>Apporter à la France, asile du malheur,</p>
+            <p>Le seul trône ennemi de sa longue splendeur</p>
+            <p>Et qu’elle eût relevé d’une main magnanime,</p>
+            <p>Charles est arrêté !... Ce voyage est un crime.</p>
+            <p>Que l’affreux parlement, dont il fut le rival,</p>
+            <p>Brûlant de se venger, cite à son tribunal.</p>
+            <p>Là, chaque jour, le Roi, forcé de comparaître,</p>
+            <p>Se voit interrogé de ceux qui devraient l’être,</p>
+            <p>Et pour comble à ses maux, chérit encor Cromwell !…</p>
+            <p>Ce sacré Westminster, choisi par le cruel,</p>
+            <p>Prête à des assassins ses voûtes étonnées</p>
+            <p>De renfermer un Roi pleurant ses destinées !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Mon époux est ici ! Mon époux en ces lieux !</p>
+            <p><pb n="15" xml:id="15" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-15.jpeg"/>Vous me parlez, cruel, de forfaits odieux</p>
+            <p>Et vous me dérobez à sa douce présence ;</p>
+            <p>Vers lui guidez mes pas !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                                </space>Reine, de la prudence !</p>
+            <p>Il faut tout craindre ici, tout !... jusques à ces murs.</p>
+            <p>Peut-être de Cromwell les espions obscurs ;</p>
+            <p>Pour servir son pouvoir rien ne paraît frivole !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Ils l’ont emprisonné !... Mais qui donc le console ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Moi seul.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                 </space>Vous méritez d’être l’ami des Rois.</p>
+            <p>Ce mot à mon estime augmente encor vos droits ;</p>
+            <p>Mon père eut un Sully, vous en êtes un autre,</p>
+            <p>Vous avez ses vertus, et vous serez le nôtre !</p>
+            <p>Conduisez-moi, Strafford, vers cet époux si cher !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>On vient. Dieu ! C’est Cromwell !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                          </space>Où fuir ? où me cacher ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Des tombeaux de nos Rois voici la sombre entrée,</p>
+            <p>Leur dernière demeure est encore sacrée ;</p>
+            <p>Que ce soit votre asile, il sera respecté.</p>
+            <p>Entrez, reposez-vous sur ma fidélité.</p>
+            <stage>La Reine entre dans les tombeaux.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène II</head>
+          <stage>Ireton, Cromwell, Strafford.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="16" xml:id="16" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-16.jpeg"/>Vous me semblez surpris, Seigneur, par ma présence ?</p>
+            <p>Mes efforts cependant servent votre vengeance.</p>
+            <p>Quel était l’entretien qu’a troublé mon abord ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Voici la liberté que vous vantez si fort ?</p>
+            <p>Bientôt l’on ne pourra dans toute l’Angletterre</p>
+            <p>Sans l’ordre de Cromwell, ou parler ou se taire ;</p>
+            <p>L’amour de la vengeance est peu fait pour mon cœur,</p>
+            <p>Je prétends, aujourd’hui, vous le prouver, Seigneur.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Je vois, à ce discours, que mon appui vous lasse,</p>
+            <p>Mais, je veux...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                               </space>Votre appui !... Souffrez que je m’en passe ;</p>
+            <p>Je vais jusques aux lieux où gémit notre Roi,</p>
+            <p>C’est désormais le poste aux sujets tels que moi ;</p>
+            <p>Et vous m’y trouverez !</p>
+            <stage>Il sort.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène III</head>
+          <stage>Ireton, Cromwell.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="17" xml:id="17" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-17.jpeg"/>D’où lui vient cette audace ?</p>
+            <p>Enfin est-ce bien moi, Cromwell, que l’on menace ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Quoi ! Seigneur, son discours attire votre soin ?</p>
+            <p>Songez donc que jamais vous n’eûtes plus besoin</p>
+            <p>Et de tant d’éloquence et de tant d’artifice,</p>
+            <p>Pour de notre fortune assurer l’édifice ;</p>
+            <p>Que c’est de notre sort qu’il s’agit aujourd’hui !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Aussi je n’eus jamais plus de trouble et d’ennui !</p>
+            <p>Fatale ambition, qui consumes ma vie,</p>
+            <p>De quels soucis cuisants ton ardeur est suivie !</p>
+            <p>Au moment de saisir le prix de mes travaux,</p>
+            <p>Je crains qu’il ne m’échappe !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                                 </space>Avez-vous des rivaux ?</p>
+            <p>Ou bien du comte Essex redoutez-vous l’armée,</p>
+            <p>Que peut-être vos fils ont déjà désarmée ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Ami, de mes leçons, tu tires peu de fruits :</p>
+            <p>Cette troupe me sert, c’est moi qui la conduis,</p>
+            <p>Par de légers succès j’en accrois l’insolence,</p>
+            <p>Afin qu’on ait toujours besoin de ma science ;</p>
+            <p><pb n="18" xml:id="18" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-18.jpeg"/>Et que je puisse à Londre arrêter mes soldats,</p>
+            <p>Pour de Charles aujourd’hui protéger le trépas ;</p>
+            <p>Enfin, si le hazard trahissait mon courage.</p>
+            <p>Je veux tout surmonter, en maîtrisant l’orage ;</p>
+            <p>Si Charles triomphait, je dois de son appui</p>
+            <p>M’assurer la faveur, et m’attacher à lui.</p>
+            <p>Dès longtemps mes discours ont trompé ma victime ;</p>
+            <p>Elle ira dans la tombe en ignorant mon crime !</p>
+            <p>Quittons cet entretien. Les chefs du parlement.</p>
+            <p>Par mon ordre avertis, viennent en ce moment ;</p>
+            <p>Dans le fond de leurs cœurs je voudrais pouvoir lire !</p>
+            <p>Ireton, prends sur toi d’oser me contredire ;</p>
+            <p>L’effet de ton discours saura bien m’indiquer</p>
+            <p>Si je puis, avec eux, hardiment m’expliquer.</p>
+            <p>Il faut ou succomber ou fonder ma puissance,</p>
+            <p>Et je suis fatigué de la seule espérance !</p>
+            <p>Si je m’élève ainsi, c’est surtout pour mon fils</p>
+            <p>Et je dois empêcher, en sondant leurs esprits,</p>
+            <p>Qu’ils ne cherchent un jour, quand je serai leur maître,</p>
+            <p>À détruire un pouvoir qui lassera peut-être !...</p>
+            <p>À mon joug, aujourd’hui, je veux les asservir</p>
+            <p>Et sur eux essayer... Je les entends venir...</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Fairfax est à leur tête, avec eux il s’avance.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>De ces amis trompeurs, surprends la contenance,</p>
+            <p>Leur geste, leur visage et ces mobiles traits</p>
+            <p>Qui de l’homme imprudent trahissent les secrets ;</p>
+            <p>Mais observe, surtout, ceux qui sauront se taire !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène IV</head>
+          <stage>Les principaux amis de Cromwell et les premiers du Parlement, Fairfax, Ireton, Cromwell.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="19" xml:id="19" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-19.jpeg"/>Venez, libérateurs de la vieille Angleterre !</p>
+            <p>Le ciel enfin prononce et vous êtes vainqueurs,</p>
+            <p>De l’immortalité nous aurons les honneurs ;</p>
+            <p>Mes deux fils ont soumis et l’Écosse et l’Irlande,</p>
+            <p>Maintenant en tous lieux la liberté commande</p>
+            <p>Et n’a plus à dompter que de faibles partis</p>
+            <p>Qui ne méritent pas le titre d’ennemis.</p>
+            <p>Adorons du Seigneur la volonté suprême,</p>
+            <p>Ce n’est que lorsqu’il veut que tombe un diadème.</p>
+            <p>Et chargé de servir son céleste courroux,</p>
+            <p>L’Ange exterminateur a marché devant nous ;</p>
+            <p>Si l’on nomme forfait notre éclatant service.</p>
+            <p>Rassurez-vous, amis, le ciel en est complice ;</p>
+            <p>Et le même Seigneur, qui vengeait Israël,</p>
+            <p>A guidé les Cyrus et Guillaume et Cromwell.</p>
+            <p>Grand Dieu, daigne inspirer de ton intelligence</p>
+            <p>Les mortels que tu prends pour combler ta vengeance.</p>
+            <p>Amis, accomplissons ses éternels décrets ;</p>
+            <p>Il n’est plus qu’un obstacle à vos nobles projets ;</p>
+            <p>Le despotisme affreux forme une hydre effrayante</p>
+            <p>Dont alors un monarque est la tête agissante,</p>
+            <p>Et la mort de Stuart détruirait, avec lui,</p>
+            <p>Ce pouvoir colossal qui des Rois est l’appui.</p>
+            <p>Certes, jamais sujet d’une telle importance</p>
+            <p>N’occupa d’un conseil les soins et la prudence :</p>
+            <p>Ce que vous résoudrez, du Roi sera le sort ;</p>
+            <p>Nous tenons en nos mains et sa vie et sa mort.</p>
+            <p>Puisque j’ai rassemblé tous ceux dont l’influence</p>
+            <p><pb n="20" xml:id="20" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-20.jpeg"/>À la cour, aujourd’hui, dictera la sentence.</p>
+            <p>Parlez !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                </space>Gardons-nous bien de le sacrifier ;</p>
+            <p>Non que je pense, amis, à le justifier,</p>
+            <p>Mais Charles, à nos projets, me semble trop utile.</p>
+            <p>Son danger, à nos vœux, doit le rendre facile ;</p>
+            <p>La fortune elle-même offre une occasion</p>
+            <p>De contenter le peuple et notre ambition :</p>
+            <p>Traitons avec Stuart, vendons-lui sa couronne,</p>
+            <p>Et que chacun de nous, à pleines mains, moissonne ;</p>
+            <p>De richesse et d’honneurs sachons nous revêtir</p>
+            <p>Sans du peuple oublier le plus pressant désir.</p>
+            <p>Que d’un double pouvoir un heureux assemblage</p>
+            <p>Conseille la puissance et même la partage ;</p>
+            <p>Nous serons applaudis et du peuple et des grands.</p>
+            <p>Et cependant, Milords, rendons-nous si puissants</p>
+            <p>Que Charles, rétabli, n’ose pas nous atteindre ;</p>
+            <p>Il se rappellera que nous fûmes à craindre.</p>
+            <p>Ainsi, de l’Angleterre assurons tous les droits,</p>
+            <p>Elle peut être libre et se souffrir des Rois,</p>
+            <p>Ce traité leur laissant une ombre de puissance.</p>
+            <p>Qui, de la Royauté, n’aura que l’apparence,</p>
+            <p>Tandis que, dans nos mains, les rênes de l’État</p>
+            <p>De toutes nos grandeurs feront durer l’éclat.</p>
+            <p>Qu’en pensez-vous Lambert ?</p>
+          </sp>
+          <sp who="lambert">
+            <speaker>Lambert.</speaker>
+            <p><space>                                                 </space>Seriez-vous un traître ?</p>
+            <p>S’unir avec le Roi, serait le reconnaître.</p>
+            <p>Vous osez proposer de l’or à des soldats !</p>
+            <p>L’or paîrait-il le sang versé dans les combats ?</p>
+            <p>Il est plus glorieux de servir sa patrie.</p>
+            <p>Sans de tous ces honneurs, mendier l’infamie !</p>
+            <stage>Cromwell regarde Lambert d’un air mécontent.</stage>
+            <p>Je me range, au surplus, du parti de Cromwell,</p>
+            <p>Et laisse agir en tout la volonté du Ciel.</p>
+            <p><pb n="21" xml:id="21" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-21.jpeg"/>Quant à notre patrie, elle sait nos services ;</p>
+            <p>Jamais ses défenseurs, avec leurs cicatrices,</p>
+            <p>N’auront à redouter de rester ignorés ;</p>
+            <p>La gloire et le respect leur seront assurés.</p>
+            <p>Au reste, l’Angleterre a soin de leurs fortunes.</p>
+            <p>Et pour les décréter nous avons des Communes !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>L’ambition, Cromwell, n’a pas fermé mes yeux .</p>
+            <p>Apprends que je découvre à quoi tendent tes vœux !...</p>
+            <stage>Aux conjurés.</stage>
+            <p>Et n’attribuez pas au dépit, à l’envie,</p>
+            <p>D’avoir vu ma puissance éclipsée ou ravie,</p>
+            <p>Un sincère discours, qui ne sera dicté</p>
+            <p>Que par l’amour des lois et de la vérité.</p>
+            <p>Cromwell, tu veux régner, asservir ta patrie,</p>
+            <p>Tout en lui promettant sa liberté chérie ;</p>
+            <p>Si tu l’oses, finis ! mais vois tous nos lauriers</p>
+            <p>Et vois si nous pouvons être des meurtriers ;</p>
+            <p>C’est pour la liberté que combattit l’armée,</p>
+            <p>Cette noble conquête est notre renommée.</p>
+            <p>N’est-ce pas la ternir ? Nous sommes des soldats</p>
+            <p>Et nos bras pour frapper ont assez des combats.</p>
+            <p>Rendre son pays libre est un but légitime,</p>
+            <p>Mais il nous a contraint[s] à pleurer plus d’un crime :</p>
+            <p>Les droits de l’Angletterre ont été violés ;</p>
+            <p>Combien de citoyens se sont vus dépouillés !</p>
+            <p>Nous avons déchaîné, sur un pays tranquille,</p>
+            <p>La dévorante horreur d’une guerre civile ;</p>
+            <p>Et pour en achever l’effroyable tableau,</p>
+            <p>On veut qu’un Roi déchu monte sur l’échafaud ;</p>
+            <p>Est-ce ainsi que se venge un peuple magnanime ?</p>
+            <p>Ah ! que Charles soit libre ! et qu’enfin il estime</p>
+            <p>Qu’un simple citoyen se rend l’égal des Rois,</p>
+            <p>Quand il montre un grand homme obéissant aux lois ;</p>
+            <p>Et soyons applaudis de la race future,</p>
+            <p>Lorsqu’elle connaîtra la vengeance et l’injure !</p>
+            <p>Charles n’est plus à craindre ; et le peuple irrité</p>
+            <p><pb n="22" xml:id="22" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-22.jpeg"/>A secoué son joug et veut la liberté.</p>
+            <p>Je vois assez, Cromwell, qu’il te faut son supplice !</p>
+            <p>Va, ne te flatte pas de m’avoir pour complice,</p>
+            <p>J’ai déjà bien servi ton perfide projet !</p>
+            <p>Je le connus trop tard, et c’est là mon regret !...</p>
+            <p>Aussi, je me retire où commence le crime ;</p>
+            <p>Hélas, ma main, plutôt, sauverait la victime !...</p>
+            <p>Je me sépare, amis, n’ayant point de remords ;</p>
+            <p>Qui délivre un pays n’aura jamais de torts ;</p>
+            <p>Jusqu’au dernier soupir j’en servirai la cause.</p>
+            <p>Mais à son déshonneur, souffrez que je m’oppose ;</p>
+            <p>Malgré ce sentiment, n’ayez point de soupçon,</p>
+            <p>Ne craignez, de ma part, aucune trahison ;</p>
+            <p>Au cri de liberté je resterai docile ;</p>
+            <p>Un homme vertueux, dans la guerre civile.</p>
+            <p>Constant dans le parti qu’il aura su choisir,</p>
+            <p>Doit le suivre toujours et jamais le trahir.</p>
+            <stage>À Cromwell.</stage>
+            <p>Toi, quel que soit, Cromwell, le pouvoir qu’on te donne,</p>
+            <p>Fairfax, pour souverain, ne connaîtra personne !</p>
+            <p>Ma présence vous gêne, adieu !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                       </space>Fairfax, restez !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>Non, te dis-je.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                           </space>Eh bien, fuis !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène V</head>
+          <stage>Les précédents, excepté Fairfax.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>aux conjurés.</stage></speaker>
+            <p><space>                                                            </space><pb n="23" xml:id="23" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-23.jpeg"/>Quant à vous, écoutez</p>
+            <p>Amis, ce que Fairfax a pris soin de vous dire.</p>
+            <p>M’en évite l’aveu ; j’allais vous en instruire.</p>
+            <p>Si le cœur de Cromwell enfin vous est ouvert,</p>
+            <p>Sachez apprécier ce qui vous est offert ;</p>
+            <p>Apprenez qu’un beau sort était un apanage</p>
+            <p>Qu’aurait trouvé partout mon habile courage ;</p>
+            <p>Que dans la Monarchie exerçant mon talent,</p>
+            <p>À la Cour de Stuart, j’aurais été puissant ;</p>
+            <p>Et jusqu’auprès du trône, asseyant mon audace.</p>
+            <p>J’eusse assouvi mon cœur de cette simple place ;</p>
+            <p>Et l’état que mes soins ont alors ravagé,</p>
+            <p>Si je n’étais Cromwell, ce bras l’eût protégé !...</p>
+            <p>Mais le Ciel me créa pour étonner la terre,</p>
+            <p>J’ai su vous distinguer, au milieu du vulgaire,</p>
+            <p>Pour être compagnons de mes nobles travaux,</p>
+            <p>En partager les fruits, sans être mes rivaux.</p>
+            <p>Et si quelqu’un de vous enviait ma puissance,</p>
+            <p>Qu’il regarde avant tout et talents et naissance !</p>
+            <p>Daignez-vous rappeler d’où j’ai su vous tirer,</p>
+            <p>Enfin quels vous étiez ; pouviez-vous espérer,</p>
+            <p>Au rang où vous plaçait votre obscure misère,</p>
+            <p>Qu’un homme tel que moi fût assez téméraire</p>
+            <p>Pour oser vous conduire au sommet du pouvoir ?</p>
+            <p>Je l’ai fait cependant ! Était-ce sans espoir</p>
+            <p>Que mon bras aux combats, ma voix à la tribune,</p>
+            <p>À vous favoriser contraignit la fortune,</p>
+            <p>Et qu’aux destructions mes desseins obstinés,</p>
+            <p>De périls en périls, vous ont tous couronnés ?</p>
+            <p><pb n="24" xml:id="24" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-24.jpeg"/>Non. La soif du pouvoir et de la renommée</p>
+            <p>Irritait mon audace et l’avait enflammée ;</p>
+            <p>Et c’est pour tout avoir que j’ai tout entrepris ;</p>
+            <p>Si je vous parle ainsi, n’en soyez pas surpris !</p>
+            <p>J’ai séduit l’Angleterre, et j’ai pour moi l’armée,</p>
+            <p>À ma voix, à ma gloire, étant accoutumée.</p>
+            <p>Ce pouvoir, qu’aujourd’hui vous devrez tous m’offrir,</p>
+            <p>Demain, sur un refus, je le puis conquérir.</p>
+            <p>Songez qu’il lui faudra des intermédiaires ;</p>
+            <p>Amis, vous en serez les seuls dépositaires ;</p>
+            <p>C’est à vous à choisir, ou la guerre ou la paix,</p>
+            <p>Mais sachez que Cromwell ne pardonna jamais !</p>
+            <stage>Il les regarde un moment.</stage>
+            <p>Croiriez-vous, qu’affectant un honteux diadème,</p>
+            <p>Je détrône un tyran, pour en être un moi-même ?</p>
+            <p>Non. Ce que je désire est le suprême honneur</p>
+            <p>De commander à ceux dont j’ai fait la grandeur,</p>
+            <p>Et cette liberté, que nous avons conquise,</p>
+            <p>N’en régnera pas moins, aux bords de la Tamise !</p>
+            <p>Le Batave obstiné, les Suisses vagabonds,</p>
+            <p>Devant leurs chefs élus baissent de libres fronts,</p>
+            <p>Et Gênes et Venise obéit à son Doge ;</p>
+            <p>Rome, à ses dictateurs, a bien soumis sa toge ;</p>
+            <p>La ville de Lycurgue avait un souverain</p>
+            <p>Qui n’était, sous ce nom, qu’un premier citoyen ;</p>
+            <p>Et la Grèce eut des Rois ; Athènes son archonte ;</p>
+            <p>Après de tels pays, Albion peut sans honte</p>
+            <p>Donner un simple titre à ses libérateurs.</p>
+            <p>Ce noble espoir, Milords, parle mieux à vos cœurs</p>
+            <p>Qu’un discours qui, pour vous, est je pense inutile.</p>
+            <p>Pour monter au pouvoir on doit être docile,</p>
+            <p>Et vous fûtes, d’ailleurs, toujours ambitieux.</p>
+            <p>Je le sais ; je l’ai vu ; je le lis dans vos yeux !</p>
+            <p>Saisissons la fortune alors qu’elle est propice,</p>
+            <p>Dérobons-nous, Milords, à son fatal caprice.</p>
+            <p>Jurons de renverser tout obstacle à nos vœux,</p>
+            <p>Jurez de me servir, et jurez-en vos Dieux,</p>
+            <p>La fureur, et la haine, et l’ambition.</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VI</head>
+          <stage>Les précédents, [la Reine].</stage>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>sortant avec indignation.</stage></speaker>
+            <p><pb n="25" xml:id="25" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-25.jpeg"/>Traîtres !</p>
+            <p>Qui partagez ainsi le pouvoir de vos maîtres,</p>
+            <p>Vos discours ont troublé le sommeil de vos Rois,</p>
+            <p>Et leurs tombeaux émus s’ouvrent à votre voix !...</p>
+            <p>D’un triomphe incertain, vous repaissant d’avance,</p>
+            <p>Oubliez-vous que Dieu tient encor la balance !...</p>
+            <p>Que son bras est levé pour punir vos forfaits,</p>
+            <p>Si vous les consommez !... Voici du sang français !</p>
+            <p>Versez-le ! C’est alors que je serais vengée !...</p>
+            <p>De votre seul aspect je me sens outragée ;</p>
+            <p>À qui vais-je parler ?... Monstres, retirez-vous !</p>
+            <p>Et que je puisse au moins rejoindre mon époux !</p>
+            <stage>Elle sort en traversant au milieu des conjurés.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VII</head>
+          <stage>Les précédents, moins la Reine.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Milords, un tel affront décide la sentence,</p>
+            <p>Délivrons l’Angletterre, achevons sa vengeance !</p>
+          </sp>
+        </div>
+      </div>
+      <div type="titolo1" subtype="level1">
+        <head>ACTE II</head>
+        <div type="titolo2">
+          <head>Scène première</head>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>seul.</stage></speaker>
+            <p><pb n="26" xml:id="26" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-26.jpeg"/>Heureux, cent fois heureux, s’il connaît son bonheur,</p>
+            <p>Celui qui, loin des cours, a su fuir la grandeur !</p>
+            <p>S’il n’a pas, au berceau, le poids d’une couronne,</p>
+            <p>(Que le ciel nous ravit, pour montrer qu’il la donne !)</p>
+            <p>Il ne vit pas d’erreurs ! Il n’eut pas à signer</p>
+            <p>Le supplice de ceux que j’ai dû condamner,</p>
+            <p>Et s’il cultive en paix son modeste héritage,</p>
+            <p>De toute ma tempête il n’a que le nuage !...</p>
+            <p>Vous tous qui gouvernez, méditez sur mes fers</p>
+            <p>Ce que vient d’y graver le Roi de l’univers :</p>
+            <p>« Il ne vous suffit pas de ceindre un diadème</p>
+            <p>Pour avoir la science et régner par vous-même,</p>
+            <p>Dans l’histoire des temps, apprenez les leçons</p>
+            <p>Que ma puissante main adresse aux nations ;</p>
+            <p>En son ordre immuable, imitez la nature,</p>
+            <p>De votre cœur, en tout, écoutez le murmure ;</p>
+            <p>J’ai fait la conscience, un tribunal aux Rois ;</p>
+            <p>Et tout l’encens des cours n’étouffe pas sa voix !</p>
+            <p>Elle vous dit assez que la Sainte Justice</p>
+            <p>Ne doit pas, en aveugle, obéir au caprice,</p>
+            <p>Qu’elle ne vous rend pas majestueux et grands,</p>
+            <p>Pour être à vos sujets des éternels tyrans.</p>
+            <p><pb n="27" xml:id="27" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-27.jpeg"/>Observez avec soin leurs mœurs, leur caractère ;</p>
+            <p>Sachez comment on peut leur commander, leur plaire.</p>
+            <p>Le peuple n’a-t-il pas précédé tous les Rois ?</p>
+            <p>Et même avant le peuple, il existe des lois !</p>
+            <p>Consultez-les toujours, ne régnez que par elles,</p>
+            <p>Et vos trônes, alors, protégés de mes ailes,</p>
+            <p>Par des peuples vengeurs n’étant plus ébranlés,</p>
+            <p>Resteront à des Rois, par ma voix appelés !... »</p>
+            <p>Aurais-je méconnu ces divines maximes ?</p>
+            <p>Grand Dieu ! tu sais ma vie ; ai-je commis des crimes ?</p>
+            <p>Mais je n’ai pas chassé tous ces vils courtisans,</p>
+            <p>Dont le groupe attentif me vendait son encens,</p>
+            <p>Et qui m’entretenait de ma toute-puissance.</p>
+            <p>Lorsqu’il fallait guider mon inexpérience ;</p>
+            <p>Sans cesse j’entendis que l’art de gouverner</p>
+            <p>Était l’art d’être craint ; non... de se faire aimer !</p>
+            <p>Qu’enfin d’une autre terre on façonnait les princes ;</p>
+            <p>Peut-être étais-je, alors, haï dans mes provinces !...</p>
+            <p>Du malheureux Strafford, j’ai pu signer l’arrêt ;</p>
+            <p>Il m’a bien averti qu’il me précéderait ;</p>
+            <p>En vain il conjura la fatale tempête,</p>
+            <p>Son foudre audacieux n’ignorait plus ma tête,</p>
+            <p>Le jour que, souscrivant aux cris des factieux.</p>
+            <p>J’ai puni mon ami d’être trop vertueux.</p>
+            <p>Ce sont là mes erreurs. La peine en est sévère,</p>
+            <p>Je puis servir d’exemple aux princes de la terre !...</p>
+            <p>Strafford est bien vengé ! Mais surtout par son fils ;</p>
+            <p>Seul, il me plaint. Ô Rois, choisissez vos amis !...</p>
+            <p>Sans aucun despotisme, empêchez la licence,</p>
+            <p>Et ménagez le peuple, il fait votre puissance !...</p>
+            <stage>Il réfléchit.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène II</head>
+          <stage>Strafford, la Reine, Charles.</stage>
+          <stage>Strafford et la Reine sont au fond du théâtre.</stage>
+          <stage>Le Roi sur le devant.</stage>
+          <sp who="strafford">
+            <speaker>Strafford, <stage>montrant le Roi.</stage></speaker>
+            <p><pb n="28" xml:id="28" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-28.jpeg"/>Voici le Roi !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                            </space>J’ai donc un moment de bonheur !</p>
+            <stage>Elle s’approche.</stage>
+            <p>Peut-être un doux sommeil suspend-il sa douleur ?</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>l’appercevant.</stage></speaker>
+            <p>Ah ! n’est-ce point un songe ? Est-ce toi, chère épouse ?</p>
+            <p>De combler mes malheurs la fortune jalouse</p>
+            <p>M’a trop privé des soins qui calmeraient mes maux !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Mais, n’ai-je point, Seigneur, troublé votre repos ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Depuis que l’infortune obscurcit ma carrière.</p>
+            <p>Le sommeil a quitté ma captive paupière ;</p>
+            <p>Je pense, chère amie, au compte solennel</p>
+            <p>Que je devrai, dans peu, porter à l’Éternel ;</p>
+            <p>Peut-être trouverai- je un juge favorable,</p>
+            <p>Puisque de son courroux, ici-bas, il m’accable.</p>
+            <stage>Appercevant Strafford.</stage>
+            <p>Approchez-vous, Strafford, n’êtes-vous pas mon fils ?</p>
+            <p>Vous devez partager le bien dont je jouis ;</p>
+            <p>Déposez le respect. C’est un ami. Madame !...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><pb n="29" xml:id="29" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-29.jpeg"/>Sire, un doux sentiment attendrissait mon âme,</p>
+            <p>Vous voyant réunis !... Un avis important</p>
+            <p>Transmis par un soldat m’arrive en cet instant ;</p>
+            <p>Malgré votre bonté, j’en fais le sacrifice,</p>
+            <p>Et cours la mériter en vous rendant service.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles, <stage>bas à Strafford.</stage></speaker>
+            <p>Si cet avis, Strafford, précipitait ma fin,</p>
+            <p>N’en instruisez que moi.</p>
+            <stage>Montrant la Reine.</stage>
+            <p><space>                                          </space>Cachons-lui mon destin.</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène III</head>
+          <stage>La Reine, Charles.</stage>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>à part.</stage></speaker>
+            <p>De plaisir et d’horreur j’ai l’âme toute émue !</p>
+            <p>Hélas, dans quel état s’offre-t-il à ma vue !</p>
+            <p>Célèbre de malheurs ! Je les dois épouser.</p>
+            <p>J’ai partagé sa gloire.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles, <stage>à part.</stage></speaker>
+            <p><space>                                     </space>Elle peut m’accuser</p>
+            <p>En me trouvant captif au palais de mes pères !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Ah ! quel que soit. Seigneur, l’excès de nos misères,</p>
+            <p>Souffrez que, désormais, attachée à vos pas,</p>
+            <p>Je suive votre sort et ne vous quitte pas ;</p>
+            <p>Tout est commun pour nous, le bonheur et les peines,</p>
+            <p>Je viens m’associer à vos maux, à vos chaînes !</p>
+            <p><pb n="30" xml:id="30" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-30.jpeg"/>Le chagrin est moins vif quand il est partagé,</p>
+            <p>Depuis que je vous vois, le mien s’est allégé.</p>
+            <p>Ah ! puissé-je effacer celui qui vous dévore !</p>
+            <p>Mais vos malheurs passés m’inquiètent encore</p>
+            <p>Quels sont les plus grands maux que vous ayez soufferts ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Pour t’en entretenir, suis-je donc hors des fers ?...</p>
+            <p>L’horreur de ma prison, les tourments que j’endure,</p>
+            <p>N’égalent point encor l’humiliante injure</p>
+            <p>D’avoir été vendu par ceux-là que j’aimais.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Quoi ! Sire, vos amis ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                       </space>Un Roi n’en a jamais.</p>
+            <p>L’intérêt est le dieu qu’avec nous on encense,</p>
+            <p>Et notre cour s’enfuit avec notre puissance.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>De tous vos trois États il ne vous reste rien ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Une âme sans remords est un assez grand bien.</p>
+            <p>As-tu, de nos enfants, dérobé la jeunesse</p>
+            <p>Aux périls que pour eux redoutait ma tendresse ?</p>
+            <p>En quels lieux, chère épouse, ont-ils été conduits ?</p>
+            <p>De tes soins maternels dis-moi quels sont les fruits ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Hélas, je fus longtemps comme vous fugitive !</p>
+            <p>Ma prudence, pour eux, n’est pas restée oisive ;</p>
+            <p>J’hésitais à choisir les généreuses mains</p>
+            <p>À qui je confirais leurs précieux destins :</p>
+            <p>Mais enfin ma patrie emporta la balance,</p>
+            <p>Et je les ai commis à la foi de la France !...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="31" xml:id="31" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-31.jpeg"/>Eh ! quoi, c’est à la France ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                      </space>Y sont-ils en péril ?</p>
+            <p>Pour eux la France est-elle une terre d’exil ?</p>
+            <p>Ah ! Sire, elle est plutôt leur seconde patrie,</p>
+            <p>Où la tige d’Henri sera toujours chérie ;</p>
+            <p>Et le Louvre n’a rien qui blesse leurs regards ;</p>
+            <p>Malgré toute sa haine envers les Léopards,</p>
+            <p>Ne la redoutez pas, la France est magnanime,</p>
+            <p>Et ne connut jamais cette affreuse maxime</p>
+            <p>D’insulter au malheur de ses rivaux en deuil ;</p>
+            <p>Ce n’est qu’aux Champs de Mars qu’on leur creuse un cercueil ;</p>
+            <p>Et si vous en doutez, veuillez m’entendre. Sire.</p>
+            <p>En vain j’ai parcouru la Hollande et l’Empire,</p>
+            <p>En vain nos envoyés invoquèrent les Rois,</p>
+            <p>Et du malheur sacré firent parler les lois ;</p>
+            <p>Par des raisons d’État on refuse nos larmes ;</p>
+            <p>Et la France agitée, au milieu des alarmes,</p>
+            <p>Tendit sa main vaillante à notre adversité.</p>
+            <p>J’éprouvai sur-le-champ sa générosité ;</p>
+            <p>On essuya mes pleurs, on m’offrit un asile,</p>
+            <p>La Reine me promit, qu’appaisée et tranquille</p>
+            <p>La France abdiquerait sa longue inimitié,</p>
+            <p>Et défendrait nos droits, sans vendre sa pitié...</p>
+            <p>Mais quelques vieux guerriers, qui servirent mon père,</p>
+            <p>Indignés au récit de ma triste misère,</p>
+            <p>De leurs bras généreux m’offrirent le secours ;</p>
+            <p>Dès que je vis leur nombre augmenter tous les jours,</p>
+            <p>Je les remplis d’espoir, prodiguant les promesses ;</p>
+            <p>Pour avoir des soldats, j’épuisai nos richesses ;</p>
+            <p>La Reine et Mazarin donnèrent leurs vaisseaux ;</p>
+            <p>La Hollande, à regret, m’ouvrit ses arsenaux ;</p>
+            <p>J’y puisai sans scrupule, et je fus par mon zèle</p>
+            <p>En état de servir et venger ma querelle.</p>
+            <p>Joyeuse d’apporter ces fruits de mes efforts,</p>
+            <p>De la France, soudain, j’abandonnai les bords ;</p>
+            <p><pb n="32" xml:id="32" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-32.jpeg"/>De mes soldats flottants la mer était semée !...</p>
+            <p>Elle a tout englouti, l’espérance et l’armée.</p>
+            <p>De ce naufrage affreux je suis le seul débris,</p>
+            <p>Les flots m’ont dédaignée ; et n’en soyez surpris !</p>
+            <p>Pour de plus grands malheurs le sort gardait ma tête ;</p>
+            <p>Hélas ! Sait-on jamais où son gouffre s’arrête !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Au trépas ; et le mien s’avance lentement.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Qui peut vous inspirer un tel pressentiment ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>De mes juges affreux l’inhumaine conduite.</p>
+            <p>Sur leurs injustes fronts ma sentence est écrite,</p>
+            <p>Je la lis tous les jours ; on me fera périr.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Cette mort est honteuse, il la faut prévenir.</p>
+            <p>De vous voir condamner aurez-vous la constance ?</p>
+            <p>Un Roi doit-il survivre en perdant sa puissance ?</p>
+            <p>Ah ! Charles, je vous aime, et voudrais, de mon sang,</p>
+            <p>Racheter votre vie et votre illustre rang.</p>
+            <p>Mais soignez votre gloire, écoutez votre amie,</p>
+            <p>Périssez en grand homme, et fuyez l’infamie :</p>
+            <p>Tout jusqu’à votre mort doit rester éclatant.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>J’aurais pu, je le sais, mourir en combattant.</p>
+            <p>Du chagrin d’exister, un moment nous délivre ;</p>
+            <p>Quand la vie est à charge, il est plus beau de vivre !</p>
+            <p>La mort est un repos, chèrement acheté,</p>
+            <p>S’il devenait le prix de notre lâcheté.</p>
+            <p>Le seul crime avilit les têtes couronnées ;</p>
+            <p>Et jusques à la fin suivre ses destinées,</p>
+            <p>Combattre avec courage, en supportant son sort ;</p>
+            <p><pb n="33" xml:id="33" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-33.jpeg"/>Ne point solliciter, mais mépriser la mort ;</p>
+            <p>Voilà ce qui fait voir une âme peu commune,</p>
+            <p>Et rend supérieur aux jeux de la fortune.</p>
+            <p>Les Rois sont toujours Rois en dépit du malheur,</p>
+            <p>Et c’est dans les revers qu’éclate leur grandeur.</p>
+            <p>À quoi m’aura servi d’être grand sur le trône,</p>
+            <p>Si je n’étais plus rien, privé de ma couronne ?</p>
+            <p>Ah ! laisse-moi prouver que je la méritais,</p>
+            <p>Et c’est une vertu qu’en mourant je fuirais.</p>
+            <p>Quel que soit mon destin, l’arrêt dont on m’outrage,</p>
+            <p>Souviens-toi de ton père, en montrant son courage !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Mais, Sire, un échafaud ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                           </space>Ma mort l’ennoblira.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Et vous y monterez ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                     </space>Aussi, l’on m’en plaindra !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Ah ! ce n’est pas ainsi qu’aurait fait Henri quatre !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Jusqu’au dernier moment n’ai-je pas su combattre ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Il se serait plongé son glaive dans le sein !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>L’espoir ou l’Éternel eût arrêté sa main.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><pb n="34" xml:id="34" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-34.jpeg"/>Les femmes sont toujours aux larmes condamnées,</p>
+            <p>Lorsqu’à l’hymen des Rois elles sont destinées ;</p>
+            <p>Cependant le bonheur de nos jeunes amours,</p>
+            <p>À nos prospérités présageait un long cours,</p>
+            <p>Et je n’attendais pas un destin si funeste !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Ô chère et tendre épouse, ô seul bien qui me reste,</p>
+            <p>Garde-toi d’attrister, par des gémissements,</p>
+            <p>Les charmes séducteurs dont mes derniers moments</p>
+            <p>Se trouvent embellis par ta douce présence ;</p>
+            <p>Console-moi plutôt, et rends-moi l’espérance.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Et comment le pourrais-je, en vous voyant, Seigneur,</p>
+            <p>Caresser le serpent qui vous ronge le cœur ?</p>
+            <p>Vous souffrez de Cromwell l’astucieux langage,</p>
+            <p>Vous pensez qu’il vous sert, c’est lui qui nous outrage.</p>
+            <p>Vous le croyez du trône un adroit partisan,</p>
+            <p>C’est de tous nos malheurs l’invisible artisan.</p>
+            <p>S’il quitte vos genoux, il va, d’un bras perfide,</p>
+            <p>Assurer à son crime un succès parricide.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>On flatte donc les Rois jusque dans le malheur !...</p>
+            <p>Ah ! si tu pouvais voir son respect, sa candeur !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Et si vous l’aviez vu, ranimant ses complices,</p>
+            <p>Leur offrir le pouvoir, du sang et des supplices ?</p>
+            <p>Et jurant votre mort...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                       </space>En quel temps ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                                    </space>Aujourd’hui.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="35" xml:id="35" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-35.jpeg"/>En quels lieux ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                  </space>Ici</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène IV</head>
+          <stage>La Reine, Cromwell, Charles.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>à part.</stage></speaker>
+            <p><space>                                                  </space>Dieu ! la Reine est avec lui !</p>
+            <stage>Au Roi.</stage>
+            <p>Sire, le tribunal attend votre présence,</p>
+            <p>Allons faire éclater la voix de l’innocence ;</p>
+            <p>Des gardes outrageants je viens sauver l’affront ;</p>
+            <p>Avec moi, désormais, ils vous respecteront.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Votre indigne Sénat, Cromwell, peut nous attendre ;</p>
+            <p>Nous voulons, cependant, vous parler, vous entendre.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Jusqu’aujourd’hui, Cromwell, j’estimais vos vertus ;</p>
+            <p>Elles rendaient le calme à mes sens abattus.</p>
+            <p>Enfin, je vous aimais, malgré mon cœur lui-même,</p>
+            <p>Oubliant vos efforts contre mon diadème ;</p>
+            <p>Je fesais plus encore : en dépit des discours,</p>
+            <p>Que sur vous, mes amis, répétaient tous les jours.</p>
+            <p>J’ai cru que, détestant votre faute première.</p>
+            <p>Vous marchiez à grands pas dans une autre carrière.</p>
+            <p>Et, connaissant les mains qui m’ont su renverser.</p>
+            <p>Vous les flattiez encor pour les paralyser.</p>
+            <p>J’admirais ce dessein et l’heureuse industrie</p>
+            <p><pb n="36" xml:id="36" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-36.jpeg"/>Qui sauvait votre prince et sauvait la patrie.</p>
+            <p>Mais votre tribunal a dessillé mes yeux ;</p>
+            <p>Alors, je soupçonnai des projets odieux,</p>
+            <p>Ils éclatent dans l’ombre, et vous êtes un traître !</p>
+            <p>Et vous l’êtes, Cromwell, pour le plaisir de l’être !...</p>
+            <p>Me tromper dans les fers, hé pourquoi ce forfait ?</p>
+            <p>Si le tombeau m’attend, quel en sera l’effet ?</p>
+            <p>Et quelle en est la cause ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                             </space>Et vous avez pu croire</p>
+            <p>Que Cromwell commettrait une action si noire ?...</p>
+            <p>Sire, quel scélérat, affamé de douleurs,</p>
+            <p>Affronterait l’aspect de sa victime en pleurs ?</p>
+            <p>Et je le soutiendrais ?...</p>
+            <stage>À la Reine qui l’examine.</stage>
+            <p><space>                                          </space>Regardez mon visage.</p>
+            <p>Et s’il est de notre âme une parfaite image.</p>
+            <p>Il ne vous peindra pas un coupable étonné.</p>
+            <p>Mais un cœur généreux, justement indigné</p>
+            <p>En voyant transformer, par la malice humaine,</p>
+            <p>Les travaux de son zèle en des travaux de haine !</p>
+            <p>Vous devez me haïr, vous en avez les droits !...</p>
+            <p>Je me rappelle encor mes funestes exploits ;</p>
+            <p>De ma coupable erreur je fais l’aveu sincère.</p>
+            <p>J’ai de la liberté poursuivi la chimère,</p>
+            <p>J’ai tramé votre perte et vous ai combattus ;</p>
+            <p>Ô, mes Rois, plaignez-moi ! J’ignorais vos vertus.</p>
+            <p>Mais en les connaissant, j’épousai votre cause ;</p>
+            <p>C’est en votre grandeur que la mienne repose ;</p>
+            <p>Dans le poste où je suis, je [ne] peux que déchoir,</p>
+            <p>J’écoute, en vous sauvant, l’orgueil et mon devoir.</p>
+            <p>Avant de m’accuser, consultez ma conduite :</p>
+            <p>On résout votre mort, j’assure votre fuite ;</p>
+            <p>Je dispose le peuple et l’affreux parlement,</p>
+            <p>Pour de notre victoire amener le moment.</p>
+            <p>Voilà de mes complots toute la perfidie,</p>
+            <p>Je travaille à vous rendre et le sceptre et la vie.</p>
+            <p>Et c’est moi. Sire, moi, qu’on vous fait soupçonner,</p>
+            <p>Pendant que mes efforts ne tendent...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><pb n="37" xml:id="37" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-37.jpeg"/><space>                                                          </space>Qu’à régner.</p>
+            <p>Ne l’ai-je pas ouï de votre propre bouche,</p>
+            <p>Lorsque, fanatisant une troupe farouche,</p>
+            <p>Vous tâchiez d’échauffer sa trop timide ardeur</p>
+            <p>Par le frivole aspect d’une feinte grandeur !</p>
+            <p>Comment de vos discours justifier l’audace,</p>
+            <p>Ce langage où brillait le crime et la menace ?</p>
+            <p>N’avez-vous pas, alors, juré notre trépas ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Répondez !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                     </space>C’est vrai, Sire, et ne m’en défends pas !...</p>
+            <p>Mais d’autres que mes Rois n’auraient point de réponse.</p>
+            <p>Malgré l’obscurité que ma conduite annonce,</p>
+            <p>Reconstruire le trône est mon unique soin ;</p>
+            <p>Et j’en ai l’Éternel pour juge et pour témoin !...</p>
+            <p>Hélas ! c’est en lui seul que mon espoir se fonde,</p>
+            <p>Et, fort de son appui, je méprise le monde !</p>
+            <p>La vaine opinion ne fut jamais ma loi ;</p>
+            <p>De mes vastes desseins, le confident, c’est moi.</p>
+            <p>À travers nos dangers, je n’ai pas pris pour guide</p>
+            <p>La commune raison, que mon pas intimide.</p>
+            <p>Voilà, Sire, pourquoi je semble vous trahir,</p>
+            <p>Alors que tout Cromwell s’épuise à vous servir.</p>
+            <p>Et ces secrets détours, vous les allez connaître :</p>
+            <p>Reine, vous jugerez si Cromwell est un traître !</p>
+            <p>Vous avez entendu mon coupable discours,</p>
+            <p>Vous me serviez bien mal, en arrêtant son cours ;</p>
+            <p>Il était exécrable, impie et sacrilége...</p>
+            <p>Madame, admirez-moi, car il couvrait un piége,</p>
+            <p>Voyez jusqu’à quel point, quittant la vérité,</p>
+            <p>J’avais su dépouiller toute fidélité,</p>
+            <p>Pour en mieux revêtir les signes de la haine...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Pourquoi, Cromwell ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="38" xml:id="38" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-38.jpeg"/><space>                                 </space>Pourquoi ? Pour briser votre chaîne</p>
+            <p>Il n’appartient jamais aux chefs des nations,</p>
+            <p>D’arrêter dans leur cours les révolutions :</p>
+            <p>Mais on peut diriger leur volcan qui dévore.</p>
+            <p>Lorsque tous les partis étincellaient encore,</p>
+            <p>Rassembler mon armée et me joindre avec vous,</p>
+            <p>C’était n’en vaincre aucun, et les combattre tous ;</p>
+            <p>Leur donner la victoire, empirer notre crise ;</p>
+            <p>Pour dompter les partis, il faut qu’on les divise ;</p>
+            <p>Il faut, pour conjurer la perte de l’État,</p>
+            <p>Imiter leur langage et leur tendre un appât ;</p>
+            <p>Par l’attrait d’une proie, orner le précipice,</p>
+            <p>Où des chefs ennemis s’engloutit l’avarice.</p>
+            <p>En devinant leur but, j’ai paru les servir.</p>
+            <p>Je leur promis beaucoup ; j’ai su ne rien tenir ;</p>
+            <p>Je fus leur maître. Alors, écrasant l’un par l’autre,</p>
+            <p>Aisément, sur eux tous, je fais planer le nôtre.</p>
+            <p>Leurs divers intérêts, par mes soins isolés,</p>
+            <p>À la paix de l’État périssent immolés.</p>
+            <p>Le calme va renaître au fort de notre orage.</p>
+            <p>Malgré tous vos soupçons, il sera mon ouvrage ;</p>
+            <p>Et mon affreux discours est le dernier ressort</p>
+            <p>Dont le perfide jeu décidait notre sort.</p>
+            <p>Il me fallait savoir les défenseurs du trône</p>
+            <p>Parmi ceux dont je n’ose acheter la personne.</p>
+            <p>Si j’eus, plein d’un beau zèle, exposé mes desseins,</p>
+            <p>En voulant les gagner, j’aurais obtenu moins ;</p>
+            <p>Et l’on m’eût écouté pour me perdre, peut-être !...</p>
+            <p>Ils m’auraient à l’envi signalé comme un traître.</p>
+            <p>J’ai déguisé mes vœux en excitant les leurs ;</p>
+            <p>Fatigués d’être égaux, ils veulent des honneurs.</p>
+            <p>Dans leurs cœurs, en secret, mon discours m’a fait lire ;</p>
+            <p>Ils regrettent le trône, et pour nous tout conspire.</p>
+            <p>L’arrêt du tribunal, loin d’y graver l’affront,</p>
+            <p>D’un libre diadème ornera votre front.</p>
+            <p>Tout en vous défendant, comptez sur ma prudence,</p>
+            <p>Écoutez, sans frémir, jusqu’à votre sentence.</p>
+            <p><pb n="39" xml:id="39" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-39.jpeg"/>Si j’échouais, alors Essex est prévenu,</p>
+            <p>Le parlement expire, et Charles est reconnu.</p>
+            <p>Appercevez en tout la volonté divine</p>
+            <p>Construisant le triomphe au sein de la ruine :</p>
+            <p>Ce prodige accompli, le trône est assuré ;</p>
+            <p>S’il ignore les mains qui l’auront restauré,</p>
+            <p>Tout le peuple, adorant votre saint diadème,</p>
+            <p>Croira, s’il n’obéit, insulter à Dieu même !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>à Charles.</stage></speaker>
+            <p>Par tous ces faux discours seriez-vous combattu ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles, <stage>à la Reine.</stage></speaker>
+            <p>Quand je suis incertain, je crois à la vertu.</p>
+            <stage>À Cromwell.</stage>
+            <p>Marchons.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                     </space>Ah ! laissez-moi vous suivre !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                                                         </space>Adieu, Madame.</p>
+            <stage>Le Roi et Cromwell sortent.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène V</head>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>seule.</stage></speaker>
+            <p>Par cet adieu sinistre il a glacé mon âme ;</p>
+            <p>Peut-être que Cromwell le conduit à la mort ?...</p>
+            <p>Grand Dieu ! Dieu tout-puissant, qui disposes du sort !</p>
+            <p>Ah ! s’il faut qu’il périsse, écoute ma prière !</p>
+            <p>Fais qu’au moins je le voie à son heure dernière,</p>
+            <p>Et que je sois la seule entre sa vie et toi !...</p>
+            <p>Quel tumulte ! quel bruit ! Sauvez, sauvez le Roi !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VI</head>
+          <stage>La Reine, Strafford.</stage>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><pb n="40" xml:id="40" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-40.jpeg"/>Il est sauvé, Madame, et n’ayez plus d’alarmes ;</p>
+            <p>Nous combattrons Cromwell avec de fortes armes.</p>
+            <p>Ses fils, quoique vainqueurs, sont en notre pouvoir :</p>
+            <p>Essex les a surpris !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                   </space>Et quel est votre espoir ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Cromwell chérit ses fils, et vous pouvez comprendre</p>
+            <p>Qu’il nous les paîra cher avant de les lui rendre.</p>
+            <p>Le salut de Stuart en doit être le prix :</p>
+            <p>Il faut qu’il le délivre, ou qu’il pleure ses fils.</p>
+            <p>Profitons du bienfait que le Ciel nous envoie ;</p>
+            <p>Faisons trembler Cromwell, et qu’il rende sa proie !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Croyez-vous que le Roi consente à ce projet ?</p>
+            <p>Charles est trop magnanime...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                                   </space>Il en verra l’effet.</p>
+            <p>Et nous applaudira. Mais, pourquoi le lui dire ?</p>
+            <p>Quand il sera sauvé, nous pourrons l’en instruire...</p>
+          </sp>
+        </div>
+      </div>
+      <div type="titolo1" subtype="level1">
+        <head>Acte III</head>
+        <div type="titolo2">
+          <head>Scène première</head>
+          <stage>Ireton, Cromwell.</stage>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="41" xml:id="41" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-41.jpeg"/>Qu’attendez-vous, Seigneur, et que cherchent vos yeux ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>La Reine veut, dit-on, me parler en ces lieux.</p>
+            <p>As-tu soigneusement examiné la ville ?</p>
+            <p>Nos soldats sont-ils prêts ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                              </space>Seigneur, Londre est tranquille.</p>
+            <p>Des prêtres écoutant les cris fallacieux.</p>
+            <p>Tout le peuple aveuglé pense venger les cieux ;</p>
+            <p>D’une aumône prudente on répand la largesse ;</p>
+            <p>On bénit vos travaux et l’échafaud se dresse !...</p>
+            <p>Nos soldats déguisés secondent nos efforts,</p>
+            <p>Leur[s] discours de la foule enflamment les transports ;</p>
+            <p>Profitons du moment. Mais de votre séance</p>
+            <p>Quel fut le résultat ? Quelle est votre espérance ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="42" xml:id="42" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-42.jpeg"/>Le succès, Ireton, a surpassé mes vœux,</p>
+            <p>Et j’ai tout corrompu, jusqu’au plus vertueux ;</p>
+            <p>Je croyais entreprendre une plus forte tâche !</p>
+            <p>Avouons, en secret, qu’il faut un cœur bien lâche</p>
+            <p>Pour vendre son pays à qui veut l’acheter.</p>
+            <p>Il est des gens de bien, mais on les peut compter ;</p>
+            <p>Ils ne troubleront pas mon triomphe et ma joie.</p>
+            <p>Songe quel avenir devant moi se déploie !</p>
+            <p>Dès demain je prendrai le nom de Protecteur ;</p>
+            <p>Du titre de Monarque il n’a pas la hauteur,</p>
+            <p>C’est un modeste orgueil que la prudence indique ;</p>
+            <p>Nous savons où finit le pouvoir monarchique ;</p>
+            <p>Aujourd’hui ses excès le rendent odieux</p>
+            <p>Et je dois me garder d’en offenser les yeux ;</p>
+            <p>Un pouvoir inconnu n’a jamais de limite,</p>
+            <p>Se dérobant aux loix, il n’est rien qu’il n’évite.</p>
+            <p>Il n’est rien qu’il n’atteigne en se servant des loix.</p>
+            <p>Avec un titre obscur j’effacerai nos Rois,</p>
+            <p>Et sans que mon pouvoir se tourne en tyrannie ;</p>
+            <p>Cromwell en s’élevant prend un autre génie.</p>
+            <p>Aussitôt que le sceptre aura chargé mes mains,</p>
+            <p>Je veux être un César, gouvernant des Romains ;</p>
+            <p>J’en aurai les vertus et même la clémence.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Vous pourriez d’un Brutus éprouver la vengeance.</p>
+            <p>Je ne veux point. Seigneur, prêcher la cruauté,</p>
+            <p>Mais écoutons les loix de la nécessité.</p>
+            <p>Si d’un trône nouveau le sang n’est pas la base,</p>
+            <p>Il faut que sous son poids notre ennemi s’écrase :</p>
+            <p>Je vois avec plaisir vos généreux penchants,</p>
+            <p>Les Strafford, les Fairfax, les rendent impuissants.</p>
+            <p>Du moindre de nos Pairs, souffrirez-vous l’injure ?</p>
+            <p>Ces Lords ambitieux verront-ils, sans murmure,</p>
+            <p>S’élever un pouvoir, sans orner ses degrés ?</p>
+            <p>Ah ! malgré que Stuart les ait vu[s] conjurés,</p>
+            <p>Lorsque l’arbre attaqué penche vers sa ruine,</p>
+            <p><pb n="43" xml:id="43" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-43.jpeg"/>Ils veulent en défendre et sauver la racine</p>
+            <p>Pour garder les honneurs de ce titre expirant</p>
+            <p>Dont leurs derniers neveux héritent en naissant.</p>
+            <p>Se croyant du pouvoir les éternels oracles,</p>
+            <p>Ils deviendront, pour nous, de perfides obstacles.</p>
+            <p>Dès à présent, Cromwell, il faudrait y songer !</p>
+            <p>Prévenir leurs complots !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                           </space>Le puis-je sans danger !</p>
+            <p>Offrirai-je aux Anglais ces sanglantes prémices ?</p>
+            <p>Et se croira-t-on libre au milieu des supplices ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Si les Pairs, cependant, vous mettaient en péril ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Je pourrai leur prescrire un volontaire exil,</p>
+            <p>Sans couvrir l’Angleterre et de sang et de larmes ;</p>
+            <p>Je me sens assez fort pour dédaigner ces armes ;</p>
+            <p>Je dois même quitter ce langage imposteur</p>
+            <p>Qui, de tous mes desseins, masquait la profondeur^ ;</p>
+            <p>Je suis las de baisser une tête servile ;</p>
+            <p>Pour tromper son parti Charles m’est inutile ;</p>
+            <p>Puisqu’aujourd’hui sa chute assure mes projets.</p>
+            <p>Je n’ai plus de rivaux, et ne vois que sujets...</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Et ne craignez-vous pas l’Europe soulevée,</p>
+            <p>Qui, vengeant de ses Rois la Majesté bravée,</p>
+            <p>Viendra pendant leur cours arrêter vos succès ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>La mort de Richelieu, la mort d’Olivarès</p>
+            <p>Laissant de leurs projets la trame abandonnée,</p>
+            <p>Donnent assez de soin à l’Europe étonnée.</p>
+            <p>Dont tous les jeunes Rois contemplent leurs États</p>
+            <p><pb n="44" xml:id="44" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-44.jpeg"/>Achever des desseins qu’ils ne connaissaient pas :</p>
+            <p>Quoique le Cardinal ait terminé sa vie,</p>
+            <p>Par son ombre et le Nord l’Autriche est poursuivie ;</p>
+            <p>Et la France et Weymard attaquant Ferdinand,</p>
+            <p>Qui tantôt est vainqueur et tantôt se défend.</p>
+            <p>La moderne Italie obéit à l’Église,</p>
+            <p>Rome courbe sa tête au joug de la prêtrise.</p>
+            <p>Et cette antique mère et des Dieux et des arts,</p>
+            <p>N’ayant plus de Gâtons et veuve des Césars,</p>
+            <p>Toute morte qu’elle est, forge encore une foudre</p>
+            <p>Qui naguère avait mis plusieurs trônes en poudre ;</p>
+            <p>Mais Urbain la possède en de tranquilles mains.</p>
+            <p>La Castille aujourd’hui n’a plus ses Charles-Quints,</p>
+            <p>Elle épuisa sa force en gouvernant le monde ;</p>
+            <p>L’Ibérie à présent n’a rien qui la seconde,</p>
+            <p>Malgré ses vieux soldats et ses pompeux trésors ;</p>
+            <p>Le Batave a conquis sa liberté, ses ports :</p>
+            <p>Depuis Olivarès ce vaste corps s’abaisse,</p>
+            <p>N’étant plus soutenu, sous lui-même il s’affaisse,</p>
+            <p>Et des mains de Philippe, à peine maîtrisé.</p>
+            <p>Sous Condé, ce colosse à Rocroy s’est brisé.</p>
+            <p>Ce pays, s’il n’est libre, oubliera la victoire,</p>
+            <p>Tandis que sa rivale, amoureuse de gloire.</p>
+            <p>Pourrait lui succéder et régir l’univers ;</p>
+            <p>Mais la France est en proie à cent partis divers</p>
+            <p>Qui, du moins pour un temps, entravent ses conquêtes ;</p>
+            <p>L’enfance de ses Rois est fertile en tempêtes !</p>
+            <p>Condé poursuit la Cour, qu’il défendra demain,</p>
+            <p>On insulte, on rappelle, on proscrit Mazarin.</p>
+            <p>Enfin toute l’Europe, oubliant l’Angleterre,</p>
+            <p>La laisse, sur ses Rois, exercer sa colère :</p>
+            <p>Et notre Reine en vain sollicita les Cours</p>
+            <p>De porter à son trône un fraternel secours ;</p>
+            <p>On fut sourd à ses pleurs, et par sa seule adresse</p>
+            <p>Elle a su rassembler la flotte vengeresse,</p>
+            <p>Que dans un seul instant ont dévoré les flots.</p>
+            <p>Les Rois, les Éléments, ont servi mes complots,</p>
+            <p>Et je puis, tu le vois, cimenter ma puissance,</p>
+            <p>Sans craindre des dangers...</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="45" xml:id="45" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-45.jpeg"/><space>                                                </space>Notre Reine s’avance ;</p>
+            <p>Je vous laisse, Seigneur.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                          </space>Va recevoir mes fils.</p>
+            <p>Sans doute ils ont défait nos derniers ennemis ;</p>
+            <p>Vainqueurs du Comte Essex et de sa faible armée</p>
+            <p>Ils doivent arriver, et mon âme est charmée</p>
+            <p>En voyant mes enfants mériter le haut rang</p>
+            <p>Dont j’assure aujourd’hui l’héritage à mon sang.</p>
+            <stage>Ireton sort.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène II</head>
+          <stage>Cromwell, la Reine.</stage>
+          <stage>Cromwell va pour parler.</stage>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Laissons de vains discours ; je vous ai fait l’injure</p>
+            <p>De vous croire perfide, ambitieux, parjure ;</p>
+            <p>Je reconnais mes torts et viens, de votre ardeur,</p>
+            <p>Utiliser le zèle et hâter la lenteur.</p>
+            <p>Quittons, de vos desseins, la vaste politique</p>
+            <p>Et suivons les conseils que la prudence indique.</p>
+            <p>Vous commandez à Londre, au peuple, au parlement ;</p>
+            <p>Pourquoi laisser le Prince attendre incessamment</p>
+            <p>Un succès incertain, quand sa mort est certaine ?</p>
+            <p>Quand vous pouvez d’un mot l’arracher à sa chaîne ?</p>
+            <p>C’est trop d’inquiétude : il faut vous déclarer,</p>
+            <p>Par des moyens plus prompts il faut nous délivrer,</p>
+            <p>Et, joignant vos soldats à notre faible armée,</p>
+            <p>Rétablir, en un jour, notre cause opprimée.</p>
+            <p><pb n="46" xml:id="46" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-46.jpeg"/>En sauvant votre Roi, détruisez ses soupçons ;</p>
+            <p>Vous pouvez succomber. Je crains les trahisons ;</p>
+            <p>Un moment, quelquefois, confond notre prudence...</p>
+            <p>Quand je songe aux revers, malgré mon espérance.</p>
+            <p>Je préfère l’exil, le hazard des combats</p>
+            <p>À de lointains succès que je n’apperçois pas.</p>
+            <p>Ah ! de mes yeux troublés je ne vois qu’une chose,</p>
+            <p>C’est la mort qui s’avance, et tout ce que l’on ose !...</p>
+            <p>En de si grands périls la ressource des Rois</p>
+            <p>N’est pas dans l’art de feindre, ou d’implorer les lois,</p>
+            <p>Et sans de la justice attendre une sentence,</p>
+            <p>Ils en prennent le glaive et laissent la balance.</p>
+            <p>Venez Cromwell, venez, et sans aucun retard</p>
+            <p>Dans Londre épouvantée arborons l’étendard !...</p>
+            <p>Si mon époux périt, il périt avec gloire,</p>
+            <p>La tête couronnée, espérant la victoire,</p>
+            <p>Et de la mort des Rois, les armes à la main !...</p>
+            <p>Et le succès d’ailleurs sera-t-il incertain ?</p>
+            <p>La gloire en est facile ; est-il rien qui s’oppose</p>
+            <p>À Cromwell combattant pour une juste cause !...</p>
+            <p>Vous gardez le silence ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                        </space>Hélas, il le faut bien !</p>
+            <p>Je révère le Roi, mais je suis citoyen.</p>
+            <p>Quoi ! vous songez, Madame, à rallumer la guerre ?</p>
+            <p>Pour sauver un époux, vous perdez l’Angleterre ?</p>
+            <p>Sur quoi régnerez-vous ? Sur un pays en deuil,</p>
+            <p>Redemandant ses fils immolés à l’orgueil.</p>
+            <p>Quel que soit le parti couronné par la gloire,</p>
+            <p>Albion, toute en pleurs, maudira la victoire !</p>
+            <p>Et pour lui faire aimer votre trône affaibli,</p>
+            <p>Il ne faut que du temps, la douceur, et l’oubli.</p>
+            <p>Si l’Anglais, de ses Rois, proscrit la tyrannie,</p>
+            <p>Pensez-vous conquérir l’amour qu’il vous dénie.</p>
+            <p>En combattant ses vœux, ses lois, sa liberté ?</p>
+            <p>Madame, et votre époux, l’avez-vous consulté ?</p>
+            <p>S’il fuyait son arrêt, injuste ou favorable,</p>
+            <p>En paraissant le craindre il paraîtrait coupable.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>indignée.</stage></speaker>
+            <p><pb n="47" xml:id="47" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-47.jpeg"/>S’il vous le faut coupable, il le sera toujours !</p>
+            <p>Sais-je pas vos desseins<note place="bottom">Erreur de Bibliophiles de l’originale : « dessseins » au lieu de « desseins ».</note> ? Épargnez vos discours !</p>
+            <p>Et pourquoi supplier l’auteur de tant de crimes ?</p>
+            <p>Depuis quand les bourreaux sauvent-ils leurs victimes ?</p>
+            <p>L’arrêt et l’échafaud, vous avez tout dressé...</p>
+            <p>Ce règne est d’un moment, il est déjà passé !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>À l’injuste courroux que vous faites paraître,</p>
+            <p>Vous oubliez, je vois, qu’en ces lieux je suis maître !...</p>
+            <p>Vous pourriez, cependant, rendre grâce...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                                      </space>Et de quoi ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Vous n’êtes point captive et vous voyez le Roi !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>J’attendais que Cromwell, quittant son masque infâme,</p>
+            <p>Montrât dans tout son nud la noirceur de son âme.</p>
+            <p>Pour user sans remords d’un moyen odieux !</p>
+            <p>Crois-tu que j’ignorais ta réponse à mes vœux ?</p>
+            <p>Si j’ai de ta présence enduré le supplice,</p>
+            <p>C’était pour m’assurer de ton lâche artifice.</p>
+            <p>Tu te flattais, sans doute, aveugle en ton orgueil,</p>
+            <p>De voir à tes genoux ta souveraine en deuil,</p>
+            <p>Demandant ton secours, refusé par avance ?</p>
+            <p>Je triomphe à mon tour, écoute ta sentence :</p>
+            <p>Je possède...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                     </space>Mais quoi, grande Reine ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                                       </space>Tes fils !</p>
+            <p>Ils venaient sans escorte, Essex les a surpris.</p>
+            <p><pb n="48" xml:id="48" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-48.jpeg"/>Du salut de Stuart ils deviennent le gage ;</p>
+            <p>Et si Charles périt, la mort est leur partage !...</p>
+            <p>Que dis-je ? Ils vont mourir, si conduit par tes soins</p>
+            <p>Mon époux n’est remis en de fidèles mains.</p>
+            <p>Signale ton génie en déguisant sa fuite ;</p>
+            <p>Traître, sois vertueux et, sans aucun mérite,</p>
+            <p>Au péril de tes jours sauve, défends ton Roi,</p>
+            <p>Délivre ta victime, et le tout malgré toi.</p>
+            <p>Pour te déterminer, je ne donne qu’une heure,</p>
+            <p>Et pour savoir ton choix en ces lieux je demeure...</p>
+            <p>Ne tente pas non plus de vaincre nos soldats ;</p>
+            <p>Tu pourrais, de tes fils, avancer le trépas ;</p>
+            <p>Il serait un prélude à la juste défense</p>
+            <p>Qu’opposerait Essex, pensant à ta vengeance.</p>
+            <p>Je frémis, plus que toi, de ce tourment d’enfer</p>
+            <p>Dont tu nous a donné l’exemple à Colchester.</p>
+            <p>Le danger d’un époux le rend bien légitime ;</p>
+            <p>Quelle qu’en soit l’horreur, chez toi sera le crime :</p>
+            <p>Bois le sang de ton Roi, bois le sang de tes fils,</p>
+            <p>Si tu veux commander, le sceptre est à ce prix.</p>
+            <p>Délibère, et décide, ou sans décider, traître,</p>
+            <p>Ne verse pas ton sang, et délivre ton maître.</p>
+            <stage>Elle sort.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène III</head>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>seul. Il croit parler à la Reine.</stage></speaker>
+            <p>Madame... Je suis seul ! Quel tourment inouï.</p>
+            <p>Mon règne est-il un songe ? Est-il évanoui ?</p>
+            <p>Quoi ! j’aurai consumé la moitié de ma vie,</p>
+            <p>Brûlant d’ambition, et rongé par l’envie !</p>
+            <p>J’aurai conquis l’État, où simple Citoyen</p>
+            <p>J’eusse été satisfait de plaire au souverain ?</p>
+            <p>J’aurai détruit le trône, et quand je suis le maître,</p>
+            <p>À force de vertus, ou de crimes... peut-être !</p>
+            <p><pb n="49" xml:id="49" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-49.jpeg"/>Du Prince et de l’État, du trône... le hazard</p>
+            <p>Ruine en un moment tout l’effort de mon art !</p>
+            <p>En un calme pays, j’élève une tempête :</p>
+            <p>Lorsque ma foudre éclate... elle écrase ma tête !</p>
+            <p>Appercevant le faîte et régnant en espoir</p>
+            <p>Faudra-t-il le quitter sans goûter du pouvoir ?</p>
+            <p>Non... non... mes fils mourront ! On périt à la guerre !</p>
+            <p>Est-ce un si grand malheur de mourir pour son père ?</p>
+            <p>Cruel ! De la nature efface donc la loi !...</p>
+            <p>Elle t’a rendu père et ne t’a pas fait Roi !...</p>
+            <p>Pourquoi m’abandonner au remords qui m’assiége ?</p>
+            <p>Ouvre les yeux, Cromwell, cette offre... C’est un piége.</p>
+            <p>Ce délai si pressant paraît le confirmer.</p>
+            <p>Ne nous laissons pas vaincre, allons m’en informer.</p>
+            <p>Je sens croître ma haine...</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène IV</head>
+          <stage>Ireton, Cromwell.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                     </space>Ah ! que viens-tu me dire ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Je ne puis sans terreur oser vous en instruire ;</p>
+            <p>Entre les mains d’Essex vos enfants sont captifs.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Je n’en puis plus douter !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                           </space>Ignorant vos motifs.</p>
+            <p>Ils n’ont pas cru qu’aux lieux où commandait leur père,</p>
+            <p>Il fût des ennemis qu’ils eussent à défaire :</p>
+            <p>Et de loin précédant l’appareil des combats,</p>
+            <p>Ils arrivaient vainqueurs se jeter dans vos bras.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="50" xml:id="50" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-50.jpeg"/>Je le sais !... Mais apprends le trouble qui m’agite ;</p>
+            <p>Il faut délivrer Charles et protéger sa fuite,</p>
+            <p>Ou mes fils à l’instant vont tomber sous ses coups.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Qu’avez-vous résolu ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                         </space>Rien.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                                          </space>Que céderez-vous ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Rien.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>               </space>Vous devez choisir ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                          </space>Ma raison m’abandonne !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Vous ne renoncez pas sans doute à la couronne ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Est-ce à moi que l’on parle ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                                      </space>Immolez donc vos fils !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Ah ! terrible pensée et qu’est-ce que tu dis ?</p>
+            <p>De quoi me sert un trône, en perdant l’espérance</p>
+            <p>D’éterniser ma race et sa longue puissance ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="51" xml:id="51" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-51.jpeg"/>Cromwell va devenir un simple citoyen !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Ah ! je saurai périr, ou vivre Souverain !...</p>
+            <p>Mais perdre mes deux fils, les soutiens de ma gloire !...</p>
+            <p>Recommençons la lutte et cherchons la victoire,</p>
+            <p>Sans employer un crime à couronner mon front.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Renoncez-vous encore à venger cet affront ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>J’ajourne ma vengeance, elle en sera terrible !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Si vous perdez le trône, elle n’est plus possible :</p>
+            <p>Ajourner la vengeance, achevons-la. Seigneur !..,</p>
+            <p>La Reine et son parti vont commencer la leur !</p>
+            <p>Si vous offrez la tête au joug qu’on vous impose,</p>
+            <p>Il vous faudra bientôt leur donner autre chose</p>
+            <p>Et, rendant par degrés votre absolu pouvoir,</p>
+            <p>Les servir ; et rentrer dans un humble devoir</p>
+            <p>Dont vos fils deviendront un éternel otage !</p>
+            <p>L’obéissance, enfin, sera notre partage ;</p>
+            <p>Et loin que ce soient eux qui tombent sous vos coups,</p>
+            <p>Vous les aurez armés pour se venger de nous.</p>
+            <p>Heureux si leur faveur vous sauve des supplices</p>
+            <p>Qui seront réservés à vos tristes complices !...</p>
+            <p>Doutez-vous, en effet, que si le parlement</p>
+            <p>Vous voit rester sans force, en un si grand moment,</p>
+            <p>Il ne succombe au cri de cette conscience,</p>
+            <p>Que vous ne lui calmez qu’à force de science,</p>
+            <p>Lui fesant espérer un immense pouvoir,</p>
+            <p>Qu’il n’aura pas, sans doute, et qu’il brûle d’avoir.</p>
+            <p>Le peuple vous reprend sa faveur fugitive</p>
+            <p>Qu’il ne conserve pas quand on la laisse oisive ;</p>
+            <p><pb n="52" xml:id="52" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-52.jpeg"/>Et l’armée a des chefs qui, tous ambitieux,</p>
+            <p>Convoitent votre poste et le couvent des yeux.</p>
+            <p>Ah ! si jusqu’à présent votre habile courage</p>
+            <p>De tous ces intérêts a dompté l’assemblage,</p>
+            <p>Et les a fait servir à vos heureux desseins,</p>
+            <p>Craignez que la fortune échappe de vos mains...</p>
+            <p>Nous l’accusons à tort, ce sont les circonstances</p>
+            <p>D’où naissent ses retours et ses diverses chances ;</p>
+            <p>Vous voyez qu’une faute enlève sa faveur,</p>
+            <p>Et vous la commettez !... le dirais-je. Seigneur,</p>
+            <p>Un combat si honteux dément votre grande âme,</p>
+            <p>Le pouvoir vous attend, le trône vous réclame,</p>
+            <p>Osez les posséder ! Sacrifiez vos fils...</p>
+            <p>Les pleureriez-vous donc, mourant pour leur pays ?</p>
+            <p>Si voulant l’asservir, l’ambition trop forte,</p>
+            <p>Sur l’amour du pays, en votre âme l’emporte,</p>
+            <p>Immolez vos enfants, sans craindre les remords ;</p>
+            <p>S’ils savaient vos desseins, ils seraient déjà morts !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Tu veux donc, Ireton, que je les sacrifie ?</p>
+            <p>J’empoisonne en un jour tout le cours de ma vie !</p>
+            <p>On me reprochera que mes fils massacrés,</p>
+            <p>Pour monter au pouvoir m’ont servi de degrés.</p>
+            <p>Quelque soit la splendeur que jette mon génie,</p>
+            <p>D’une éternelle tache elle en sera ternie.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>On remplace des fils, que ravit le trépas,</p>
+            <p>Mais un trône, Cromwell, ne se remplace pas.</p>
+            <p>Croyez-vous, après tout, flétrir votre mémoire ?</p>
+            <p>Cette action, Seigneur, est un sujet de gloire :</p>
+            <p>Nous pourrons sur le prince en rejetter l’horreur</p>
+            <p>Et tout vous servira, jusqu’à votre malheur !...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Allons !... je m’abandonne à ta triste prudence.</p>
+            <p>Tâche de les sauver, et songe à ma vengeance.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="53" xml:id="53" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-53.jpeg"/>Je n’attendais pas moins de votre fermeté !...</p>
+            <p>L’espoir vous est permis !... en cette extrémité,</p>
+            <p>J’ai prévenu votre ordre et toutes nos cohortes,</p>
+            <p>De Londre, en ce moment, ont dépassé les portes</p>
+            <p>Et marchent contre Essex...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                    </space>Malheureux ! qu’as-tu fait ?</p>
+            <p>Cours révoquer ton ordre, empêcher un forfait !...</p>
+            <p>Sais-tu qu’ils vont périr ?... Va, cours, je te l’ordonne !...</p>
+            <p>Et je renonce à tout, oui !... même à la Couronne.</p>
+            <stage>Ireton sort.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène V</head>
+          <stage>Cromwell, Le Roi.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>à part.</stage></speaker>
+            <p>Dieu ! Voici ma victime ! Il vient, en ce moment,</p>
+            <p>Savourer sa vengeance et croître mon tourment.</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>à part. Il est au fond du théâtre.</stage></speaker>
+            <p>Il est morne, pensif...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>à part.</stage></speaker>
+            <p><space>                                        </space>Sa vue est un supplice !</p>
+            <p>Que ne suis-je innocent !... Il faudra qu’il périsse,</p>
+            <p>Je vengerai mes fils...</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>près de Cromwell.</stage></speaker>
+            <p><space>                                            </space>Vous semblez accablé ?</p>
+            <p>Quels nouveaux malheurs ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                               </space>Moi ! Je ne suis point troublé.</p>
+            <stage>À part. </stage>
+            <p>Quel calme !</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi.</speaker>
+            <p><space>                              </space>Votre cœur n’a-t-il rien à me dire ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Non, Sire.</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi.</speaker>
+            <p><space>                    </space>Écoutez-moi, Cromwell !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                                </space>Arrêtez, Sire !</p>
+            <p>Venez-vous insulter ma profonde douleur ?</p>
+            <p>Et sourire à des maux dont vous êtes l’auteur ?...</p>
+            <p>Certes, je vous croyais une âme généreuse,</p>
+            <p>J’en avais des remords !... Cette action honteuse,</p>
+            <p>Sans vous sauver, Seigneur, déshonore vos jours.</p>
+            <p>Oui, je vous ai trompé, je laisse mes détours,</p>
+            <p>Je suis votre ennemi, mais je vois avec joie,</p>
+            <p>Que je puis achever sans gémir sur ma proie !</p>
+            <p>Je ne sais qui de nous est le plus criminel.</p>
+            <p>Je suis ambitieux et vous êtes cruel !...</p>
+            <p>Je suis ambitieux, et je dois toujours l’être,</p>
+            <p>Cromwell n’est pas né pour ramper sous un maître.</p>
+            <p>Qu’on immole mes fils !... On le peut... Toutefois</p>
+            <p>Avant de les frapper... regardez à deux fois...</p>
+            <p>Pesez votre forfait !... Vos enfants sont en France ;</p>
+            <p>Ils ne sont que trop près pour sentir ma vengeance ;</p>
+            <p>Elle ira les chercher au bout de l’univers !</p>
+            <p>La mère et les enfants, j’aurai tout dans mes fers !</p>
+            <p>Dès long-temps j’ai du crime embrassé la carrière,</p>
+            <p>Il m’en coûterait trop pour un pas en arrière.</p>
+            <p>Devais-je m’arrêter !... Maître de vos destins,</p>
+            <p>Je voulais vous sauver, je balançais du moins ;</p>
+            <p>Mais je vous...</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>l’arrêtant.</stage></speaker>
+            <p><pb n="55" xml:id="55" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-55.jpeg"/><space>                            </space>Sans chercher si votre âme est sincère</p>
+            <p>Dans le sanglant aveu que vous venez de faire,</p>
+            <p>Je m’en tiens aux forfaits dont je ne puis douter ;</p>
+            <p>C’est à moi de me plaindre, à vous de m’écouter...</p>
+            <p>Ma couronne, je sais, vous semble une conquête,</p>
+            <p>Et vos regards d’avance en dépouillent ma tête ;</p>
+            <p>Je sais que par vos soins l’échafaud est tout prêt ;</p>
+            <p>Que déjà votre bouche a prononcé l’arrêt.</p>
+            <p>Pourriez-vous m’informer quel funeste génie</p>
+            <p>Consomme par vos mains le malheur de ma vie ?</p>
+            <p>Que toute l’Angletterre, armant contre ses Rois,</p>
+            <p>Refuse d’obéir, en invoquant les lois,</p>
+            <p>Et vous entraîne, enfin, dans sa guerre insensée,</p>
+            <p>Ce n’est là qu’une erreur !... Mais, dans quelle pensée</p>
+            <p>Voulez-vous m’arracher et la vie et l’honneur ?</p>
+            <p>Et par quelle injustice ai-je aigri votre cœur ?</p>
+            <p>Vous aurais-je opprimé ? Quel ordre sanguinaire</p>
+            <p>M’attire tous les maux que vous voulez me faire ?</p>
+            <p>Que me reprochez-vous ? Répondez !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                              </space>D’être Roi !</p>
+            <stage>Bas, à part.</stage>
+            <p>Pourquoi faut-il qu’il soit entre le trône et moi !...</p>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi.</speaker>
+            <p>Hé ! Quoi ! vous m’enviez mon fatal diadème ?</p>
+            <p>Le foulez-vous aux pieds pour le ceindre vous-même ?</p>
+            <p>Est-ce votre héritage ? Expliquez-moi vos droits,</p>
+            <p>Serait-ce votre épée, ou vos tristes exploits ?</p>
+            <p>Quoi ! Vous osez régner sur la même contrée</p>
+            <p>Qui dévore ses Rois sans en être éplorée ?</p>
+            <p>Vous ne tremblez donc pas de trouver un Cromwell ?</p>
+            <p>Si le trône, à vos yeux, me rend si criminel,</p>
+            <p>Pourquoi donc y monter, vous, dont la voix, naguère,</p>
+            <p>Du nom de liberté fatiguait l’Angleterre ?</p>
+            <p><pb n="56" xml:id="56" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-56.jpeg"/>Vous, par qui mes sujets entraînés aux combats,</p>
+            <p>Sont devenus à vous – en devenant ingrats !...</p>
+            <p>Ce trône, mon malheur, ce trône héréditaire !</p>
+            <p>Dois-je aider à l’abattre et le mettre en poussière ?</p>
+            <p>Si vous le possédiez, en descendriez-vous ?</p>
+            <p>Non... J’y saurai mourir, ou dessus ou dessous !</p>
+            <p>Vous, perfide sujet, plus je vous considère,</p>
+            <p>Et plus je vois en vous un objet de colère !</p>
+            <p>À mon ressentiment il est temps d’obéir !...</p>
+            <p>Que de maux j’évitais, en vous fesant périr</p>
+            <p>Le jour où votre voix, doublement criminelle.</p>
+            <p>Entraîna la Commune et la rendit rebelle.</p>
+            <p>Puisqu’aujourd’hui le Ciel a servi mon courroux,</p>
+            <p>Je dois en profiter, et me venger de vous ;</p>
+            <p>Vous l’avez mérité, mon intérêt l’ordonne,</p>
+            <p>Je le dois, je le puis, eh bien !... je vous pardonne :</p>
+            <stage>Lui donnant un papier.</stage>
+            <p>Cet ordre est pour Essex, il vous rendra vos fils...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Ah ! Sire, quel bienfait !</p>
+            <stage>Il tombe aux genoux du Roi.</stage>
+          </sp>
+          <sp who="leroi">
+            <speaker>Le Roi.</speaker>
+            <p><space>                                              </space>J’en demande un seul prix...</p>
+            <p>Ne m’en ayez, Cromwell, nulle reconnaissance !...</p>
+            <p>Pour mes fils, pour ma veuve, ayez de l’indulgence...</p>
+            <p>Vous me consolerez, par delà le tombeau,</p>
+            <p>Si, de mes tendres fils respectant le berceau,</p>
+            <p>Vous les laissez en paix soupirer sur ma cendre,</p>
+            <p>Et pleurer des malheurs qu’ils ne peuvent comprendre</p>
+            <p>Que de longtemps peut-être, et vous aurez régné !...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Pour ne vouloir plus vivre, êtes-vous condamné ?</p>
+            <p>Qui peut du cœur humain connaître les prodiges ?</p>
+            <p>De Cromwell assassin, il n’est plus de vestiges !...</p>
+            <p><pb n="57" xml:id="57" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-57.jpeg"/>Sans quitter le pouvoir, je renonce aux forfaits...</p>
+            <p>J’épargne les serments, je ne les tiens jamais,</p>
+            <p>Mais je cours vous sauver ; vous, sachez reconnaître</p>
+            <p>Les efforts que je fais pour vivre sous un maître !</p>
+            <p>Adieu, Sire !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VI</head>
+          <sp who="leroi">
+            <speaker>Le Roi, <stage>seul.</stage></speaker>
+            <p><space>                              </space>Ô ! Vertu, j’obéis à tes loix.</p>
+            <p>Daigne éclairer Cromwell, qu’il entende ta voix !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VII</head>
+          <stage>Strafford, Charles, la Reine.</stage>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Serait-ce véritable ? Et que viens-je d’apprendre ?</p>
+            <p>Nous possédions ses fils... Vous venez de les rendre !</p>
+            <p>Douteriez-vous encor de son affreux forfait ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Je ne l’ignorais plus.</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                       </space>Sire, qu’avez-vous fait !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>J’ai rempli mon devoir.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                          </space>Nous en serons victimes !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="58" xml:id="58" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-58.jpeg"/>Et depuis quand doit-on se sauver par des crimes ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Depuis que par le crime on attaque les Rois.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Je fus vendu ; faut-il me marchander deux fois ?</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Vous voulez donc mourir et combler ma misère !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Et pourquoi tant blâmer ce que je viens de faire ?</p>
+            <p>Un généreux pardon peut ramener Cromwell !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Pour en faire un grand homme il est trop criminel !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Il menaçait nos fils !...</p>
+            <stage>La Reine change de visage à ces mots.</stage>
+            <p><space>                                             </space>et craignant sa vengeance,</p>
+            <p>J’ai dû pour l’éviter enseigner la clémence :</p>
+            <p>Mes fils ne sont pas seuls l’objet de ma douleur,</p>
+            <p>Les maux de l’Angletterre ont attendri mon cœur.</p>
+            <p>Madame, songez-y. Dieu nous a-t-il fait Princes</p>
+            <p>Pour avoir une Cour, parcourir des provinces,</p>
+            <p>En fatiguer le peuple et s’en voir obéis ?</p>
+            <p>En montant sur un trône on est à son pays !...</p>
+            <p>Je ne m’appartiens plus, et je sens que ma vie</p>
+            <p>Cause tous les malheurs qui rongent ma patrie.</p>
+            <p>J’en fais le sacrifice, et je ne veux plus voir</p>
+            <p>Le sang toujours couler, et les lois sans pouvoir ;</p>
+            <p>De sages citoyens périr pour les coupables ;</p>
+            <p><pb n="59" xml:id="59" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-59.jpeg"/>Mon peuple tout entier, en proie aux misérables</p>
+            <p>Qui, pour l’assujettir, prolongent tous ses maux</p>
+            <p>Et ne craignent rien tant que leur propre repos.</p>
+            <p>Je sers d’un vain prétexte à leur guerre civile ;</p>
+            <p>Mon devoir est tracé : la mort est mon azile,</p>
+            <p>Un bienfait pour l’État, un grand malheur pour vous !</p>
+            <p>Madame, vous saurez me pleurer comme époux,</p>
+            <p>M’applaudir comme Roi ; je sauve l’Angleterre !</p>
+            <p>Assez et trop longtemps j’ai fait régner la guerre,</p>
+            <p>J’abandonne mes jours pour assurer la paix...</p>
+            <p>Je songe à m’en venger encor moins que jamais</p>
+            <p>Et, soit que je triomphe ou bien que je succombe,</p>
+            <p>Je lui veux pardonner jusqu’au bord de la tombe.</p>
+            <stage>À Strafford.</stage>
+            <p>Pensons à me défendre, allons au parlement :</p>
+            <p>Faisons voir, si je meurs, que je meurs innocent.</p>
+          </sp>
+        </div>
+      </div>
+      <div type="titolo1" subtype="level1">
+        <head>ACTE IV</head>
+        <stage>Le théâtre représente la salle ordinaire des séances du Parlement à Westminster ; à gauche du spectateur se trouvent Lambert, Fleetvold, Barclay, Bradshaw, Harrisson, Ludlow, Falcombridge, Thurloë, principaux amis de Cromwell. Au fond le reste des membres du Parlement, et à la droite quelques membres parmi lesquels sont Percy, Dunbar, Lambot, Suffolk. Quelques membres arrivent encore pendant la première et le commencement de la seconde scène. Gardes.</stage>
+        <div type="titolo2">
+          <head>Scène première</head>
+          <stage>Cromwell, sur le devant de la scène, Lambert,Fleetvold, Barclay, Bradshaw, Harrisson, Ludlow, Falcombridge, Thurloë, Percy, Lambot, Suffolk.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>à part.</stage></speaker>
+            <p><pb n="60" xml:id="60" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-60.jpeg"/>Ireton ne vient pas, que résoudre et que faire ?</p>
+            <p>Dois-je poursuivre ? écouter ma colère ?</p>
+            <p>Et régner !... Oui, régner... Ah, le voici !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène II</head>
+          <stage>Les précédents, Ireton.</stage>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                                                            </space>Mes fils ?</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="61" xml:id="61" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-61.jpeg"/>Ils sont rendus, Seigneur... Vous m’en semblez surpris ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>J’abandonne, Ireton, mes projets de vengeance.</p>
+            <p>Parcours le parlement en prêchant l’indulgence.</p>
+            <p>Je veux sauver le Prince !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                             </space>Y pensez-vous. Seigneur ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Oui, je le veux.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><space>                                </space>Comment ? La future grandeur</p>
+            <p>Vous fatigue déjà ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                    </space>J’ai promis. Il doit l’être.</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Vous le sauverez mieux, quand vous serez le maître.</p>
+            <p>Le parlement est prêt : faites un seul effort,</p>
+            <p>Le pouvoir est à vous.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                          </space>Mais je sens un remord !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Vous ne l’entendrez plus en possédant le trône.</p>
+            <p>Allons, Cromwell, suivez l’avis que je vous donne.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>s’adressant au parlement.</stage></speaker>
+            <p>Généreux défenseurs de nos droits les plus saints,</p>
+            <p>L’Angletterre a remis son bonheur en nos mains.</p>
+            <p>Attentive, elle indique, en son morne silence,</p>
+            <p><pb n="62" xml:id="62" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-62.jpeg"/>Qu’il s’agit, aujourd’hui, de sa propre sentence.</p>
+            <p>Nous saurons, Sénateurs, satisfaire à la fois</p>
+            <p>À notre conscience, à ses vœux, à nos lois.</p>
+            <p>Pour se justifier, Charles va comparaître :</p>
+            <p>Ne nous souvenons plus qu’il était notre maître,</p>
+            <p>Il a rompu le nœud qui liait ses sujets ;</p>
+            <p>Si les peuples, un jour, séduits par de hauts faits,</p>
+            <p>Ont inventé les Rois, leur misère future !</p>
+            <p>Ils n’ont pas abdiqué... les loix de la nature ;</p>
+            <p>Ce qu’elle nous imprime avec le plus de soin,</p>
+            <p>C’est de la liberté l’impérieux besoin.</p>
+            <p>Aussi dans chaque État, dans chaque République,</p>
+            <p>Il est, d’un traité saint, un monument antique</p>
+            <p>Sous la garde du prince, et contenant des droits</p>
+            <p>Qui ne doivent jamais être violés des Rois !</p>
+            <p>Il met nos libertés sous leurs ailes sacrées</p>
+            <p>Et, montant sur le trône, ils les ont tous jurées ;</p>
+            <p>Sans faire de traités, les peuples ignorants</p>
+            <p>Conservent près du trône un autel aux serments !...</p>
+            <p>Et c’est ainsi que l’homme, alors, put se résoudre</p>
+            <p>À s’adorer lui-même et baisser dans la poudre</p>
+            <p>Ce front majestueux qu’il doit porter au ciel,</p>
+            <p>Pour l’admirer sans doute, et prier l’Éternel !...</p>
+            <p>Ce fut la liberté qui créa les monarques.</p>
+            <p>D’un pouvoir tutélaire, on leur donna les marques ;</p>
+            <p>Et tous les attributs du suprême pouvoir</p>
+            <p>Sont les vivants témoins d’un auguste devoir.</p>
+            <p>Albion consacra d’une liberté sage</p>
+            <p>La limite, et les droits, et leur modeste usage,</p>
+            <p>Dans un pacte immortel chéri de ses enfants :</p>
+            <p>Vous le connaissez tous !... et certes les tyrans</p>
+            <p>Qui naguère ont pesé sur la triste Angletterre</p>
+            <p>L’ont respecté du moins tout en le fesant taire !</p>
+            <p>Ce qu’ils n’ont point osé, ce qu’ils n’eussent point fait,</p>
+            <p>Stuart l’exécuta. C’est son moindre forfait.</p>
+            <p>Vous avez entendu la nation entière</p>
+            <p>Accuser, jusqu’ici, sa tyrannie altière ;</p>
+            <p>Vous l’avez vu laisser les destins de l’État</p>
+            <p>Aux mains d’un favori, qui, devenant ingrat.</p>
+            <p><pb n="63" xml:id="63" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-63.jpeg"/>Abandonna le trône à d’indignes ministres !</p>
+            <p>On se rappelle encor tous leurs complots sinistres ;</p>
+            <p>Leur vacillant pouvoir, et leurs desseins troublés ;</p>
+            <p>Ces parlements dissous aussitôt qu’assemblés,</p>
+            <p>Dont le seul crime était un sévère langage,</p>
+            <p>Et contre les abus un vertueux courage.</p>
+            <p>Mais Charles oubliant comment règnent les Rois,</p>
+            <p>Construisait un pouvoir du débris de nos loix ;</p>
+            <p>Il méprisa leurs vœux, il méconnut leurs plaintes,</p>
+            <p>Et tâchait d’abolir et nos libertés saintes,</p>
+            <p>Et les antiques droits du Sénat d’Albion,</p>
+            <p>Et les sacrés autels de la religion.</p>
+            <p>Déjà se préparait un affreux despotisme ;</p>
+            <p>Déjà la Cour de Rome armait son fanatisme ;</p>
+            <p>Et, pour en protéger les éternels complots,</p>
+            <p>Dans l’Irlande en stupeur on versait à grands flots</p>
+            <p>Le sang du protestant trop fidèle à son culte,</p>
+            <p>En versant, à la fois, et l’outrage et l’insulte.</p>
+            <p>On osa l’accuser, pour voiler à nos yeux</p>
+            <p>Les fautes du pouvoir, ses plans audacieux !...</p>
+            <p>Et quand, par l’Éternel, Albion détrompée</p>
+            <p>Prit d’une main son pacte et de l’autre l’épée,</p>
+            <p>Pour conquérir ses droits injustement ravis !...</p>
+            <p>Charle employa sa force à fouler son pays !...</p>
+            <p>Ah ! longtemps Albion gardera la mémoire</p>
+            <p>De ces jours désastreux, où le champ de victoire,</p>
+            <p>Sans offrir d’ennemis, était pour le vainqueur</p>
+            <p>Un sujet de tristesse, et sa gloire un malheur !</p>
+            <p>Où chacun des partis, aveuglé par la haine,</p>
+            <p>Reconnaissait la mort pour seule souveraine.</p>
+            <p>L’Angletterre est tranquille et ses maux ont cessé !</p>
+            <p>Leur cause existe encor, quel serait l’insensé</p>
+            <p>Qui, pour le vain honneur d’une fausse clémence,</p>
+            <p>De la guerre, en ces lieux, laisserait la semence ?</p>
+            <p>Par nos leçons plutôt, avertissons les Rois</p>
+            <p>Qu’ils sont des citoyens, qu’ils sont soumis aux lois ;</p>
+            <p>Elles doivent, pour eux, être bien plus sacrées,</p>
+            <p>Ils<note place="bottom">Erreur de Bibliophile de l’originale : « Il » au lieu de « Ils ».</note> les ont les premiers et faites et jurées :</p>
+            <p>Pensant remplir le vuide, entre l’homme et les Dieux,</p>
+            <p><pb n="64" xml:id="64" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-64.jpeg"/>Est-ce par cela seul qu’ils sont conçus par eux,</p>
+            <p>Qu’ils pourront à leur gré nous punir de leurs crimes ?</p>
+            <p>Leur auguste pouvoir les rend-il légitimes ?</p>
+            <p>Et ne sommes-nous pas le juste tribunal</p>
+            <p>Qui leur fasse expier un orgueil si fatal ?</p>
+            <p>Si l’appareil d’un camp est leur raison suprême,</p>
+            <p>Les peuples ont la leur, contre le diadème !</p>
+            <p>Et l’Angletterre, enfin, l’exerce en ce moment !</p>
+            <p>Honneur à vous, Milords, honneur au parlement</p>
+            <p>Qui, de la liberté, sage dépositaire,</p>
+            <p>D’une fidèle voix éclaira l’Angleterre !</p>
+            <p>Achevez votre ouvrage et secouez ses fers !</p>
+            <p>Grand Dieu, qui résidez par delà l’univers,</p>
+            <p>Qui du sacré soleil avez tracé les routes,</p>
+            <p>Et pour qui notre globe et les cieux sont sans voûtes,</p>
+            <p>Dont le trône éternel a pour seuls courtisans</p>
+            <p>La sainte vérité, la justice et le temps,</p>
+            <p>Éclairez nos esprits, inspirez la sentence !</p>
+            <p>Ou faites qu’à nos yeux éclate l’innocence !</p>
+            <p>Assurez d’Albion la gloire et le repos !</p>
+            <stage>D’un [air] tout à fait inspiré:</stage>
+            <p>Le Seigneur nous entend et bénit nos travaux.</p>
+            <stage>Un moment de silence.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène III</head>
+          <stage>Les précédents, Strafford.</stage>
+          <sp who="[strafford">
+            <speaker>[Strafford.]</speaker>
+            <p>Hé, quoi ! C’est parmi vous que règne un tel silence !</p>
+            <p>Personne de son Roi n’entreprend la défense !</p>
+            <p>C’est moi, son ennemi, qui lui prête ma voix</p>
+            <p>Pour repousser des traits destructeurs des Rois !</p>
+            <p>Ô toi, martyr du trône ! Ô Strafford, ô mon père !</p>
+            <p>Inspire mon courage, appaise leur colère !</p>
+            <stage>S’ adressant au parlement.</stage>
+            <p><pb n="65" xml:id="65" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-65.jpeg"/>Si l’on fut sourd aux cris que, pendant ses malheurs,</p>
+            <p>Le Roi vous adressait pour trouver des vengeurs,</p>
+            <p>Ici, l’on est muet quand on le calomnie !</p>
+            <p>Vous laissez remonter tout le cours de sa vie</p>
+            <p>Pour y chercher un tort, un crime, des forfaits,</p>
+            <p>Et voyant chaque jour marqué par des bienfaits,</p>
+            <p>Votre rage en augmente, et c’est par des supplices</p>
+            <p>Que vous voulez payer sa bonté, ses services !</p>
+            <p>Vous êtes effrayés de le voir innocent,</p>
+            <p>Et pour justifier un affreux parlement</p>
+            <p>Vous osez lui prêter jusqu’à vos propres crimes,</p>
+            <p>Et, ne les jugeant pas assez illégitimes,</p>
+            <p>Vous n’avez pas tremblé d’en forger de nouveaux !</p>
+            <p>Mes yeux cherchent un juge, ils trouvent des bourreaux !...</p>
+            <p>Vous rejettez les maux de l’Irlande opprimée</p>
+            <p>Sur le Roi généreux dont les soins l’ont calmée !</p>
+            <p>À quoi peut lui servir d’immoler ses sujets ?</p>
+            <p>Mais on l’accuse en vain, ces prétendus forfaits</p>
+            <p>Ont servi de prétexte au meurtre de mon Père !</p>
+            <p>Ils furent donc punis !... Heureux que ma misère</p>
+            <p>Fasse voir votre haine et disculpe mes Rois !</p>
+            <p>Vous l’accusez encor de violer les lois ?</p>
+            <p>Vos lois sont le soutien de son pouvoir suprême,</p>
+            <p>Il les maintint toujours, contre la Chambre même !</p>
+            <p>Et s’il s’arma contre elle, on l’était contre lui !</p>
+            <p>Vous avez refusé de lui prêter appui ;</p>
+            <p>La majesté des Rois jadis inviolée.</p>
+            <p>Par vos crimes sans nombre, alors, fut ébranlée ;</p>
+            <p>Alors, elle eut recours au destin des combats,</p>
+            <p>Son peuple d’un côté, de l’autre vos soldats.</p>
+            <p>Pourriez-vous dire, enfin, par quel noir privilége</p>
+            <p>Vous portez sur vos Rois une main sacrilége ?</p>
+            <p>Est-ce comme monarque ? Il est sacré pour vous.</p>
+            <p>S’il n’est qu’un citoyen, cessez votre courroux !</p>
+            <p>Car ce n’est pas à vous d’exercer la justice !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Le salut de l’État exige qu’il périsse !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><pb n="66" xml:id="66" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-66.jpeg"/>Le salut de l’État est d’observer les lois !</p>
+            <p>Et vous les violez en condamnant vos Rois !</p>
+            <p>Quand même il serait vrai qu’on eût commis des crimes,</p>
+            <p>En renversant leur trône on vengea les victimes !...</p>
+            <p>Milords, écoutez-moi : si votre liberté,</p>
+            <p>Encor dans son berceau, veut, pour sa sûreté,</p>
+            <p>Abattre de vos Rois l’antique et noble race,</p>
+            <p>Vous tous, qui des Romains, voulez suivre la trace,</p>
+            <p>Rome se contenta de bannir les Tarquins ;</p>
+            <p>Et si vous prétendez surpasser les Romains,</p>
+            <p>Que ce soit leurs vertus et non pas leurs supplices !</p>
+            <stage>Regardant Cromwell.</stage>
+            <p>Ah ! d’un tyran cruel ne soyez pas complices !</p>
+            <p>Déjà votre monarque est assez malheureux,</p>
+            <p>Sa grandeur est éteinte !... et c’étaient là vos vœux.</p>
+            <p>Hélas, qu’en reste-t-il pour la rendre importune ?</p>
+            <p>Un homme !... votre Roi, courbé sous l’infortune.</p>
+            <p>Anglais ! Laissez-le vivre, il sera pour les Rois</p>
+            <p>Un exemple vivant du pouvoir de vos lois.</p>
+            <p>Ah ! tombons à ses pieds, notre Prince s’avance ;</p>
+            <p>Ne craignez rien, son cœur ignore la vengeance.</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène IV</head>
+          <stage>Les précédents, Charles, la Reine.</stage>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Anglais, à pareil jour, et dans ces mêmes lieux,</p>
+            <p>Vous me juriez naguère, à la face des cieux,</p>
+            <p>D’obéir à ma voix, de défendre mon trône ;</p>
+            <p>Tandis que de vos mains, recevant la couronne,</p>
+            <p>Je promettais au peuple un règne de bonheur.</p>
+            <p>Au mépris des serments, au mépris de l’honneur,</p>
+            <p><pb n="67" xml:id="67" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-67.jpeg"/>Vous avez altéré la paix de l’Angletterre ;</p>
+            <p>L’on devait me défendre, et l’on m’a fait la guerre</p>
+            <p>Au nom de tout mon peuple et de la liberté !</p>
+            <p>Je ne m’opposais point à sa félicité !...</p>
+            <p>Et c’est à d’autres Dieux que l’on me sacrifie !</p>
+            <p>N’attendez pas de moi que je me justifie,</p>
+            <p>Qu’une vile prière, inutile envers vous,</p>
+            <p>Indigne de moi-même, aille arrêter vos coups !</p>
+            <p>Tout dépouillé qu’il est de sa brillante marque,</p>
+            <p>Mon front doit faire voir que je suis un Monarque.</p>
+            <p>Malgré tous vos efforts il n’est point d’attentat</p>
+            <p>Qui puisse offrir le droit d’en obscurcir l’éclat,</p>
+            <p>Et personne, en ces lieux, ne peut être mon juge !</p>
+            <p>Hélas ! il en est un, qui sera mon refuge,</p>
+            <p>L’opinion publique et la postérité !</p>
+            <p>D nous faut tous subir sa terrible équité.</p>
+            <p>J’en appelle à ses lois ; vous, tremblez d’y paraître</p>
+            <p>Couverts de vos forfaits, du sang de votre maître ;</p>
+            <p>Tremblez ! son jugement est inscrit dans le ciel !</p>
+            <p>Si je l’eusse oublié, si j’eusse été cruel.</p>
+            <p>Je régnerais encor !... Il vous sera facile</p>
+            <p>De rendre à vos désirs tout mon peuple docile,</p>
+            <p>En régnant par le fer, la guerre, la terreur !</p>
+            <p>J’ignorais ce moyen de faire son bonheur !...</p>
+            <p>Mais craignez son réveil, il connaît sa puissance,</p>
+            <p>Il pourra, grâce à vous, s’armer pour sa défense.</p>
+            <p>Tranquille, il reposait, vous l’avez déchaîné.</p>
+            <p>Hélas ! ne croyez pas qu’à ce monstre entraîné</p>
+            <p>On puisse commander et marquer la barrière,</p>
+            <p>Il ne souffre aucun frein, lancé dans la carrière.</p>
+            <p>Votre guerre civile, une hache à la main,</p>
+            <p>A par sa course avide applani le chemin.</p>
+            <p>Il dévore déjà l’autel, le diadème,</p>
+            <p>Il se verra contraint de se ronger lui-même.</p>
+            <p>Et le char de l’État, vainement maîtrisé.</p>
+            <p>Ira rougir la place où vous serez brisé.</p>
+            <p>Prévenez ces malheurs, rentrez au sein d’un Père,</p>
+            <p>Il vous pardonne encore et n’a point de colère !</p>
+            <p>De vos seuls bienfaits il veut se souvenir.</p>
+            <p><pb n="68" xml:id="68" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-68.jpeg"/>Renoncez aux périls d’un funeste avenir !</p>
+            <p>Oui, son pouvoir sacré vous offre son ombrage,</p>
+            <p>Et venez dans mes bras abjurer votre rage !...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>J’apperçois, Ireton, les visages changer !</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p>Ah ! croyez-moi, Seigneur, nous sommes en danger !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Milords, ma seule force est dans notre innocence,</p>
+            <p>Je ne puis vous offrir que mes pleurs pour défense,</p>
+            <p>Je suis trop faible, hélas, pour chercher à sauver</p>
+            <p>Un Roi que ses vertus n’auront pu conserver !</p>
+            <p>Je vois que par vos mains sa couronne est ravie ;</p>
+            <p>Ah ! reprenez vos dons, mais laissez-moi sa vie !</p>
+            <p>Vous me l’avez donnée en flattant mon esprit</p>
+            <p>D’un hymen fortuné, dont voici tout le fruit ;</p>
+            <p>Vous accablez mon cœur et comblez ma misère !...</p>
+            <p>Pourquoi m’avez-vous fait aborder l’Angleterre ?</p>
+            <p>En sortirais-je, hélas, par ces mêmes chemins</p>
+            <p>Que l’on sema de fleurs présageant nos destins ?</p>
+            <p>Je me rappelle encor cette foule empressée</p>
+            <p>Qui, dans un même espoir, confondait sa pensée ;</p>
+            <p>Surprise, des Anglais je louais le respect !</p>
+            <p>Tout m’enchantait alors, rien ne m’était suspect ;</p>
+            <p>Vos efforts préparaient la pompe nuptiale...</p>
+            <p>Ah ! deviez-vous, hélas, la rendre si fatale ?</p>
+            <p>Par la candeur du mien je jugeais tous les cœurs,</p>
+            <p>Et, respirant à peine au milieu des honneurs,</p>
+            <p>Des fêtes de la France ils effaçaient l’image !...</p>
+            <p>Je m’enivrais sans cesse, en recevant l’hommage</p>
+            <p>D’un peuple de héros sur qui j’allais régner !...</p>
+            <p>Réduite, maintenant, à vous importuner</p>
+            <p>De mes pleurs refusés, d’une plainte inutile,</p>
+            <p>Seule, je m’en irai, demandant un asile,</p>
+            <p>Où je sois à l’abri de vos noires fureurs,</p>
+            <p><pb n="69" xml:id="69" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-69.jpeg"/>En proie à la misère, après tant de grandeurs !...</p>
+            <p>Veuve de mon époux et veuve de mon trône,</p>
+            <p>Dont le dernier débris restera ma personne !</p>
+            <p>Ayant pour tout cortège un soldat inhumain,</p>
+            <p>La tristesse et les pleurs et la mort dans le sein,</p>
+            <p>Emportant de Stuart la dépouille chérie,</p>
+            <p>Fuyant après sa mort sa terrible patrie !...</p>
+            <p>Et voilà par quels soins les généreux Anglais</p>
+            <p>Auront de tous leurs Rois reconnu les bienfaits !</p>
+            <p>Leur mort ou leur exil ! ah ! l’Europe indignée</p>
+            <p>Refusera de croire à notre destinée !</p>
+            <p>Que je suis malheureuse !... Ah ! ne vous chargez pas</p>
+            <p>De l’horrible fardeau de ces noirs attentats !</p>
+            <p>Ah ! Milords, sauvez-nous et je vous en supplie</p>
+            <p>Par vos tendres enfants et par votre patrie !</p>
+            <p>Vous la déshonorez, écoutez vos remords !</p>
+            <p>Nous irons en exil, nous quitterons ces bords !...</p>
+            <stage>Elle pleure.</stage>
+          </sp>
+          <sp who="percy">
+            <speaker>Percy.</speaker>
+            <p>Milords, je ne saurais être votre complice !</p>
+          </sp>
+          <sp who="lambot">
+            <speaker>Lambot.</speaker>
+            <p>Je ne veux pas du Roi conspirer le supplice !</p>
+          </sp>
+          <sp who="suffolk">
+            <speaker>Suffolk.</speaker>
+            <p>Milords, je me retire, il fut mon bienfaiteur,</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Ô, désespoir !...</p>
+          </sp>
+          <sp who="dunbar">
+            <speaker>Dunbar.</speaker>
+            <p><space>                                </space>Et moi, je consulte mon cœur,</p>
+            <p>Il me dit que Stuart ne peut être coupable.</p>
+            <p>D’un horrible forfait je ne suis point capable.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Vous oubliez, Milords...</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène V</head>
+          <stage>Les précédents, Fairfax.</stage>
+          <sp who="fairfax">
+            <speaker>Fairfax, <stage>brusquement et avec mépris.</stage></speaker>
+            <p><pb n="70" xml:id="70" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-70.jpeg"/><space>                                                 </space>Sir Cromwell, arrêtez !</p>
+            <p>Et cessez vos discours !... Vous, Milords, écoutez !</p>
+            <p>Pendant que vous voulez bannir la tyrannie,</p>
+            <p>Je viens vous avertir, au nom de la patrie,</p>
+            <p>Qu’il s’élève en ces lieux un tyran plus cruel ;</p>
+            <p>Il menace déjà ; ce tyran, c’est Cromwell !...</p>
+            <p>Il désire, il médite un pouvoir sacrilège,</p>
+            <p>Chacun de ses discours, chaque pas est un piége ;</p>
+            <p>C’est l’ennemi des Rois parce qu’il veut régner !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>à Fairfax.</stage></speaker>
+            <p>Je sens à vos discours mon âme s’indigner.</p>
+            <p>Vous savez qui je suis, Milord, et mon silence...</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>Est la preuve, Cromwell, de tout ce que j’avance.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Vous avez méprisé votre emploi généreux !</p>
+            <p>Vous n’avez plus le droit de paraître en ces lieux !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>J’ai conservé celui de sauver l’innocence !</p>
+            <p>Au nom de mon pays, j’en prendrai la défense</p>
+            <p>Pour empêcher l’affront qu’on lui veut imprimer !</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Et qui vous dit, Milord, qu’on la veuille opprimer ?</p>
+            <p>Charle est mon bienfaiteur, je me plais à le dire !</p>
+            <p>Je veux lui conserver et la vie et l’empire !</p>
+            <p>Et pour y parvenir, allons délibérer...</p>
+          </sp>
+          <sp who="ireton">
+            <speaker>Ireton.</speaker>
+            <p><pb n="71" xml:id="71" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-71.jpeg"/>Que faites-vous ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                                       </space>Suis-moi !... je vais les rassurer ;</p>
+            <p>Sache éloigner Fairfax, fais approcher l’armée !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax, <stage>au Roi.</stage></speaker>
+            <p>Comptez sur mes efforts, <stage>(à la Reine)</stage> soyez moins allarmée,</p>
+            <p>Madame.</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                     </space>Sire, et moi je m’en vais avec eux</p>
+            <p>Soutenir leurs esprits et d’un sort plus heureux</p>
+            <p>Poursuivre en ce moment la première espérance.</p>
+            <stage>À la Reine.</stage>
+            <p>Vous, retardez Cromwell et, pendant son absence,</p>
+            <p>Peut-être pourront-ils vous rendre le pouvoir.</p>
+            <p>Venez, Fairfax...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                               </space>Gardes, faites votre devoir !</p>
+            <stage>On emmène le Roi. – Fairfax et Strafford sortent du côté des juges ; Ireton et Cromwell de l’autre ; Cromwell le dernier.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VI</head>
+          <stage>La Reine, Cromwell.</stage>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Arrêtez-vous, Cromwell, j’ai deux mots à vous dire !</p>
+            <p>Vous avez sur leurs cœurs un bien funeste empire !...</p>
+            <p>Vous pourriez, en ce jour, illustrer votre nom,</p>
+            <p>D’une gloire immortelle acquérir le renom...</p>
+            <p>Ah !... Cromwell, sauvez-nous, quand tout nous abandonne !</p>
+            <p><pb n="72" xml:id="72" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-72.jpeg"/>Et si, pour retirer notre malheureux trône</p>
+            <p>De l’abyme profond où vous l’avez jeté,</p>
+            <p>Vous voulez déployer autant d’activité</p>
+            <p>Que, pour l’anéantir, vous en faites paraître,</p>
+            <p>Vous devez l’élever en moins de temps, peut-être.</p>
+            <p>Qu’il ne vous en faudra pour le faire écrouler !</p>
+            <p>Hélas !...</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><space>                  </space>Voilà pourquoi vous me voulez parler ?</p>
+            <p>Madame, au parlement on attend ma présence...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Vous vous trompez, je veux vous offrir la puissance ;</p>
+            <p>Oui, Cromwell, nous devons renoncer aux grandeurs,</p>
+            <p>Par notre humilité prévenir nos malheurs ;</p>
+            <p>Vous pouvez acheter votre injuste couronne,</p>
+            <p>En jouir justement, mon époux l’abandonne.</p>
+            <p>Je vais signer sa honte, et le trône est à vous</p>
+            <p>Si la porte, à l’instant, s’abaisse devant nous :</p>
+            <p>Voyez, Cromwell, voyez à quelle ignominie</p>
+            <p>Je descends pour sauver une pénible vie !</p>
+            <p>Voulez-vous profiter de notre abaissement ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p>Madame, j’y consens, et vais au parlement...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Si vous y consentez, qu’importe la sentence ?</p>
+            <p>Allons plutôt, Milord, délivrer l’innocence,</p>
+            <p>Préparer notre fuite et signer le traité.</p>
+            <p>C’est moi qui vous convie à notre adversité !...</p>
+            <p>À prendre notre place et notre diadème.</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>avec impatience.</stage></speaker>
+            <p>Je vais au tribunal pour vous sauver moi-même.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Il n’abdiquerait plus !... Pouvez-vous balancer ?</p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell.</speaker>
+            <p><pb n="73" xml:id="73" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-73.jpeg"/>Je suis juge, Madame, et je vais prononcer !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>se jetant aux genoux de Cromwell.</stage></speaker>
+            <p>Cromwell, de mon époux ne tranchez point la vie !...</p>
+            <p>……………………………………………………….<note place="bottom">Note en marge manuscrite de Balzac : « Le vers n’est point fait, il le sera pour la lecture ».</note></p>
+          </sp>
+          <sp who="cromwell">
+            <speaker>Cromwell, <stage>avec orgueil.</stage></speaker>
+            <p>Relevez-vous, Madame.</p>
+            <stage>Il sort.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VII</head>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                    </space>Et j’étais à genoux !</p>
+            <p>Ah ! que ne fait-on pas pour sauver un époux !</p>
+            <p>De cet abaissement je te demande grâce,</p>
+            <p>Noble sang des Bourbons ; si je démens ta race</p>
+            <p>C’était pour conserver la tige de tant de Rois,</p>
+            <p>Que je vais aller voir pour la dernière fois.</p>
+          </sp>
+        </div>
+        <div type="titolo2" subtype="level2">
+          <head>ACTE V</head>
+        </div>
+        <div type="titolo2">
+          <head>Scène première</head>
+          <stage>Charles, la Reine, gardes.</stage>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="74" xml:id="74" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-74.jpeg"/>Ne désespérons point, ma chère et tendre amie,</p>
+            <p>J’ai cru par nos revers ta constance affermie.</p>
+            <p>On ne vient pas encor m’arracher de tes bras ;</p>
+            <p>L’espoir nous accompagne en marchant au trépas ;</p>
+            <p>Il nous est bien permis, devant qu’on nous l’annonce ;</p>
+            <p>Peut-être que pour nous, l’Éternel se prononce !</p>
+            <p>Pourquoi pleurer d’avance un malheur incertain ?</p>
+            <p>Ah ! tu peux espérer un plus heureux destin !...</p>
+            <p>Tu doubles mon tourment, ta douleur me désole,</p>
+            <p>Je devrais être plaint... C’est moi qui te console !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>C’est moi qui vous survis !... c’est moi qu’il faut pleurer !</p>
+            <p>Quel avenir, Seigneur, et que puis-je espérer ?</p>
+            <p>De finir au plutôt une vie abhorrée !</p>
+            <p>Ils vous ont condamné, votre mort est jurée !</p>
+            <p>Je tâchais d’attendrir Cromwell !... Ce fut en vain :</p>
+            <p>Il ne m’a répondu que par un froid dédain ;</p>
+            <p>Hélas !...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="75" xml:id="75" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-75.jpeg"/><space>                            </space>Mais la sentence est encor incertaine.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Si j’en avais l’espoir, aurais-je tant de peine ?</p>
+            <p>Cessez, Charles, cessez des discours superflus !</p>
+            <p>Mon ami, je le sens, je ne vous verrai plus !</p>
+            <p>Que ne puis-je arrêter cette heure fugitive</p>
+            <p>Qui nous reste, et...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                       </space>Peux-tu souhaiter que je vive ?</p>
+            <p>Pour moi, je n’y verrais qu’un sinistre avenir.</p>
+            <p>Ces maux toujours croissants, ma mort va les finir !</p>
+            <p>Je ne me verrai plus, trahi par la fortune,</p>
+            <p>Traîner une existence à moi-même importune.</p>
+            <p>La paix et le bonheur dont tu m’as fait jouir</p>
+            <p>Me la rendait moins triste, et pouvait l’adoucir.</p>
+            <p>Mais par ces derniers coups mon âme est déchirée !...</p>
+            <p>Épouse toujours chère et toujours adorée,</p>
+            <p>Je te quitte à regret !... oui, malgré mon danger,</p>
+            <p>Entouré de l’horreur où l’on m’a su plonger,</p>
+            <p>J’éprouve, en te parlant, en voyant ce que j’aime,</p>
+            <p>Un charme inexprimable, une douceur extrême !...</p>
+            <p>Cette heure... ce moment... c’est mon dernier plaisir !...</p>
+            <p>Plus on est malheureux, mieux on doit le saisir !...</p>
+            <p>Tranquille, sur mon sort je ne sens point d’alarmes ;</p>
+            <p>C’est en pensant à toi que je verse des larmes.</p>
+            <p>Je te laisse, en mourant, seule, sur un écueil,</p>
+            <p>Parmi des ennemis triomphants par ton deuil.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>La feuille ne vit pas de l’arbre détachée ;</p>
+            <p>Le chagrin et les pleurs déjà m’ont desséchée ;</p>
+            <p>Il ne faut plus qu’un souffle, et je m’en vais périr !</p>
+            <p>À vos cendres, Seigneur, j’irai me réunir !...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><pb n="76" xml:id="76" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-76.jpeg"/>Et qui de nos enfants soignera la jeunesse ?</p>
+            <p>Ah ! tu devras pour eux redoubler de tendresse,</p>
+            <p>Leur déguiser, peut-être, un destin si cruel ;</p>
+            <p>Pourrais-tu les livrer sans défense à Cromwell ?</p>
+            <p>C’est à toi de sauver leurs tristes destinées,</p>
+            <p>Ils pourront adoucir le froid de tes années :</p>
+            <p>Moi, je vais dans la tombe, incertain de leur sort,</p>
+            <p>Tu l’apprendras au moins !...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                 </space>Hélas ! voici Strafford !</p>
+            <p>Et son front sans couleur, et sa démarche annonce</p>
+            <p>Que du noir parlement, il prévoit la réponse !...</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène II</head>
+          <stage>Les précédents, Strafford.</stage>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Fidèle à mon devoir, je viens...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                        </space>Quelle douleur !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>D’entendre votre arrêt, vous épargner l’horreur !...</p>
+            <p>Les juges incertains penchaient vers l’indulgence :</p>
+            <p>Cromwell, infatigable, avide en sa vengeance,</p>
+            <p>Voyant par leur dessein renverser son espoir,</p>
+            <p>Arrive, furieux, pour sauver son pouvoir ;</p>
+            <p>Tout ce que la nature et son profond génie,</p>
+            <p>L’ascendant, le savoir, l’audace réunie,</p>
+            <p>Lui donnèrent de ruse, est soudain déployé ;</p>
+            <p><pb n="77" xml:id="77" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-77.jpeg"/>Chacun de ses amis à son poste envoyé ;</p>
+            <p>Aussitôt il commence, il parcourt l’assemblée ;</p>
+            <p>Par ses adroits discours elle est bientôt troublée !</p>
+            <p>Il contraint son complice à suivre son devoir ;</p>
+            <p>Avec l’ambitieux, partage le pouvoir ;</p>
+            <p>Il donne à l’avarice un or illégitime ;</p>
+            <p>La guerre aux factieux ; à chacun sa victime ;</p>
+            <p>Menace de sa haine ou promet ses faveurs ;</p>
+            <p>Effraye l’incertain et décide les cœurs !...</p>
+            <p>Le peuple par ses cris demande le supplice ;</p>
+            <p>Des soldats se font voir !... Sous cet affreux auspice,</p>
+            <p>Chacun signe en tumulte <stage>(il pleure)</stage> et c’était votre arrêt !...</p>
+            <p>Excusez ma douleur !... l’échafaud est tout prêt !...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Je ressens, cher Strafford, une peine profonde ;</p>
+            <p>Après cette fortune, en grandeur si féconde,</p>
+            <p>Il ne me reste rien pour vous récompenser !...</p>
+            <p>Donnez-moi votre main et venez m’embrasser !</p>
+            <p>Et quant à l’avenir, c’est votre soin, Madame.</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Sire, ma récompense est au fond de mon âme.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Sire !...</p>
+            <stage>Un moment de silence.</stage>
+            <p><space>                 </space>Hélas ! je ne peux me soutenir... Strafford !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Ciel !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>            </space>Voyez sur son front la pâleur de la mort ;</p>
+            <p>Sire ! elle se meurt...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                           </space>Non... non, je me sens revivre !...</p>
+            <p><pb n="78" xml:id="78" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-78.jpeg"/>Charles, je n’aurai pas le bonheur de vous suivre !...</p>
+            <p>Ma force se ranime et c’est de désespoir !</p>
+            <p>Ô douleur inouïe !... ah ! laissez-moi vous voir !</p>
+            <p>Est-ce bien vous, ô ciel !... oui... tout mon corps frissonne !</p>
+            <p>Et tu vas périr seul ? Ah ! donne ta main, donne !</p>
+            <stage>Elle pleure.</stage>
+            <p>Que je la serre encor contre mon tendre cœur !...</p>
+            <p>Hélas ! il est glacé d’une froide sueur !</p>
+            <p>Ô Charles, mon époux, parle, je t’en supplie !...</p>
+            <p>Mes yeux sont obscurcis, je doute de ta vie !...</p>
+            <stage>Elle pleure.</stage>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Son esprit est troublé par l’excès du malheur !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Je ne m’égare point, car je sens ma douleur !...</p>
+            <p>L’affreuse vérité, de son flambeau terrible,</p>
+            <p>Ne m’éclaire que trop !... que ne suis-je insensible !</p>
+            <p>Que ne puis-je douter !</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène III</head>
+          <stage>Charles, la Reine, Strafford, Lambert, Gardes.</stage>
+          <sp who="lambert">
+            <speaker>Lambert.</speaker>
+            <p><space>                                                   </space>Ministre rigoureux,</p>
+            <p>Je viens du parlement exécuter les vœux,</p>
+            <p>Vous conduire !...</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                  </space>Lambert, je vous entends.</p>
+          </sp>
+          <sp who="lambert">
+            <speaker>Lambert.</speaker>
+            <p><pb n="79" xml:id="79" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-79.jpeg"/><space>                                                                                 </space>Sire,</p>
+            <p>Mais voici la sentence et je dois vous la lire.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Je le sais ; vous pouvez vous épargner ce soin ;</p>
+            <p>Laissez-nous un moment nous parler sans témoin,</p>
+            <p>Faites-moi ce plaisir, et je vous le demande.</p>
+          </sp>
+          <sp who="lambert">
+            <speaker>Lambert.</speaker>
+            <p>Je ne le puis.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                        </space>Hé bien, Lambert, je le commande !</p>
+            <stage>Lambert se retire avec les gardes.</stage>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène IV</head>
+          <stage>Charles, la Reine, Strafford.</stage>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Écoutez-moi, Madame, et vous aussi, Strafford :</p>
+            <p>Je ne désire pas que l’on venge ma mort ;</p>
+            <p>Les malheureux Anglais me vengeront eux-mêmes !..</p>
+            <p>Accomplissez en tout les volontés suprêmes</p>
+            <p>Que je vais vous dicter avant d’aller mourir :</p>
+            <p>Soumettez-vous, Madame, apprenez à souffrir ;</p>
+            <p>Fuyez avec Strafford une injuste contrée,</p>
+            <p>Dérobez à ses coups votre tête sacrée.</p>
+            <p>Et par le seul Strafford vos pas seront suivis.</p>
+            <p>Le reste des Anglais se doit à son pays ;</p>
+            <p>Je leur défends la fuite aux terres étrangères.</p>
+            <p>Strafford doit jusqu’au bout partager nos misères,</p>
+            <p><pb n="80" xml:id="80" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-80.jpeg"/>Il a droit aux honneurs de la fidélité.</p>
+            <p>Ayez pour tout mon peuple une même équité ;</p>
+            <p>De mes juges, surtout, ne tirez point vengeance :</p>
+            <p>Oui, ceux qui m’ont trahi méritent indulgence !</p>
+            <p>Ceux qui m’ont défendu n’ont fait que leur devoir.</p>
+            <p>Je vous commande enfin, quel que soit votre espoir.</p>
+            <p>De respecter toujours le sol de l’Angletterre ;</p>
+            <p>N’allez pas, pour nos fils, lui susciter la guerre :</p>
+            <p>Le droit qu’elle nous donne est ravi dans un jour ;</p>
+            <p>Sans combattre le peuple, excitez son amour.</p>
+            <p>Ce sont là les vrais droits des Princes légitimes !</p>
+            <p>Il est beau de régner par des vœux unanimes !</p>
+            <p>Ainsi, choisissez donc quelque modeste exil.</p>
+            <p>Où vous puissiez en paix, à l’abri du péril,</p>
+            <p>Conserver de vos jours la trame précieuse ;</p>
+            <p>Là, sans être entourés d’une cour fastueuse,</p>
+            <p>D’un tranquille bonheur vous goûterez le prix.</p>
+            <stage>À Strafford.</stage>
+            <p>C’est à vous, mon ami, que je lègue mes fils !...</p>
+            <p>Pour les instruire, encor sur vous je me repose ;</p>
+            <p>De ma triste infortune, expliquez-leur la cause !...</p>
+            <p>S’ils gouvernent la terre, il leur faut des vertus !...</p>
+            <p>À des Rois sans mérite, elle n’obéit plus.</p>
+            <p>Qu’ils apprennent de vous à suivre les grands Princes,</p>
+            <p>À fuir de vains plaisirs, à régir des Provinces,</p>
+            <p>En régnant par soi-même et ses propres talents ;</p>
+            <p>Qu’ils deviennent heureux ! et justes, et cléments,</p>
+            <p>Montrez-leur du pouvoir le glissant précipice,</p>
+            <p>Ses écueils, ses dangers ; il faut que l’on choisisse</p>
+            <p>Entre l’amour du peuple et la haine des grands ;</p>
+            <p>On est souvent haï des deux en même temps !...</p>
+            <p>Qu’ils plaignent les malheurs, les soins de la puissance.</p>
+            <p>Hélas ! je suis privé de leur douce présence !</p>
+            <p>J’aurais eu du plaisir à les voir sur mon cœur,</p>
+            <p>À sentir leurs baisers éloquents de douleur ;</p>
+            <p>Sans avoir de regret j’aurais quitté la vie</p>
+            <p>Au milieu de mes fils, et de ma tendre amie,</p>
+            <p>De vous aussi, Strafford. Quoi ! vous pleurez tous deux ?</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><pb n="81" xml:id="81" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-81.jpeg"/>Ces pleurs sont les premiers qu’auront versé[s] mes yeux.</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Aux volontés de Dieu ne doit-on pas souscrire ?</p>
+            <p>Sa providence est grande, et je puis vous prédire</p>
+            <p>Que ce sceptre échappé de ma débile main,</p>
+            <p>Un jour sera rendu, par son auguste soin,</p>
+            <p>À nos fils qui, savants des erreurs de leur Père,</p>
+            <p>Régneront par les lois sur la libre Angleterre !</p>
+            <p>Grand Dieu, me voilà prêt à paraître à tes yeux,</p>
+            <p>Je te porte ma vie !... Ombres de mes ayeux,</p>
+            <p>Sollicitez pour moi la céleste clémence !...</p>
+            <p>Les souverains, surtout, ont besoin d’indulgence,</p>
+            <p>Ô grand Dieu ! souviens-toi que j’ai vu du même œil</p>
+            <p>Le faîte du bonheur et l’apprêt du cercueil.</p>
+            <p>Je suis jugé sans doute, et tu marques ma place !...</p>
+            <p>Hélas ! quoiqu’il n’est rien qu’un repentir n’efface,</p>
+            <p>Par ma vie et mes maux je me suis préparé</p>
+            <p>À franchir sans remords cet éternel degré !</p>
+            <p>Et malgré mes erreurs, en ta bonté j’espère !...</p>
+            <p>On doit marcher sans crainte en marchant à son père.</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène V</head>
+          <stage>Charles, la Reine, Strafford, Lambert, soldats.</stage>
+          <sp who="charles">
+            <speaker>Charles, <stage>à Lambert.</stage></speaker>
+            <p>Je suis prêt à vous suivre.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                               </space>Et vous allez ?</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>                                                                                 </space>Mourir.</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><pb n="82" xml:id="82" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-82.jpeg"/>Ah ! restez un moment ! laissez-moi m’affermir !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p>Je réclame de vous une grâce dernière !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Parlez !</p>
+          </sp>
+          <sp who="charles">
+            <speaker>Charles.</speaker>
+            <p><space>               </space>La mort m’attend, rien ne peut m’y soustraire.</p>
+            <p>Par un dernier effort, couronnez vos douleurs ;</p>
+            <p>N’arrêtez point mes pas, commandez à vos pleurs ;</p>
+            <p>Me voyant sans gémir, que votre adieu, Madame,</p>
+            <p>Soit celui d’une Reine et montre une grande âme.</p>
+            <stage>Il embrasse la Reine ; Strafford se saisit de la main de son Roi et l’embrasse.</stage>
+            <stage>À Strafford.</stage>
+            <p>Pour vous récompenser, je vous permets, Strafford,</p>
+            <p>D’accompagner mes pas, quand je vais à la mort.</p>
+            <stage>À Lambert.</stage>
+            <p>Marchons !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                        </space>Adieu !... sortez, je crains tout de moi-même.</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VI</head>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>seule.</stage></speaker>
+            <p>Ils sont partis !... Grand Dieu ! de son malheur extrême !...</p>
+            <p>Malheureuse ! tais-toi !... tes vœux sont superflus,</p>
+            <p>Ce palais de ses pas ne retentira plus !...</p>
+            <p>Et pourquoi suis-je seule ?... il était là naguère !...</p>
+            <p>Mais il doit revenir... Il l’a dit... je l’espère !...</p>
+            <p>Que vois-je... mes enfants, approchez-vous tous deux,</p>
+            <p>Il vous a demandés !... Il aime vos doux jeux !...</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VII</head>
+          <stage>La Reine, Fairfax.</stage>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p><pb n="83" xml:id="83" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-83.jpeg"/>Je fus votre ennemi, mais à regret, Madame...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Hé, quoi, Charles, c’est vous !... vous ravissez mon âme !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>Sa profonde douleur a fasciné ses yeux !</p>
+            <p>Je suis Fairfax, Madame...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                                                </space>Il est bien généreux !...</p>
+            <p>C’est lui qui vous sauva !... Fuyons, je vous en prie !</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>Hé, Madame, je viens défendre votre vie,</p>
+            <p>Déjà le parlement a menacé vos jours !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Hélas ! ce n’est pas lui !...</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p><space>                                                   </space>Mais voici mon secours.</p>
+            <p>Elle ne m’entend pas !...</p>
+          </sp>
+        </div>
+        <div type="titolo2">
+          <head>Scène VIII</head>
+          <stage>La Reine, Fairfax, Strafford.</stage>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p><pb n="84" xml:id="84" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-84.jpeg"/><space>                                                     </space>Venez sauver la Reine !</p>
+            <p>Milord, un vrai délire et l’égaré et l’entraîne !...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Madame...</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p><space>                         </space>Mon époux ! où est-il donc, Strafford ?</p>
+            <p>Et qu’en avez-vous fait ? répondez !...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p><space>                                                                     </space>Il est mort !</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine.</speaker>
+            <p>Repaissez ma douleur de la fin de sa vie !</p>
+            <p>De mon calice amer je veux boire la lie ;</p>
+            <p>Oui, de mon sort affreux je veux sentir l’horreur,</p>
+            <p>Et m’enivrer enfin de ma propre terreur !...</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Au sortir de ces lieux, une foule incertaine</p>
+            <p>Que partageait la crainte et l’amour et la haine,</p>
+            <p>Accueillait en silence et d’un œil curieux,</p>
+            <p>De la mort de son Roi les apprêts odieux.</p>
+            <p>Les soldats de Cromwell, servant sa défiance,</p>
+            <p>Restaient le glaive en main ; et leur impatience,</p>
+            <p>Du cortége funèbre accusant la lenteur,</p>
+            <p>De l’Anglais attendri semblait craindre l’ardeur.</p>
+            <p><pb n="85" xml:id="85" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-85.jpeg"/>Ils gardaient l’échafaud, dont la seule présence</p>
+            <p>Faisait trembler le crime et frémir l’innocence.</p>
+            <p>Enfin, le parlement, surpris de son pouvoir,</p>
+            <p>Assistait par orgueil, plutôt que par devoir.</p>
+            <p>Le triomphant Cromwell en couronnait le groupe ;</p>
+            <p>Altéré de vengeance, il en buvait la coupe :</p>
+            <p>Et feignant de prier, savourait à longs traits</p>
+            <p>Le sang de la victime offerte à ses projets ;</p>
+            <p>Le soleil disparut, mais son adieu rougeâtre</p>
+            <p>D’avance ensanglantait ce lugubre théâtre.</p>
+            <p>Tout, excepté Cromwell, est saisi de terreur</p>
+            <p>Et du crime, en suspens, ressent déjà l’horreur :</p>
+            <p>Charles paraît alors, sa démarche est tranquille ;</p>
+            <p>Et ses bourreaux tremblants baissent un œil servile,</p>
+            <p>Qu’un reste de pudeur condamnait au respect.</p>
+            <p>Un long gémissement s’élève à cet aspect !...</p>
+            <p>Charle est à l’échafaud comme il fut sur le trône,</p>
+            <p>Il semble commander, et le peuple frissonne !...</p>
+            <p>Le juste seul est calme ; il tourna vers les cieux,</p>
+            <p>Une dernière fois, son œil majestueux ;</p>
+            <p>Il les voit sans gémir, regarde l’assemblée,</p>
+            <p>Et dit ces derniers mots dont elle est ébranlée...</p>
+            <p>« Grâces à l’Éternel, je suis environné</p>
+            <p>Du peuple qui, jadis, m’a béni, couronné !</p>
+            <p>Ô vous que je cherchais à gouverner en père,</p>
+            <p>Gardez le souvenir de mon heure dernière !...</p>
+            <p>Si je parle, ô mes fils, c’est pour mes ennemis,</p>
+            <p>Et pour l’honneur anglais, que je vois compromis ;</p>
+            <p>Albion de ma mort ne sera pas tachée,</p>
+            <p>Je tombe sous les coups d’une fureur cachée ;</p>
+            <p>Puisse l’ambition qui creusa mon tombeau</p>
+            <p>Ne pas être à mon peuple un écrasant fardeau ;</p>
+            <p>Puisse mon pays, fier, ne point courber la tête,</p>
+            <p>N’obéir qu’à ses lois, n’avoir d’autre tempête</p>
+            <p>Que celle dont la mer fatigue ses vaisseaux !</p>
+            <p>Je péris innocent et mes crimes sont faux !...</p>
+            <p>Si je suis, par ma mort, utile à ma patrie,</p>
+            <p>Je vous excuse, Anglais, d’avoir tranché ma vie !...</p>
+            <p>Si mon fils, à régner, se trouvait condamné,</p>
+            <p><pb n="86" xml:id="86" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-86.jpeg"/>Qu’il sache qu’en mourant je vous ai pardonné !...</p>
+            <p>Adieu ! vivez heureux ! » À ces mots il se couche,</p>
+            <p>Le nom de l’Éternel expire dans sa bouche ;</p>
+            <p>Le vôtre fut celui que sa tête, en tombant,</p>
+            <p>La langue déjà froide, essayait vainement.</p>
+            <p>Cependant sa grande âme, à la terre ravie.</p>
+            <p>En montant vers les cieux regagnait sa patrie !...</p>
+            <p>Surpris, le peuple avoue, en le voyant mourir,</p>
+            <p>Qu’il vécut en héros, et périt en martyr :</p>
+            <p>Rien ne m’eût empêché, Madame, de le suivre !...</p>
+            <p>Avant de me quitter, il m’ordonna de vivre !…</p>
+          </sp>
+          <sp who="lareine">
+            <speaker>La Reine, <stage>sortant d’un profond abattement.</stage></speaker>
+            <p>Exécrable Albion, je puis donc te haïr !...</p>
+            <p>Je renonce à régner où l’on m’a pu trahir !</p>
+            <p>Je redeviens Française, et je lègue à la France</p>
+            <p>Ma couronne et mes fils, mes droits et ma vengeance.</p>
+            <p>En aurais-tu besoin, noble et vaillant pays,</p>
+            <p>Où l’horreur de l’Anglais fertilise les lys ?</p>
+            <p>Unissons nos efforts, notre cause est égale,</p>
+            <p>Je cherche la vengeance, et toi, perds ta rivale !...</p>
+            <p>Les lys devaient-ils donc s’unir aux Léopards ?</p>
+            <p>Ô France ! ô mon pays ! saisis tes étendards !</p>
+            <p>Et, tout en me vengeant, écoute ma prière !...</p>
+            <p>Que ta haine, à jamais, éternise la guerre,</p>
+            <p>Et combattez toujours, même au sein de la paix !</p>
+            <p>Que toujours la victoire appartienne aux Français :</p>
+            <p>Rivaux par les talents, la gloire et le rivage,</p>
+            <p>Soyez-les par les arts, la haine et le courage !</p>
+            <p>Puisse de mon pays s’élever un vengeur</p>
+            <p>Qui, de l’orgueil anglais rabaissant la hauteur,</p>
+            <p>De vingt siècles de haine accepte l’héritage,</p>
+            <p>Et sous une autre Rome, engloutisse Carthage !...</p>
+            <p>Et qu’Albion vaincue, en cent divers combats,</p>
+            <p>Lui demande sa grâce et ne l’obtienne pas !...</p>
+            <p>Qu’il voye, à ses genoux, l’Angleterre, éplorée,</p>
+            <p>Si toutefois la mer ne l’a pas dévorée !...</p>
+            <stage>Elle tombe privée de ses sens.</stage>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p><pb n="87" xml:id="87" facs="https://www.ebalzac.com/romans/th-cromwell/bibliophiles/scans/crom-87.jpeg"/>Dérobons-la, Seigneur, à des coups menaçants !</p>
+          </sp>
+          <sp who="strafford">
+            <speaker>Strafford.</speaker>
+            <p>Daignez nous secourir, elle a perdu ses sens.</p>
+          </sp>
+          <sp who="fairfax">
+            <speaker>Fairfax.</speaker>
+            <p>Écoutez une voix, en leçons si féconde,</p>
+            <p>Ô Rois, instruisez-vous à gouverner le monde !</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
