@@ -1,0 +1,3505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet  type="text/xsl" href="../Teinte/tei2html.xsl"?><?xml-model  href="http://dramacode.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Marâtre</title>
+        <author key="Balzac, Honoré de (1799-1850)">Honoré de Balzac</author>
+        <principal>Andrea Del Lungo</principal>
+        <principal>Pierre Glaudes</principal>
+        <principal>Jean-Gabriel Ganascia</principal>
+      </titleStmt>
+      <editionStmt>
+        <edition>Cette édition a été établie dans le cadre du projet PHŒBUS, financé par l’Agence nationale de la recherche (2015-2019).</edition>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Corrections OCR</resp>
+        </respStmt>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Établissement du texte et stylage</resp>
+        </respStmt>
+        <respStmt>
+          <name> Zibardi Matteo </name>
+          <resp>Édition XML/TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Frédéric Glorieux</name>
+          <resp>Informatique éditoriale</resp>
+        </respStmt>
+        <respStmt>
+          <name>Zibardi Matteo</name> 
+          <resp>Traitement des images</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>eBalzac</publisher>
+        <publisher>ALITHILA (Université Lille III)</publisher>
+        <publisher>CELLF (CNRS &amp; Université Paris IV Sorbonne)</publisher>
+        <publisher>LIP6 (Université Paris VI)</publisher>
+        <date when="2017"/>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+            <p> Copyright © 2017 Université Charles-de-Gaulle Lille 3, agissant pour le projet ANR « Projet d’hypertexte de l’œuvre de Balzac par l’utilisation de similarités » (ci-après dénommé ANR Phœbus). </p>
+            <p> Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’ANR Phœbus, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ». </p>
+            <p> Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’ANR Phœbus et surtout l’adresse Internet de la ressource. </p>
+            <p> Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite. </p>
+            <p> Pas de Modification : l’ANR Phœbus s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable. </p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title> Le Nègre, Mélodrame en 3 actes</title> </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="1823"/>
+      </creation>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docAuthor>Horace de Saint-Aubin</docAuthor>
+        <docTitle>
+          <titlePart type="main">Le Nègre</titlePart>
+          <titlePart type="sub">Mélodrame en 3 actes</titlePart>
+        </docTitle>
+      </titlePage>
+    </front>
+    <body>
+      <div>
+        <head>Personnages.</head>
+        <castList>
+          <castItem xml:id="gerval"><role>Monsieur de Gerval,</role> banquier. </castItem>
+          <castItem xml:id="emilie"><role>Émilie,</role> sa femme. </castItem>
+          <castItem xml:id="manfred"><role>Monsieur de Manfred,</role> marquis de Saint- Yves.</castItem>
+          <castItem xml:id="georges"><role>Georges,</role> intendant.</castItem>
+          <castItem xml:id="rosine"><role>Rosine,</role> femme de chambre d’Émilie. </castItem>
+          <castItem xml:id="marguerite"><role>Marguerite,</role> paysanne du village de…</castItem>
+          <castItem xml:id="flicotel"><role>Flicotel,</role> marchand de vin à Sèvres. </castItem>
+          <castItem xml:id="autres">Valets, etc., paysans et paysannes.</castItem>
+        </castList>
+        <stage>Au premier acte la scène représente un salon de l’hôtel de monsieur de Gerval. Il s’y trouve un secrétaire.</stage>
+        <stage>Au deuxième acte, une vue de Sèvres.</stage>
+        <stage>Au troisième acte, l’hôtel de monsieur de Gerval.</stage>
+        <pb n="personnages" xml:id="personnages" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-NaN.jpeg"/>
+      </div>
+      <div>
+        <head>Acte premier</head>
+        <div>
+          <head>Scène première</head>
+          <stage>Il fait encore nuit dans l’appartement mais le jour est levé et s’aperçoit à travers les persiennes. Georges est contre la porte de la chambre à coucher d’Émilie. Il regarde la porte. </stage>
+          <sp who="georges">
+            <speaker>Georges, <stage>seul.</stage></speaker>
+            <p rend="noindent"><pb n="95" xml:id="95" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-95.jpeg"/>Elle repose et je veille !… <stage>(Il approche l’oreille contre la porte.)</stage> Son souffle s’échappe aussi pur que celui d’un enfant, et le mien est brûlant comme le ciel de ma patrie…</p>
+            <p rend="noindent">Elle vient de rentrer du bal à l’instant… (<stage>il regarde la pendule</stage>) à l’instant !… huit heures se sont déjà passées et ma rêverie d’amour en a fait un songe d’une minute… ah, quelle soirée !… Attaché contre la porte du salon, je l’ai vue briller au milieu de cent rivales et quand je l’apercevais vive et légère danser avec un autre, l’enfer tout entier habitait mon cœur… Qu’elle était belle !… des roses contre le sein, des roses sur le front, des roses sur sa tête… tout à l’heure encore elle a marché là, là… ici sa guirlande est tombée. <stage>(Il se baisse et fait comme s’il ramassait une guirlande et la donnait.)</stage> « Merci Georges » ô son sourire et son divin accent ont mis le comble à ma rage… <stage>(il tire une rose de son sein)</stage> ô rose chérie, rose détachée de sa chevelure, tu seras un talisman pour moi ; n’es-tu pas son portrait le plus fidèle. Hélas !… depuis deux ans je souffre, depuis deux ans je veille ainsi, me consumant en vains efforts pour étouffer ce feu qui brûle – mes yeux parlent, mes yeux la dévorent, heureusement ma bouche fut toujours muette – rompons ce silence <pb n="96" xml:id="96" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-96.jpeg"/>mortel, ah je viens de la voir trop belle, je parlerai… ce matin, maintenant à l’instant<stage>. (Il court à la porte.)</stage> Non. Qu’elle vive heureuse, mon poison est là, tout prêt, et lorsque mes maux seront au comble, pauvre nègre, je m’endormirai pour toujours ; si je pense à son divin sourire ma mort ne sera pas amère et je n’aurai pas du moins insulté la vertu… Et pourquoi ne parlerais-je pas ?… Pourquoi souffrir seul ? Disons-lui l’horreur de mes tourments, qu’elle sache mon malheur et comme ce sang africain bouillonne dans mes veines. Elle me plaindra, elle pleurera ma mort… non, je sais sa réponse… Pourquoi troubler le bonheur dont elle jouit ? Elle adore son mari… Meurs, Georges ! meurs…</p>
+            <p rend="noindent">Hé quoi je mourrais sans avoir rien tenté… Je parlerai, oui, tout me favorise, Monsieur de Gerval est absent. J’écarterai les domestiques et je resterai seul avec elle, seul !… Me contiendrai-je ? (<stage>Il prête l’oreille.)</stage> J’entends du bruit, elle est éveillée, elle sonne. <stage>(Elle sonne.) </stage>On va me voir, quel prétexte donner ? Ouvrons moi-même.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène II</head>
+          <stage>Le nègre, Rosine. </stage>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Ah, vous êtes ici, Monsieur Georges ; pour être rentré si tard vous êtes levé de bonne heure.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il est dix heures.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Le bal était-il beau ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine, <stage>à part. </stage></speaker>
+            <p rend="noindent">Il est toujours triste, ce garçon-là. <stage>(Haut.)</stage> Madame a-t-elle paru bien belle ? Sa guirlande était-elle bien posée ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="97" xml:id="97" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-97.jpeg"/>Oh, oui, oui.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Madame a-t-elle dansé ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Beaucoup trop.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Y avait-il de jolis cavaliers ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges.</speaker>
+            <p rend="noindent">Oui. <stage>(À part.) </stage>Comment pourrais-je me défaire de celle-ci ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Le souper était-il beau ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je n’en sais rien.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Vous n’avez donc rien vu ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Rien, qu’une seule chose.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Qu’est-ce ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Votre ami Charles !</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Ah, ah !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Dépêchez-vous d’habiller Madame ; Charles vous attend ce <pb n="98" xml:id="98" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-98.jpeg"/>matin à onze heures, au château d’eau ; son père est instruit de votre amour et consent à vous marier.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Oh Monsieur Georges, suis-je heureuse !…</p>
+            <stage>Elle saute.</stage>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Silence, et dépêchez-vous ! votre maîtresse attend.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine <stage>[à part]</stage>. </speaker>
+            <p rend="noindent">Malgré sa tristesse, il a bon cœur. <stage>(Haut.)</stage> Merci, Monsieur Georges !… merci de vos soins. Je ne les oublierai jamais.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Votre maîtresse attend.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène III</head>
+          <sp who="georges">
+            <speaker>Georges, <stage>seul. </stage></speaker>
+            <p rend="noindent">Cours pauvre enfant !… cours au château d’eau. Il m’en coûte de la tromper, elle est heureuse, elle est aimée, elle !… et si elle ne trouve pas Charles son cœur n’en aura pas moins une douce fête. Je voudrais bien attendre son rendez-vous !</p>
+            <p rend="noindent">Je les entends, allons me débarrasser de tous les autres. Avant de m’en aller, je veux revoir encore Émilie.</p>
+            <stage>Il se cache et ne sort qu’après l’avoir vue.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IV</head>
+          <stage>Émilie, Rosine. </stage>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent"><pb n="99" xml:id="99" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-99.jpeg"/>Vous êtes toujours triste, Madame, et cependant hier, vous avez dû vous amuser.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Les plaisirs du monde sont bien peu de chose Rosine et si le cœur n’y prend aucune part ce n’est plus rien du tout.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Mais Georges m’a dit que vous aviez beaucoup dansé.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Pour me distraire, car depuis l’absence de Monsieur je sors souvent comme tu le sais. Je cherche les plaisirs si vantés de Paris et je ne m’amuse nulle part. Que j’en veux à Gerval de ne point revenir ; chaque lettre m’annonce son arrivée ; quand ne recevrai-je plus de lettres !</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Elles vous font plaisir, néanmoins.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui, mais ce ne sont que des lettres, et si lorsque je les lis, mon cœur sent et reconnaît sa cordialité, sa tendresse, ce ton avec lequel il semble répandre son âme tout entière, je préfère le voir ; un de ses regards vaut cent lettres d’amour. Ah ! Rosine, je crois, en vérité, que cette absence rend à mon amitié, toute la fraîcheur des premiers sentiments.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent"><pb n="100" xml:id="100" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-100.jpeg"/>Ne dites pas cela trop haut, Madame, les murs ont des oreilles, et tous les maris laisseraient leurs femmes.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Rosine, tout est-il en ordre dans l’appartement de Monsieur ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Vous me demandez cela tous les jours.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est que chaque matin je l’attends… Rosine, je tremble qu’il ne lui soit arrivé quelque malheur… J’éprouve tant de chagrin depuis quelques jours qu’aujourd’hui je ne conçois que de noirs pressentiments – Rosine, il m’arrivera quelque infortune, on m’a toujours prédit que je mourrais victime de ma tendresse.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">À quel âge. Madame ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>riant</stage>. </speaker>
+            <p rend="noindent">Bien mon enfant, aide-moi à repousser mes sinistres pensées. Allons, j’imagine que Gerval arrive aujourd’hui, mon cœur me l’assure, oui je l’entendrai m’appeler : Émilie, et son aspect me rendra joyeuse ! joyeuse !… Non, car si l’on est complètement heureux cela ne peut empêcher de souffrir du malheur des autres. Mais laissons cela. Gerval revient ; tout ici doit être gai, riant, et respirer un air de fête.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Madame n’ajoute rien à sa toilette ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non, non, son âme grande dédaigne ces frivolités. L’amour que l’on porte à son époux est la plus belle parure d’une femme, et d’ailleurs la simplicité n’est-elle pas un genre de coquetterie ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent"><pb n="101" xml:id="101" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-101.jpeg"/>Madame a-t-elle des ordres à me donner ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Cours savoir si j’ai des lettres.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">J’y suis allée, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Eh bien ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Il n’y a que celle-ci.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>criant. </stage></speaker>
+            <p rend="noindent">Elle n’est pas de son écriture !… Oh ! Rosine, il vient ! il vient. Je le verrai… cours à son appartement, renouvelle les fleurs, que chacun se tienne prêt. Je ne déjeunerai pas sans lui ; dis que j’attendrai jusqu’à deux heures.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Mais d’ici là ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges me servira mon chocolat dans ce salon. Je n’en veux rien entendre, voir, ni apprendre, sinon… le voici !</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Madame a-t-elle autre chose à me commander ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Rien, mon enfant, apporte-moi ma guirlande. <stage>(Rosine entre dans la chambre et sort.)</stage> Quel bonheur, mais je suis folle, en vérité, mon cœur bat trop vite – Ah c’est maintenant que je vis !</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Madame voudrait-elle me permettre de…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="102" xml:id="102" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-102.jpeg"/>Attachez ma guirlande mieux qu’hier, car elle est tombée.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Si Madame avait la bonté… Mais la couronne est trop courte, il y manque une rose.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Et qu’est-ce que cela fait !… A quel moment viendra-t-il ? Ah ! si je savais le chemin, j’irais à sa rencontre.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Madame pourra-t-elle se passer de mes services, pendant quelques minutes ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Rosine, je puis me passer de tout le monde ; avec l’idée de son retour je suis heureuse pour longtemps. Va, va, mon enfant, je veux que tout ce qui m’entoure se ressente de ma joie.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine, <stage>en s’en allant.</stage></speaker>
+            <p rend="noindent">Toujours la même, bonne, excellente.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène V</head>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Je vais donc le revoir, le saluer de son doux nom… Hélas pendant que mon cœur tressaille de joie, ma sœur, ma pauvre Claire gémit toute seule en proie au désespoir, à l’ignominie : ô ma sœur, j’ai honte de me réjouir, et je ne puis penser qu’à toi.</p>
+            <p rend="noindent">Si jeune être la victime d’un séducteur. Voyons cette dernière lettre qu’il m’adresse, car je ne veux la remettre à Claire que si elle lui donne l’espoir.</p>
+            <p rend="noindent"><stage>(Elle lit.)</stage> « Ange chéri, sèche les pleurs que tu verses en ce moment, <pb n="103" xml:id="103" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-103.jpeg"/> ils insultent à mon amour. Manfred ne doit pas plus être un lâche que toi une infidèle ; apprends, ma chérie, que la cause de mon exil va cesser et que dans peu je reviendrai, en loyal chevalier, te rapporter un cœur où tu règnes toujours en souveraine. »</p>
+            <p rend="noindent">Ô Claire, que je suis heureuse pour toi î…</p>
+            <p rend="noindent">« Tu sortiras de ton abîme d’infortune plus brillante qu’aux jours de ton innocence, s’il se peut, et celui qui par une faute involontaire a causé ton malheur mettra toute sa gloire à te rendre belle entre toutes les épouses. Réjouis-toi donc et que cette lettre soit pour toi l’aurore du bonheur. En l’écrivant, j’y attachais mon âme toute entière puisque ces caractères frapperont tes yeux. Ô ma tendre amie, que ne suis-je là pour essuyer tes larmes, te couvrir de baisers et te servir comme en ces jours de bonheur où tu riais et folâtrais près de moi. »</p>
+            <p rend="noindent">Non dans le fond du cœur de celui qui trace ces lignes, il brille encore plus d’une étincelle d’honneur et de vertu. Manfred, viens donc rendre la gloire à cette infortunée qui se cache à tous les yeux ; son seul désir est de pouvoir porter sans honte le beau titre de mère que je lui envie tant… Ah ! j’aurai sauvé sa réputation ! car personne au monde ne connaîtra cet important secret ; c’est le seul que j’aurai pour Gerval. L’honneur d’une femme et surtout d’une sœur chérie, est si précieux qu’on ne saurait faire trop de sacrifices pour lui conserver sa pureté. Les gens de la maison où elle est ignorent eux-mêmes l’existence de son enfant !… que de soins !… <emph>(Georges entre.)</emph> Allons remettons cette lettre avec toutes les autres ; j’irai la porter tantôt à ma sœur et j’irai promptement puisque c’est pour elle le comble du bonheur… Sera-t-elle heureuse quand elle pourra lire toutes les lettres de son amant avec son mari. <stage>(Elle referm[e la lettre].)</stage> Tout me sourit ce matin, et mes pressentiments sinistres disparaissent. Mais comment ferai-je pour aller maintenant à Sèvres ? Je n’ai jamais caché mes démarches à Gerval et s’il vient à savoir que, pendant son absence, je sortais cinq heures tous les jours, lui qui s’alarme d’un rien, d’un sourire incertain, d’une parole, lui dont la jalousie est aussi extrême que son amour. Ô qu’une femme doit veiller à l’apparence de sa conduite ! Allons je n’irai plus voir ma sœur… ne plus la voir et c’est retirer au malheureux qui se noie, la planche à laquelle il se confie. Quoi qu’il arrive j’irai. Personne ne peut instruire Gerval et d’ailleurs il m’aime, et s’il s’emporte, c’est moi qui le gronderai.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VI</head>
+          <stage>Émilie, Georges et deux domestiques. </stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="104" xml:id="104" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-104.jpeg"/>Ah, voici mon chocolat, par ici, Georges.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>aux domestiques. </stage></speaker>
+            <p rend="noindent">Vous pouvez vous en aller maintenant. Je vous remplacerai, si l’on a besoin de vous.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VII</head>
+          <stage>Émilie, Georges. </stage>
+          <sp who="georges">
+            <speaker>Georges, <stage>au fond. </stage></speaker>
+            <p rend="noindent">Enfin, nous sommes seuls… <stage>(Il approche.)</stage> Le cœur me manque…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Qu’avez-vous Georges ? vous paraissez triste, je n’aime pas ces figures-là. Quand je suis gaye, vous devez être content. Monsieur de Gerval arrive.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il arrive !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Qu’avez-vous ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">J’étouffe, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>se levant et laissant tomber son gant.</stage></speaker>
+            <p rend="noindent"><pb n="105" xml:id="105" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-105.jpeg"/>Vous souffrez donc ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>à genoux. </stage></speaker>
+            <p rend="noindent">Oh oui beaucoup !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Cet homme m’effraye… sa figure est changée.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame il faut que je vous parle.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Parlez Georges, mais relevez-vous d’abord.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Non, non, je ne quitte pas vos genoux…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges vous seriez-vous rendu coupable de quelque faute, notre indulgence vous est connue, et vous pouvez avouer sans crainte.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Moi coupable !… non, non, je n’ai rien dit encore.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Allons expliquez-vous sur le champ.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">M’expliquer !… C’est elle qui me l’ordonne. <stage>(Il s’écarte.)</stage> Non je ne saurais le lui avouer, je renfermerai dans mon cœur le deuil, la rage, le désespoir, tous les tourments de l’enfer ; je souffrirai, je mourrai, mais ce fatal secret ne passera pas de mon âme sur mes lèvres.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Quoi ! nous serait-il arrivé quelque malheur à Gerval ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="106" xml:id="106" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-106.jpeg"/>Rassurez-vous, le malheur est pour moi seul.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges vous m’épouvantez…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VIII</head>
+          <stage>Les précédents, Marguerite. </stage>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>dans la coulisse. </stage></speaker>
+            <p rend="noindent"><pb n="106" xml:id="106" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-106.jpeg"/>Je vous dis qu’il faut que je la voye, et que je suis connue d’elle… Ah, la voici !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Marguerite ici !… quelle imprudence !… que peut-il être arrivé ?… <stage>(Haut)</stage> Georges laissez-nous.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ah je respire !… je vais pouvoir calmer l’agitation qui me tue et reprendre mes sens !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IX</head>
+          <stage>Émilie, Marguerite. </stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Marguerite, quel sujet vous amène ici ? Je vous avais défendu d’y venir.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">C’est vrai Madame, mais, voyez-vous, il y a bien du nouveau de nos côtés, cette petite dame a pris la clef des champs.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent"><pb n="107" xml:id="107" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-107.jpeg"/>Que me dites-vous ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite.</speaker>
+            <p rend="noindent">La vérité, Madame sous votre respect.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Mais Claire était assez tranquille lorsque je l’ai quittée.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Je ne dis pas non, mais c’est justement après votre départ qu’elle a commencé son tapage ; elle a fait des cris, des cris à les entendre de la pièce de terre que mon homme a vendue l’année dernière à Guillaume le Marguillier.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Après, Marguerite, je suis au martyre.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Faites excuse. Madame ; quand la jeune fille n’a plus crié, je me suis hasardé à monter dans sa chambre. Voilà-t-il pas qu’elle est venue à moi, en riant, mais vous savez Madame, c’était un de ces rires qui font peur et ses yeux restaient fisques comme cela.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah, mon cœur se serre… achevez.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Elle m’a dit qu’elle m’attendait depuis longtemps, mais je viens de vous instruire pourquoi je ne montais pas ; puis elle m’a pris, sous votre respect Madame, pour un homme, Monsieur Manfred ; elle m’a fait asseoir à côté d’elle en me prenant la main, et après m’avoir parlé très amicalement, elle m’a regardé, a jette un grand cri, et s’est enfuie dans l’autre chambre où je n’entre jamais comme nous en som[mes] convenues.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent"><pb n="108" xml:id="108" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-108.jpeg"/>Ô ma sœur !… ses maux auront altéré sa raison.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Je croirais que oui et non, non parce que je l’ons veillée cette nuit et qu’elle a été encore assez tranquille ; elle a bien parlé, parlé, parlé, à Monsieur Manfred, et à un autre qu’elle appelait son petit Ferdinand, mais, comme je n’ai rien compris je n’ai pas su si c’était bien ou mal. Je croirais que oui, parce qu’à ce matin, lorsque j’ l’ons laissée seule, elle s’est enfuie, et le voisin Pierre l’a vue sortir par le petit bois. Elle était bien vêtue comme une dame et elle a répondu à toutes les demandes : qu’elle allait le chercher.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ô, ma pauvre Claire!… <stage>(Elle pleure.)</stage> S’est-elle enfuie toute seule ?</p>
+          </sp>
+          <sp who="[marguerite">
+            <speaker>[Marguerite.] </speaker>
+            <p rend="noindent">Toute seule.</p>
+          </sp>
+          <sp who="[emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent">Elle n’avait rien avec elle ?</p>
+          </sp>
+          <sp who="[marguerite">
+            <speaker>[Marguerite.] </speaker>
+            <p rend="noindent">Non.</p>
+          </sp>
+          <sp who="[emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent">A-t-elle fermé la porte de son appartement ?</p>
+          </sp>
+          <sp who="[marguerite">
+            <speaker>[Marguerite.] </speaker>
+            <p rend="noindent">Oui Madame.</p>
+          </sp>
+          <sp who="[emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent">Grand Dieu son enfant va mourir !… et je suis la seule qui en connaisse l’existence et qui puisse le sauver. Que faire !…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Ne sachant rien, je suis vite accourue ici.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="109" xml:id="109" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-109.jpeg"/>Marguerite, je vais vous donner de l’argent, vous enverrez sur le champ du monde à la recherche de cette jeune fille.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite.</speaker>
+            <p rend="noindent">Du monde, en trouvera-t-on, c’est aujourd’hui la fête à Sèvres.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Marguerite, il faut ramener cette infortunée, à tel prix que ce soit et moi, je vais être à Sèvres avant une heure.</p>
+            <stage>Elle sonne.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène X</head>
+          <stage>Les précédents, Georges.</stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges, que l’on mette les chevaux, je vais sortir.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame, Pierre est absent.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Allons, je me passerai de ma voiture. <stage>(À Marguerite.)</stage> De la discrétion sur tout ce que vous pouvez voir ou entendre.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XI</head>
+          <stage>Marguerite, Georges.</stage>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il paraît que vous allez sortir avec Madame.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Peut-être.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="110" xml:id="110" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-110.jpeg"/>Demeurez-vous loin d’ici ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite.</speaker>
+            <p rend="noindent">On est toujours loin de chez soi quand on n’y est pas.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Vous êtes bien fière pour une laitière.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Laitière !… je suis bien femme de Nicolas Guernon, propriétaire, vigneron, à Sèvres près Paris… laitière !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">À Sèvres, n’est-ce pas à ce village que Madame va tous les jours ?…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Chez votre servante qui n’est pas plus laitière que vous n’êtes blanc. Ne voudrait-il pas me faire jaser celui-là !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges.</speaker>
+            <p rend="noindent">Au lieu de secourir les pauvres de Sèvres, Madame devrait bien…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Ah, bien oui, secourir les pauvres… on vous dira le secret, dieu merci, je sais me taire, l’ami…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XII</head>
+          <stage>Les précédents, Émilie.</stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="111" xml:id="111" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-111.jpeg"/>Tenez, Marguerite, partez sur le champ, je ne tarderai pas à vous suivre.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Merci, Madame, je vous salue et votre compagnie.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIII</head>
+          <stage>Émilie, Georges.</stage>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>essaye de manger et laisse son déjeuner.</stage></speaker>
+            <p rend="noindent">Ah, je ne puis rien prendre, mon cœur est gonflé, le malheur de Claire m’accable. Attendrais-je Gerval ? non, non, ce pauvre enfant va périr si elle l’a enfermé… et d’ailleurs je dois être la première à pleurer avec cette pauvre sœur, car alors nos larmes n’auront plus rien d’amer. <stage>(Elle voit Georges.)</stage> Georges, pourquoi restez-vous là ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame, l’arrivée de cette femme ne m’a pas permis d’achever…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Claire m’avait fait oublier cette autre inquiétude…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je vous quitte, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="112" xml:id="112" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-112.jpeg"/>Si brusquement ? et pour quelle raison ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il le faut.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Vous vous déplaisez donc ici ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">M’y déplaire… non, non.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Pourquoi donc abandonner ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ah ne me questionnez pas !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je pensais Georges que nous vous avions témoigné assez de bienveillance par la confiance que nous vous accordons et le rang que vous avez ici pour qu’il nous fût possible d’examiner ensemble cette cause dont vous faites mystère.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Et je le dois Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Soit, Georges, vous êtes libre, je serai fâchée de votre départ, et je ne croyais pas qu’un jour vous dussiez quitter celui qui vous sauva la vie, votre bienfaiteur.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Mon bienfaiteur !… Monsieur de Gerval est la cause de tous mes maux.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Vous vous oubliez… que signifie cette phrase ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Eh quoi, Madame est-ce moi qui demandais à venir en France… Courbé sous le joug dans ma patrie, j’étais heureux de mon malheur, c’est Monsieur qui trafiqua de moi, qui me transporta dans un pays où le rire le plus insultant m’apprit que j’étais un être en dehors de l’humanité. Cet état est affreux sans doute. Je le lui dois, mais ce n’est rien… Repoussé que je suis par la société, je sens naître à mon arrivée un sentiment qui bouleverse mon âme. Une femme s’est offerte à ma vue, son regard sembla m’ouvrir les cieux, ma patrie ne fut plus qu’aux lieux où brillait sa beauté. Enfin depuis deux ans, je la porte en mon cœur ; chacun de ses sourires, même ceux qui ne sont pas pour moi, mettent mon âme en délire. Eh bien Madame elle en aime un autre. L’hymen comble ses vœux, elle est adorée, me perce le cœur chaque jour, et le délire de mes paroles vous dit assez que cette femme, c’est vous !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Moi grand Dieu !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui, Vous !… mais c’est sans crime… car c’est moi qui vous vis le premier, c’est moi qui vous ai montrée à mon maître, comme un objet digne d’amour ; ce feu qui me brûlait je l’ai fait passer dans son cœur, et vous me devez son amour. Mais le mien, j’ai cru pouvoir l’éteindre, j’ai combattu deux ans, j’ai souffert j’en mourrai !… dites maintenant est-ce mon bienfaiteur, ou mon ennemi et pouvais-je toujours contenir un volcan dans mon cœur, sans qu’il éclatât au dehors, et ne dois-je pas vous quitter ?…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Georges, vous auriez dû partir hier.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges.</speaker>
+            <p rend="noindent">Ah je comprends votre regard !… c’est un nègre qui parle !… et son amour est une cruelle injure, je le lis dans vos yeux… Émilie, à l’excès de chaleur qui fait frémir ce cœur où tu règnes, à l’amour qui m’embrase et qui ennoblit le dernier des êtres, ne devrais-tu <pb n="114" xml:id="114" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-114.jpeg"/> pas reconnaître un homme ? Et d’ailleurs une âme émanée de Dieu, une âme où réside ton image, ne sera jamais vile, et ta tête pourrait reposer sans honte sur mon sein.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Georges, ne parlez pas davantage et sortez !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Sortir… Madame, j’avais droit à votre pitié, et je ne m’attendais guère à du mépris !… Sortez !… ah ce mot élève dans mon âme un monde entier de pensées. Je n’y puis suffire. J’en frissonne et j’y sens une rage que balance à peine tout mon amour !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Quand finirez-vous ce discours injurieux ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>il montre son sein, la rose tombe. </stage></speaker>
+            <p rend="noindent">Quand ce cœur aura cessé de battre.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>prenant la rose. </stage></speaker>
+            <p rend="noindent">Que vois-je, une rose de ma couronne !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ah, rendez la moi !… C’est tout mon sang, c’est mon âme, mon souffle, ma vie… Rendez là, je vous l’ordonne…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>sonnant. </stage></speaker>
+            <p rend="noindent">Au secours, au secours !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Taisez-vous, vos cris sont inutiles, j’ai pris soin d’écarter tout le monde et nous sommes seuls.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Grand Dieu, que vais-je devenir !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="115" xml:id="115" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-115.jpeg"/>Ah vous êtes en sûreté près de moi. Entre nous deux, s’élève le respect le plus tendre ; mais mon infernale passion est sortie de mon cœur, elle ne doit plus, elle ne peut plus s’y concentrer et pour prix de votre dédain, je vous condamne à m’entendre.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui, oui, c’est un supplice.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Un supplice !… vous préférez donc ma haine à mon amour ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Bien plus, je préfère la mort.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Vengeance, Vengeance !… Ô chef-d’œuvre d’innocence, j’ai peur de te détruire. Évite-moi, sors !… je m’emporte… Qu’ai-je dit ? Je te vois pour la dernière fois peut-être, restez, – Émilie, prononcez un seul mot de plainte sur mon sort et je meurs content, ce mot sera pour moi la seule fleur d’amour que j’aurai cueillie. Émilie, je serais même satisfait d’un regard… Vous ne répondez pas !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je tâche de ne pas vous entendre.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>pleurant. </stage></speaker>
+            <p rend="noindent">Mourir avec sa haine !… ah son indifférence ne m’a jamais arraché de larmes. Va, je te ferai partager les maux que tu me lègues, je n’ai plus d’amour, mais un besoin terrible de me venger. Dans l’asile le plus sacré, dans les cieux, tu me rencontreras !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">J’entends Gerval, je suis sauvée.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="116" xml:id="116" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-116.jpeg"/>Silence !… Je connais vos voyages à Sèvres.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah que de malheurs à la fois !…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIV</head>
+          <stage>Georges, Gerval, Émilie. </stage>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">À la fin je vous trouve, ma chère Émilie.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah, mon ami, que je t’attendais avec l’impatience…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">En effet je vous trouve bien émue… Bonjour Georges… laissez-nous.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>à part. </stage></speaker>
+            <p rend="noindent">Malheureux, j’ai déjà troublé son bonheur.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XV.</head>
+          <stage>Gerval, Émilie. </stage>
+          <sp who="gerval">
+            <speaker>[Gerval.]</speaker>
+            <p rend="noindent">Comment se fait-il, Émilie, que, selon votre charmante coutume, vous ne soyez point venue à ma rencontre et que je n’aye trouvé personne sur mon passage ? Est-ce par vos ordres que tous les domestiques sont dehors ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="117" xml:id="117" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-117.jpeg"/>Mon ami, j’ignorais leur absence.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Émilie, quelque chose d’extraordinaire vient de se passer ici ; votre figure n’a pas ce calme qui la décore toujours et son expression n’est pas celle de la joie.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, c’est vrai, va, mon visage sera toujours un trop faible interprète des sentiments que j’ai pour toi.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Émilie ! à cet accent je reconnais celle qui prend le soin d’embellir ma vie. Cependant la cause de ton émotion me reste encore cachée.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">N’est-ce donc rien que le plaisir de te revoir…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ce plaisir alors ressemblerait fort à de l’inquiétude.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">De l’inquiétude, ah, j’en ai beaucoup !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et sur quoi ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Lorsque je vois Gerval que vous ne me croyez plus.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ne plus te croire !… Émilie, je vous demande pardon, n’attribuez ce mouvement qu’à mon caractère ombrageux, extrême, vous le savez ; s’il fait mon malheur, il donne aussi plus de force à mon amour.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="118" xml:id="118" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-118.jpeg"/>Oh que je suis aise de te revoir !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Moi j’ai cru que je n’arriverais jamais et lorsque j’ai vu Paris, j’ai tressailli de plaisir… une si longue absence.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Enfin, cher ami, ton aspect me fait tout oublier. <stage>(Regardant la pendule.)</stage> Grand Dieu, midi… Gerval, il faut que je te laisse pour une heure ; un moment et je reviens.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Oh, ma chère Émilie, quelle affaire si pressante peut vous contraindre à me quitter aussi promptement ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Une affaire, Gerval !… non, c’est un devoir sacré.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ne puis-je du moins le connaître ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah je voudrais pouvoir t’en instruire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Mais enfin où donc allez-vous ?…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Gerval, tu m’aimes, du moins tu le dis… Eh bien plus de questions ; je dois garder ce secret, car ce n’est pas le mien.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je croyais qu’une femme n’en avait point pour son mari ; du reste, allez Émilie, vous êtes libre de vos actions, je n’en exigerai <pb n="119" xml:id="119" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-119.jpeg"/>jamais aucun compte, et désormais j’aurai soin de vous avertir de l’heure précise de mon arrivée. Les surprises me réussissent mal.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Mon ami, est-ce ton intention de me déchirer l’âme ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Émilie, sors, cent fois, seule, où tu voudras, je te laisse seule juge de tes actions, et jamais je ne douterai de ta tendresse.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie </speaker>
+            <p rend="noindent">Adieu Gerval !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVI</head>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>seul.</stage></speaker>
+            <p rend="noindent">J’ai cru qu’elle serait restée !… Mais pourquoi m’inquiéter ? Son cœur n’est-il pas dans le mien, et son innocence n’est-elle pas aussi pure ? Ah je rougis de moi-même… Georges !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVII</head>
+          <stage>Gerval, Georges.</stage>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Georges, dis-moi je te prie…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur je ne suis plus à votre service.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et qui est-ce qui vous a pu congédier ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="120" xml:id="120" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-120.jpeg"/>Madame…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Pour quel motif ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame le sait.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part.</stage> </speaker>
+            <p rend="noindent">Tout me surprend et me confond. <stage>(Haut.)</stage> Ne pouvez-vous donc pas me l’apprendre ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je ne saurais.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Georges es-tu toujours ce serviteur fidèle, discret, dévoué, que j’avais élevé au rang d’un ami ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Eh bien, Monsieur ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ne me cache rien. Quelle est la cause de ton départ ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">C’est parce que je veux rester ce serviteur fidèle, et dévoué, votre ami enfin que je dois me taire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">Il m’assassine, <stage>(Haut.)</stage> Savez-vous au moins où se rend Madame ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges.</speaker>
+            <p rend="noindent">Monsieur quand je serais encore votre intendant je croirais être peu fidèle en vous l’apprenant.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">Quelle leçon !… <stage>(Haut.)</stage> Tu le sais donc ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="121" xml:id="121" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-121.jpeg"/>Oui, Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Georges, quelle que soit la raison du congé que vous a donné Madame, je vous garde à mon service, et vous emploierai en qualité de correspondant à ma maison de Hambourg… À présent, je vous ordonne de me répondre : où est Madame ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>à part. </stage></speaker>
+            <p rend="noindent">Qu’il souffre aussi lui. <stage>(Haut.)</stage> Madame se rend à Sèvres où elle allait passer cinq heures tous les jours pendant votre absence.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part.</stage></speaker>
+            <p rend="noindent">Ah !… Qu’au moins cet homme ignore !… <stage>(Haut.)</stage> C’est bon Georges, Madame ne s’y dirigeait que par mes ordres, je suis content d’apprendre qu’ils sont fidèlement exécutés.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>à part.</stage></speaker>
+            <p rend="noindent">Il veut me cacher son angoisse, j’en jouis au fond de l’âme, ah la vengeance est délicieuse !… après tout si Madame est innocente, je ne lui aurai pas nui.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVIII</head>
+          <stage>Gerval, Georges, Gordon.</stage>
+          <sp who="gordon">
+            <speaker>Gordon.</speaker>
+            <p rend="noindent">Madame Gerval est-elle visible ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Non, Monsieur.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Mais cependant, il faut que je lui parle à l’instant.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="122" xml:id="122" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-122.jpeg"/>Madame est sortie.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Sortie !… Ah ne me trompez pas, ma visite ne peut que lui causer le plus grand plaisir si par hasard elle était ici, portez-lui mon nom, je suis sûr d’être admis auprès d’elle.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Monsieur qui êtes-vous ?</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon.</speaker>
+            <p rend="noindent">Monsieur, ce n’est qu’à Madame Gerval que je puis donner mon nom.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Monsieur connaît beaucoup Madame Gerval ?</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Beaucoup.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Depuis longtemps ?</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Oui, si l’on mesure l’espace par la grandeur des sentiments.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Monsieur est son parent ?</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Non, Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il est étonnant Monsieur que j’aie l’honneur de vous voir pour la première fois, moi qui suis ami de Madame Gerval.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent"><pb n="123" xml:id="123" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-123.jpeg"/>Son ami !… C’est un titre que je dispute à tout le monde, mais si vous êtes réellement digne de ce titre, répondez-moi : Émilie, est-elle vraiment sortie ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">Émilie !… <stage>(Haut.) </stage>Oui Monsieur.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">En ce cas elle est à Sèvres…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">À Sèvres, il le sait !…</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Et j’y cours… Si par hazard elle revenait et que je ne l’eusse pas rencontrée, ah vous pouvez lui dire que le pauvre exilé n’a pas manqué à sa promesse.</p>
+            <stage>Il sort.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIX</head>
+          <stage>Gerval, Georges.</stage>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Georges !… des chevaux, des pistolets, et courons à Sèvres.</p>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Acte II</head>
+        <stage>Le théâtre représente une vue de Sèvres. La grande place ; à droite la maison de Flicotel, Marchand de vin ; à gauche la maison de Marguerite, et le chemin est censé aboutir au coin de la maison de Flicotel.</stage>
+        <stage>N[aturellement] on laisse à la disposition du décorateur la grande place sur laquelle on peut mettre tout ce qui concerne une foire de village : marionnettes, boutiques, etc. </stage>
+        <div>
+          <head>Scène première</head>
+          <sp who="flicotel">
+            <speaker>Flicotel.</speaker>
+            <p rend="noindent"><pb n="124" xml:id="124" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-124.jpeg"/>Allons mes enfants, vive la joie, et les gâteaux de Nanterre, beaucoup de gâteaux de Nanterre, parce que cela donne soif et que le vin de cette année est le meilleur, le moins cher ; les vignes gèleront l’année prochaine et le vin ne vaudra rien ; buvez pour deux ans et dansez beaucoup parce que l’on a chaud et qu’il faut se rafraîchir après.</p>
+          </sp>
+          <sp who="autres">
+            <speaker>Un paysan.</speaker>
+            <p rend="noindent">Du vin !… du vin…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">On y va !… <stage>(À son garçon.)</stage> Dansez donc mes amis (il faut leur chanter quelque chose pour les mettre en train). En avant… les coups de gosier, s’ils répètent le refrain, ils auront soif et conséquemment ils consommeront les liqueurs aquatiques. Or çà, mes amis, je ne m’adresse qu’aux bons enfants, et aux malins.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène II</head>
+          <stage>Marguerite, Flicotel.</stage>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>à part. </stage></speaker>
+            <p rend="noindent"><pb n="125" xml:id="125" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-125.jpeg"/>Qui diable aurait deviné qu’il y avait un enfant dans cette chambre !… Criait-il le pauvre malheureux. Heureusement qu’il dort encore car je ne saurais que faire s’il venait à s’éveiller !… Trouvez donc une nourrice un jour de fête, et d’ailleurs, ce serait éventer la mèch… Madame Gerval n’arrive pas !… Jarni ce qui me prouve bien que cette petite dame est folle c’est qu’elle ait pu</p>
+            <p rend="noindent">laisser son enfant.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part. </stage></speaker>
+            <p rend="noindent">Que diable marmote-t-elle donc là, cette mère Marguerite. Pour que personne n’ait su ce qui se passe chez elle depuis quelque temps, il faut qu’on l’ait joliment payée. Avec toute ma malice, je n’ai pas encore pu entrer dans ce retranchement-là. <stage>(Il montre la maison.)</stage> Il est vrai que depuis que je ne veux plus de son vin, cette bonne femme là m’aime comme une fièvre quarte.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>toujours à part. </stage></speaker>
+            <p rend="noindent">Toutes ces jeunesses-là, ça fait des fautes parce que ça ne sait pas s’arrêter au bord du précipice. Avec cela que les hommes, oh les hommes !… Au total, comme disait ma mère, il y a de bonnes pierres dans la plus mauvaise muraille et si cette<note place="bottom">Erreur de Bibliophiles de l’originale « cte »au lieu de « cette ».</note> petite dame n’avait pas fait un écart aussi conséquent, je n’aurions pas loué notre maison si cher et j ‘aurions perdu les profits qui sont tombés chez nous comme une grêle. Tous ces riches, ça tient encore au secret, je vois ça.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part. </stage></speaker>
+            <p rend="noindent">Si j’essayais ? <stage>(Haut.)</stage> Bonjour, mère Marguerite.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent"><pb n="126" xml:id="126" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-126.jpeg"/>Bonsoir, Monsieur Flicotel.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part.</stage></speaker>
+            <p rend="noindent">Il n’y a pas mèche. Ah vieille cartouche si je pouvais… hein, elle est avare comme un arabe, risquons quelques verres de mon muscat, le dernier fait… Attaquons en avant, comme disait mon capitaine ; il est en arrière maintenant !… <stage>(Haut.) </stage>Mère Marguerite !</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Va-t-en brouille-ménage, marchand d’eau rougie !</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part.</stage></speaker>
+            <p rend="noindent">Je te revaudrai ça. <stage>(Haut.)</stage> Allons, mère Marguerite, est-ce qu’on se fâche un jour de fête ; les injures sont prohibées, excepté lors qu’elles amènent des disputes et que l’on vient se raccommoder chez moi. Aimez-vous le muscat ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Je n’ai pas soif.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Faut boire pour la soif à venir. D’ailleurs, c’est pour votre santé cette liqueur-là, ça fait fondre la mauvaise humeur comme les régiments sous une batterie de canons.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>à part. </stage></speaker>
+            <p rend="noindent">Je ne vois pas pourquoi ma santé souffrirait de nos querelles… <stage>(Haut.)</stage> Tenez… et laissez-moi tranquille.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel<stage>, à part. </stage></speaker>
+            <p rend="noindent">Je crois bien. <stage>(Haut.)</stage> Allons, mère Marguerite, on ne va pas bien d’une seule jambe.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Il a raison… ce n’est pas ma faute…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent"><pb n="127" xml:id="127" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-127.jpeg"/>Comment va cette petite dame qui vient chez vous…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>rend le verre.</stage></speaker>
+            <p rend="noindent">Tiens, méchant soldat, mauvaise langue, allez-vous pas commencer vos manigances, et mettre encore le village sens dessus dessous.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">C’est juste ; voyez-vous, chère Marguerite, je suis un enfant légitime de la joie, et j’aime le tapage parce que le tapage et les brouilles amènent des buveurs qui se concilient. Tel que vous me voyez j’ai z’été sentinelle vingt jours à la porte d’un ambassadeur et je connais la Diplomatie. Allons mère Marguerite toutes bonnes choses sont tierces.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">C’est vrai, faut honorer la vérité.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Dites-moi donc, la mère, comment appelez-vous cette petite dame ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Monsieur Flicotel, savez-vous que nous ne sommes pas cousins !</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Ni par le flanc droit, ni par le flanc gauche.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">En ce cas tournez moi les talons.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Nous serons mieux que cousins, nous deviendrons amis. Tenez une corde à quatre tours n’en est que plus solide… Qu’est-ce donc que cette petite dame ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent"><pb n="128" xml:id="128" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-128.jpeg"/>Hors d’ici, Monsieur Flicotel, j’en ai assez, et quant à vous dire ce qui se passe chez moi, je me couperais la langue plutôt que de desserrer les dents. Le voyez-vous ce griplomate avec sa mine de chinois, le bel homme pour séduire quelqu’un d’honnête !</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Te séduire, un bon soldat n’aime pas les vieux canons de réforme ; allez, mère Marguerite, je vous ferai voir que votre chien n’est qu’une bête.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">On ne te craint pas l’ami.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">La séduire !… <stage>(À part.)</stage> Rentrons examiner bien soigneusement, je vais placer mon quartier général à la fenêtre et je veux être battu comme un tambour si je ne lui donne pas un fameux fil à retordre ; avec ce que je sais, je vous l’habillerai joliment… Boire mon vin et ne rien dire…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène III</head>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>seule. </stage></speaker>
+            <p rend="noindent">Depuis qu’il n’achète plus notre vin, je me défie de cet homme là ; pour attirer le monde chez lui, il débite tout ce qu’il sait et ne sait pas ; il me ferait une fameuse réputation s’il apprenait que j’ai loué ma maison… Voici quelqu’un, ah, c’est Madame.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IV</head>
+          <stage>Émilie, Marguerite. </stage>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent"><pb n="129" xml:id="129" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-129.jpeg"/>Ah Madame, vous voilà un nouvel embarras, qui n’est pas le moindre…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Qu’y a-t-il donc ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Depuis ce matin qu’elle est partie…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">A-t-on de ses nouvelles, est-elle retrouvée ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Non Madame, pas encore.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je tremble d’effroi. Si elle était morte… ah Marguerite ne me cachez rien, <stage>(elle pleure) </stage>la malheureuse n’aura peut-être pu survivre.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Rassurez-vous, Madame ; mon filleul et mon mari, m’ont renvoyé mon cousin pour me prévenir qu’ils étaient sur ses traces…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je respire.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Et qu’ils espéraient pouvoir la ramener ce soir.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent"><pb n="130" xml:id="130" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-130.jpeg"/>Ce soir !… ah que dira Gerval si je tarde à rentrer !… Tout m’assassine à la fois. <stage>(Haut.)</stage> Que vouliez-vous me dire ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Eh bien Madame, j’ l’ons trouvé ce pauvre enfant.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Quoi, vous avez pénétré dans la chambre dont vous vous étiez interdit l’entrée, par nos conventions ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Madame, j’y ai entendu des cris qui m’ont forcé[e] d’y aller.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Je ne pouvais l’empêcher, ô ma sœur !… tenez voilà pour vous taire.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Ah Madame, je me coudrai la bouche !… Madame, depuis l’absence de sa mère, il n’a rien pris… et je n’ai pas osé chercher de nourrice. D’abord il n’en faudrait pas prendre une ici.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mais dans les environs.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Je suis seule Madame, et d’ailleurs c’est fête aujourd’hui, et d’ici demain, si Madame n’est pas revenue…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Silence, je venais pour emmener l’enfant à Paris !… Mais comment, le pourrais-je vraiment en laissant ignorer à Gerval toute cette aventure ?… Le mystère de mon voyage lui a déjà déplu… ma sœur que de tourments j’endure pour toi !… Va, je ne t’en instruirai jamais !… Marguerite, ce secret doit mourir dans votre cœur.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent"><pb n="131" xml:id="131" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-131.jpeg"/>Madame, excepté moi, personne ici n’en saura le moindre mot.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">L’infortunée !… Si cette lettre était venue un jour plus tôt, ce malheur ne serait pas arrivé !… Allons Marguerite, en attendant des nouvelles de cette jeune fille, je vais soigner son fils ; en le berçant je crois presque être mère. Si elle n’est pas revenue dans une heure, je serai forcée de partir avec son enfant, car à Paris je trouverai facilement des secours sur le champ.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène V</head>
+          <stage>Flicotel, sortant; Gerval, Georges. </stage>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">J’ai dans l’esprit qu’elle est mariée et que… Oh, voici de la cavalerie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est elle !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame est entrée là.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah ! je saurai tout, j’espère.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à Georges. </stage></speaker>
+            <p rend="noindent">Messieurs (ah quelle bouche ingrate et marécageuse !) Messieurs souhaitez-vous que je mette vos chevaux à l’écurie ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent"><pb n="132" xml:id="132" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-132.jpeg"/>Souhaitez-vous vous reposer devant quelques flacons de vin de Beaune, Bordeaux, Paris et lieux circonvoisins ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Va-t-en au diable !…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Avec les chevaux.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Veux-tu te taire !</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">J’ai cependant de bonnes perdrix, du veau, des…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Laissez-nous !… Émilie !… ah !… je brûle, elle est là !…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Ce seront de mauvais actionnaires pour mon entreprise.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VI</head>
+          <stage>Georges, Gerval. </stage>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Pour Dieu, Monsieur, calmez-vous, vous ne vous appercevez pas que depuis que nous sommes partis, chacun de vos gestes, chaque parole tiennent de la folie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Tu crois, Georges !… Que peut-elle faire dans cette maison… Du bien ? – l’on ne s’en cache pas !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="133" xml:id="133" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-133.jpeg"/>Monsieur, tenez, le rang où vous m’avez élevé près de vous doit excuser ma franchise’. Je soupçonne que vous êtes jaloux de Madame.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non Georges, je l’aime, et voilà tout. Moi jaloux !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Dieu vous en garde, Monsieur car la jalousie est une passion terrible, un serpent qui des plus douces fleurs, compose son venin et ronge le cœur en y causant des souffrances… perpétuelles. On sèche, on se consume, enfin l’on meurt !… Vous n’écoutez pas.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Si fait !… l’on meurt n’est-ce pas… (Comme tout est fermé soigneusement !…)</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Mais vous êtes agité.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Moi, je suis tranquille.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Tant mieux. Monsieur, car vous pourrez plus facilement éclaircir vos soupçons.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Des soupçons !… et contre qui ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Contre Madame.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Malheureux, tes preuves !… Tu oses l’accuser, que sais-tu ?… Tu sais quelque chose…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="134" xml:id="134" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-134.jpeg"/>Oui, Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Parle donc.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je sais que Madame est un ange de beauté, d’innocence, le modèle de son sexe ; la modestie est sur son front, le bienfait toujours à sa main, la douceur sur ses lèvres et la vertu siège dans son âme.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et quel motif peut la conduire ici ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Cependant, Monsieur, elle est fausse, elle vous trompe, elle a été quinze jours sans vous écrire, elle était interdite à votre arrivée, elle vous aimait faiblement, elle…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Bourreau ! que dis-tu là ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur je répète les paroles qui sont sorties de votre bouche pendant la route.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Ah Georges, Georges ! Le malheureux étendu sur la roue ne souffre que du corps ; il peut avoir l’âme tranquille et pure, s’il est innocent ; mais moi, je ressens des douleurs inouïes. – Écoute-moi, Georges, ce jeune homme l’as-tu vu quelquefois ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Jamais Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Jamais !… Mon âme se déchire, s’il n’y avait eu aucun crime <pb n="135" xml:id="135" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-135.jpeg"/>aurait-elle fait mystère de le recevoir. Et cette maison y venir tous les jours !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur !… votre femme est innocente, je le répéterais la tête sous la hache ; oui sur tout ce qu’éclaire le soleil il n’est pas de vertu plus pure !… je le sais.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah, Georges tu me rends la vie… J’ose la soupçonner… Ah je suis un misérable, indigne du bonheur… Georges, retournons à Paris…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ce serait peut-être un bon parti.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Pourquoi ce peut-être ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">C’est que j’avoue. Monsieur, que toutes les apparences sont contre Madame, d’après ce que vous dites.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien, Georges…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ce n’est pas à moi de conseiller Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval <stage>[, à part]</stage>.</speaker>
+            <p rend="noindent">Il me tue… <stage>[Haut.]</stage> Que ferais-tu ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges <stage>[, haut]</stage>.</speaker>
+            <p rend="noindent">Je ne vois aucun mal à éclaircir tout ceci… <stage>[À part.]</stage> Je le désire maintenant plus que lui.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Restons ! quelle angoisse !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges <stage>[, à part]. </stage></speaker>
+            <p rend="noindent"><pb n="136" xml:id="136" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-136.jpeg"/>Tu as beau souffrir, tu ne languiras pas deux ans !… Et tu mérites tes douleurs… Oser la croire capable d’une perfidie. Émilie je te venge.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Que dis-tu ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">La femme est un être si faible, si facile à…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">À…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Enfin je suis heureux de n’avoir pas de femme !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Oh oui !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je souffrirais dix fois plus que vous !… <stage>(À part.)</stage> A chaque instant la vengeance me pousse à l’accuser et l’amour me retient.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, je reste ici décidément.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Moi, Monsieur je ne soupçonnerais jamais celle que j’aime, ses paroles seraient pour moi des arrêts et je la croirais sur un simple sourire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il me met au supplice.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VII</head>
+          <stage>
+            Les mêmes, Flicotel. 
+          </stage>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="137" xml:id="137" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-137.jpeg"/>Monsieur, voici l’hôte qui vous donnerait quelques renseignements.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Fi donc !… Georges, si l’on apprenait que je l’ai questionné, quelle honte.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part. </stage></speaker>
+            <p rend="noindent">Boiront-ils ? ne boiront-ils pas ?… Ils se consultent…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur si c’était moi qui l’interrogeais, vous ne seriez compromis en rien.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Alors dépêche-toi donc… j’écoute.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges, <stage>à Flicotel. </stage></speaker>
+            <p rend="noindent">Mon ami, savez-vous à qui cette maison appartient, et…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Certainement. Est-ce que vous désireriez connaître ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui, ce qui s’y passe, et comme vous êtes en face…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Ce qui s’y passe !… Vous n’êtes donc jamais venu à Sèvres ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="138" xml:id="138" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-138.jpeg"/>Jamais…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Eh bien, mon cher Monsieur, cette petite maison est une de ces maisons de campagne, qu’on loue, voyez-vous, pour faire ce qu’au régiment nous appellions des pas de six sols, une petite partie extra-légitime, une incohérence conjugale, une chasse au cerf. <stage>[À part] </stage>Attrape, Madame Marguerite.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Dis-tu vrai ?</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Ah, Monsieur c’est le bruit du païs, je ne garantis rien mais ce dont je puis répondre, c’est qu’il y a un mystère dans cette maison-là, un mystère tel que la mère Marguerite qui n’a jamais manqué son feu de peloton dans la conversation n’a pas encore fait voir la couleur de ses paroles sur ce qui se passe chez elle. Il paraît que la jeune dame qui vient de Paris la paye joliment, car la mère Marguerite qui n’avait pas le sou a acheté dernièrement une pièce de vignes…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vient-elle toute seule ?</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">La vigne…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Cette petite dame de Paris, mon ami, réponds-moi.</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Ah !… seule… oui, oui, mais un jour, c’est à dire, un soir, à travers les persiennes, j’ai bien vu deux personnes…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Un jeune homme !…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent"><pb n="139" xml:id="139" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-139.jpeg"/>Je ne dis pas un jeune homme, je n’en ai jamais vu, mais cela ne prouve pas… Tenez Monsieur, l’on ne vient pas de Paris à Sèvres pour y voir des porcelaines quand on s’enferme dans une maison aussi bien close.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Mon sang se glace !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Elle en aimerait un autre et je serais dédaigné !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">De grâce, mon ami, remarquez vous du mouvement dans cette maison ? Qu’est-ce qui la garde ?</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">C’est une vieille sorcière qui m’a vendu son vin trop cher, et je ne donnerais pas d’elle un canon encloué. Elle dirige tout si bien que personne dans le païs ne peut savoir ce qui se passe chez elle, mais il y a un mois…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il y a un mois… <stage>[À part] </stage>elle ne m’a pas écrit vers cette époque… <stage>[Haut.]</stage> Eh bien ?</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Cher Monsieur, il y a un mois, au milieu de la nuit, on a envoyé en toute hâte à Paris ; il est venu un Monsieur en équipage ; et l’on a crié dans cette maison-là. C’étaient des cris à faire croire qu’on s’égorgeait ; j’y ai vu beaucoup de lumière, et l’on en a renvoyé Marguerite et son mari pendant toute cette nuit-là. Ah c’est fameux… ! mariez-vous donc, et en avant disait mon capitaine…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, courons, courons…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="140" xml:id="140" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-140.jpeg"/>Monsieur, arrêtez-vous, de grâce !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, tout l’enfer est là ; je brûle, je frissonne, oh mon cœur devient de marbre pour elle !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur, vous ne souffrez pas tant que moi !… Mais si cet homme dit vrai, ne faut-il pas s’en assurer ? Sa maison est bien placée pour tout observer, restons !</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Il parait que ceci les intéresse…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Mon ami, je te loue ta maison pour vingt quatre heures, tiens…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel, <stage>à part.</stage></speaker>
+            <p rend="noindent">Bravo !… ils y mangeront, boiront et coucheront.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, tu me contiendras, mon ami, car je sens une rage… je serais plus tranquille si je savais la vérité fût-elle affreuse pour moi. Le choc de tous mes sentiments est terrible…</p>
+          </sp>
+          <sp who="flicotel">
+            <speaker>Flicotel. </speaker>
+            <p rend="noindent">Tenez, Monsieur, voici cette Marguerite, qui sait tout…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je tremble… laisse-nous !…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VIII</head>
+          <stage>Gerval, Georges, Marguerite. </stage>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="141" xml:id="141" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-141.jpeg"/>Dieu !… c’est la femme de ce matin.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Que dis-tu ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il ne faut pas qu’elle me voye, elle est venue ce matin à l’hôtel.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah ! chaque pas que je fais est comme si je marchais à la mort. Madame, cette maison est à vous ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>à part. </stage></speaker>
+            <p rend="noindent">Que me veut-il ? <stage>(Haut)</stage> Oui, Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">L’habitez-vous ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Oui, Monsieur… mais vous êtes souffrant.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Oui… pour me rétablir, l’on m’a conseillé l’air de Sèvres, et je voudrais louer votre maison.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">En ce cas, Monsieur, cherchez en une autre.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="142" xml:id="142" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-142.jpeg"/>Pourquoi ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">La mienne est louée.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et à qui ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">C’est mon secret.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Bonne femme, ne vous jouez pas à moi… Si vous ne répondez pas je vous…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Monsieur, et de quel droit me questionnez-vous ? Apprenez que lorsqu’on est honnête…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Honnête !</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Oui, Monsieur, que l’on est honnête, qu’on ne doit rien à personne, personne ne peut vous inquiéter. Adieu Monsieur !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Un instant, répondez-moi, et je paye une seule réponse, mille francs ; dites-moi le nom de la personne à laquelle vous louez votre maison.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Mille francs !… on m’en donne plus pour me taire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien je t’en donne, deux mille… trois mille !</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Ah diable… J’achèterais les vignes à Claudin.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="143" xml:id="143" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-143.jpeg"/>Répondras-tu ? Est-ce acheter assez cher la mort ? Parlez donc !…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Les vignes à Claudin !… qu’est-ce que cela peut faire, il n’est pas du païs.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien…</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Donnez, Monsieur, donnez… Monsieur, je l’ai louée à la femme d’un banquier Madame Gerval. Connaissez-vous ?…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non. Georges, je me meurs !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Serait-elle infidèle ?</p>
+            <stage>Georges emporte Gerval.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IX</head>
+          <sp who="marguerite">
+            <speaker>Marguerite, <stage>seule.</stage></speaker>
+            <p rend="noindent">Qu’a-t-il donc ?… C’est bien extraordinaire. Trois mille francs !… les voici, les vignes à Claudin, cela vaut bien une parole. Par exemple Madame Gerval ne peut pas trouver mauvais qu’en disant son nom je gagne une telle somme – J’aurai les vignes à Claudin !… Ah ah ! voici encore un Parisien qui a l’air bien pressé ! S’il vient pour la fête, il arrive trop tard.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène X</head>
+          <stage>Marguerite, Horace Gordon.</stage>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent"><pb n="144" xml:id="144" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-144.jpeg"/>Ma bonne chère mère, pourrez-vous m’indiquer ici, la maison habitée depuis six mois par une jeune femme, que Madame Gerval doit venir voir souvent, tous les jours même.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Mais tout le monde connaît donc…</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Comment tout le monde ?… Que me dites-vous ? <stage>[À part]</stage> Aurais-je donc flétri sa pure innocence ! <stage>[Haut.] </stage>Madame Gerval est ici n’est-ce pas ?</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Ah bien ! Celui-là sait tout.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Voyons, ma mère, répondez-moi car vous me paraissez ne pas ignorer ce dont je vous parle. Voyons, et ne me regardez pas tant <stage>[À part.]</stage> Je tremble à chaque pas d’être reconnu.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent">Monsieur, je vois bien que vous êtes de la manigance mais…</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Allons, bonne femme, tenez… et si vous savez où est Madame Gerval, courez lui dire qu’Horace Gordon l’attend ici, car je ne veux pas revoir la pauvre Claire sans qu’elle soit préparée à mon retour. Courez donc.</p>
+          </sp>
+          <sp who="marguerite">
+            <speaker>Marguerite. </speaker>
+            <p rend="noindent"><pb n="145" xml:id="145" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-145.jpeg"/>Horace Gordon, ah… j’y cours !</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Quoi ? C’est là…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XI</head>
+          <sp who="horace">
+            <speaker>Horace, <stage>seul. </stage></speaker>
+            <p rend="noindent">Amour, Dieu de la Vie, si cette maudite affaire d’honneur est cause de l’infortune de Claire, ah tu m’aideras à tout réparer et bientôt elle va pouvoir montrer à tous les gens un front pur. Je vais donc la revoir… Ah je la connais, je serai reçu comme un amant chéri, le plus doux sourire m’accueillera comme si je ne l’avais jamais offensée, car elle m’aime assez pour ne pas me reprocher ce qu’elle aura souffert. Tant de bonheur me fait mal !… J’ai peine à le porter. Eh quoi c’est là, dans ce village, dans cette chaumière qu’elle a gémi ?</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XII</head>
+          <sp who="horace">
+            <speaker>Horace, <stage>sans voir Gerval et Georges qui se glissent. </stage></speaker>
+            <p rend="noindent">Oh j’achèterai cette maison !… je veux que ceux qui l’habiteront soient toujours heureux !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est lui !… ah que vient-il de dire ? Que vois-je Émilie…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIII</head>
+          <stage>Horace, Émilie, Georges et Gerval. </stage>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à Georges.</stage> </speaker>
+            <p rend="noindent"><pb n="146" xml:id="146" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-146.jpeg"/>D’ici nous pourrons peut-être entendre sans être vus.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah malheureux, qu’avez-vous fait ? – Vous venez trop tard…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il vient trop tard…</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Vous me faites frémir, qu’est-il arrivé ?…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Est-il arrivé… C’est moi ! Ô douleur !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Parlons plus bas. Vous venez pour être témoin d’un spectacle d’autant plus déchirant pour vous que vous seul en êtes la cause innocente.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Grand Dieu, Claire est morte !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non, mais la mort serait moins cruelle. Ma pauvre sœur n’espérant plus vous revoir, ne vous accusant jamais, vous adorant toujours portait un fardeau de malheur trop pesant pour elle ; son âme n’a pu y suffire, sa raison est troublée ; Claire est errante dans les villages voisins ; elle vous demande à tout le monde. Depuis <pb n="147" xml:id="147" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-147.jpeg"/>ce matin que l’infortunée est disparue, l’on est à sa poursuite, et n’ayant reçu votre lettre qu’aujourd’hui, je n’ai pas pu prévenir cette cruelle mort de l’âme, état désolant où l’on se survit à soi-même.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Je vous écoute, et vous comprends à peine ; chaque parole a jeté le froid de la mort dans mon être. Où est-elle ?… Où est-elle ? C’est moi qui suis son bourreau… Malheureux, je veux mourir !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Quel feu dans leurs discours !… quel regard de tendresse elle lui jette !… je suis trahi…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gordon, vous êtes père, et votre existence n’est plus à vous.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Mon enfant !… Le voir !… c’est un désir qui ressemble à de la faim… Eh bien je sacrifie cet amour à l’amour de Claire. Je cours la chercher. Je ne veux voir mon fils qu’entre les bras de sa mère.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est bien, Horace. Je serai fière d’être votre sœur.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Ah ! vous me rendez la vie ; j’avais besoin de la consolation d’un cœur vertueux comme le vôtre ; en ce moment entendre de votre bouche un mot d’approbation, c’est me sauver. Ô tendre protectrice de nos amours, vous voyez au péril de ma vie je rapporte à Claire ma fortune, ma main, mon rang, mais…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Allez tout peut encore se réparer.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Je vole sur ses traces. Je veux la voir, me mettre à ses genoux, <pb n="148" xml:id="148" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-148.jpeg"/>l’appeler de son nom chéri. Elle m’entendra, mes accents d’amour dissiperont les nuages qui couvrent son âme et à la moindre lueur d’espoir je reviens vous instruire.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gordon votre mère est heureuse.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Le plus beau jour de ma vie sera celui où je vous nommerai ma sœur. Ce nom comprend bien des noms, adieu, je cours, je vole…</p>
+            <stage>Il lui embrasse la main.</stage>
+          </sp>
+          <sp who="scenexiv">
+            <speaker>Scène XIV</speaker>
+            <stage>Émilie, Gerval. </stage>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Qu’ai-je vu !… Restez là, Georges.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Bon jeune homme…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval <stage>[, à part].</stage> </speaker>
+            <p rend="noindent">Son éloge est le dernier coup.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">À cet âge, on est pur et candide et l’on fait le bien avec cette première chaleur qui ne disparaît que trop vite de l’âme. <stage>(Plus bas.)</stage> Ma sœur sera donc heureuse.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part.</stage></speaker>
+            <p rend="noindent">Incertain, je souffrais ; instruit de mon malheur, je dois le porter avec courage ; et puisque mon amour vient d’expirer dans une affreuse agonie, mon cœur doit garder le calme de la mort.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="149" xml:id="149" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-149.jpeg"/>Rentrons.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Quoi c’est vous Émilie !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">Ménageons-la. <stage>(Haut.)</stage> Je ne croyais pas vous rencontrer ; et je rends grâce à mon oisiveté de ce qu’elle m’ait conduit à cette fête, je vous verrai du moins.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah Gerval, comme tu es pâle !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ainsi que vous ce matin, mon émotion vient du plaisir de vous retrouver.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval qui t’amène ici ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Plus confiant que vous, je l’ai dit.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je n’ai pas entendu.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je le crois, c’est un effet de votre amour.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mon ami, le son de ta voix me glace.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il est cependant toujours le même.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="150" xml:id="150" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-150.jpeg"/>Non, non, je ne le reconnais pas.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Cela ne m’étonne point…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Que veux-tu dire ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Que rien ne m’étonnera plus aujourd’hui.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, tu m’épouvantes. Mon ami, par l’amour que j’ai pour toi, par cet amour qui fait ma vie et mon bonheur, réponds-moi. Si le hazard t’a réellement conduit à Sèvres, n’y aurais-tu pas cependant questionné quelqu’un sur moi ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Madame, cette demande est une offense.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">La plus pure tendresse peut-elle dicter une offense. Au surplus si je t’avais blessé, j’éprouverais autant de plaisir à te demander grâce, que tu en aurais à l’accorder à ton Émilie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Madame, j’avais oublié que vous ne pouviez plus m’offenser.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah cette phrase m’éclaire ; je vois sur ton front ce qui se passe en ton âme ; à force de t’aimer elle est devenue la mienne et j’y lirai toujours. Gerval, ma présence en ces lieux te déplaît, n’est-ce pas ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non, où réside la vertu tout y est vertueux.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="151" xml:id="151" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-151.jpeg"/>Ton sourire dit le contraire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Mais pourquoi l’interpréter ainsi, un cœur pur ne doit pas courir au devant du reproche.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, le bonheur est une plante si délicate qu’un rien la décolore, et quand on fait dépendre sa vie d’un sourire ou d’un regard on se résigne à toute la souffrance que donne un regard ou un sourire douteux. Dis-moi : je t’aime, et ma joie va revenir. Gerval, je le vois, tu soupçonnes Émilie, tu me caches quelque peine. Si j’en suis cause que je meure !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Madame, taisez-vous. <stage>(À part.)</stage> Sa douce voix va réveiller l’amour au fond de mon âme.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Que dis-tu… Gerval, ce matin, je t’ai fait un mystère du secret de mon voyage, j’espère pouvoir bientôt t’en instruire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je vous en dispense, avez-vous bien rempli ce devoir sacré ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>à part. </stage></speaker>
+            <p rend="noindent">Je le sais. <stage>[Haut]</stage> Madame, vous avez renvoyé Georges.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah mon ami, serait-ce là le motif de cette froideur qui me tue. Ah ! que je suis heureuse, car elle se dissipera promptement et tu seras fâché de m’avoir causé un moment de la peine, si toutefois ma peine peut venir de toi.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="152" xml:id="152" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-152.jpeg"/>Georges a sans doute commis quelqu’infidélité ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il aura eu quelque différent avec nos domestiques ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Madame, ne portait-il pas un œil trop curieux sur vos démarches ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Qu’est-ce que cela aurait fait ? Je puis avoir toute la terre pour témoin de mes actions.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Quelle est donc la cause de sa disgrâce ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Quelle fatalité ! Sur tout ce qu’il me demande aujourd’hui, il faut me taire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien Madame, vous vous troublez !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, il est de ces choses, sur lesquelles une femme qui aime sincèrement son mari doit garder le silence.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je suis content. Madame. <stage>(À part.)</stage> Encore une tentation pour ma conscience. <stage>(Haut.)</stage> Puisque le hasard veut que nous nous <pb n="153" xml:id="153" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-153.jpeg"/>soyons rencontrés, me permettrez-vous d’avoir l’honneur de vous reconduire à votre hôtel ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Quel discours !… Cela ne se peut pas.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et la raison ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je ne puis te la dire encore.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Sur mon âme, ceci devient trop fort, je l’exige.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, je crois en vérité que vous voulez m’éprouver. Va, tu peux m’accabler d’outrages, je ne t’en aimerai pas moins ; forte de mon innocence, je suis certaine de ne perdre aucun de mes droits sur ton cœur. Eh mais donnez-vous donc la peine d’aimer, soyez fidèle et des soupçons injurieux seront la récompense de la douceur et de la modestie. Allons, mon ami, pensez ce que vous voudrez ; mettez les choses au plus mal, je ne m’en inquiète nullement. Va, je serai toujours ton Émilie, et j’attendrai patiemment que tu redeviennes Gerval.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Avouez cependant. Madame, qu’aujourd’hui je suis bien malheureux dans toutes les questions que je fais et les grâces que je sollicite, et qu’enfin votre confiance, votre douceur, et votre amour se sont prodigieusement accrus pendant mon absence.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Malheureuse que je suis… Mes pressentiments ne m’ont pas trompée. Gerval, je t’aime !… et tu semblés me haïr… adieu !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XV</head>
+          <stage>Gerval, Georges. </stage>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="154" xml:id="154" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-154.jpeg"/>Ah qu’elle connaît bien le chemin de mon âme !… Non je la crois innocente, car elle a tout l’accent de la vertu… C’est un malheur que le crime ne flétrisse pas la beauté… Quels tourments, Georges !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Eh bien Monsieur, avez-vous assez de preuves ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Que vous faut-il donc de plus ? Quant à moi la vengeance m’anime à un tel point que je…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, j’aime ta fidélité, mais tu me fais frémir.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ah Monsieur, je le vois. Madame avec un sourire, un mot, vous aura fasciné ; mais la femme n’est jamais plus caressante, plus douce, et ne semble plus pure que lorsqu’une passion vit au fond de son cœur. Cacher l’amour sous l’apparence de la froideur, la froideur sous un semblant d’amour, tout leur est facile, et elles se jouent des serments les plus sacrés avec cette indifférence dont il ne faut pas leur faire un crime, car cette mobilité de sentiment leur vient de la nature.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Tu réchauffes ma haine.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="155" xml:id="155" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-155.jpeg"/>Ah Monsieur, je me tais car ce n’est pas mon intention. Tenez, Monsieur, la porte de cette infernale maison est ouverte ; rien n’est facile, comme de s’assurer, en un clin d’œil, de ce qu’y fait Madame. Eh bien je l’aimerais, je l’adorerais, je n’avancerais pas d’une ligne.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est vrai, la porte est restée ouverte ; non je n’irai pas.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">C’est bien Monsieur, car après tout c’est votre malheur que vous y trouveriez peut-être.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, toi qui es indifférent, vas-y !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Le ciel m’en préserve. <stage>(À part.)</stage> Il ira, je saurai tout.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est folie d’hésiter.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ou sagesse.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Le cœur me manque. Pourquoi n’irais-tu pas ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Parce que si Madame vous trahit, je 1’…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’achève pas !</p>
+            <stage>Il y court.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVI</head>
+          <sp who="georges">
+            <speaker>Georges, <stage>seul. </stage></speaker>
+            <p rend="noindent"><pb n="156" xml:id="156" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-156.jpeg"/>Il y va, le malheureux, et c’est moi qui le pousse dans le précipice. Émilie, si tu en aimais un autre, quelle arme pour moi !… Quel espoir, ah qu’elle soit couverte d’infamie, qu’elle demande la mort, et alors elle m’appartiendra, je l’emmènerai dans mon païs, je… Quel bruit !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVII</head>
+          <stage>Gerval, Georges. </stage>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>dans la coulisse. </stage></speaker>
+            <p rend="noindent">Grand Dieu !… je meurs…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Qu’a-t-il vu ?…</p>
+            <stage>Il le transporte.</stage>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Un enfant… un enfant !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ô bonheur !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>égaré. </stage></speaker>
+            <p rend="noindent">Ô rage, ô désespoir!… ô mort!… Un enfant !… Georges, je me glisse, sans bruit, lentement, comme un malfaiteur, j’arrive, et sans être vu, tapi contre la porte j’apperçois Émilie. C’était bien elle, oui, ce n’est pas un rêve, elle y est encore, tranquille, elle <pb n="157" xml:id="157" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-157.jpeg"/>savourait son crime. Elle berçait un enfant, elle venait de le nourrir peut-être. Voilà ce devoir sacré !… les regards qu’elle jettait sur moi n’ont jamais eu tant d’amour que celui par lequel elle semblait sourire à cette horrible créature… De quelle mort la tuerais-je ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">La tuer ! Eh Monsieur, ce n’est pas le vrai coupable.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’importe.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur, vengez-vous, jamais vengeance ne fut plus légitime, abandonnez une créature indigne de votre amour.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah, Georges, respecte-la encore !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Quoi, Monsieur, vous l’aimeriez toujours, et vous tarderiez à satisfaire ce besoin de vengeance !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non, non je ne retarderai pas le supplice d’une seule minute !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Et le complice ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah ! il ne mourra que de ma main, dieu !… Je ne respire que carnage, que meurtre ! ah quel frisson !…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XVIII</head>
+          <stage>Les précédents, Gordon. </stage>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent"><pb n="158" xml:id="158" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-158.jpeg"/>L’infortunée !… elle est dans les flots peut-être, et ces malheureux me l’apprennent avec une indifférence !… il ne me reste qu’une lueur d’espoir ; un de ces paysans n’a pas encore répondu et parcourt toujours la campagne. Quelle cruelle incertitude !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Comment vous trouvez-vous ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Mieux, quelqu’un a parlé, et c’est un ennemi.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">En effet, voici le jeune homme.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Lui !… Qu’il meure, il faut s’en emparer.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon, <stage>arrivant sur le bord de la scène. </stage></speaker>
+            <p rend="noindent">Si elle est morte, je la suivrai. Émilie aura soin de mon fils.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>qui n’entend que ces derniers mots. </stage></speaker>
+            <p rend="noindent">Scélérat !…</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Au secours !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Silence ou vous êtes mort !</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace.</speaker>
+            <p rend="noindent"><pb n="159" xml:id="159" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-159.jpeg"/>Ah ! je savais bien que je courais encore des dangers.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Monsieur, c’est l’amour qui vous conduit ici.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Libre, je répondrais peut-être ; captif et sous le poignard d’un assassin, aucune puissance humaine n’obtiendra de ma bouche, un mot ou un soupir. Je suis homme, et devant la nécessité, je souffre et je me tais.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien si je vous rends la liberté, répondrez-vous à mes questions ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Si je le juge convenable.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Soyez libre, je m’en rapporte à votre conscience.</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Je vous remercie. Que souhaitez-vous de moi ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Monsieur, je le répète est-ce l’amour qui vous conduit ici ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Oui Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vous êtes aimé ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Je le crois.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’en avez-vous pas une preuve vivante, dans cette maison ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent"><pb n="160" xml:id="160" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-160.jpeg"/>C’est la vérité !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Le nom de celle qui vous est chère ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Il ne sortira jamais de ma bouche jusqu’à ce que l’honneur puisse l’entendre.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est assez. Monsieur, il faut que ce soir, vous ou moi, moi ou vous, soyons seuls possesseurs de cette perfide.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Et si vous succombez !… laissez-moi l’étouffer.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Quelle surprise ? La folie de Claire viendrait-elle ?… Ah cela me paraît impossible !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Monsieur, vous êtes homme d’honneur ?</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Faites des questions auxquelles je puisse répondre.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">À ce soir.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Où vous trouverai-je ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Partout.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Mais enfin ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="161" xml:id="161" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-161.jpeg"/>À l’hôtel de Madame Gerval.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">J’irai Monsieur. Ô France, terre chérie, Patrie de la gloire et du plaisir, je vais donc mourir sur ton sol ou m’en bannir encore une fois pour la même cause et toi, chère infortunée, que tu m’aimes ou ne m’aimes pas, je revole encore à ton secours, je ne veux pas quitter la vie sans te voir et te donner mon nom. <stage>(À Gerval.)</stage> Monsieur, je viendrai, n’importe à quelle heure de la nuit. Quelles armes ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval </speaker>
+            <p rend="noindent">Elles sont indifférentes quand on doit mourir.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Les témoins ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Inutiles. Votre fosse ou la mienne, sera faite. Le vainqueur partira.</p>
+          </sp>
+          <sp who="gordon">
+            <speaker>Gordon. </speaker>
+            <p rend="noindent">Au revoir.</p>
+            <stage>Émilie s’enfuit aidée de Marguerite qui porte le berceau. Georges et Gerval se tiennent par la main en disant : Vengeance. </stage>
+          </sp>
+        </div>
+      </div>
+      <div>
+        <head>Acte III</head>
+        <stage>Même décoration qu’au premier acte. </stage>
+        <div>
+          <head>Scène première</head>
+          <sp who="rosine">
+            <speaker>Rosine, <stage>seule.</stage></speaker>
+            <p rend="noindent"><pb n="162" xml:id="162" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-162.jpeg"/>Me faire attendre une demi-journée devant le château d’eau !… je n’aurais jamais pensé que Charles fût capable d’un pareil trait !… Eh bien je ne l’en aime pas moins… peut-être un peu plus !… Ah que les femmes sont bonnes !… oui bien bonnes. Madame n’est-elle pas là occupée à bercer un enfant et à lui donner du lait ? Un enfant qu’elle aura recueilli sans doute, elle passe sa vie à faire de</p>
+            <p rend="noindent">bonnes actions… Et cette nourrice qui ne vient pas… Madame l’attend avec impatience, car elle ne veut pas que cet enfant reste plus longtemps ici… Je ne sais pas mais la tristesse mortelle à laquelle Madame est en proie, me fait soupçonner qu’il y a quelque chose d’extraordinaire ici.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène II</head>
+          <stage>Émilie, Rosine.</stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Eh bien la nourrice vient-elle ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent"><pb n="163" xml:id="163" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-163.jpeg"/>Dans un quart d’heure elle sera ici.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Elle devrait y être. Monsieur n’est pas encore rentré ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Non, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Qu’il me tarde de le voir, de lui tout découvrir, car cette entrevue à Sèvres a imprimé à mon âme un mouvement de mélancolie dont je ne suis pas maîtresse. Ah, Rosine, je suis bien triste.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Cependant Madame vous avez dû voir Monsieur.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui Rosine. Je l’ai vu, je l’ai entendu, tu sais ce que je me promettais de joie en le voyant, en l’écoutant, eh bien !…</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Eh bien ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mes pressentiments ne me trompaient pas ce matin, et je suis malheureuse.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Que vous est-il donc arrivé ?…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Silence Rosine… je ne voudrais pas me le dire à moi-même et je fais tout ce que je puis pour en bannir le soupçon de mon cœur ; mais non, sa dernière parole « votre amour s’est prodigieusement accru pendant mon absence. » retentit encore à mon oreille et cet accent d’ironie a pour moi quelque chose de funèbre.</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent"><pb n="164" xml:id="164" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-164.jpeg"/>De grâce, qu’avez-vous ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Un funeste génie me poursuit et dispose les événements de cette journée… Ah je voudrais être à demain !…</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Vous me faites frémir. Qu’y a-t-il donc ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mon enfant, il est des secrets qui doivent mourir dans le cœur de deux époux… mourir…</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Quelle tristesse !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Rosine as-tu dit que je désirais qu’aussitôt son arrivée, Monsieur se rendît à mon appartement ?</p>
+          </sp>
+          <sp who="rosine">
+            <speaker>Rosine. </speaker>
+            <p rend="noindent">Oui, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie</speaker>
+            <p rend="noindent">Eh bien laisse-moi seule, car tout m’importune ; j’ai trop de moi-même ; retourne auprès de ce pauvre enfant, je vais même t’enfermer car je ne veux pas qu’on le voye.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène III</head>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>seule. </stage></speaker>
+            <p rend="noindent">Gerval surtout ne doit pas entrer sans que je l’aie instruit de tout ; maintenant que Manfred est arrivé, plus de mystère… Cependant <pb n="165" xml:id="165" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-165.jpeg"/> je voudrais pouvoir concentrer le secret de ma sœur entre nous trois car Gerval a des principes si rigides, est si violent qu’il garderait contre ma sœur des préventions que toute la vie de Claire innocente ne ferait jamais disparaître… S’il ne sait rien pourquoi le lui dire ? Mais pour peu qu’il ait des soupçons je lui révélerai tout. Ce parti me semble bon à suivre. Je suis plus calme. Quel bruit, c’est lui, je reconnais ses pas.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IV</head>
+          <stage>Gerval, Émilie. </stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah, te voici cher ami, tu t’es fait désirer… je pensais à toi.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vous pensiez à moi, votre mari, mais c’est très aimable, ah vous êtes le modèle des femmes !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Toujours cette ironie cruelle !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vous m’avez fait demander ; que me voulez-vous ? Allons parlez !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mais, Gerval, tu me plonges dans un étonnement qui s’augmente à chacune de tes paroles ; que signifie ce ton, ces manières ? Tu n’es plus le même.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est vrai… je vous imite… je…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="166" xml:id="166" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-166.jpeg"/>N’achève pas… je devine ta pensée ; mon ami, viens ici, assieds-toi, là, près de moi.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je veux rester debout.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Soit… Gerval, je te demande de m’écouter jusqu’au bout sans m’interrompre, car ce que je vais te dire est de haute importance et demande le plus grand secret.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">En ce cas, Madame, comme ces choses de haute importance nécessiteront de ma part des explications qui doivent être secrètes pour moi, et même pour vous, nous sommes mal ici ; ce salon est trop près de l’antichambre, on pourrait nous entendre. Entrons dans votre appartement.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non Gerval !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Pourquoi ce non, <stage>(il se dirige vers la porte)</stage> mais on y fait du bruit…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je n’ai rien entendu.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vous êtes prodigieusement distraite, il y a quelqu’un.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est Rosine.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je viens de la rencontrer.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="167" xml:id="167" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-167.jpeg"/>Elle sera rentrée par l’autre côté.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Mais comment se fait-il que la clef n’y soit pas ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Bon dieu quelle inquisition ? Que t’importe ? Reviens ici, et écoute-moi je t’en supplie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Vous n’avez pas l’habitude d’ôter ainsi la clef.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Eh cela me plaît aujourd’hui, je suis maîtresse chez moi je pense…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Oui, mais je suis maître partout, moi, et je prétends entrer dans cette chambre à l’instant.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Mon ami tu m’effrayes.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah je vous effraye !… Indigne épouse vous tremblez !… <stage>[À part]</stage> eh bien vais-je me mettre en colère <stage>[Haut.] </stage> Madame, je croyais vous inspirer d’autres sentiments que celui de l’effroi.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je ne sais plus ce qui se passe dans mon cœur… Gerval écoute-moi…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Avez-vous cette clef ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui, Gerval, la voici.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="168" xml:id="168" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-168.jpeg"/>Ah vous l’aviez ôtée vous-même, donnez, je la veux.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Tu la veux !… je vais te la remettre, mais je regarderai comme la plus grande preuve de votre amour…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">De mon amour…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">De votre amour, la permission de vous parler avant que vous entriez dans ma chambre.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Qu’y dois- je donc trouver ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah rien qui puisse t’alarmer…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">La clef !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Écoute-moi, je t’en supplie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">La clef !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Laisse-moi te dire que…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je la veux à l’instant.</p>
+            <stage>Il l’arrache.</stage>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">L’enfant n’est pas le mien !…</p>
+            <stage>Elle tombe évanouie.</stage>
+          </sp>
+        </div>
+        <div>
+          <head>Scène V</head>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>seule. Elle agite sa main. </stage></speaker>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VI</head>
+          <stage>
+            Émilie, Gerval. 
+          </stage>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="169" xml:id="169" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-169.jpeg"/>Dans ma maison !… le même berceau qu’à Sèvres !… M’emporterais-je !… Irais-je exiger un amour qu’elle ne peut plus avoir pour moi ? Cette nuit je partirai sans la revoir… Elle est là. Quel silence !… Grand dieu ! elle est à demi vertueuse car son crime l’a tuée. Ah je l’aime toujours !… Émilie, adieu !… Émilie, elle mourra, Émilie !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, tu viens de prononcer mon nom comme jadis et cet accent m’a rappellée à la vie. Gerval, je suis innocente.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah ne me touchez pas !… Émilie, vivez heureuse, si l’image de la douleur d’un honnête homme ne vient pas vous troubler quelques fois, adieu, vous ne me verrez plus, et je vous défends de me dire un mot et de suivre mes pas.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Il me tue…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>revient. </stage></speaker>
+            <p rend="noindent">Émilie, je sens que je t’adorerai toujours.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="170" xml:id="170" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-170.jpeg"/>Alors écoute moi donc.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non, car tu pourrais me convaincre par un seul regard ; va, ma seule vengeance sera le souvenir que je te laisse de mon amour.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VII</head>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>seule. </stage></speaker>
+            <p rend="noindent">J’en mourrai !… je le sens, le coup a porté là, et la prédiction s’accomplira ; le froid de la mort me saisit déjà et mes yeux me refusent des larmes… Que faire ? Il ne m’a pas entendue, il ne veut pas m’entendre, par quel mystère !… je vais lui écrire, qu’il lise un seul mot cela suffira… ah je ne puis me soutenir… mes genoux trahissent ma volonté… À peine si je puis ouvrir… ah mes yeux se troublent !… Rosine !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène VIII</head>
+          <stage>Georges, Émilie. </stage>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Vous appelez, Madame ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Vous êtes encore ici Georges ! <stage>[À part]</stage> ah tout se dévoile !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui, Madame, nous nous voyons peut-être l’un et l’autre pour la dernière fois et…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="171" xml:id="171" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-171.jpeg"/>Et vous venez sans doute solliciter le pardon de l’outrage que vous croyez m’avoir fait ce matin. Allez Georges, l’offense se perdait dans la distance qui nous sépare.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Un tout autre motif m’amène.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>à part. </stage></speaker>
+            <p rend="noindent">Voyons ce qu’il va me révéler.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Madame, ce matin j’invoquais la vengeance, elle a entendu ma prière et ne m’a que trop exaucé.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah, Georges, puisque c’est vous qui avez trompé monsieur de Gerval, vous allez sans doute vous empresser de le désabuser.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Non Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Que voulez-vous dire ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">M’écouterez-vous ce soir ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui, Georges.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Hé bien Madame je vous ai plongée dans un abyme, puisque mes discours ont fait découvrir ce que votre adresse avait su cacher jusqu’à présent. J’en suis au désespoir car mon amour survit à ma colère.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="172" xml:id="172" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-172.jpeg"/>Par votre honneur écoutez moi. Monsieur ne vous reverra plus et Monsieur n’existera peut-être plus ce soir.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Qu’avez-vous dit ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">La vérité.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval mourrait…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">C’est probable.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Lui mourir !… ah !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">S’il périt, je le venge en étouffant son rival, alors Madame vous resterez seule dans le monde. La France vous fera horreur ainsi qu’à moi. Eh bien je n’examine pas si vous êtes vertueuse, le passé n’appartient plus qu’à Dieu, moi je réponds de l’avenir, et tout ce que je considère c’est que vous êtes la seule femme dont le sourire soit celui que j’aime ; alors suivez moi, nous irons loin, bien loin, au désert, au bout de l’univers où vous voudrez enfin. Là, ignorés et contents, vous trouverez en moi l’esclave, oui l’esclave le plus attentif, et le plus dévoué, jamais l’œil d’un mortel ne pénétrera notre sanctuaire, je ne vivrai que pour vous, seul, j’épierai votre pensée, vos besoins, vos désirs, et je me sens assez de force pour me contenter de votre divin aspect et de l’espérance. Oui exécuter vos ordres sera mon délice, un seul regard ma plus grande joie, votre plaisir me sera plus que le mien, et enfin je courberai toute la création devant un de vos vœux et vous serez pour Georges, une espèce de divinité visible. Hé bien ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval mourir !… Mais par quelle cause ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="173" xml:id="173" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-173.jpeg"/>Vous ne m’avez pas écouté.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ne pas le voir !… Ah, ma raison s’égare…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Hé bien Madame ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie.</speaker>
+            <p rend="noindent">Comment traître tu es encore là, oses t’ approcher de moi, et souiller l’air que je respire à peine ; sors d’ici, tu me fais horreur, ta présence me vaut la mort… serpent, trois de tes paroles venimeuses auront suffi pour troubler mon bonheur… Ah je le jure, si tu es la cause de mon infortune, et tu l’es… je… te pardonnerai alors, car ce sera une offense… qui me fera mourir.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ô vertu céleste, et tu serais coupable !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Moi coupable !… de quoi… je… à qui vais-je parler ?…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Toujours des mépris, vous ne me suivrez pas je le vois !… Eh bien tu suivras ton époux je te le promets. Vous serez réunis… nous le serons tous j’en jure !… Ne faisons point de serment encore. Madame vous ne me donnez aucun espoir.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah rendez-moi Gerval !… Que je lui parle, que je le voye, un instant, une minute, une seconde, c’est… <stage>(Folle.) </stage>Ah ma sœur tu m’appelles, j’entends ton rire délirant. Eh bien nous irons ensemble sur la route les demander tous deux à tout le monde… <stage>(À Georges.) </stage>Où est-il ?… Dieu mes idées se bouleversent !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ah votre raison se trouble, je vais vous la rendre et me procurer <pb n="174" xml:id="174" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-174.jpeg"/>le plus grand plaisir de la vengeance. Je vous suis horrible n’est-ce pas ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oh oui !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Hé bien vous allez me supplier et embrasser mes genoux !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">À genoux ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">À genoux si je le permets !… ô fleur, que l’orage va briser, je veux contempler un moment ta beauté délicate et pure – Écoutez moi, vous avez besoin de revoir monsieur de Gerval quand ce ne serait que pour l’enivrer d’un regard et vous composer à ses yeux, une innocence factice, il rentrerait sous le joug… Le voir ou vous justifier est tout un, et vous le voulez.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Si je le veux !… ah je paierais une minute d’entrevue par la moitié de ma vie, car je lui consacrerais le reste.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">C’est bien, il n’y a que moi dans le monde qui puisse vous procurer ce bonheur, car il vous a remise à ma garde, et pendant son absence d’un instant tout m’obéit ici. Il a été réaliser sa fortune et ne reviendra que pour partir avec moi. Suppliez maintenant, suppliez ce monstre horrible !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Georges, certes, s’il faut me mettre à vos genoux et si vous le permettez, je le ferai…, oui j’en aurai le courage… Georges reconnais-tu quelque fierté dans ce mot. Si vous me rendez Gerval, je…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ô joie, voici son premier regard de tendresse !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="175" xml:id="175" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-175.jpeg"/>Je vous devrai plus que la vie, car son amour m’est plus cher que tout, faut-il tomber à vos genoux ?… L’ordonnez-vous ?… vous ne répondez pas !… eh bien m’y voici !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Quel délice !… <stage>(Il tire un poignard.)</stage> Si elle mourait sans revoir son mari rien ne manquerait donc à ma vengeance !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie, <stage>s’échappe. </stage></speaker>
+            <p rend="noindent">Au secours ! Gerval, viens me défendre… Qu’on l’avertisse !…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène IX</head>
+          <sp who="georges">
+            <speaker>Georges, <stage>seul. </stage></speaker>
+            <p rend="noindent">L’infernale créature n’a pris cet accent d’amour que pour me fuir. Va tu mourras, je le jure maintenant.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène X</head>
+          <stage>Gerval, Georges. </stage>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Qu’ai-je entendu. Où est Émilie ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Elle vous cherche pour vous prouver son innocence mais elle est criminelle envers vous, envers tout le monde.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Partons, Georges, l’aspect de cette maison me tue. Jadis le <pb n="176" xml:id="176" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-176.jpeg"/>bonheur y résidait ; maintenant tout y est mortel. J’ai donné mes ordres pour que mon adversaire vienne me trouver. Partons.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Quoi, Monsieur vous voulez laisser Madame…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah Georges, je te comprends et je te remercie. Oui, ce serait peu noble de ne pas lui donner une partie de ma fortune. Je veux combler Émilie de bienfaits, chaque trait de bonté sera un coup de poignard.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Ce n’est pas cela Monsieur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Que veux-tu dire ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Quoi Monsieur vous allez vous confiner dans un pays étranger ; vous y resterez plongé dans la douleur et Madame sera heureuse !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Eh bien elle sera heureuse !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur que deviendra la fortune que vous allez lui laisser… cet enfant…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il en jouirait !… cet enfant en jouira !… ah c’est une pensée de l’enfer !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur la vie est tout le trésor des méchants.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est vrai.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="177" xml:id="177" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-177.jpeg"/>Et Madame vivra heureuse.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, partons, je ne suis plus maître de moi.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il est des circonstances où se faire justice soi-même…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Partons, te dis-je.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges <stage>[,à part]</stage>. </speaker>
+            <p rend="noindent">Il faut le décider. <emph>[Haut.]</emph> Monsieur n’est-ce pas une des plus douces occupations que de s’écrire quand on s’aime ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Il y aurait des lettres !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Voyez-vous dans ce coin, Madame en a serré une ce matin.</p>
+            <stage>Gerval, lit. </stage>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Elle mourra !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah malheureux pourquoi ne suis-je pas parti !… – à Madame Gerval, il la nomme Émilie, que d’amour !… Oh je voudrais voir les réponses !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Eh bien Monsieur partons nous ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non. Ah quel trouble… il faut qu’elle meure…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="178" xml:id="178" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-178.jpeg"/>Monsieur calmez-vous et décidez…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, tu auras ma fortune, tu nous réuniras dans la même tombe, et puisque tu es fidèle, toi, quelque souvenir de nous restera du moins sur la terre.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur je vous le répète, vengez-vous de sang-froid.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah je sens que je l’aime toujours, cette furie qui s’élève en moi me rend barbare, mais pas encore assez pour enfoncer moi-même un poignard dans le sein que j’ai couvert de mes baisers.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Il est en effet plus beau, plus grand de la laisser vivre heureuse avec l’être qu’elle appellera votre fils et celui qu’elle nommera bientôt son époux.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah celui-là ne vivra pas !… Non… quelqu’un a ri je crois, c’est un rire de l’enfer, serait-ce moi – Georges !</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Que voulez-vous ?…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges as-tu dans l’âme cette énergie qui me manque, es-tu courageux ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Oui.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Assez pour frapper une femme ?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent"><pb n="179" xml:id="179" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-179.jpeg"/>Une seule ! la vôtre !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Tais-toi !… trouve un poignard !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Le voici.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Déjà?</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Je le portais pour vous venger si vous succombiez cette nuit.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah laisse-moi t’embrasser !… De tels dévouements ne sortent que des cœurs africains.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Nous mourrons tous les trois car je ne veux ni de la vie ni de la fortune sans vous.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Bon Georges – J’éprouve maintenant une satisfaction !… oh non, non. C’est le calme qui précède l’orage !… Émilie mourir !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Monsieur une fois que l’on a prononcé ce mot, l’action doit suivre.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Tu es bon. Laisse-moi la voir encore une fois.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges. </speaker>
+            <p rend="noindent">Retarder la vengeance c’est y renoncer.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Georges, écoute-moi, je veux interroger Émilie car je ne puis la <pb n="180" xml:id="180" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-180.jpeg"/>condamner sans l’entendre – Dis-lui que je l’attends dans son salon et pendant qu’elle y viendra, rends-toi dans sa chambre par l’autre côté. Si elle n’est pas coupable ce sera moi que tu verras entrer ; si c’est elle, frappe, je l’aurai condamnée.</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Georges.</speaker>
+            <p rend="noindent">Vous serez obéi, mais je n’aurai pas besoin de poignard, car tout ce qu’il y a de ruse et de finesse sur la terre est dans le cœur d’une femme et à chaque chose il y aura une excuse. Plus elle sera coupable, plus elle paraîtra innocente… <stage>[À part.]</stage> Il a écouté !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Cours la chercher.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XI</head>
+          <sp who="gerval">
+            <speaker>[Gerval.] </speaker>
+            <p rend="noindent">Qu’ai-je ordonné ?… Tout me semble appartenir au rêve, entre la pensée d’un crime et son exécution l’âme semble être en proie à des visions !… Hé quoi la pierre du cachot, le bronze des chaînes, la hache du bourreau ne bouleversent point l’âme d’un honnête homme, et de ce que l’expression du regard d’une femme a changé, ma raison est abattue !… Soyons impassible !… Ah j’entends Émilie !…</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XII</head>
+          <stage>Émilie, Gerval. </stage>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Grand dieu. Que de souvenirs elle vient réveiller !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval, j’ai conservé soigneusement la parure que je portais le <pb n="181" xml:id="181" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-181.jpeg"/>jour où vous m’avez apperçue pour la première fois ; on dit que vous voulez me voir et m’abandonner ; je viens telle que j’étais. Rien n’a changé dans mon âme.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval.</speaker>
+            <p rend="noindent">Rien !… Émilie !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval <stage>[,à part]</stage>. </speaker>
+            <p rend="noindent">Ah quel sourire d’innocence !… <stage>(Haut.)</stage> Émilie lorsque je vous aimai, je savais qu’il n’existait rien de parfait sur la terre, néanmoins vous étiez pour moi la perfection même puisque je vous aimais… Pourquoi restez-vous debout ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Si ton amour a disparu, nous ne sommes plus égaux et je te dois du respect comme à un maître, un juge peut-être.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Appelez-moi donc vous.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je vous obéirai.</p>
+            <stage>Elle essuyé une larme.</stage>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Les erreurs qui résultent des défauts inséparables de notre nature doivent donc être pardonnées parce qu’alors chacun a besoin d’indulgence et je sens que je vous aimerais toujours même avec vos défauts, mais il est des outrages que l’on ne peut souffrir.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah ! ne me regardez pas ainsi vous me faites frémir.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Émilie, si, par un ordre de la nature même, votre amour pour moi cessait, je vous plaindrais, il n’y aurait point de crime.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="182" xml:id="182" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-182.jpeg"/>Ah ! j’en trouverais beaucoup.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Non, Émilie, il n’y en aurait aucun si vous me fesiez l’aveu de votre penchant involontaire ; mais un crime horrible, épouvantable c’est de trahir un époux et de lui cacher qu’on cesse de l’aimer.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est vrai, Gerval.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Émilie n’avez-vous pas fait serment de m’aimer toujours ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Non, mais de tâcher de toujours te plaire.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Hé bien, perfide, n’aviez-vous pas à Sèvres tous les jours pendant mon absence ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">On vous a bien instruit.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’y restiez-vous pas cinq heures ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">On ne vous a point trompé.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’aviez-vous pas loué une maison ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est la vérité pure.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’y a-t-il pas un enfant nouveau-né dans cette maison ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="183" xml:id="183" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-183.jpeg"/>Non, car il est ici.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Encore mieux, Madame.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Taisez-vous. Il y a un mois n’êtes-vous pas restée longtemps sans m’ écrire ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Rien n’est plus vrai.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Cet enfant a un mois environ ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Quel aveu facile, quelle candeur !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Quoi de plus naturel, Gerval, j’ai loué cette maison pour ma sœur.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Et cet enfant est de votre sœur sans doute ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui Gerval, voilà le secret que je voulais te confier tout-à-l’heure, depuis que le jeune amant de Claire est revenu de son exil.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Le roman est bien trouvé !… La confidence eût été plus croyable il y a six mois.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent"><pb n="184" xml:id="184" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-184.jpeg"/>Gerval, vous pensez que je vous trompe.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je ne saurais l’imaginer, car jusqu’à présent vous ne m’avez jamais caché vos pensées excepté cette aventure toutefois.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je voudrais que vous ne fussiez jamais née. Tenez Madame, et ce tas de lettres d’amour que vous avez reçues pendant mon absence qu’en direz-vous ; et cet enfant que je vous ai vu bercer et nourrir, – pourquoi n’était-ce pas votre sœur, pourquoi ne m’avoir pas dit que Claire avait quitté sa famille, cette confidence vous nuisait-elle ?… Ah vous seriez fort embarrassée de me mener à Sèvres pour y trouver votre sœur !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ah tuez-moi, tuez-moi, je ne veux plus de la vie, sans votre amour.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Allons à Sèvres !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Claire n’y est pas !… je ne sais… elle y est, mon esprit se perd.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Trouvez-moi votre sœur.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je me meurs !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah il faut que vous m’écoutiez jusqu’au bout, c’est votre premier supplice. Ce n’est encore rien, démentirez-vous votre complice <pb n="185" xml:id="185" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-185.jpeg"/>dont j’ai l’aveu, démentirez-vous le trouble de votre conscience,</p>
+            <p rend="noindent">enfin donnez-moi des preuves et je vous crois.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Des preuves !… des preuves !… je n’en ai pas d’autres que ma parole, c’est la plus belle, la seule qui ait l’innocence et elle suffirait à l’amour.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Je n’en ai plus pour toi !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Il ne m’aime plus, et je suis innocente. Eh bien je sens une énergie sauvage qui me soutient ; oui je suis ton Émilie, je t’aime toujours!… je te suis fidèle, me crois-tu ?…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ah si c’était le repentir qui te fît parler !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Me repentir !… et de quoi, je t’ai dit la vérité.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Émilie, jure-moi donc que personne autre que moi ne t’a dit qu’il t’adorait.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je ne jurerai point.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">On te l’a dit ce matin !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">C’est vrai.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Qui ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je ne puis le nommer.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent"><pb n="186" xml:id="186" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-186.jpeg"/>Et vous êtes innocente !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Oui !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’en est trop, Émilie pensez à toutes vos fautes.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Il y a mon trop d’amour pour vous.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Ne me regardez plus ainsi et rentrez dans votre appartement ; vous y recevrez mes ordres.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Eh bien j’espère encore, car ma sœur et Gordon peuvent arriver.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Elle sourit même à la mort. Émilie !</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Que me veux-tu ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">N’entre pas. Tu ne peux être innocente, mais avoue ta faute, je te la pardonne et te consacre ma vie.</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je suis innocente et pure comme la fleur qui vient d’éclore.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Allez, allez. Madame rentrez dans votre appartement.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIII</head>
+          <sp who="gerval">
+            <speaker>Gerval, <stage>seul. </stage></speaker>
+            <p rend="noindent"><pb n="187" xml:id="187" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-187.jpeg"/>Cette minute est une année dans mon âme.</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XIV</head>
+          <stage>Le nègre, Émilie, Gerval. </stage>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Gerval !… Gerval, adieu !…</p>
+          </sp>
+          <sp who="georges">
+            <speaker>Le Nègre. </speaker>
+            <p rend="noindent">Elle ne sera donc à personne !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Tigre d’Afrique, !… te l’avais-je dit ?…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Je suis innocente.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Oui, oui !… au secours !</p>
+          </sp>
+        </div>
+        <div>
+          <head>Scène XV</head>
+          <stage>Horace, G[erval,] Marguerite, [Georges, Émilie]. </stage>
+          <sp who="marguerite">
+            <speaker>Marguerite.</speaker>
+            <p rend="noindent"><pb n="188" xml:id="188" facs="https://www.ebalzac.com/romans/th-negre/scans/neg-188.jpeg"/>Victoire. Elle est retrouvée, elle est retrouvée !…</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">C’est Marguerite ?</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Que vois je ? Madame Gerval assassinée !…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>Émilie. </speaker>
+            <p rend="noindent">Ma sœur !… ma sœur !…</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Aussitôt qu’elle m’a vu, tous ses maux ont été guéris et dans ce moment elle repose à côté de son fils. Je viens de la conduire à votre appartement.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Grand dieu !… Émilie disait vrai, c’est sa sœur que vous aimez !</p>
+          </sp>
+          <sp who="horace">
+            <speaker>Horace. </speaker>
+            <p rend="noindent">Je puis maintenant l’avouer, car dans peu Claire sera mon épouse chérie.</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>Gerval. </speaker>
+            <p rend="noindent">Où fuir !… j’ai déshonoré moi-même la vertu la plus pure. Ô mon frère, je suis sûr de votre discrétion, celle de cette femme je sais comment l’acheter, mais Georges…</p>
+          </sp>
+          <sp who="[georges">
+            <speaker>[Georges.]</speaker>
+            <p rend="noindent">Soyez tranquille, je vous aime encore assez pour… Laissez moi la voir encore une fois !…</p>
+          </sp>
+          <sp who="[gerval">
+            <speaker>[Gerval.]</speaker>
+            <p rend="noindent">Ne l’approche pas !</p>
+          </sp>
+          <sp who="[georges">
+            <speaker>[Georges.]</speaker>
+            <p rend="noindent">Qu’elle est belle !… Maître si l’amour a fait trembler mon bras, tout à l’heure il ne tremblera pas et ton secret sera gardé ! (<stage>Il se tue. En se tuant.</stage>) L’amour qui rend criminel n’aurait-il pas le pouvoir d’absoudre ?</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>[Gerval.] </speaker>
+            <p rend="noindent">Émilie que veut-il dire ?</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent">Puisqu’il meurt je dois me taire !</p>
+          </sp>
+          <sp who="gerval">
+            <speaker>[Gerval.] </speaker>
+            <p rend="noindent">Et mon pardon ?…</p>
+          </sp>
+          <sp who="emilie">
+            <speaker>[Émilie.] </speaker>
+            <p rend="noindent">Gerval, ma blessure me sera chère…</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
